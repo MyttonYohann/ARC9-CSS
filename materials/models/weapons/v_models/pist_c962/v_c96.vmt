@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\pist_c962\v_c96"
+	"$bumpmap" "models/weapons/v_models/pist_c962/v_c96_normal"
+	"$phongexponenttexture" "models\weapons\v_models\pist_c962/v_c96_exp"
+	
+	"$nocull" 1	
+}

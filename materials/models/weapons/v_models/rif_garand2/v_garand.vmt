@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/v_models/rif_garand2/v_garand"
+	"$bumpmap" "models/weapons/v_models/rif_garand2/v_garand_normal"
+//	"$envmap" "env_cubemap"
+	"$phongexponenttexture" "models/weapons/v_models/rif_garand2/v_garand_exp"
+	
+	"$nocull" 1
+}
