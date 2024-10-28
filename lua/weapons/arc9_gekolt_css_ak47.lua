@@ -253,7 +253,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "wet",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -267,7 +268,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "dry",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -285,7 +287,8 @@ SWEP.Animations = {
     ["reload_54"] = {
         Source = "wet54",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.925,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -298,7 +301,8 @@ SWEP.Animations = {
     ["reload_empty_54"] = {
         Source = "dry_54",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -315,7 +319,8 @@ SWEP.Animations = {
     ["reload_56"] = {
         Source = "wet56",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.925,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.725, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -328,7 +333,8 @@ SWEP.Animations = {
     ["reload_empty_56"] = {
         Source = "dry_56",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -344,7 +350,8 @@ SWEP.Animations = {
     ["reload_25"] = {
         Source = "wet25",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.925,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -357,7 +364,8 @@ SWEP.Animations = {
     ["reload_empty_25"] = {
         Source = "dry_25",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.925,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -374,7 +382,8 @@ SWEP.Animations = {
     ["reload_bizon"] = {
         Source = "wet_bizon",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -388,7 +397,8 @@ SWEP.Animations = {
     ["reload_empty_bizon"] = {
         Source = "dry_bizon",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
         { t = 0.85, lhik = 0, rhik = 0, },{ t = 1, lhik = 1, rhik = 1, },
@@ -404,7 +414,8 @@ SWEP.Animations = {
     ["reload_dp"] = {
         Source = "wet_dp",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.925,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 1, rhik = 0, },{ t = 0.8, lhik = 1, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -418,7 +429,8 @@ SWEP.Animations = {
     ["reload_empty_dp"] = {
         Source = "dry_dp",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 1, rhik = 0, },{ t = 0.8, lhik = 1, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -434,7 +446,8 @@ SWEP.Animations = {
     ["reload_water"] = {
         Source = "wet_water",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.925,
+		RefillProgress = 0.75,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -447,7 +460,8 @@ SWEP.Animations = {
     ["reload_empty_water"] = {
         Source = "dry_water",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.925,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -464,7 +478,8 @@ SWEP.Animations = {
     ["reload_9mm"] = {
         Source = "wet_9mm",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -477,7 +492,8 @@ SWEP.Animations = {
     ["reload_empty_9mm"] = {
         Source = "dry_9mm",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -490,35 +506,37 @@ SWEP.Animations = {
         },
     },
 ------------------ 12drum ---------------------------------
-["reload_12"] = {
-    Source = "wet_12",
-    FireASAP = true,
-    MinProgress = 0.83,
-    IKTimeLine = {
-    { t = 0, lhik = 1, rhik = 1, },
-    { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.825, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
-    },
-    EventTable = {
-        {s =  "gekolt_css/p90_clipout.wav" ,   t = 28 / 40},
-        {s =  "gekolt_css/p90_clipin.ogg" ,    t = 70 / 40},
-        {s =  "gekolt_css/p90_clipin2.ogg" ,   t = 85 / 40},
-    },
-},
-["reload_empty_12"] = {
-    Source = "dry_12",
-    FireASAP = true,
-    MinProgress = 0.9,
-    IKTimeLine = {
-    { t = 0, lhik = 1, rhik = 1, },
-    { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
-    },
-    EventTable = {
-        {s =  "gekolt_css/p90_clipout.wav" ,   t = 25 / 40},
-        {s =  "gekolt_css/p90_clipin.ogg" ,    t = 60 / 40},
-        {s =  "gekolt_css/p90_clipin2.ogg" ,   t = 71 / 40},
-        {s =  "gekolt_css/p90_boltpull.wav" ,  t = 95 / 40},
-    },
-},
+	["reload_12"] = {
+		Source = "wet_12",
+		FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
+		IKTimeLine = {
+		{ t = 0, lhik = 1, rhik = 1, },
+		{ t = 0.125, lhik = 0, rhik = 1, },{ t = 0.825, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
+		},
+		EventTable = {
+			{s =  "gekolt_css/p90_clipout.wav" ,   t = 28 / 40},
+			{s =  "gekolt_css/p90_clipin.ogg" ,    t = 70 / 40},
+			{s =  "gekolt_css/p90_clipin2.ogg" ,   t = 85 / 40},
+		},
+	},
+	["reload_empty_12"] = {
+		Source = "dry_12",
+		FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
+		IKTimeLine = {
+		{ t = 0, lhik = 1, rhik = 1, },
+		{ t = 0.1, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
+		},
+		EventTable = {
+			{s =  "gekolt_css/p90_clipout.wav" ,   t = 25 / 40},
+			{s =  "gekolt_css/p90_clipin.ogg" ,    t = 60 / 40},
+			{s =  "gekolt_css/p90_clipin2.ogg" ,   t = 71 / 40},
+			{s =  "gekolt_css/p90_boltpull.wav" ,  t = 95 / 40},
+		},
+	},
 --------------------------------------------------------
     ["draw"] = {
         Source = "draw",

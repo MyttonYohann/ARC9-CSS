@@ -278,7 +278,8 @@ SWEP.Animations = {
         Source = "wet",
         MagSwapTime = 70 / 40,	
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.83,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, }, { t = 0.2, lhik = 1, rhik = 1, },
         { t = 0.3, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -298,7 +299,8 @@ SWEP.Animations = {
         Source = "wet_beltdef",
         MagSwapTime = 80 / 40,	
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.83,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, }, { t = 0.2, lhik = 1, rhik = 1, },
         { t = 0.3, lhik = 0, rhik = 1, },
@@ -319,7 +321,8 @@ SWEP.Animations = {
         Source = "dry",
         MagSwapTime = 100 / 40,	
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.875,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, }, { t = 0.3, lhik = 1, rhik = 1, },
         { t = 0.4, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -343,7 +346,8 @@ SWEP.Animations = {
         Source = "wet_belt",
         MagSwapTime = 70 / 40,		
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, }, { t = 0.4, lhik = 1, rhik = 1, },
         { t = 0.5, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -362,7 +366,8 @@ SWEP.Animations = {
         Source = "dry_belt",
         MagSwapTime = 60 / 40,	
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, }, { t = 0.425, lhik = 1, rhik = 1, },
         { t = 0.525, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -384,7 +389,8 @@ SWEP.Animations = {
         Source = "wet_42",
         MagSwapTime = 70 / 40,		
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -399,7 +405,8 @@ SWEP.Animations = {
         Source = "dry_42",
         MagSwapTime = 60 / 40,	
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.825,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
@@ -419,7 +426,8 @@ SWEP.Animations = {
 		Mult = 1.1,
         MagSwapTime = 70 / 40,		
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -435,7 +443,8 @@ SWEP.Animations = {
 		Mult = 1.1,
         MagSwapTime = 60 / 40,	
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
