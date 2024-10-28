@@ -347,7 +347,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "wet",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.675, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
@@ -360,7 +361,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = {"dry_6", "dry_3"},
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 1, rhik = 1, },
@@ -442,7 +444,8 @@ SWEP.Animations = {
         { t = 0.3, lhik = 0, rhik = 1, }, { t = 0.7, lhik = 0, rhik = 1, }, { t = 0.9, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.725,
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/galil_clipin.wav" ,    t = 65 / 40},
@@ -456,7 +459,8 @@ SWEP.Animations = {
         { t = 0.85, lhik = 1, rhik = 0, }, { t = 0.9, lhik = 1, rhik = 0, }, { t = 1, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.9,
         EventTable = {
             {s =  "gekolt_css/awp_boltup.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/awp_boltpull.wav" ,   t = 15 / 40},
@@ -526,7 +530,8 @@ SWEP.Animations = {
         { t = 0.01, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.65,
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/galil_clipin.wav" ,    t = 42 / 40},
@@ -539,13 +544,14 @@ SWEP.Animations = {
         { t = 0.01, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 0, rhik = 1, },{ t = 0.99, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.9,
         EventTable = {
             {s =  "gekolt_css/xm_boltpull1.ogg" ,   t = 2 / 40},
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_css/galil_clipin.wav" ,    t = 50 / 40},
             {s =  "gekolt_css/xm_boltpull2.ogg" ,    t = 73 / 40},
         },
-        MinProgress = 0.925,
     },
 
 
@@ -557,7 +563,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.95,
+        MinProgress = 0.975,
+		RefillProgress = 0.875,
         EventTable = {
             {s =  "gekolt_css/m249_coverup.wav" ,   t = 20 / 40},
             {s =  "gekolt_css/m249_boxout.wav" ,    t = 45 / 40},
@@ -584,7 +591,8 @@ SWEP.Animations = {
         { t = 0.075, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.95,
+        MinProgress = 0.975,
+		RefillProgress = 0.9,
     },
 
     ["reload_empty_proto"] = {
@@ -599,7 +607,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.925,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
     ["fire_proto"] = { Source = {"fire_proto"},
     },
@@ -619,7 +628,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/sg552_boltpull.wav" ,    t = 88 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
     },
     ["reload_pdw"] = {
         Source = "wet_57",
@@ -634,6 +644,7 @@ SWEP.Animations = {
         },
         FireASAP = true,
         MinProgress = 0.95,
+		RefillProgress = 0.7,
     },
 
     ["reload_empty_sg"] = {
@@ -648,7 +659,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/famas_boltpull.wav" ,    t = 95 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.95,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
     ["reload_sg"] = {
         Source = "wet_sg",
@@ -661,7 +673,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/famas_clipin.wav" ,    t = 62 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
     },
     ["fire_sg"] = { Source = {"fire_proto"},
     },
@@ -681,7 +694,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.95,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
     ["reload_ak"] = {
         Source = "wet_ak",
@@ -694,7 +708,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 0, rhik = 1, },{ t = 0.875, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
     },
 
     ["reload_empty_smg"] = {
@@ -709,7 +724,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
     ["reload_smg"] = {
         Source = "wet_smg",
@@ -722,7 +738,8 @@ SWEP.Animations = {
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.675, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
     },
     ["reload_empty_sd"] = {
         Source = "dry_sd",
@@ -736,7 +753,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
 
     ["idle_bow"] = { Source = "idle_bow", },
@@ -749,6 +767,9 @@ SWEP.Animations = {
     },
     ["reload_empty_bow"] = {
         Source = "dry_bow",
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         EventTable = {
             {s =  "gekolt_css/ak47_boltpull1.wav" ,    t = 5 / 40},
             {s =  "gekolt_css/g3sg1_clipin.wav" ,    t = 50 / 40},
@@ -773,7 +794,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
     ["reload_empty_acr"] = {
         Source = "dry_4",
@@ -783,7 +805,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/m4a1_boltpull.wav" ,    t = 72 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
@@ -802,7 +825,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/galil_clipin.wav" ,    t = 62 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
     },
     ["reload_empty_gih"] = {
         Source = "dry_gih",
@@ -812,7 +836,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/m4a1_boltpull.wav" ,    t = 92 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -826,7 +851,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
         EventTable = {
             {s =  "gekolt_css/mp5_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/mp5_clipin.wav" ,    t = 53 / 40},
@@ -844,7 +870,8 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
     },
 }
 

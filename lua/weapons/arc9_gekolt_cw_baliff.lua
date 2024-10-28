@@ -396,7 +396,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.7,
         EventTable = {
             {s =  "gekolt_pr2/baliff_reload.ogg" ,   t = 0 / 40}, 
         },
@@ -409,7 +410,8 @@ SWEP.Animations = {
         Source = "dry_big",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.75,
+        MinProgress = 0.975,
+		RefillProgress = 0.7,
         EventTable = {
             {s =  "gekolt_pr2/baliff_reload2.ogg" ,   t = 0 / 40}, 
             },

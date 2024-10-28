@@ -395,7 +395,8 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 43 / 40},
@@ -409,7 +410,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.95,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 28 / 40},
@@ -426,7 +428,8 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.8,
+        MinProgress = 0.95,
+		RefillProgress = 0.775,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 43 / 40},
@@ -440,7 +443,8 @@ SWEP.Animations = {
         Source = "dry_p38",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.8,
+        MinProgress = 0.95,
+		RefillProgress = 0.775,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 28 / 40},
@@ -465,7 +469,8 @@ SWEP.Animations = {
         Source = "wet_carbine",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.725,
         EventTable = {
             {s =  "gekolt_css/m4a1_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_css/m4a1_clipin.wav" ,    t = 65 / 40},
@@ -479,7 +484,8 @@ SWEP.Animations = {
         Source = "dry_carbine",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.92,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_css/m4a1_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_css/m4a1_clipin.wav" ,    t = 65 / 40},
@@ -503,7 +509,8 @@ SWEP.Animations = {
         Source = "wet_carbine",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.725,
         EventTable = {
             {s =  "gekolt_css/m4a1_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_css/m4a1_clipin.wav" ,    t = 65 / 40},
@@ -517,7 +524,8 @@ SWEP.Animations = {
         Source = "dry_artillery",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.92,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_css/m4a1_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_css/m4a1_clipin.wav" ,    t = 65 / 40},
@@ -535,7 +543,8 @@ SWEP.Animations = {
         Source = "wet_ex",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.775,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 45 / 40},
@@ -549,7 +558,8 @@ SWEP.Animations = {
         Source = "dry_ex",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.86,
+        MinProgress = 0.95,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 40 / 40},
@@ -616,7 +626,8 @@ SWEP.Animations = {
         Source = "wet_sd",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 43 / 40},
@@ -630,7 +641,8 @@ SWEP.Animations = {
         Source = "dry_sd",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.86,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         EjectAt = 73 / 40,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},

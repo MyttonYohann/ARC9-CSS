@@ -341,7 +341,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 43 / 40},
@@ -355,7 +356,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "rzen1th_smor/flare_open.wav" ,	t = 10 / 40},
             {s =  "rzen1th_smor/flare_remove.wav" ,	t = 22 / 40},
@@ -373,7 +375,8 @@ SWEP.Animations = {
         Source = "dry_leucht",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_css/fiveseven_clipout.wav" ,   t = 38 / 40},
             {s =  "gekolt_css/fiveseven_clipin.wav" ,    t = 45 / 40},
@@ -389,7 +392,8 @@ SWEP.Animations = {
         Source = "dry50",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "rzen1th_smor/flare_open.wav" ,	t = 10 / 40},
             {s =  "rzen1th_smor/flare_remove.wav" ,	t = 22 / 40},
@@ -444,7 +448,8 @@ SWEP.Animations = {
         Source = "wet_sld",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "rzen1th_smor/flare_open.wav" ,	t = 10 / 40},
             {s =  "rzen1th_smor/flare_remove.wav" ,	t = 22 / 40},
@@ -461,7 +466,8 @@ SWEP.Animations = {
         Source = "dry_sld",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "rzen1th_smor/flare_open.wav" ,	t = 10 / 40},
             {s =  "rzen1th_smor/flare_remove.wav" ,	t = 22 / 40},
