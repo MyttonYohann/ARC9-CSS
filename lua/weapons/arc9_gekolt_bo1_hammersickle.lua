@@ -3,24 +3,24 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Auxilliaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
-SWEP.PrintName = "Hammer and Sickle"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_bo1_hammersickle") or "Hammer and Sickle"
 
-SWEP.Class = "Ideological Artifact"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_ia") or "Ideological Artifact"
 SWEP.Trivia = {
-    ["Country of Origin"] = "Insert Generic Union/Commune Here",
-    ["Caliber"] = "Wood and Steel",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_generic") or "\"Insert Generic Union/Commune Here\"",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_wood") or "Wood and Steel",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Assets2"] = [[CoD: Black Ops]],
-    ["Contact3"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or  ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[CoD: Black Ops]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or  ARC9:GetPhrase("smorg_trivia_contact") or "Contact4"  ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[A pair of common work tools infused with the power of the proletariat.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_bo1_hammersickle_desc") or [[A pair of common work tools infused with the power of the proletariat.
 Assemble its true form to reduce damage from the front and radiate energy.
 
 Fuck communism, this mod was made by syndicalism gang.]]
@@ -60,7 +60,7 @@ SWEP.SecondarySupplyLimit = 0 -- Amount of reserve UBGL magazines you can take.
 SWEP.Firemodes = {
     {
         Mode = 1,
-        PrintName = "MELEE"
+        PrintName = ARC9:GetPhrase("smorg_firemode_melee") or "MELEE"
         -- add other attachment modifiers
     },
 }

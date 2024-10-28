@@ -3,25 +3,25 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
 
-SWEP.PrintName = "Judresa-72"
-SWEP.TrueName = "M72"
-SWEP.SubCategory = "Auxilliaries"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_pr2_m72") or "Judresa-72"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_pr2_m72_real") or "M72"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
-SWEP.Class = "Anti-Tank Rifle"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_atr") or "Anti-Tank Rifle"
 SWEP.Trivia = {
-    ["Country of Origin"] = "United States of America",
-    ["Caliber"] = "35mm M72",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_usa") or "United States",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_m72") or "35mm M72",
 }
 
 SWEP.Credits = {
-    ["Sound2"] = [[Project Reality 2]],
-    ["Assets3"] = [[Project Reality 2]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[Project Reality 2]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Project Reality 2]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Reloading-disposable rocket package.]]
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_pr2_m72_desc") or [[Reloading-disposable rocket package.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m72.mdl"
 SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
@@ -329,7 +329,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Payload",
+        PrintName = ARC9:GetPhrase("smorg_category_payload") or "Payload",
         DefaultName = "Standard Payload",
 
         Category = "pr2_m72_ammo",
@@ -340,7 +340,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Top",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_u") or "Mount U.",
         DefaultName = "None",
         InstalledElements = {"rail_tac"},
 
@@ -351,7 +351,7 @@ SWEP.Attachments = {
     },
 	
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"rail_def"},
 
@@ -363,7 +363,7 @@ SWEP.Attachments = {
     },
 	
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"rail_bot"},
 		

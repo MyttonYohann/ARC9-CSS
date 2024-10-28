@@ -3,25 +3,25 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Secondaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_sec") or "Secondaries"
 
-SWEP.PrintName = "Paxica Wricht"
-SWEP.TrueName = ".410 Jury"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_cw_baliff") or "Paxica Wricht"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_cw_baliff_real") or ".410 Jury"
 
-SWEP.Class = "Revolver"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_rev") or "Revolver"
 SWEP.Trivia = {
-    ["Country of Origin"] = "Brazil",
-    ["Caliber"] = ".410 Bore",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_brazil") or "Brazil",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_410") or ".410 Bore",
 }
 
 SWEP.Credits = {
-    ["Sound2"] = [[Contract Wars]],
-    ["Assets3"] = [[Contract Wars]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[Contract Wars]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Contract Wars]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Unfamiliar housing in unfamiliar tradition.]]
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_cw_baliff_desc") or [[Unfamiliar housing in unfamiliar tradition.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_baliff.mdl"
 SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
@@ -279,7 +279,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"has_optic"},
 
@@ -290,7 +290,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("smorg_category_barrel") or "Barrel",
         DefaultName = "Short",
 		Hidden = false,
         Category = {"cw_baliff_barrel"},
@@ -299,7 +299,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "MOUNT Bottom",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
         Category = {"tac_css", "rail_bottom"},
         InstalledElements = {"rail_bottom"},
         Hidden = false,
@@ -311,7 +311,7 @@ SWEP.Attachments = {
         Icon_Offset = Vector(1, 0, 0)
     },
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         ExcludeElements = {"not_sg"},
@@ -321,7 +321,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Off-Hand",
+        PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         DefaultName = "None",
         InstalledElements = {"akimbo"},
         Hidden = true,

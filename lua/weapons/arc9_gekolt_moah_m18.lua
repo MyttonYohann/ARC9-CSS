@@ -3,25 +3,25 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
 
-SWEP.PrintName = "Kromusgen-18"
-SWEP.TrueName = "M18"
-SWEP.SubCategory = "Auxilliaries"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_moah_m18") or "Kromusgen-18"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_moah_m18_real") or "M18"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
-SWEP.Class = "Anti-Tank Rifle"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_atr") or "Anti-Tank Rifle"
 SWEP.Trivia = {
-    ["Country of Origin"] = [[[Kingdom of] Sweden]],  -- me spreading misinfomation
-    ["Caliber"] = "57×303mmR",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_sweden") or "Sweden",  -- me spreading misinfomation
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_57x303") or "57×303mmR",
 }
 
 SWEP.Credits = {
-    ["Sound2"] = [[cherresoda#6579 (rzen1th)]],
-    ["Assets3"] = [[Medal of Honor: Airborne]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[cherresoda#6579 (rzen1th)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Medal of Honor: Airborne]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[The King's Guard is always ready to take out any armoured opponent
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_moah_m18_desc") or [[The King's Guard is always ready to take out any armoured opponent
 Personnel or Mechanised.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m18.mdl"
@@ -427,7 +427,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Kit",
+        PrintName = ARC9:GetPhrase("smorg_category_kit") or "Kit",
         DefaultName = "Standard Kit",
 
         Category = "moah_m18_kit",
@@ -437,7 +437,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"rail_def"},
 

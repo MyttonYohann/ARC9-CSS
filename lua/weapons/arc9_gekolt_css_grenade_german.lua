@@ -3,19 +3,19 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base_nade"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Auxilliaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
-SWEP.PrintName = "Grenade Bundle"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_css_grenade_german") or "Grenade Bundle"
 
-SWEP.Class = "Explosive"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_exp") or "Explosive"
 SWEP.Trivia = {
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Assets2"] = [[Counter-Strike Source]],
-    ["Contact3"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or  ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Counter-Strike Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or  ARC9:GetPhrase("smorg_trivia_contact") or "Contact4"  ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
 SWEP.Slot = 4
@@ -23,17 +23,17 @@ SWEP.Slot = 4
 SWEP.Firemodes = {
     {
         Mode = 1,
-        PrintName = "Cluster",
+        PrintName = ARC9:GetPhrase("smorg_firemode_cluster") or "CLUSTER",
         ShootEnt = "gekolt_css_grenade_bundle",
     },
     {
         Mode = 1,
-        PrintName = "Condensed",
+        PrintName = ARC9:GetPhrase("smorg_firemode_condensed") or "CONDENSED",
         ShootEnt = "gekolt_css_grenade_bundle_cds",
     },
 }
 
-SWEP.Description = [[Bundle up to 7 grenades together so your explosions are never lonely.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_grenade_german_desc") or [[Bundle up to 7 grenades together so your explosions are never lonely.
 Toggle between powerful cluster grenades or large condensed explosion.
 
 A sober person would throw it...]]

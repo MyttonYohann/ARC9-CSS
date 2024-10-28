@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Primaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_prim") or "Primaries"
 
-SWEP.PrintName = "Roteernte-95"
-SWEP.TrueName = "M712 Schnellfeuer"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_dods_mauser") or "Roteernte-95"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_dods_mauser_real") or "M712 Schnellfeuer"
 
-SWEP.Class = "Pistol Carbine"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_pc") or "Pistol Carbine"
 SWEP.Trivia = {
-    ["Country of Origin"] = "[Empire of] Germany",
-    ["Caliber"] = "9×19mm Parabellum",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_germany") or "Germany",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_9x19") or "9×19mm Parabellum",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[CturiX#6008 (CturiX)]],
-    ["Assets3"] = [[Day of Defeat: Source]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[CturiX#6008 (CturiX)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Day of Defeat: Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[An old as time pistol given a carbine kit and absurdly fast auto sear.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_dods_mauser_desc") or [[An old as time pistol given a carbine kit and absurdly fast auto sear.
 Sold en masse to Chinese warlords in the 1930s, so you're a little late to the party.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_mauser.mdl"
@@ -275,7 +275,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
 
         Category = "dod_mauser_frame",
@@ -284,7 +284,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"has_optic"},
 
@@ -296,7 +296,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},
@@ -307,7 +307,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Off-Hand",
+        PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         Hidden = true,
         DefaultName = "None",
         InstalledElements = {"akimbo"},

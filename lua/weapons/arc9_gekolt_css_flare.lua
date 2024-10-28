@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Secondaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_sec") or "Secondaries"
 
-SWEP.PrintName = "Hoellenfeuer"
-SWEP.TrueName = "Leuchtpistole-34"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_css_flare") or "Hoellenfeuer"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_flare_real") or "Leuchtpistole-34"
 
-SWEP.Class = "Pistol"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_pis") or "Pistol"
 SWEP.Trivia = {
-    ["Country of Origin"] = "Germany",
-    ["Caliber"] = "12 Gauge",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_germany") or "Germany",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_12g") or "12 Gauge",
 }
 
 SWEP.Credits = {
---	["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[cherresoda#6579 (rzen1th)]],
-    ["Assets3"] = [[Fallout New Vegas]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+--	[ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[cherresoda#6579 (rzen1th)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Fallout New Vegas]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Single shot survival tool intended to fire signal flares.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_flare_desc") or [[Single shot survival tool intended to fire signal flares.
 Of course, it conveniently fits 12 gauge shotshells, so that's what we're doing with it.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_flare.mdl"
@@ -267,7 +267,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
 
         Category = "fnv_flare_frame",
@@ -276,7 +276,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         ExcludeElements = {"not_sg"},

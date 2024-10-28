@@ -3,25 +3,25 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Secondaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_sec") or "Secondaries"
 
-SWEP.PrintName = "Wykehr Libero"
-SWEP.TrueName = "Thlock"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_fh2_thock") or "Wykehr Libero"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_fh2_thock_real") or "Thlock"
 
-SWEP.Class = "Machine Pistol"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_mp") or "Machine Pistol"
 SWEP.Trivia = {
-    ["Country of Origin"] = "United States of America",
-    ["Caliber"] = ".45 ACP",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_usa") or "United States",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_45acp") or ".45 ACP",
 }
 
 SWEP.Credits = {
-    ["Sound2"] = [[Forgotten Hope 2, cherresoda#6579 (rzen1th)]],
-    ["Assets3"] = [[Forgotten Hope 2]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[Forgotten Hope 2, cherresoda#6579 (rzen1th)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Forgotten Hope 2]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [["Subject Theta proves to be excellent on the battlefield, however can it still be improved? Shorter you say? How short?" - Record#28
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_fh2_thock_desc") or [["Subject Theta proves to be excellent on the battlefield, however can it still be improved? Shorter you say? How short?" - Record#28
 
 The Liberator-28 was amongst a myriad of failed experiments, however, modern time would revitalise it a new pair of wings to soar.]]
 
@@ -295,7 +295,7 @@ end
 
 SWEP.Attachments = {
     {
-        PrintName = "Magazine",
+        PrintName = ARC9:GetPhrase("smorg_category_magazine") or "Magazine",
         DefaultName = "20-Rnd Magazine",
 
         Category = "fh2_thock_mag",
@@ -304,7 +304,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"has_optic"},
 
@@ -315,7 +315,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},
@@ -325,7 +325,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "None",
 
         ExcludeElements = {"pre_stock"},
@@ -336,7 +336,7 @@ SWEP.Attachments = {
     },
 	
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"fg_def"},
         DefaultIcon = Material("arc9/def_att_icons/grip.png"),
@@ -347,7 +347,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("smorg_category_barrel") or "Barrel",
         DefaultName = "Short",
 		Hidden = false,
         Category = {"fh2_thock_barrel"},
@@ -357,7 +357,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Off-Hand",
+        PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         DefaultName = "None",
         InstalledElements = {"akimbo"},
         Hidden = true,

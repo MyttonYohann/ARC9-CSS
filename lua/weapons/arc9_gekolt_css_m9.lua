@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Secondaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_sec") or "Secondaries"
 
-SWEP.PrintName = "Arditi Elite"
-SWEP.TrueName = "Beretta 92G Elite II"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_css_m9") or "Arditi Elite"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_m9_real") or "Beretta 92G Elite II"
 
-SWEP.Class = "Pistol"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_pis") or "Pistol"
 SWEP.Trivia = {
-    ["Country of Origin"] = "Italy",
-    ["Caliber"] = "9x19mm",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_italy") or "Italy",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_9x19") or "9x19mm",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[cherresoda#6579 (rzen1th)]],
-    ["Assets3"] = [[Counter-Strike Source]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[cherresoda#6579 (rzen1th)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Counter-Strike Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[A turn-of-the-century update to a straightforward double-stack pistol.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_m9_desc") or [[A turn-of-the-century update to a straightforward double-stack pistol.
 Some aftermarket tinker options exist, though few of them deserve the "Elite" moniker.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m9.mdl"
@@ -284,7 +284,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
 
         Category = "css_m9_frame",
@@ -293,7 +293,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"has_optic"},
 
@@ -304,7 +304,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},
@@ -315,7 +315,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Off-Hand",
+        PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         DefaultName = "None",
         InstalledElements = {"akimbo"},
         Hidden = false,

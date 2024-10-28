@@ -3,24 +3,24 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base_nade"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Auxilliaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
-SWEP.PrintName = "Claymore on a Stick"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_fas1_bamboozle") or "Claymore on a Stick"
 
-SWEP.Class = "Explosive"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_exp") or "Explosive"
 SWEP.Trivia = {
-    ["Country of Origin"] = "Scotland", -- trolleg
-    ["Caliber"] = "3.2mm steel balls",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_scotland") or "Scotland", -- trolleg
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_32sb") or "3.2mm steel balls",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Assets2"] = [[Firearm: Source]],
-    ["Contact3"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or  ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Firearm: Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or  ARC9:GetPhrase("smorg_trivia_contact") or "Contact4"  ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Crude anti-tank-personnel-whateverinfrontofyou device from the peak of the highlands.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_fas1_bamboozle_desc") or [[Crude anti-tank-personnel-whateverinfrontofyou device from the peak of the highlands.
 Lethality increases the longer it flies. Airburst detonates by proximity and shoots shrapnel, but has a long arm delay.
 
 Using it as a spear has explosive consequences.]]
@@ -77,12 +77,12 @@ SWEP.PhysBulletMuzzleVelocity = 1000 * 40
 SWEP.Firemodes = {
     {
         Mode = 1,
-        PrintName = "HE",
+        PrintName = ARC9:GetPhrase("smorg_firemode_he") or "H.E.",
         ShootEnt = "gekolt_css_bamboozle_he",
     },
     {
         Mode = 1,
-        PrintName = "Airburst",
+        PrintName = ARC9:GetPhrase("smorg_firemode_airburst") or "AIRBURST",
         ShootEnt = "gekolt_css_bamboozle_airburst",
     },
 }

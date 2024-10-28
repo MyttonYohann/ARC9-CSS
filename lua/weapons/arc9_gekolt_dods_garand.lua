@@ -3,25 +3,25 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Primaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_prim") or "Primaries"
 
-SWEP.PrintName = "Toudranéant-30"  -- /tu-druh-nee-aun/
-SWEP.TrueName = "M1 Garand"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_dods_garand") or "Toudranéant-30"  -- /tu-druh-nee-aun/
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_dods_garand") or "M1 Garand"
 
-SWEP.Class = "Battle Rifle"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_br") or "Battle Rifle"
 SWEP.Trivia = {
-    ["Country of Origin"] = [[[Dominion of] Canada]], -- me purposely spreading misinfomation --  I SAY SO
-    ["Caliber"] = ".30-06 Springfield",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_canada") or "Canada", -- me purposely spreading misinfomation --  I SAY SO
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_30-06") or ".30-06 Springfield",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Assets2"] = [[Day of Defeat: Source]],
-    ["Contact3"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or  ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Day of Defeat: Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or  ARC9:GetPhrase("smorg_trivia_contact") or "Contact4"  ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[The first truly successful self-loading rifle; a watershed and forerunner among firearms.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_dods_garand_desc") or [[The first truly successful self-loading rifle; a watershed and forerunner among firearms.
 Experimental in nature, there are quite a few modifications available despite its status as a mass production weapon.
 It also goes ping.]]
 
@@ -350,7 +350,7 @@ SWEP.ExtraShellModels = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
 
         Category = "dod_garand_frame",
@@ -359,7 +359,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"rail_top"},
 
@@ -369,7 +369,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},
@@ -379,7 +379,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"rail_bot"},
 
@@ -392,7 +392,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_r") or "Mount R.",
         Category = {"mountl_css", "optic_css_free"},
         InstalledElements = {"rail_side"},
 

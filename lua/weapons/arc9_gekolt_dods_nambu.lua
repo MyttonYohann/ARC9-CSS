@@ -3,25 +3,25 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Secondaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_sec") or "Secondaries"
 
-SWEP.PrintName = "Tenoku Hakenza"
-SWEP.TrueName = "Nambu Katana"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_dods_nambu") or "Tenoku Hakenza"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_dods_nambu_real") or "Nambu Katana"
 
-SWEP.Class = "Pistol"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_pis") or "Pistol"
 SWEP.Trivia = {
-    ["Country of Origin"] = "Japan",
-    ["Caliber"] = "8×22mm Nambu",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_japan") or "Japan",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_8x22") or "8×22mm Nambu",
 }
 
 SWEP.Credits = {
-    ["Sound2"] = [[Klipfl1P]],
-    ["Assets3"] = [[Spanks, Fub]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[Klipfl1P]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Spanks, Fub]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Relic dug up from some far off island in the Pacific.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_dods_nambu_desc") or [[Relic dug up from some far off island in the Pacific.
 The spirit of the warrior lives on.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_nambu.mdl"
@@ -270,7 +270,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},

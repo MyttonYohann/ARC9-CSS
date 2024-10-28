@@ -3,16 +3,16 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Secondaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_sec") or "Secondaries"
 
-SWEP.PrintName = "Athelanz-9"
-SWEP.TrueName = "STEN"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_ef_sten") or "Athelanz-9"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_ef_sten_real") or "STEN"
 
-SWEP.Class = "Submachine Gun"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_smg") or "Submachine Gun"
 SWEP.Trivia = {
-    ["Country of Origin"] = "United Kingdom",
-    ["Caliber"] = "9×19mm Parabellum",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_uk") or "United Kingdom",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_9x19") or "9×19mm Parabellum",
 }
 
 SWEP.Credits = {
@@ -21,7 +21,7 @@ SWEP.Credits = {
     ["Assets"] = "Enemy Front"
 }
 
-SWEP.Description = [[Humble piece of steel that looks like it was clobbered together from rusty pipes. For its cheap cost, it might as well be.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_ef_sten_desc") or [[Humble piece of steel that looks like it was clobbered together from rusty pipes. For its cheap cost, it might as well be.
 Absurdly simple design lends itself to both pragmatic and unorthodox modifications.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_sten.mdl"
@@ -322,7 +322,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
         ExcludeElements = {"pre_frame"},
 
@@ -333,7 +333,7 @@ SWEP.Attachments = {
         Icon_Offset = Vector(-5, 0, 2.5)
     },
     {
-        PrintName = "Handguard",
+        PrintName = ARC9:GetPhrase("smorg_category_handguard") or "Handguard",
         DefaultName = "Standard Handguard",
         ExcludeElements = {"pre_hg"},
 
@@ -343,7 +343,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "Standard Stock",
         ExcludeElements = {"pre_stock"},
 
@@ -353,7 +353,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("smorg_category_barrel") or "Barrel",
         DefaultName = "Standard Barrel",
         ExcludeElements = {"pre_barrel"},
 
@@ -363,7 +363,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"has_optic"},
 
@@ -376,7 +376,7 @@ SWEP.Attachments = {
         Scale = Vector(1.3, 1.3, 1.3)
     },
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},

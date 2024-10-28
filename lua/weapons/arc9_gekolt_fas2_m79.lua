@@ -3,26 +3,26 @@ ARC9:RegisterPhysBulletModel("models/Items/AR2_Grenade.mdl")
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
 
-SWEP.PrintName = "Morthalza-90"
-SWEP.TrueName = "M79"
-SWEP.SubCategory = "Auxilliaries"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_fas2_m79") or "Morthalza-90"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_fas2_m79_real") or "M79"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
-SWEP.Class = "Grenade Launcher"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_gl") or "Grenade Launcher"
 SWEP.Trivia = {
-    ["Country of Origin"] = [[United States of America]],
-    ["Caliber"] = "40×46mm grenade",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_us") or "United States",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_40x46") or "40×46mm grenade",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[CturiX#6008 (CturiX)]],
-    ["Assets3"] = [[Firearm: Source 2]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[CturiX#6008 (CturiX)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Firearm: Source 2]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Single shot explosive lobing device
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_fas2_m79_desc") or [[Single shot explosive lobing device
 Miniature barage if you can get enough shot.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m79.mdl"
@@ -365,7 +365,7 @@ end
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
 
         Category = "fas2_m79_frame",
@@ -374,7 +374,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Ammo",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "40mm",
         ExcludeElements = {"pre_ammo"},
 
@@ -384,7 +384,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"rail_top"},
 
@@ -394,7 +394,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"rail_bot"},
 

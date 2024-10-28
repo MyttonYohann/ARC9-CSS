@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Primaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_prim") or "Primaries"
 
-SWEP.PrintName = "Aldric-38"
-SWEP.TrueName = "AWP"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_css_awp") or "Aldric-38"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_awp_real") or "AWP"
 
-SWEP.Class = "Sniper Rifle"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_sr") or "Sniper Rifle"
 SWEP.Trivia = {
-    ["Country of Origin"] = "United Kingdom",
-    ["Caliber"] = ".338 Lapua Magnum",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_uk") or "United Kingdom",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_338") or ".338 Lapua Magnum",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[cherresoda#6579 (rzen1th)]],
-    ["Assets3"] = [[Counter-Strike Source]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[cherresoda#6579 (rzen1th)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Counter-Strike Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Imposing magnum sniper rifle used by the police. Overpenetrates up close, so step back.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_awp_desc") or [[Imposing magnum sniper rifle used by the police. Overpenetrates up close, so step back.
 Its rarity and iconic status makes it all the more tempting to give it... unscrupulous tweaks.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_awp.mdl"
@@ -92,7 +92,7 @@ end
 SWEP.Firemodes = {
     {
         Mode = 1,
-        PrintName = "BOLT"
+        PrintName = ARC9:GetPhrase("smorg_firemode_bolt") or "BOLT"
     }
 }
 -------------------------- RECOIL
@@ -292,7 +292,7 @@ end
 
 SWEP.Attachments = {
     {
-        PrintName = "Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Bolt Action Frame",
 
         Category = "css_awp_frame",
@@ -301,7 +301,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "Polymer Stock",
         InstalledElements = {"has_stock"},
 		ExcludeElements = {"awp_f_obrez"},
@@ -312,7 +312,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		
         Category = {"optic_css"},
@@ -321,7 +321,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         ExcludeElements = {"pre_muzzed"},
@@ -331,7 +331,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"rail_bot", "optic_css_free", "has_grip"},
 
@@ -344,7 +344,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Left",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = {"mountr_css", "optic_css_free"},
         InstalledElements = {"rail_side"},
 		ExcludeElements = {"awp_f_obrez"},
@@ -357,7 +357,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_r") or "Mount R.",
         Category = {"mountl_css", "optic_css_free"},
         InstalledElements = {"rail_side"},
 		ExcludeElements = {"awp_f_obrez"},
@@ -369,7 +369,7 @@ SWEP.Attachments = {
         Icon_Offset = Vector(-2, 0, 0)
     },
     {
-        PrintName = "Mount Top",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_u") or "Mount U.",
         DefaultName = "None",
         InstalledElements = {"rail_top"},
 		ExcludeElements = {"awp_f_obrez", "notop"},

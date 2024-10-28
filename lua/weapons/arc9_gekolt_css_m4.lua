@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Primaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_prim") or "Primaries"
 
-SWEP.PrintName = "Centilia Libero"
-SWEP.TrueName = "M4A1"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_css_m4") or "Centilia Libero"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_m4_real") or "M4A1"
 
-SWEP.Class = "Assault Carbine"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_ac") or "Assault Carbine"
 SWEP.Trivia = {
-    ["Country of Origin"] = "United States of America",
-    ["Caliber"] = "5.56x45mm NATO",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_usa") or "United States",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_556x45") or "5.56x45mm NATO",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[cherresoda#6579 (rzen1th) and CturiX#6008 (CturiX)]],
-    ["Assets3"] = [[Counter-Strike Source]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[cherresoda#6579 (rzen1th) and CturiX#6008 (CturiX)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Counter-Strike Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Standard infantry carbine that is also absurdly popular in civilian markets.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_m4_desc") or [[Standard infantry carbine that is also absurdly popular in civilian markets.
 Has countless models and variations, some less stupid than others.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m4a1.mdl"
@@ -1095,7 +1095,7 @@ end
 
 SWEP.Attachments = {
     {	--1
-        PrintName = "Receiver",
+        PrintName = ARC9:GetPhrase("smorg_category_receiver") or "Receiver",
         DefaultName = "Standard Receiver",
 
         Category = "css_m4_up",
@@ -1105,7 +1105,7 @@ SWEP.Attachments = {
     },
 
     {	--2
-        PrintName = "Handguard",
+        PrintName = ARC9:GetPhrase("smorg_category_handguard") or "Handguard",
         DefaultName = "Standard Handguard",
 
         ExcludeElements = {"noguard"},
@@ -1116,7 +1116,7 @@ SWEP.Attachments = {
     },
 
     {	--3
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "Standard Stock",
         ExcludeElements = {"nostock"},
 
@@ -1128,7 +1128,7 @@ SWEP.Attachments = {
     },
 
     {	--4
-        PrintName = "Grip",
+        PrintName = ARC9:GetPhrase("smorg_category_grip") or "Grip",
         DefaultName = "Standard Grip",
 
         DefaultIcon = Material("arc9/def_att_icons/grip_ar.png"),
@@ -1139,7 +1139,7 @@ SWEP.Attachments = {
     },
 
     {	--5
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
 
         DefaultIcon = Material("arc9/def_att_icons/grip.png"),
@@ -1164,7 +1164,7 @@ SWEP.Attachments = {
     },
 
     {	--7
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"no_irons", "no_optic", "optic_main"},  -- i forgot why i did this
 
@@ -1178,7 +1178,7 @@ SWEP.Attachments = {
 
 
     {	--8
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         DefaultIcon = Material("arc9/def_att_icons/barrel.png"),
@@ -1191,7 +1191,7 @@ SWEP.Attachments = {
     },
 
     {	--9
-        PrintName = "Clamp",
+        PrintName = ARC9:GetPhrase("smorg_category_clamp") or "Clamp",
         DefaultName = "None",
 
         ExcludeElements = {"short_clamp"},
@@ -1203,7 +1203,7 @@ SWEP.Attachments = {
 
     {	--10
         Hidden = true,
-        PrintName = "Off-Hand",
+        PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         DefaultName = "None",
         --InstalledElements = {"akimbo"},
 

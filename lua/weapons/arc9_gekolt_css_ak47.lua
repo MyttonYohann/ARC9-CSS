@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Smorgasbord"
-SWEP.SubCategory = "Primaries"
+SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
+SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_prim") or "Primaries"
 
-SWEP.PrintName = "Avtoma-7"
-SWEP.TrueName = "AK47"
+SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_css_ak47") or "Avtoma-7"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_ak47_real") or "AK47"
 
-SWEP.Class = "Assault Rifle"
+SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_ar") or "Assault Rifle"
 SWEP.Trivia = {
-    ["Country of Origin"] = [[[Soviet] Russia]],
-    ["Caliber"] = "7.62x39mm",
+    [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_soviet_union") or "Soviet Union",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_762x39") or "7.62x39mm",
 }
 
 SWEP.Credits = {
-    ["Additional Coding1"] = [[TheOnly8Z#8888 (8Z)]],
-    ["Sound2"] = [[cherresoda#6579 (rzen1th)]],
-    ["Assets3"] = [[Counter-Strike Source]],
-    ["Contact4"] = [[SlogoKolt#6648 or Mytton#5132]],
+    [ ARC9:GetPhrase("smorg_trivia_coding") or "Additional Coding1" ] = [[TheOnly8Z#8888 (8Z)]],
+    [ ARC9:GetPhrase("smorg_trivia_sounds") or "Sounds2" ] = [[cherresoda#6579 (rzen1th)]],
+    [ ARC9:GetPhrase("smorg_trivia_assets") or "Assets3" ] = [[Counter-Strike Source]],
+    [ ARC9:GetPhrase("smorg_trivia_contact") or "Contact4" ] = [[SlogoKolt#6648 or Mytton#5132]],
 }
 
-SWEP.Description = [[Rugged rifle with a simple design that can function under harsh conditions.
+SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_ak47_desc") or [[Rugged rifle with a simple design that can function under harsh conditions.
 A timeless design with a variant for every conceivable use case, and many inconceivable ones too.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_ak47.mdl"
@@ -622,7 +622,7 @@ end
 
 SWEP.Attachments = {
     {
-        PrintName = "Receiver",
+        PrintName = ARC9:GetPhrase("smorg_category_receiver") or "Receiver",
         DefaultName = "Standard Receiver",
 
         Category = "css_ak_up",
@@ -632,7 +632,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Handguard",
+        PrintName = ARC9:GetPhrase("smorg_category_handguard") or "Handguard",
         DefaultName = "Standard Handguard",
 
         ExcludeElements = {"noguard"},
@@ -643,7 +643,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "Standard Stock",
         ExcludeElements = {"nostock"},
 
@@ -655,7 +655,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Grip",
+        PrintName = ARC9:GetPhrase("smorg_category_grip") or "Grip",
         DefaultName = "Standard Grip",
 
         DefaultIcon = Material("arc9/def_att_icons/grip_ar.png"),
@@ -667,7 +667,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"fg_def"},
 
@@ -681,7 +681,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
         InstalledElements = {"rail_def"},
 
@@ -693,7 +693,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         DefaultIcon = Material("arc9/def_att_icons/barrel.png"),
@@ -705,7 +705,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = "Clamp",
+        PrintName = ARC9:GetPhrase("smorg_category_clamp") or "Clamp",
         DefaultName = "None",
         Hidden = "True",
 
