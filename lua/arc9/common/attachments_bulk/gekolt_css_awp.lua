@@ -21,6 +21,11 @@ ATT.RecoilKickMult = 1.5
 ATT.RecoilAutoControlMult = 0.5
 ATT.FreeAimRadiusMult = 2
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(3, 0, 0)
+end
+
+
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_s_no")
 
 
@@ -32,7 +37,7 @@ ATT = {}
 ATT.PrintName = "Howell Full-Auto Frame"
 ATT.CompactName = "AUTO"
 ATT.Icon = Material("entities/gekolt_css_awp_f_howell.png", "mips smooth")
-ATT.Description = [[This ancient mechanism from the 1900s allows your not so lee enfield looking gun to fire in [SEMI]-auto!
+ATT.Description = [[This ancient mechanism from the 1900s allows your not-lee-enfield to fire in [SEMI]-auto!
 Comes with a comically large 20 round mag that for some reason look like it could hold 10 more (It is using 'tall bullets'!)
 Despite using the exact same calibre the damage is reduced in the name of videogame balance.]]
 
@@ -139,7 +144,7 @@ ATT.RangeMinMult = 0.8
 ATT.RangeMaxMult = 0.8
 ATT.RecoilMult = 0.4
 ATT.RecoilKickMult = 1 / 2
-ATT.RecoilMultRecoilMult = 1.1/1.75
+ATT.RecoilMultRecoilMult = 0.8/1.75
 
 ATT.RecoilDissipationRateMult = 5/3
 
@@ -165,6 +170,10 @@ ATT.Sights = {
 
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_smg"
+end
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-6, 0, 0)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_lc10")
@@ -207,7 +216,7 @@ ATT.Icon = Material("entities/gekolt_css_awp_f_sd.png", "mips smooth")
 ATT.Description = [["Ah, here we go, a brand new top of the line high calibre configu-
 OI WHAT DO YOU MEAN YOU GOT THE WRONG CALIBRE? I SAID .50- .50 BMG NOT- WHAT?
 ...
-Oh chalice of piss ... Hold on this is walkable
+Oh lord ...
 It looks cute though, like one of them De Lisle's back in the war-
 ... Now just grip that thought, have we got any spare commically large suprressor lying around?"]]
 
