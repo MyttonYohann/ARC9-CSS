@@ -288,7 +288,7 @@ ATT.RTScopeShadowIntensity = 7
 ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, -0.2)
+ATT.ModelOffset = Vector(0, 0, 0.05)
 
 ATT.SwayAdd = 0.05
 ATT.FreeAimRadiusMultSights = 0.1
