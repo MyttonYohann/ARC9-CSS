@@ -71,8 +71,13 @@ ATT.SprintToFireTimeMult = 1.15
 
 ATT.PhysBulletMuzzleVelocityAdd = -1000 * 12
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_br"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "fire"				then 	return "fire_br"			end
+	if	curanim == "fire_empty"			then 	return "fire_br"			end	
+	if	curanim == "fire_iron_empty"	then 	return "fire_iron_br"		end	
+	if	curanim == "fire_iron"			then 	return "fire_iron_br"		end	
+	if	curanim == "reload"				then 	return "reload_br"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_br"	end	
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_howell")
@@ -172,8 +177,13 @@ ATT.Sights = {
     }
 }
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_smg"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "fire"				then 	return "fire_smg"			end
+	if	curanim == "fire_empty"			then 	return "fire_smg"			end	
+	if	curanim == "fire_iron_empty"	then 	return "fire_iron_smg"		end	
+	if	curanim == "fire_iron"			then 	return "fire_iron_smg"		end	
+	if	curanim == "reload"				then 	return "reload_smg"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_smg"	end	
 end
 
 ATT.CustomizePosHook = function(wep, vec)
@@ -256,8 +266,11 @@ ATT.RPMMult = 80 / 40
 
 ATT.PhysBulletMuzzleVelocityAdd = -2500 * 12
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_sd"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "fire"			then 	return "fire_sd"			end	
+	if	curanim == "fire_iron"		then 	return "fire_iron_sd"		end	
+	if	curanim == "reload"			then 	return "reload_sd"			end	
+	if	curanim == "reload_empty"	then 	return "reload_empty_sd"	end	
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_sd")
@@ -305,8 +318,11 @@ ATT.RPMMult = 85 / 40
 
 ATT.PhysBulletMuzzleVelocityAdd = -3000 * 12
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_obrez"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "fire"			then 	return "fire_obrez"			end	
+	if	curanim == "fire_iron"		then 	return "fire_iron_obrez"	end	
+	if	curanim == "reload"			then 	return "reload_obrez"		end	
+	if	curanim == "reload_empty"	then 	return "reload_empty_obrez"	end	
 end
 
 ATT.CustomizePosHook = function(wep, vec)

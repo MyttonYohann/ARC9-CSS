@@ -441,53 +441,6 @@ SWEP.Animations = {
     },
 
 
-
-    ["fire_smg"] = {
-        Source = "fire_smg",
-        MinProgress = 0.05,
-        EjectAt = 1 / 40,
-    },
-    ["fire_empty_smg"] = {
-        Source = "fire_smg",
-        MinProgress = 0.05,
-        EjectAt = 1 / 40,
-    },
-    ["fire_iron_smg"] = {
-        Source = "fire_iron_smg",
-        MinProgress = 0.05,
-        EjectAt = 1 / 40,
-    },
-
-    ["fire_br"] = {
-        Source = "fire_br",
-        MinProgress = 0.05,
-        Mult = 1,
-        EjectAt = 1 / 40,
-        EventTable = {
-            {s =  "gekolt_css/awp_boltdown.wav" ,    t = 0 / 40},
-        },
-    },
-    ["fire_iron_br"] = {
-        Source = "fire_br_iron",
-        MinProgress = 0.05,
-        Mult = 1,
-        EjectAt = 1 / 40,
-        EventTable = {
-            {s =  "gekolt_css/awp_boltdown.wav" ,    t = 0 / 40},
-        },
-    },
-    ["fire_empty_br"] = {
-        Source = "fire_br",
-        MinProgress = 0.05,
-        Mult = 1,
-        EjectAt = 1 / 40,
-        EventTable = {
-            {s =  "gekolt_css/awp_boltdown.wav" ,    t = 0 / 40},
-        },
-    },
-
-
-
     -- AWP --
 
     ["reload"] = {
@@ -677,6 +630,24 @@ SWEP.Animations = {
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.55, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 1, rhik = 1, },
         },
     },
+    ["fire_br"] = {
+        Source = "fire_br",
+        MinProgress = 0.05,
+        Mult = 1,
+        EjectAt = 1 / 40,
+        EventTable = {
+            {s =  "gekolt_css/awp_boltdown.wav" ,    t = 0 / 40},
+        },
+    },
+    ["fire_iron_br"] = {
+        Source = "fire_br_iron",
+        MinProgress = 0.05,
+        Mult = 1,
+        EjectAt = 1 / 40,
+        EventTable = {
+            {s =  "gekolt_css/awp_boltdown.wav" ,    t = 0 / 40},
+        },
+    },
     -- SMG --
 
     ["reload_smg"] = {
@@ -710,5 +681,15 @@ SWEP.Animations = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
+    },
+    ["fire_smg"] = {
+        Source = "fire_smg",
+        MinProgress = 0.05,
+        EjectAt = 1 / 40,
+    },
+    ["fire_iron_smg"] = {
+        Source = "fire_iron_smg",
+        MinProgress = 0.05,
+        EjectAt = 1 / 40,
     },
 }
