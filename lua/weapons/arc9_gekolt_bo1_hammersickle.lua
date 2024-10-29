@@ -128,7 +128,7 @@ SWEP.CustomizeSnapshotFOV = 110
 SWEP.Hook_TranslateAnimation = function(wep, curanim)		-- 	changes to epic pose during 'customisation' actually should i give this attachment
 	if wep:GetCustomize() then
 	if	curanim == "idle" then return "idle_sights"	end	
-	end
+	end	
 end
 
 SWEP.CrouchPos = Vector(0, -0.5, -1)
@@ -171,6 +171,9 @@ SWEP.Animations = {
     },
     ["bash"] = {
         Source = {"slash1", "slash2", "slash3", "bash1", "bash2", "bash3"}
+    },  
+	["bash_sights"] = {
+        Source = {"slash1_block", "slash2_block", "slash3_block", "bash1_block", "bash2_block", "bash3_block"}
     },
 
     ["enter_sights"] = {
@@ -228,7 +231,7 @@ SWEP.Hook_Think = function(wep)
             if not wep.MusicEnd or wep.MusicEnd + 7 <= CurTime() then
                 wep:GetOwner().LoudMusic:ChangeVolume(1, 3)
                 wep.MusicFullDurationStart = CurTime()
-                print("full start")
+                --print("full start") -- thats debugging
                 wep.NextDamageTick = CurTime() + 1
             else
                 if wep.MusicEnd + 1 <= CurTime() then

@@ -421,15 +421,3 @@ SWEP.Animations = {
         },
     }, 
 }
-
-SWEP.Hook_Think = function(wep)
-    if IsValid(wep) and wep.Arc9 then
-		local vm = wep:GetOwner():GetViewModel()
-		local delta = wep:GetSightDelta()
-
-        local bipoded = wep:GetInBipod()
-        wep.ADSBipodAnims = math.Approach(wep.ADSBipodAnims or 0, bipoded and 1 or 0, FrameTime() / 0.5)
-
-        vm:SetPoseParameter("ads", Lerp( math.ease.InOutCubic(math.max(delta, wep.ADSBipodAnims)), 0, 1)) -- stole straight from urbna
-    end
-end
