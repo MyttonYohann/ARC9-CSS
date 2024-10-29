@@ -240,6 +240,9 @@ ATT.RecoilMult = 6
 ATT.RecoilPatternDriftMult = 5
 
 ATT.Ammo = "buckshot"
+ATT.ShellModel = "models/weapons/shotgun_shell.mdl"
+ATT.ShellScale = 0.75
+ATT.NoShellEject = true
 
 
 ATT.Attachments = {

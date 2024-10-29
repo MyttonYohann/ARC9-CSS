@@ -531,6 +531,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
         MinProgress = 0.9,
+		EjectAt = 10/40,
         EventTable = {
             {s =  "gekolt_dod/mp40_boltback.wav" ,   t = 8 / 40},
             --{s =  "gekolt_dod/mp40_clipin.wav" ,    t = 55 / 40},
