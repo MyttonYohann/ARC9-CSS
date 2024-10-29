@@ -246,7 +246,7 @@ SWEP.ShootSound = {"magmacow_smor/AWM-1.wav", "magmacow_smor/AWM-2.wav", "magmac
 SWEP.ShootSoundSilenced = "magmacow_smor/AWM-SIL.wav"
 SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
 
-SWEP.FiremodeSound = "arc9/firemode.wav"
+SWEP.FiremodeSound = "arc9/firemode.ogg"
 
 SWEP.DefaultBodygroups = "0000000000"
 

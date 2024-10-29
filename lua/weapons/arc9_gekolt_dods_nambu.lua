@@ -258,7 +258,7 @@ SWEP.BackstabSound = "weapons/knife/knife_stab.wav"
 
 SWEP.EjectDelay = 0
 
-SWEP.FiremodeSound = "arc9/firemode.wav"
+SWEP.FiremodeSound = "arc9/firemode.ogg"
 
 SWEP.DefaultBodygroups = "00000000"
 

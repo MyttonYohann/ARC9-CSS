@@ -242,7 +242,7 @@ SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
 
 SWEP.EjectDelay = 0
 
-SWEP.FiremodeSound = "arc9/firemode.wav"
+SWEP.FiremodeSound = "arc9/firemode.ogg"
 
 SWEP.DefaultBodygroups = "0000000000"
 

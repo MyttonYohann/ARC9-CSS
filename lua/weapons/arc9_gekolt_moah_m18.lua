@@ -252,7 +252,7 @@ SWEP.ShootSound = "rzen1th_smor/m18_fire.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/m4a1-1.wav"
 SWEP.DryFireSound = "weapons/clipempty_rifle.wav"
 
-SWEP.FiremodeSound = "arc9/firemode.wav"
+SWEP.FiremodeSound = "arc9/firemode.ogg"
 
 
 SWEP.BulletBones = {
@@ -268,11 +268,11 @@ SWEP.Animations = {
     },
     ["enter_ubgl"] = {
         Source = "idle",
-        EventTable = { {s =  "arc9/firemode.wav" ,   t = 0 / 40}, },
+        EventTable = { {s =  "arc9/firemode.ogg" ,   t = 0 / 40}, },
     },
     ["exit_ubgl"] = {
         Source = "idle",
-        EventTable = { {s =  "arc9/firemode.wav" ,   t = 0 / 40}, },
+        EventTable = { {s =  "arc9/firemode.ogg" ,   t = 0 / 40}, },
     },
 
     ["fire_xm"] = {

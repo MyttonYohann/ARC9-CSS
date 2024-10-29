@@ -273,7 +273,7 @@ SWEP.ShootSound = "gekolt_pr2/m72_fire_1p.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/m4a1-1.wav"
 SWEP.DryFireSound = "weapons/clipempty_rifle.wav"
 
-SWEP.FiremodeSound = "arc9/firemode.wav"
+SWEP.FiremodeSound = "arc9/firemode.ogg"
 
 
 SWEP.BulletBones = {
