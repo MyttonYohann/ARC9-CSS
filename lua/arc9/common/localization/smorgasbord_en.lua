@@ -7,7 +7,7 @@ L["smorg_category"] = "ARC9 - Smorgasbord" -- "Smörgåsbord"
 /////////////////// Country of Origin
 L["smorg_trivia_country"] = "Country of Origin1"
 
-L["smorg_trivia_country_generic"] = "\"Skriv Allmän Union/Kommun Här\""
+L["smorg_trivia_country_generic"] = "\"Insert Generic Union/Commune Here\""
 
 L["smorg_trivia_country_austria"] = "Austria"
 L["smorg_trivia_country_belgium"] = "Belgium"
