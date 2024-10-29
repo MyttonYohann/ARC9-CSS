@@ -78,6 +78,12 @@ ATT.IKAnimationProxy = {
 ATT.IKGunMotionQCA = 2
 
 -- I LOVE BODGING
+ATT.Hook_TranslateAnimation = function(wep, curanim) -- glempty and empty are TWO DIFFERENT STATE
+	if wep:Clip1() == 0 and wep:Clip2() == 0	then
+		if	curanim == "fire_ubgl_empty" 		then	return "fire_ubgl_glempty"		end
+	end
+end
+
 ATT.Hook_Think = function(wep)	-- reset RPM [FOR UGBL ONLY] cuz the bloody MANUAL ACTION DOESNT FUCKING WORK
 	if wep:GetUBGL(true) then
 	if wep:Clip2() == 0 then wep:SetNextPrimaryFire(1) end
