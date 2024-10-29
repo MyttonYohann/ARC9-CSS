@@ -7,7 +7,7 @@ L["smorg_category"] = "ARC9 - Smörgåsbord"
 /////////////////// Country of Origin
 L["smorg_trivia_country"] = "Ursprungsland1"
 
-L["smorg_trivia_country_generic"] = "\"Insert Generic Union/Commune Here\""
+L["smorg_trivia_country_generic"] = "\"Skriv Allmän Union/Kommun Här\""
 
 L["smorg_trivia_country_austria"] = "Österrike"
 L["smorg_trivia_country_belgium"] = "Belgien"
@@ -89,7 +89,7 @@ L["smorg_class_weapon_atr"] = "Pansarvärnsgevär"
 ////////////////////////////////////// Weapons
 /////////////////// Weapon Display Names
 L["smorg_gekolt_bo1_hammersickle"] = "Hammare och Skära"
-L["smorg_gekolt_bo1_hammersickle_desc"] = "Ett par vanliga arbetsverktyg gjutna i proletariat-kraften.\nSätt ihop dess sanna form för att sänka skadan framifrån och stråla ut energi.\n\nFan ta kommunismen, denna modd gjordes av syndikalism-gänget."
+L["smorg_gekolt_bo1_hammersickle_desc"] = "Ett par vanliga arbetsverktyg gjutna i proletariat-kraften.\nSätt ihop dess sanna form för att sänka skadan framifrån och stråla ut energi.\n\nSyndikalismens kraft tvingar dig."
 
 L["smorg_gekolt_ca_m60"] = "Zwyneber-60"
 L["smorg_gekolt_ca_m60_real"] = "M60"

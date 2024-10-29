@@ -89,7 +89,7 @@ L["smorg_class_weapon_atr"] = "Anti-Tank Rifle"
 ////////////////////////////////////// Weapons
 /////////////////// Weapon Display Names
 L["smorg_gekolt_bo1_hammersickle"] = "Hammer and Sickle"
-L["smorg_gekolt_bo1_hammersickle_desc"] = "A pair of common work tools infused with the power of the proletariat.\nAssemble its true form to reduce damage from the front and radiate energy.\n\nFuck communism, this mod was made by syndicalism gang."
+L["smorg_gekolt_bo1_hammersickle_desc"] = "A pair of common work tools infused with the power of the proletariat.\nAssemble its true form to reduce damage from the front and radiate energy.\n\nThe power of Syndicalism compels you."
 
 L["smorg_gekolt_ca_m60"] = "Zwyneber-60"
 L["smorg_gekolt_ca_m60_real"] = "M60"

@@ -23,7 +23,7 @@ SWEP.Credits = {
 SWEP.Description = ARC9:GetPhrase("smorg_gekolt_bo1_hammersickle_desc") or [[A pair of common work tools infused with the power of the proletariat.
 Assemble its true form to reduce damage from the front and radiate energy.
 
-Fuck communism, this mod was made by syndicalism gang.]]
+The power of Syndicalism compels you.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_hns.mdl"
 SWEP.WorldModel = "models/weapons/geckololt_css/c_hns.mdl"

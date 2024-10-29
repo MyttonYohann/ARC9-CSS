@@ -13,7 +13,7 @@ ATT.ActivateElements = {"akimbose"}
 
 ATT.HasSights = false
 
-ATT.Hook_Think = function(wep)
+ATT.Hook_Think = function(swep)
 -- HOW THE FUCK DO I DO CHAIN FUNCTION?????	
 --[[	local howthefuckdoesthiswork = 0	
 	local resetthisshit = false
@@ -38,12 +38,12 @@ ATT.Hook_Think = function(wep)
 	resetthisshit = true
 	resettime = CurTime() ]]
 
-    if wep:GetOwner():KeyPressed(IN_ATTACK) then
-        wep:ToggleUBGL(false)
-        wep:DoPrimaryAttack()
-    elseif wep:GetOwner():KeyPressed(IN_ATTACK2) then	
-        wep:ToggleUBGL(true)
-        wep:DoPrimaryAttack()
+    if swep:GetOwner():KeyPressed(IN_ATTACK) then
+        swep:ToggleUBGL(false)
+        swep:DoPrimaryAttack()
+    elseif swep:GetOwner():KeyPressed(IN_ATTACK2) then	
+        swep:ToggleUBGL(true)
+        swep:DoPrimaryAttack()
 	end
 end
 
