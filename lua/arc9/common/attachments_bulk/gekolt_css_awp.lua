@@ -69,6 +69,8 @@ ATT.SpeedMultShooting = 1.15
 ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.15
 
+ATT.PhysBulletMuzzleVelocityAdd = -1000 * 12
+
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_br"
 end
@@ -115,7 +117,7 @@ Unfitting frame yielding unfavourable results.]]
 
 ATT.Pros = {}
 ATT.Cons = {}
-ATT.SortOrder = 0
+ATT.SortOrder = 8
 
 ATT.Category = "css_awp_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"awp_f_smg", "short_clamp", "notop", "ubgl_maghold"}
@@ -147,6 +149,8 @@ ATT.RecoilKickMult = 1 / 2
 ATT.RecoilMultRecoilMult = 0.8/1.75
 
 ATT.RecoilDissipationRateMult = 5/3
+
+ATT.PhysBulletMuzzleVelocityAdd = -2000 * 12
 
 ATT.RPMMult = 900 / 50
 ATT.Firemodes = {
@@ -222,7 +226,7 @@ It looks cute though, like one of them De Lisle's back in the war-
 
 ATT.Pros = {}
 ATT.Cons = {}
-ATT.SortOrder = 0
+ATT.SortOrder = 5
 
 ATT.Category = "css_awp_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"awp_f_sd", "ubgl_maghold", "pre_muzzed"}
@@ -250,6 +254,8 @@ ATT.ClipSizeOverride = 7
 ATT.Firemodes = { { Mode = -1,	PrintName = "BOLT" } }
 ATT.RPMMult = 80 / 40
 
+ATT.PhysBulletMuzzleVelocityAdd = -2500 * 12
+
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_sd"
 end
@@ -269,7 +275,7 @@ Is mobility that important?]]
 
 ATT.Pros = {}
 ATT.Cons = {}
-ATT.SortOrder = 0
+ATT.SortOrder = 10
 
 ATT.Category = "css_awp_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"awp_f_obrez"}
@@ -296,8 +302,15 @@ ATT.RecoilMult = 1.5
 ATT.RecoilKickMult = 1.5
 ATT.RecoilMultRecoilMult = 1.25
 ATT.RPMMult = 85 / 40
+
+ATT.PhysBulletMuzzleVelocityAdd = -3000 * 12
+
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_obrez"
+end
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-3.5, 0, 0)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_obrez")

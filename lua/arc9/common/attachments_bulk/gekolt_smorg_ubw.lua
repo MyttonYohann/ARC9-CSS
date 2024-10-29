@@ -16,7 +16,9 @@ ATT.Cons = {}
 ATT.SortOrder = 0
 
 ATT.Model = "models/weapons/geckololt_css/atts/ubgl/c_mass.mdl"
+ATT.LHIK_Priority = 10
 ATT.LHIK = true
+ATT.ActivateElements = {"is_ubgl"}
 
 ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {
@@ -74,6 +76,13 @@ ATT.IKAnimationProxy = {
     },
 } -- When an animation event plays, override it with one based on this LHIK model.
 ATT.IKGunMotionQCA = 2
+
+-- I LOVE BODGING
+ATT.Hook_Think = function(wep)	-- reset RPM [FOR UGBL ONLY] cuz the bloody MANUAL ACTION DOESNT FUCKING WORK
+	if wep:GetUBGL(true) then
+	if wep:Clip2() == 0 then wep:SetNextPrimaryFire(1) end
+	end
+end
 
 ATT.IKGunMotionOffset = Vector(0, 0, 0)
 ATT.IKGunMotionOffsetAngle = Angle(0, -90, -90)
@@ -146,11 +155,11 @@ ATT.Sights = {
         Magnification = 1.05,
         ViewModelFOV = 60,
         CrosshairInSights = true,
-        Blur = false,
         UBGLOnly = true,
-        Disassociate = true,
     },
 }
+
+ATT.UBGLExclusiveSightsUBGL = true
 
 ARC9.LoadAttachment(ATT, "gekolt_ubgl_mass")
 
@@ -170,7 +179,9 @@ ATT.Cons = {}
 ATT.SortOrder = 0
 
 ATT.Model = "models/weapons/geckololt_css/atts/ubgl/c_garandgrenade.mdl"
+ATT.LHIK_Priority = 10
 ATT.LHIK = true
+ATT.ActivateElements = {"is_ubgl"}
 
 ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {
@@ -257,11 +268,11 @@ ATT.Sights = {
         Magnification = 1.05,
         ViewModelFOV = 60,
         CrosshairInSights = true,
-        Blur = false,
         UBGLOnly = true,
-        Disassociate = true,
     },
 }
+
+ATT.UBGLExclusiveSightsUBGL = true
 
 ARC9.LoadAttachment(ATT, "gekolt_ubgl_garand")
 
@@ -282,7 +293,9 @@ ATT.Cons = {}
 ATT.SortOrder = 0
 
 ATT.Model = "models/weapons/geckololt_css/atts/ubgl/c_ump.mdl"
+ATT.LHIK_Priority = 10
 ATT.LHIK = true
+ATT.ActivateElements = {"is_ubgl"}
 
 ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {
@@ -406,11 +419,11 @@ ATT.Sights = {
         Magnification = 1.05,
         ViewModelFOV = 60,
         CrosshairInSights = true,
-        Blur = false,
         UBGLOnly = true,
-        Disassociate = true,
     },
 }
+
+ATT.UBGLExclusiveSightsUBGL = true
 
 ARC9.LoadAttachment(ATT, "gekolt_ubgl_ump")
 

@@ -281,7 +281,7 @@ SWEP.Hook_TranslateAnimation = function(wep, data, anim)
             if anim == "fire_iron_empty" then  return "fire_ubgl" end
     end
 
-    if wep.Attachments[10].Installed then
+    if wep.Attachments[10].Installed then	-- this isnt used
             if anim == "reload" then  return "reload_akimbo" end
             if anim == "reload_empty" then  return "reload_empty_akimbo" end
             if anim == "reload_acr" then  return "reload_akimbo" end
@@ -385,9 +385,6 @@ SWEP.Animations = {
     },
     ["idle"] = {
         Source = "idle",
-    },
-    ["firemode"] = {
-        Source = "firemode",
     },
     ["idle_empty"] = {
         Source = "idle",
