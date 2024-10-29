@@ -255,8 +255,8 @@ SWEP.ViewModelFOVBase = 70
 SWEP.ActivePos = Vector(0, 3, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(12, 32, 2)
+SWEP.CustomizeAng = Angle(90, 5, 0)
+SWEP.CustomizePos = Vector(9, 26, 5)
 
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeNoRotate = false
@@ -306,6 +306,8 @@ SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
 SWEP.FiremodeSound = "arc9/firemode.ogg"
 
 SWEP.DefaultBodygroups = "000000000000000"
+
+SWEP.HideBones = {"W_Bullet_Loader"}
 
 SWEP.AttachmentElements = {
     ["f_mts"] = {

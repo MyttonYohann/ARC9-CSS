@@ -51,6 +51,7 @@ ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_edge"
 end
 
+
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_f1")
 
 

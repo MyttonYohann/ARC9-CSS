@@ -35,6 +35,10 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(0, 2, 1)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f1")
 
 
@@ -82,6 +86,13 @@ end
 
 ATT.Attachments = {
     {
+        PrintName = "Stock",	-- this should be universal for everything except carbine, welrod and artillery, ill code later
+        DefaultName = "None",
+        Category = {"css_m9_stock"},
+        Pos = Vector(0, 2, 5),
+        Ang = Angle(90, 0, -90),
+    },
+    {
         PrintName = "Grip",
         DefaultName = "None",
         Category = {"css_m9_grip"},
@@ -90,6 +101,11 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(0, 2, 1)
+end
+
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f2")
 
 
@@ -97,7 +113,7 @@ ARC9.LoadAttachment(ATT, "gekolt_css_m9_f2")
 ----------------------------------------------------------------------------------
 
 
-ATT = {}
+ATT = {}	-- should seperate stock into attachment
 
 ATT.PrintName = [[Bersagliere-Ossatura]]
 ATT.CompactName = [[Carbine]]
@@ -150,6 +166,11 @@ ATT.Sights = {
         KeepBaseIrons = false
     }
 }
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-2, 2, 1)
+end
+
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f3")
 
@@ -297,7 +318,7 @@ ARC9.LoadAttachment(ATT, "gekolt_css_m9_f6")
 ----------------------------------------------------------------------------------
 
 
-ATT = {}
+ATT = {}	-- should funny stock be universal??
 
 ATT.PrintName = [[Artigliere-Ossatura]]
 ATT.CompactName = [[Artillery]]
@@ -350,6 +371,10 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-3, 2, 1)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f7")
 
 
@@ -357,6 +382,7 @@ ARC9.LoadAttachment(ATT, "gekolt_css_m9_f7")
 
 -- EXTRA --
 -- the stock and foregrip should modifide the exact same stats
+-- hello, future mytton here, please ignore that
 ----------------------------------------------------------------------------------
 
 

@@ -182,6 +182,10 @@ ATT.Hook_ModifyBodygroups = function(wep, data)
 	end
 end
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-5, 0, 0)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_moah_m18_sweden")
 
 

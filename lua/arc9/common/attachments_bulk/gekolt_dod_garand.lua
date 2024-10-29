@@ -259,6 +259,12 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
     if curanim == "fire_empty" then return "fire_emp" end 
 end
 
+ATT.Hook_Think = function(wep)	-- reset RPM
+	if wep:GetUBGL(true) then 	return
+	elseif wep:Clip1() == 0 then wep:SetNextPrimaryFire(1)
+	end
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_slam")
 
 

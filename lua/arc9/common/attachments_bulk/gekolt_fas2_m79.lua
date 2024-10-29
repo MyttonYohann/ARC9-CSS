@@ -292,6 +292,11 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
 }
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(6, 0, 0)
+end
+
 ATT.Hook_TranslateAnimation = function(wep, anim) -- mang fuck that shit
 	if anim == "reload" then return "reload_mts" end
 	if anim == "reload_empty" then return "reload_mts" end
