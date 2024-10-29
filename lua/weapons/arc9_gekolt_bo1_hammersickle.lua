@@ -199,7 +199,7 @@ SWEP.Hook_Think = function(wep)
     if wep:GetInSights() then
         if not wep.CurrentlyPlaying then
             if not wep:GetOwner().LoudMusic then
-                wep:GetOwner().LoudMusic = CreateSound(wep:GetOwner(), "gekolt_misc/intern2.wav")
+                wep:GetOwner().LoudMusic = CreateSound(wep:GetOwner(), "gekolt_misc/linternationale.ogg")
                 wep:GetOwner().LoudMusic:SetSoundLevel(100)
                 wep:GetOwner().LoudMusic:PlayEx(0.3, 100)
 
