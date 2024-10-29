@@ -122,9 +122,14 @@ SWEP.ViewModelFOVBase = 90
 SWEP.ActivePos = Vector(0, -2, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CustomizeAng = Angle(135, 0, 0)
-SWEP.CustomizePos = Vector(12.5, 46, 4)
+SWEP.CustomizeAng = Angle(0, 0, 0)
+SWEP.CustomizePos = Vector(0, 10, 3)
 SWEP.CustomizeSnapshotFOV = 110
+SWEP.Hook_TranslateAnimation = function(wep, curanim)		-- 	changes to epic pose during 'customisation' actually should i give this attachment
+	if wep:GetCustomize() then
+	if	curanim == "idle" then return "idle_sights"	end	
+	end
+end
 
 SWEP.CrouchPos = Vector(0, -0.5, -1)
 SWEP.CrouchAng = Angle(0, 0, 0)
