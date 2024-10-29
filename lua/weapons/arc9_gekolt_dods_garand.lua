@@ -752,6 +752,15 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 0, }, { t = 1, lhik = 0, rhik = 0, },	},
     },
+    ["reload_insert_1_sks_bodge"] = {
+        Source = "load_strip_s",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        EventTable = {
+            {s =  "gekolt_dod/k98_singleshotreload.wav" ,   t = 5 / 40},
+        },
+        RestoreAmmo = -4,
+        IKTimeLine = {	{ t = 0, lhik = 0, rhik = 0, }, { t = 1, lhik = 0, rhik = 0, },	},
+    },
     ["reload_finish_sks"] = {
         Source = "end_strip",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,

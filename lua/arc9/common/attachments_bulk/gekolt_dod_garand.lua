@@ -330,7 +330,13 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if curanim == "reload_start" then return "reload_start_sks" end
 	if curanim == "reload_finish" then return "reload_finish_sks" end
 	if curanim == "reload_insert" then return "reload_insert_1_sks" end
-	if curanim == "reload_insert_5" then return "reload_insert_5_sks" end
+	
+	if wep:HasElement("long_optics") then
+	if curanim == "reload_insert_5" then return "reload_insert_1_sks_bodge" end
+	else if curanim == "reload_insert_5" then return "reload_insert_5_sks" end
+	end
+
+
 end
 
 ATT.Hook_Think = function(wep)	-- reset RPM
