@@ -380,6 +380,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/trilux.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "SCOPE"
+ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -668,6 +669,7 @@ ATT.ModelBodygroups = "00"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
 ATT.Folder = "SCOPE"
+ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -762,7 +764,7 @@ ARC9.LoadAttachment(ATT, "gekolt_css_optic_sweeper")
 ATT = {}
 
 ATT.PrintName = "SARLEYWARLEY Medium Scope"
-ATT.CompactName = "SARLEYWARLEY"
+ATT.CompactName = "SARWARL"
 ATT.Icon = Material("entities/gekolt_css_optic/schmidt.png", "mips smooth")
 ATT.Description = [[
 Medium range hunting scope
@@ -773,6 +775,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/schd.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "SCOPE"
+ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -837,6 +840,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/micro2.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "SCOPE"
+ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -910,6 +914,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/pvs4.mdl"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
 ATT.Folder = "SCOPE"
+ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
