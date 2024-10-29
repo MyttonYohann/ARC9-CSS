@@ -224,7 +224,7 @@ SWEP.ActivePos = Vector(0, 3, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(13, 32, 2)
+SWEP.CustomizePos = Vector(13, 26, 4)
 
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeNoRotate = false
@@ -643,22 +643,8 @@ SWEP.Animations = {
             {s = "gekolt_dod/garand_clipding.wav" ,   t = 1 / 40},
         },
     },
-    ["fire_iron_slam"] = {
-        Source = "fire_slam",
-        EjectAt = 12 / 40,
-        EventTable = {
-            {s =  "gekolt_dod/1887_pump.wav" ,   t = 5 / 40},
-        },
-    },
-    ["fire_iron_empty_slam"] = {
-        Source = "fire_emp",
-        EjectAt = 0 / 40,
-        EventTable = {
-            {s = "gekolt_dod/garand_clipding.wav" ,   t = 1 / 40},
-        },
-    },
 
-    ["reload_start_slam"] = {
+    ["reload_start"] = {
         Source = "start_slam",
         RestoreAmmo = 1,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
@@ -667,7 +653,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 1, rhik = 1, }, { t = 0.5, lhik = 0, rhik = 1, }, { t = 1, lhik = 0, rhik = 1, }	},
     },
-    ["reload_insert_slam"] = {
+    ["reload_insert"] = {
         Source = "load_slam",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
@@ -675,7 +661,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 0, }, { t = 1, lhik = 0, rhik = 0, },	},
     },
-    ["reload_insert_slam_5"] = { ---- bodging time ----
+    ["reload_insert_5"] = { ---- bodging time ----
         Source = "load_slam",
         RestoreAmmo = -4,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
@@ -684,7 +670,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 0, }, { t = 1, lhik = 0, rhik = 0, },	},
     },
-    ["reload_finish_slam"] = {
+    ["reload_finish"] = {
         Source = "end_slam",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
@@ -749,7 +735,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 1, rhik = 1, }, { t = 0.4, lhik = 0, rhik = 1, }, { t = 1, lhik = 0, rhik = 1, }	},
     },
-    ["reload_insert_5"] = {
+    ["reload_insert_5_sks"] = {
         Source = "load_strip_f",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
@@ -758,7 +744,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 0, }, { t = 1, lhik = 0, rhik = 0, },	},
     },
-    ["reload_insert_1"] = {
+    ["reload_insert_1_sks"] = {
         Source = "load_strip_s",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
@@ -776,7 +762,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.4, lhik = 0, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
     },
-    ["reload_start_empty_sks"] = {
+    ["reload_start_sks_empty"] = {
         Source = "dry_strip",
         RestoreAmmo = 0,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,

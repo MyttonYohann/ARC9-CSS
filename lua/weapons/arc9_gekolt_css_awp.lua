@@ -77,8 +77,10 @@ SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 -------------------------- FIREMODES
 
 SWEP.RPM = 40
-SWEP.Hook_Think = function(wep)	-- reset RPM cuz the bloody MANUAL ACTION DOESNT FUCKING WORK
-	if wep:Clip1() == 0 then wep:SetNextPrimaryFire(1) end
+SWEP.Hook_Think = function(wep)	-- reset RPM so last shot doesnt delay like a whole second before being able to reload, manually check for ugbl otherwise the mass12 has no delay lel
+	if wep:GetUBGL(true) then 	return
+	elseif wep:Clip1() == 0 then wep:SetNextPrimaryFire(1)
+	end
 end
 
 -- Works different to ArcCW
@@ -203,7 +205,7 @@ SWEP.ActivePos = Vector(0, 3, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CustomizeAng = Angle(90, 5, 0)
-SWEP.CustomizePos = Vector(16.25, 32, 4)
+SWEP.CustomizePos = Vector(16.25, 32, 5)
 
 SWEP.CustomizeSnapshotFOV = 90
 SWEP.CustomizeNoRotate = false

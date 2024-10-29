@@ -252,11 +252,11 @@ ATT.Ammo = "buckshot"
 
 ATT.ShotgunReload = true
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    if anim == "reload_start_empty" then return "reload_start_empty_slam" end
-    if anim == "reload_insert_1" then return "reload_insert_slam" end
-    if anim == "reload_insert_5" then return "reload_insert_slam_5" end
-    return anim .. "_slam"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+    if curanim == "fire_iron" then return "fire_slam" end
+    if curanim == "fire_iron_empty" then return "fire_emp" end
+    if curanim == "fire" then return "fire_slam" end
+    if curanim == "fire_empty" then return "fire_emp" end 
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_slam")
@@ -281,7 +281,7 @@ ATT.Category = "dod_garand_frame" -- can be "string" or {"list", "of", "strings"
 ATT.ActivateElements = {"garand_sks", "nogrip", "ubgl_maghold"}
 
 
-ATT.RPM = 45
+ATT.RPM = 55
 ATT.RPMEmpty = 600
 
 ATT.Firemodes = {
@@ -314,13 +314,25 @@ ATT.SprintToFireTimeAdd = 0.025
 
 ATT.ShotgunReload = true
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    if anim == "reload_start_empty" then return "reload_start_empty_sks" end
-    if anim == "reload_insert_1" then return "reload_insert_sks_1" end
-    if anim == "reload_insert_5" then return "reload_insert_sks_5" end
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+    if curanim == "fire_iron" then return "fire_iron_sks" end
+    if curanim == "fire_iron_empty" then return "fire_iron_empty_sks" end
+    if curanim == "fire" then return "fire_sks" end
+    if curanim == "fire_empty" then return "fire_empty_sks" end 
 
-    return anim .. "_sks"
+	if curanim == "reload_start_empty" then return "reload_start_sks_empty" end	
+	if curanim == "reload_start" then return "reload_start_sks" end
+	if curanim == "reload_finish" then return "reload_finish_sks" end
+	if curanim == "reload_insert" then return "reload_insert_1_sks" end
+	if curanim == "reload_insert_5" then return "reload_insert_5_sks" end
 end
+
+ATT.Hook_Think = function(wep)	-- reset RPM
+	if wep:GetUBGL(true) then 	return
+	elseif wep:Clip1() == 0 then wep:SetNextPrimaryFire(1)
+	end
+end
+
 
 
 ATT.LHIK = true

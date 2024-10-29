@@ -81,11 +81,6 @@ SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 
 SWEP.RPM = 600
 -- I LOVE BODGING
-ATT.Hook_Think = function(wep)	-- reset RPM so last shot doesnt delay like a whole second before being able to reload
-	if wep:GetUBGL(false) then
-	if wep:Clip1() == 0 then wep:SetNextPrimaryFire(1) end
-	end
-end
 
 -- Works different to ArcCW
 
@@ -207,7 +202,7 @@ SWEP.CrouchPos = Vector(-0.2, -0.5, -1.5)
 SWEP.CrouchAng = Angle(0, 0, -7)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(10, 32, 3)
+SWEP.CustomizePos = Vector(10, 28, 6)
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeNoRotate = false
 
