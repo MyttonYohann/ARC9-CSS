@@ -70,7 +70,7 @@ L["smorg_category_slot_prim"] = "Primaries"
 L["smorg_category_slot_sec"] = "Secondaries"
 
 /////////////////// Weapon Classes
-L["smorg_class_weapon_ia"] = "Ideological Artifact"
+L["smorg_class_weapon_ia"] = "Ideological Artefact"
 
 L["smorg_class_weapon_ar"] = "Assault Rifle"
 L["smorg_class_weapon_mg"] = "Machine Gun"
