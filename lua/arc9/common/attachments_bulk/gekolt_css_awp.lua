@@ -319,8 +319,8 @@ ATT.RPMMult = 85 / 40
 ATT.PhysBulletMuzzleVelocityAdd = -3000 * 12
 
 ATT.Hook_TranslateAnimation = function(wep, curanim)
-	if	curanim == "fire"			then 	return "fire_obrez"			end	
-	if	curanim == "fire_iron"		then 	return "fire_iron_obrez"	end	
+	if	curanim == "fire"			then 	return "fire_sd"			end	
+	if	curanim == "fire_iron"		then 	return "fire_iron_sd"		end	
 	if	curanim == "reload"			then 	return "reload_obrez"		end	
 	if	curanim == "reload_empty"	then 	return "reload_empty_obrez"	end	
 end
