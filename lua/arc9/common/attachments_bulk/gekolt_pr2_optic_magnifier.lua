@@ -10,6 +10,7 @@ ATT.SortOrder = 1
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "MAGNIFIER"
+ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1
@@ -79,6 +80,7 @@ ATT.SortOrder = 2
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "MAGNIFIER"
+ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1
@@ -146,6 +148,7 @@ ATT.SortOrder = 3
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "MAGNIFIER"
+ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1
@@ -215,6 +218,7 @@ ATT.SortOrder = 4
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
 ATT.Folder = "MAGNIFIER"
+ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1
