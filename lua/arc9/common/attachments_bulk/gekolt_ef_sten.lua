@@ -15,7 +15,7 @@ Walcaster - Salad Mender (Voorlopig Ontwerp[Provisional Design]   /    'First' R
 ATT = {}
 
 ATT.PrintName = "Walcaster-Frame"
-ATT.CompactName = "Salad Mender"
+ATT.CompactName = "WCTR"
 ATT.Icon = Material("entities/gekolt_ef_sten_saladmender.png", "mips smooth")
 ATT.Description = [[Unholy belt-fed mechanism bollocks allowing feeding from small box magazine
 Ballistics of an SMG aren't that impressive
@@ -67,6 +67,14 @@ end
 
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_mk5", "pre_stock", "no_maglow"}
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(0, 0, 2)
+end
+
+ATT.CustomizeAngHook = function(wep, ang)
+    return ang + Angle(0, -50, 0)
+end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_lmg")
 
@@ -152,6 +160,14 @@ ATT.ActivateElements = {"f_3008", "no_maglow"}
 
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_3008"
+end
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(0, 0, 2)
+end
+
+ATT.CustomizeAngHook = function(wep, ang)
+    return ang + Angle(0, -50, 0)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_3008")
@@ -243,6 +259,14 @@ end
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_sg", "pre_muzzed", "pre_barrel"}
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(0, 0, 2)
+end
+
+ATT.CustomizeAngHook = function(wep, ang)
+    return ang + Angle(0, -50, 0)
+end
+
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_sg")
 
@@ -293,6 +317,14 @@ end
 
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_owen", "pre_stock", "pre_hg"}
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(0, 0, 1)
+end
+
+ATT.CustomizeAngHook = function(wep, ang)
+    return ang + Angle(0, -50, 0)
+end
 
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_owen")

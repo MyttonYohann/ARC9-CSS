@@ -305,8 +305,8 @@ ATT.SwayMultSights = 0.75
 
 ATT.FreeAimRadiusAdd = -2
 
-ATT.DamageMax = 40
-ATT.DamageMin = 80
+ATT.DamageMax = 50
+ATT.DamageMin = 105
 ATT.RangeMin = 500
 ATT.RangeMax = 2500
 
