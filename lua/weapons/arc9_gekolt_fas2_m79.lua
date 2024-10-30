@@ -449,7 +449,8 @@ SWEP.Animations = {
             {s =  "gekolt_fas2/m79_close.wav" ,    t = 83 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         EjectAt = 20 / 40,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -467,7 +468,8 @@ SWEP.Animations = {
             {s =  "gekolt_fas2/m79_close.wav" ,    t = 83 / 40},
         },
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -478,7 +480,8 @@ SWEP.Animations = {
         Source = "dry_pirate",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.875,
 		--EjectAt = 35 / 40,
         EventTable = {
             {s =  "gekolt_fas2/m79_open.wav" ,   t = 12 / 40},
@@ -497,7 +500,8 @@ SWEP.Animations = {
         Source = "dry_rev",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.875,
         EventTable = {
             {s =  "gekolt_fas2/m79_open.wav" ,   t = 12 / 40},
             {s =  "gekolt_fas2/m79_remove.wav" ,   t = 30 / 40},

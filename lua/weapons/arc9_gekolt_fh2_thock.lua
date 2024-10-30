@@ -395,7 +395,8 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.7,
         EventTable = {
             {s =  "gekolt_pr2/thomp_out.ogg" ,   t = 4 / 40}, 
             {s =  "gekolt_pr2/thomp_in.ogg" ,    t = 36 / 40},
@@ -409,7 +410,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         EventTable = {
 			{s =  "gekolt_pr2/thomp_bolt.ogg" ,   t = 4 / 40},
             {s =  "gekolt_pr2/thomp_out.ogg" ,   t = 28 / 40}, 
@@ -424,7 +426,8 @@ SWEP.Animations = {
         Source = "dry_opt",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         EventTable = {
 			{s =  "gekolt_pr2/thomp_bolt.ogg" ,   t = 4 / 40},
             {s =  "gekolt_pr2/thomp_out.ogg" ,   t = 28 / 40}, 
@@ -441,7 +444,8 @@ SWEP.Animations = {
         Source = "wet_ex",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.8,
+        MinProgress = 0.975,
+		RefillProgress = 0.7,
         EventTable = {
             {s =  "gekolt_pr2/thomp_out.ogg" ,   t = 4 / 40}, 
             {s =  "gekolt_pr2/thomp_in.ogg" ,    t = 40 / 40},
@@ -455,7 +459,8 @@ SWEP.Animations = {
         Source = "dry_ex",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.8,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         EventTable = {
 			{s =  "gekolt_pr2/thomp_bolt.ogg" ,   t = 4 / 40},
             {s =  "gekolt_pr2/thomp_out.ogg" ,   t = 28 / 40}, 
@@ -470,7 +475,8 @@ SWEP.Animations = {
         Source = "dry_ex_opt",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         EventTable = {
 			{s =  "gekolt_pr2/thomp_bolt.ogg" ,   t = 4 / 40},
             {s =  "gekolt_pr2/thomp_out.ogg" ,   t = 28 / 40}, 

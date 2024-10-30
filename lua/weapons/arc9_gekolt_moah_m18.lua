@@ -293,7 +293,8 @@ SWEP.Animations = {
     ["reload_ubgl"] = {
         Source = "dry",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 0, },{ t = 0.7, lhik = 0, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -325,7 +326,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "dry",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 0, },{ t = 0.7, lhik = 0, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -341,7 +343,8 @@ SWEP.Animations = {
     ["reload_rpg"] = {
         Source = "dry_rpg",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.65,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 0, },{ t = 0.7, lhik = 0, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -354,7 +357,8 @@ SWEP.Animations = {
     ["reload_empty_rpg"] = {
         Source = "dry_rpg",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.55,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 0, },{ t = 0.7, lhik = 0, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -367,7 +371,8 @@ SWEP.Animations = {
     ["reload_xm"] = {
         Source = "wet_xm",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.725,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 0, },{ t = 0.7, lhik = 0, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },
@@ -380,7 +385,8 @@ SWEP.Animations = {
     ["reload_empty_xm"] = {
         Source = "dry_xm",
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.125, lhik = 0, rhik = 0, },{ t = 0.7, lhik = 0, rhik = 0, },{ t = 0.95, lhik = 1, rhik = 1, },

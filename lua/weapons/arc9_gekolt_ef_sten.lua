@@ -451,7 +451,8 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.7,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 53 / 40},
@@ -466,7 +467,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 18 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 53 / 40},
@@ -483,7 +485,8 @@ SWEP.Animations = {
         Source = "wet_ger",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 55 / 40},
@@ -498,7 +501,8 @@ SWEP.Animations = {
         Source = "dry_ger",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 55 / 40},
@@ -530,7 +534,8 @@ SWEP.Animations = {
         Source = "dry_sg",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
 		EjectAt = 10/40,
         EventTable = {
             {s =  "gekolt_dod/mp40_boltback.wav" ,   t = 8 / 40},
@@ -562,7 +567,8 @@ SWEP.Animations = {
         Source = "wet_mk4",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 48 / 40},
@@ -576,7 +582,8 @@ SWEP.Animations = {
         Source = "dry_mk4",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 48 / 40},
@@ -593,7 +600,8 @@ SWEP.Animations = {
         Source = "wet_sterling",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 48 / 40},
@@ -607,7 +615,8 @@ SWEP.Animations = {
         Source = "dry_sterling",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 48 / 40},
@@ -623,7 +632,8 @@ SWEP.Animations = {
         Source = "wet_mk1",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 48 / 40},
@@ -637,7 +647,8 @@ SWEP.Animations = {
         Source = "dry_mk1",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 48 / 40},
@@ -654,7 +665,8 @@ SWEP.Animations = {
         Source = "wet_owen",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 22 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 63 / 40},
@@ -668,7 +680,8 @@ SWEP.Animations = {
         Source = "dry_owen",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 22 / 40},
             {s =  "gekolt_dod/mp40_clipin.wav" ,    t = 63 / 40},
@@ -684,7 +697,8 @@ SWEP.Animations = {
         Source = "wet_lmg",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_css/m249_coverup.wav" ,   t = 6 / 40},
             {s =  "gekolt_dod/mp40_clipout.wav" ,   t = 33 / 40},
@@ -702,7 +716,8 @@ SWEP.Animations = {
         Source = "dry_lmg",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.95,
+		RefillProgress = 0.875,
         EventTable = {
             {s =  "gekolt_dod/mp40_boltback.wav" ,   t = 10 / 40},
             {s =  "gekolt_dod/mp40_clipout.wav" ,    t = 37 / 40},

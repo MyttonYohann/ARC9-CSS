@@ -572,7 +572,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
         MinProgress = 0.975,
-		RefillProgress = 0.8,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
@@ -591,7 +591,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
         MinProgress = 0.975,
-		RefillProgress = 0.8,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},

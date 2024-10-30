@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = ARC9:GetPhrase("smorg_category") or "ARC9 - Smorgasbord"
 
 SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_pr2_m72") or "Judresa-72"
-SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_pr2_m72_real") or "M72"
+SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_pr2_m72_real") or "M72 LAW"
 SWEP.SubCategory = ARC9:GetPhrase("smorg_category_slot_aux") or "Auxiliaries"
 
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_atr") or "Anti-Tank Rifle"
@@ -290,7 +290,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_pr2/reload.ogg" ,   t = 0 / 40},
         },
@@ -298,7 +299,8 @@ SWEP.Animations = {
     ["reload_sg"] = {
         Source = "reload_sg",
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_pr2/reload.ogg" ,   t = 0 / 40},
         },

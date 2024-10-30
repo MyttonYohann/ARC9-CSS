@@ -311,7 +311,8 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         EventTable = {
             {s =  "gekolt_css/de_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/de_clipin2.wav" ,    t = 40 / 40},
@@ -325,7 +326,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_css/de_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_css/de_clipin2.wav" ,    t = 40 / 40},
