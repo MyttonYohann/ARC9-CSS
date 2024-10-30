@@ -181,6 +181,7 @@ SWEP.Animations = {
         EventTable = {
             {s =  "gekolt_css/clay/grenade_throw.wav" ,   t = 1 / 40},
         },
+        MinProgress = 0.2,
     },
     ["draw_empty"] = {
         Source = "idle_empty",
