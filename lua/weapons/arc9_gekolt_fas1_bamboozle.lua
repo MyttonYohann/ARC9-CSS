@@ -86,6 +86,11 @@ SWEP.Firemodes = {
         ShootEnt = "gekolt_css_bamboozle_airburst",
     },
 }
+
+SWEP.HideBones = {
+    "W_Pin"
+}
+
 -------------------------- HANDLING
 
 SWEP.Spread = 0
@@ -201,8 +206,8 @@ SWEP.Animations = {
     ["impact"] = {
         Source = {"melee_discharge"},
         EventTable = {
-            {s =  "gekolt_css/clay/c4_draw.wav" ,   t = 21 / 40},
-            {s =  "gekolt_css/clay/pinpull.wav" ,   t = 35 / 40},
+            {s =  "gekolt_css/clay/c4_draw.wav" ,   t = 14 / 40},
+            {s =  "gekolt_css/clay/pinpull.wav" ,   t = 28 / 40},
         },
     },
 }
