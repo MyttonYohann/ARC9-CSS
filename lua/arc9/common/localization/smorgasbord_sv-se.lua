@@ -369,3 +369,36 @@ L["gekolt_cw_baliff_b4.description"] = "Extremt stor patron intryckt i hela cyli
 L["gekolt_dods_nambu_1.printname"] = "Automateld"
 L["gekolt_dods_nambu_1.compactname"] = "A.E."
 L["gekolt_dods_nambu_1.description"] = "Ingen är berättigad till detta."
+
+///////////// gekolt_css_ak_mag -- "Englishified Russian"
+L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"
+L["gekolt_css_ak_mag1.compactname"] = "KARBIN"
+L["gekolt_css_ak_mag1.description"] = "Måttlig lösning till standard infanteri.\nBättre för kontinuerlig eld, men lider från sänkt stoppkraft."
+
+L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"
+L["gekolt_css_ak_mag2.compactname"] = "MARKSMAN"
+L["gekolt_css_ak_mag2.description"] = "Stridsgevär kaliber konvertering. Mer träffsäker, mer kraftfull, längre räckvidd.\nStraffbar rekyl gör det svårare att skjuta fler än ett skott i taget."
+
+L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish: Special Frame"
+L["gekolt_css_ak_mag3.compactname"] = "ANFALL"
+L["gekolt_css_ak_mag3.description"] = "Magasinbrunn adapter för att använda NATO-kalibern genom Västvärldens Magi.\nMåttlig stoppkraft, men mer kontrollbar rekyl på ett tyngre vapen som den här."
+
+L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"
+L["gekolt_css_ak_mag4.compactname"] = "PIL"
+L["gekolt_css_ak_mag4.description"] = "Flechette-pil skottmekanisk för under vatten användning fungerar också på land.\nOimponerande prestanda för ballistik, men gör <color=100,255,100>ökad skada under vattnet</color>.\nAvlånga stålprojektiler penetrerar väl och är dödliga vid huvudskott."
+
+L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"
+L["gekolt_css_ak_mag5.compactname"] = "KSP"
+L["gekolt_css_ak_mag5.description"] = "Monterad eller under rörelse, omfamna din Tachanka-anda och rensa dem rojalistiska vita.\nHelt ändrat vapen kräver en <color=255,100,100>tyngre avtryckare</color>."
+
+L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"
+L["gekolt_css_ak_mag6.compactname"] = "AUX."
+L["gekolt_css_ak_mag6.description"] = "Kulsprutepistol konfiguering.\nFör scenarion där du behöver nedgradera ditt gevär."
+
+L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"
+L["gekolt_css_ak_mag7.compactname"] = "SPIRAL."
+L["gekolt_css_ak_mag7.description"] = "Spiralformat staplade pistolskott.\nVerkligen liten maskin."
+
+L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
+L["gekolt_css_ak_mag8.compactname"] = "16G"
+L["gekolt_css_ak_mag8.description"] = "Underdimensionerad trummagasin laddat med oproportionerliga kaliber 16[??].\nKan, på något sätt, fortfarande skjuta från en liten gevärspipa.\n\nUdda konvertering ger måttlig ballistik till skillnad från verkligen hagelbössor."

@@ -378,3 +378,36 @@ L["gekolt_cw_baliff_b4.description"] = "Extremely oversized shell jammed into th
 L["gekolt_dods_nambu_1.printname"] = "Full Auto"
 L["gekolt_dods_nambu_1.compactname"] = "F.A."
 L["gekolt_dods_nambu_1.description"] = "There is no justification for this."
+
+///////////// gekolt_css_ak_mag -- "Englishified Russian"
+L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"
+L["gekolt_css_ak_mag1.compactname"] = "CARBINE"
+L["gekolt_css_ak_mag1.description"] = "Intermediate solution for standard infantry.\nBetter at sustained fire, but suffers from slightly less stopping power."
+
+L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"
+L["gekolt_css_ak_mag2.compactname"] = "MARKSMAN"
+L["gekolt_css_ak_mag2.description"] = "Battle rifle caliber conversion. More accurate, more powerful, longer range.\nPunishing recoil makes firing more than one shot at a time difficult."
+
+L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish: Special Frame"
+L["gekolt_css_ak_mag3.compactname"] = "ASSAULT"
+L["gekolt_css_ak_mag3.description"] = "Magwell adaptor to use a NATO calibre through Western Magic™.\nMediocre stopping power, but has very controllable recoil on a heavy gun like this."
+
+L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"
+L["gekolt_css_ak_mag4.compactname"] = "DART"
+L["gekolt_css_ak_mag4.description"] = "Flechette dart underwater firing mechanism that also works on land.\nUnimpressive ballistics profile, but does <color=100,255,100>extra damage underwater</color>.\nLong steel projectile penetrates well and is very lethal on headshot."
+
+L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"
+L["gekolt_css_ak_mag5.compactname"] = "LMG"
+L["gekolt_css_ak_mag5.description"] = "Mounted or on the move, embrace your Tachanka spirit and purge the royalist Whites.\nCompletely altered weapon requires a <color=255,100,100>heavier trigger</color>."
+
+L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"
+L["gekolt_css_ak_mag6.compactname"] = "AUX."
+L["gekolt_css_ak_mag6.description"] = "Sub-machine configuration.\nFor scenarios where you need to downgrade your rifle."
+
+L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"
+L["gekolt_css_ak_mag7.compactname"] = "HELICAL"
+L["gekolt_css_ak_mag7.description"] = "Helically stacked pistol cartridges.\nAn actual \"sub\"-machine."
+
+L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
+L["gekolt_css_ak_mag8.compactname"] = "16G"
+L["gekolt_css_ak_mag8.description"] = "Undersized drum magazine loaded with disproportionate 16[??] Gauge.\nSomehow still be able to fire from a small rifle barrel.\n\nBodged conversion yields mediocre ballistics comparing to true shotguns."
