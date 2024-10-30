@@ -53,6 +53,11 @@ ATT.HoldType = "shotgun"
 ATT.FreeAimRadiusMult = 0.75
 ATT.RecoilMult = 0.75
 ATT.SpeedMultShooting = 0.75
+ATT.SpreadAddRecoil = -0.01
+ATT.SpreadMultRecoil = 1
+ATT.RecoilModifierCap = 0.1
+ATT.Spread = 0.05
+ATT.SpreadMultSights = 3
 
 ATT.Hook_TranslateAnimation = function(wep, anim)
     if string.find(anim, "fire") and anim ~= "fire_empty" then
