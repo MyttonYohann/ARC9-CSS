@@ -320,7 +320,8 @@ SWEP.AttachmentElements = {
 
     ["rail_top"] = {Bodygroups = {{2, 1}},},
     ["rail_bot"] = {Bodygroups = {{3, 1}},},
-    ["rail_side"] = {Bodygroups = {{5, 3}, {3, 0}},},
+    ["rail_side"] = {Bodygroups = {{5, 3}, {3, 0}},},  
+    ["rail_ubgl"] = {Bodygroups = {{3, 3}},},
 }
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
@@ -332,7 +333,9 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
     if wep.Attachments[4].Installed and wep:HasElement("rail_side") and wep:HasElement("garand_slam") then model:SetBodygroup(5,2) end	--- shotgun under rail ---
 
     if wep.Attachments[2].Installed and wep:HasElement("garand_mini") then model:SetBodygroup(4,1) end	-- 'extended' top rail --
-    if wep.Attachments[2].Installed and wep:HasElement("garand_m14") then model:SetBodygroup(4,1) end
+    if wep.Attachments[2].Installed and wep:HasElement("garand_m14") then model:SetBodygroup(4,1) end  
+
+	if wep.Attachments[6].Installed then model:SetBodygroup(3,3) end	-- force on
 end
 
 SWEP.ExtraShellModels = {
@@ -407,6 +410,7 @@ SWEP.Attachments = {
         DefaultName = "",
         Hidden = true,
         Category = {"css_ubgl"},
+        InstalledElements = {"rail_ubgl"},
         RequireElements = {"ubgl_maghold"},
         Bone = "W_Main",
         Pos = Vector(0, 1.75, 7),

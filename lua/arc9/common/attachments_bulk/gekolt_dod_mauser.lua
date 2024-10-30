@@ -106,7 +106,7 @@ ARC9.LoadAttachment(ATT, "gekolt_css_mauser_g1")
 
 ATT = {}
 
-ATT.PrintName = [[Kundschafter-Gestell]] -- it means scout methinks whatev
+ATT.PrintName = [[Kundschafter-Lauf]] -- it means scout methinks whatev
 ATT.CompactName = [[SD]]
 ATT.Icon = Material("entities/gekolt_dod_c96_sd.png", "mips smooth")
 ATT.Description = [[Short interally suppressed barrel for late night trench raiding

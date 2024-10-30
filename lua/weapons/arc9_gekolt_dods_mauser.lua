@@ -255,7 +255,7 @@ SWEP.DefaultBodygroups = "00000000"
 SWEP.AttachmentElements = {
     ["f_edge"] = {
         Bodygroups = {{4, 2},{3, 1},{2, 3},{1, 1}},
-        AttPosMods = { [3] = { Pos = Vector(0, 0.1, 8.3), }, [2] = { Pos = Vector(1.3, -0.75, -0.5), } }
+        AttPosMods = { [6] = { Pos = Vector(0, 0.1, 8.3), }, [5] = { Pos = Vector(1.3, -0.75, -0.5), } }
     },
 
     ["f_sd"] = {
@@ -275,7 +275,7 @@ SWEP.AttachmentElements = {
 
     ["f_carbine"] = {
         Bodygroups = {{5, 3},{4, 2},{3, 2},{2, 2},{1, 2}},
-        AttPosMods = { [3] = { Pos = Vector(0, 0.1, 11.5), } }
+        AttPosMods = { [6] = { Pos = Vector(0, 0.1, 11.5), } }
     },
 }
 
@@ -313,7 +313,7 @@ SWEP.Attachments = {
 
         Category = "dod_mauser_stock",
         Bone = "W_Main",
-        Pos = Vector(0, -2, 0),
+        Pos = Vector(0, 4, -5),
         Ang = Angle(0, 0, 0),
     },
     {

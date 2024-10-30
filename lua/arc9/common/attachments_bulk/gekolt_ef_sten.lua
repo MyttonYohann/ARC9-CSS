@@ -510,7 +510,7 @@ ATT.PrintName = [[Walcaster Handguard]]
 ATT.CompactName = "PROTO"
 ATT.Icon = Material("entities/gekolt_ef_sten_grip_mk1.png", "mips smooth")
 ATT.Description = [[First tested iteration, bulky
-Heavier grip negates the ability to reload like a retard.]]
+Negates the ability to reload quickly.]]
 
 ATT.Pros = {}
 ATT.Cons = {}
