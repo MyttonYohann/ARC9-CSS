@@ -247,6 +247,8 @@ ATT.SortOrder = 1
 ATT.Category = "dod_mauser_frame"
 ATT.ActivateElements = {"f_halfdrum", "akantbo"}
 
+ATT.Firemodes = { { Mode = -1, },{ Mode = 1, } }
+
 ATT.ClipSizeOverride = 42
 ATT.AimDownSightsTimeAdd = 0.025
 
