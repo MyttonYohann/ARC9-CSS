@@ -229,8 +229,8 @@ ATT.ActiveAngOverride = Angle(0, 0, 0)
 ATT.CrouchPosOverride = Vector(-0.5, -0.5, -2.5)
 ATT.CrouchAngOverride = Angle(0, 0, -10)
 
+ATT.SprintPosOverride = Vector(1.25, 3, -1.5)
 ATT.SprintAngOverride = Angle(40, -15, -10)
-ATT.SprintPosOverride = Vector(1.25, 4, -1.5)
 
 ATT.Attachments = {
     {

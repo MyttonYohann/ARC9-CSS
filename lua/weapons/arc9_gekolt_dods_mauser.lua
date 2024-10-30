@@ -279,7 +279,7 @@ SWEP.AttachmentElements = {
 
     ["f_carbine"] = {
         Bodygroups = {{5, 3},{4, 3},{2, 2}},
-        AttPosMods = { [6] = { Pos = Vector(0, 0.1, 11.5), }, [7] = { Pos = Vector(0, 2.8, 6.5), } }
+        AttPosMods = { [7] = { Pos = Vector(0, 2.8, 6.5), } }
     },
 }
 
