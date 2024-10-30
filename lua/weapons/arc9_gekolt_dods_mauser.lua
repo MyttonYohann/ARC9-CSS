@@ -12,7 +12,7 @@ SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_dods_mauser_real") or "M712 Schnell
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_pc") or "Pistol Carbine"
 SWEP.Trivia = {
     [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_germany") or "Germany",
-    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_9x19") or "9×19mm Parabellum",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Calibre2" ] = ARC9:GetPhrase("smorg_trivia_caliber_9x19") or "9×19mm Parabellum",
 }
 
 SWEP.Credits = {
@@ -389,7 +389,8 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/c96_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 43 / 40},
@@ -404,7 +405,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
         EventTable = {
             {s =  "gekolt_dod/c96_clipout.wav" ,   t = 10 / 40},
             {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 43 / 40},
@@ -425,7 +427,8 @@ SWEP.Animations = {
         Source = "wet_roni",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.785,
+        MinProgress = 0.975,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
@@ -441,7 +444,8 @@ SWEP.Animations = {
         Source = "dry_roni",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.815,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
@@ -467,7 +471,8 @@ SWEP.Animations = {
         Source = "wet_edge",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.625,
         EventTable = {
             {s =  "cturix_contr/magout.wav" ,   t = 0 / 40},
             {s =  "cturix_contr/magin.wav" ,   t = 46 / 40},
@@ -482,7 +487,8 @@ SWEP.Animations = {
         Source = "dry_edge",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.9,
+        MinProgress = 0.975,
+		RefillProgress = 0.725,
         EventTable = {
             {s =  "cturix_contr/magout_empty.wav" ,   t = 0 / 40},
             {s =  "cturix_contr/magin_empty.wav" ,   t = 40 / 40},

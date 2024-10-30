@@ -11,7 +11,7 @@ SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_bo1_hammersickle") or "Hammer and 
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_ia") or "Ideological Artefact"
 SWEP.Trivia = {
     [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_generic") or "\"Insert Generic Union/Commune Here\"",
-    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_wood") or "Wood and Steel",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Calibre2" ] = ARC9:GetPhrase("smorg_trivia_caliber_wood") or "Wood and Steel",
 }
 
 SWEP.Credits = {

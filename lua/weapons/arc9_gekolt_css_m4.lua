@@ -12,7 +12,7 @@ SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_m4_real") or "M4A1"
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_ac") or "Assault Carbine"
 SWEP.Trivia = {
     [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_usa") or "United States",
-    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_556x45") or "5.56x45mm NATO",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Calibre2" ] = ARC9:GetPhrase("smorg_trivia_caliber_556x45") or "5.56x45mm NATO",
 }
 
 SWEP.Credits = {

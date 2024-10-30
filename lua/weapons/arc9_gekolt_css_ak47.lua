@@ -12,7 +12,7 @@ SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_css_ak47_real") or "AK47"
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_ar") or "Assault Rifle"
 SWEP.Trivia = {
     [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_soviet_union") or "Soviet Union",
-    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_762x39") or "7.62x39mm",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Calibre2" ] = ARC9:GetPhrase("smorg_trivia_caliber_762x39") or "7.62x39mm",
 }
 
 SWEP.Credits = {

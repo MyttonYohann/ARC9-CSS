@@ -12,7 +12,7 @@ SWEP.TrueName = ARC9:GetPhrase("smorg_gekolt_dods_garand") or "M1 Garand"
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_br") or "Battle Rifle"
 SWEP.Trivia = {
     [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_canada") or "Canada", -- me purposely spreading misinfomation --  I SAY SO
-    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_30-06") or ".30-06 Springfield",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Calibre2" ] = ARC9:GetPhrase("smorg_trivia_caliber_30-06") or ".30-06 Springfield",
 }
 
 SWEP.Credits = {
@@ -482,7 +482,8 @@ SWEP.Animations = {
 			{shelleject = {index = 1, upto = 1}, att = 3, t = 17 / 40},		
         },
         MagSwapTime = 40 / 40,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -491,7 +492,8 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        MinProgress = 0.925,
+        MinProgress = 0.975,
+		RefillProgress = 0.725,
         EventTable = {
             {s =  "gekolt_dod/garand_clipin1.wav" ,   t = 30 / 40},
             {s =  "gekolt_dod/garand_clipin2.wav" ,    t = 35 / 40},
@@ -522,7 +524,8 @@ SWEP.Animations = {
         ShellSmoke = false,
         DumpAmmo = true,
         MagSwapTime = 40 / 40,
-        MinProgress = 0.85,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -531,7 +534,8 @@ SWEP.Animations = {
     ["reload_empty_vanguard"] = {
         Source = "dry_fast",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        MinProgress = 0.925,
+        MinProgress = 0.975,
+		RefillProgress = 0.725,
         EventTable = {
             {s =  "gekolt_dod/garand_clipin1.wav" ,   t = 22 / 40},
             {s =  "gekolt_dod/garand_clipin2.wav" ,    t = 32 / 40},
@@ -553,7 +557,8 @@ SWEP.Animations = {
         Source = "wet_308",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.75,
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 14 / 40},
             {s =  "gekolt_dod/m1carbine_clipout.wav" ,   t = 16 / 40},
@@ -569,7 +574,8 @@ SWEP.Animations = {
         Source = "dry_308",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.86,
+        MinProgress = 0.975,
+		RefillProgress = 0.85,
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 13 / 40},
             {s =  "gekolt_dod/m1carbine_clipout.wav" ,   t = 16 / 40},
@@ -597,7 +603,8 @@ SWEP.Animations = {
         Source = "wet_mini",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.83,
+        MinProgress = 0.975,
+		RefillProgress = 0.775,
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 13 / 40},
             {s =  "gekolt_dod/m1carbine_clipout.wav" ,   t = 16 / 40},
@@ -613,7 +620,8 @@ SWEP.Animations = {
         Source = "dry_mini",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.86,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 13 / 40},
             {s =  "gekolt_dod/m1carbine_clipout.wav" ,   t = 16 / 40},

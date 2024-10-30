@@ -29,7 +29,7 @@ L["smorg_trivia_country_uk"] = "United Kingdom"
 L["smorg_trivia_country_usa"] = "United States"
 
 /////////////////// Caliber
-L["smorg_trivia_caliber"] = "Caliber2"
+L["smorg_trivia_caliber"] = "Calibre2"
 
 L["smorg_trivia_caliber_wood"] = "Wood & Steel"
 L["smorg_trivia_caliber_762x51"] = "7.62×51mm"

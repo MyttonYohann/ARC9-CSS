@@ -11,7 +11,7 @@ SWEP.PrintName = ARC9:GetPhrase("smorg_gekolt_fas1_bamboozle") or "Claymore on a
 SWEP.Class = ARC9:GetPhrase("smorg_class_weapon_exp") or "Explosive"
 SWEP.Trivia = {
     [ ARC9:GetPhrase("smorg_trivia_country") or "Country of Origin1" ] = ARC9:GetPhrase("smorg_trivia_country_scotland") or "Scotland", -- trolleg
-    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Caliber2" ] = ARC9:GetPhrase("smorg_trivia_caliber_32sb") or "3.2mm steel balls",
+    [ ARC9:GetPhrase("smorg_trivia_caliber") or "Calibre2" ] = ARC9:GetPhrase("smorg_trivia_caliber_32sb") or "3.2mm steel balls",
 }
 
 SWEP.Credits = {
