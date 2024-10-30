@@ -124,7 +124,7 @@ ATT = {}
 ATT.PrintName = "Sportive-Charpente"
 ATT.CompactName = "SCF"
 ATT.Icon = Material("entities/gekolt_dod_garand_mini.png", "mips smooth")
-ATT.Description = [["Modernized" carbine model firing intermediate cartridges from STANAG magazines. Short barrel and pistol grip improves handling noticeably.
+ATT.Description = [["Modernised" carbine model firing intermediate cartridges from STANAG magazines. Short barrel and pistol grip improves handling noticeably.
 A travesty of a conversion, but at least it has an auto sear that won't dislocate your shoulder.]]
 
 ATT.Pros = {}

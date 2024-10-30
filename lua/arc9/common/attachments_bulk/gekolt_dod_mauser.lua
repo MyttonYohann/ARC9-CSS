@@ -40,6 +40,7 @@ ATT.CrouchAngOverride = Angle(0, 0, -10)
 ATT.ActivePosOverride = Vector(0, 5, 0)
 ATT.ActiveAngOverride = Angle(0, 0, 0)
 ATT.ReloadNoSprintPos = true
+ATT.ExcludeElements = {"dod_mauser_barrel", "dod_mauser_hg", "dod_mauser_stock"}
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-50, -2, -7.5)
@@ -144,13 +145,14 @@ ATT = {}
 ATT.PrintName = [[Karabiner-Gestell]]
 ATT.CompactName = [[Carbine]]
 ATT.Icon = Material("entities/gekolt_dod_c96_carbine.png", "mips smooth")
-ATT.Description = [[An attempt to modernise a rusty old pistol with a more stable but lower rate of fire and a long top rail system for full length optics
-Drum magazine is the only real solution.
+ATT.Description = [[An attempt to modernise a rusty old pistol with a more stable but lower rate of fire and a long top rail system for full length optics.
+Fitted with a double-snail mag for good measure.
 ]]
 
 ATT.SortOrder = 1
 ATT.Category = "dod_mauser_frame"
 ATT.ActivateElements = {"f_carbine", "pre_optic", "akantbo"}
+ATT.ExcludeElements = {"dod_mauser_barrel", "dod_mauser_hg", "dod_mauser_stock"}
 
 ATT.Firemodes = { { Mode = -1, } }
 ATT.CaseEffectQCA = 3
@@ -205,15 +207,6 @@ ATT.Attachments = {
         Pos = Vector(1.25, -2.15, -7.25),
         Ang = Angle(90, 0, 0),
         ExtraSightDistance = 5
-    },
-
-    {
-        PrintName = "Foregrip",
-        DefaultName = "None",
-
-        Category = {"grip_css"},
-        Pos = Vector(0, 0.3, -7),
-        Ang = Angle(90, 0, -90),
     },
 }
 

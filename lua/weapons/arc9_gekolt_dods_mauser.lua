@@ -274,8 +274,8 @@ SWEP.AttachmentElements = {
     },
 
     ["f_carbine"] = {
-        Bodygroups = {{5, 3},{4, 2},{3, 2},{2, 2},{1, 2}},
-        AttPosMods = { [6] = { Pos = Vector(0, 0.1, 11.5), } }
+        Bodygroups = {{5, 3},{4, 3},{3, 2},{2, 2},{1, 2}},
+        AttPosMods = { [6] = { Pos = Vector(0, 0.1, 11.5), }, [7] = { Pos = Vector(0, 2.8, 6.5), } }
     },
 }
 
@@ -342,8 +342,7 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"has_fg"},
-		
-        ExcludeElements = {"f_carbine"},
+
         Category = {"grip_css"},
         Bone = "W_Main",
         Pos = Vector(0, 1.5, 5.5),
@@ -367,6 +366,7 @@ SWEP.Attachments = {
 SWEP.Hook_ModifyBodygroups = function(wep, data)
     local model = data.model
     if wep:HasElement("has_fg")		then model:SetBodygroup(2,4) end 
+    if wep:HasElement("has_fg")		and wep:HasElement("f_carbine")	then model:SetBodygroup(2,2) end 
 	if wep:HasElement("has_optic")	then model:SetBodygroup(5,1) end
     if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(4,3) end
     if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(5,0) end
