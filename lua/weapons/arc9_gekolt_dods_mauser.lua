@@ -349,7 +349,7 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"has_fg"},
-		ExcludeElements = {"f_edge"},
+		ExcludeElements = {"f_edge", "f_drum"},
 
         Category = {"grip_css"},
         Bone = "W_Main",
