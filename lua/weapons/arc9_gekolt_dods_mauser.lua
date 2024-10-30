@@ -460,6 +460,24 @@ SWEP.Animations = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
+    },  
+	["reload_empty_def_roni"] = {
+        Source = "dry_roni_def",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 10 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 43 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 50 / 40},
+            {s =  "gekolt_dod/c96_boltback.wav" ,    t = 75 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 82 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
+        },
     },
 
     ["reload_short"] = {
@@ -547,6 +565,44 @@ SWEP.Animations = {
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.55, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 1, rhik = 1, },
+        },
+    },  
+	["reload_empty_hdrum_roni"] = {
+        Source = "dry_half_drum_roni",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 62 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 68 / 40},
+            {s =  "gekolt_dod/c96_boltback.wav" ,    t = 92 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 102 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
+        },
+    }, 
+	["reload_empty_hdrum_1hand"] = {
+        Source = "dry_half_drum_1hand",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 62 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 68 / 40},
+            {s =  "gekolt_dod/c96_boltback.wav" ,    t = 92 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 102 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
     },
 

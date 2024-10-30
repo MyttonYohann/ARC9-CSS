@@ -21,6 +21,6 @@ ATT.Attachments = {
         Category = {"grip_short_css"},
         Pos = Vector(-0.2, -0.8, 0.5),
         Ang = Angle(0, 0, 45),
-		KeepBaseIrons = true,
+		Installed = "gekolt_css_fg",
     },
 }

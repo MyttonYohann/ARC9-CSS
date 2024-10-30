@@ -101,6 +101,10 @@ ATT.ModelAngleOffset = Angle(90, -90, 0)
 ATT.Model = "models/weapons/geckololt_css/c_garand.mdl"
 ATT.ModelBodygroups = "15000"
 
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload_empty_hdrum"	then	return "reload_empty_hdrum_1hand"	end		
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_g1")
 
 
@@ -192,7 +196,6 @@ Fitted with a double-snail mag for good measure.
 ATT.SortOrder = 1
 ATT.Category = "dod_mauser_hg"
 ATT.ActivateElements = {"f_carbine", "pre_optic", "akantbo"}
---ATT.ExcludeElements = {"dod_mauser_barrel", "dod_mauser_hg", "dod_mauser_stock"}
 ATT.ExcludeElements = {"dod_mauser_stock", "f_sd"}
 ATT.Firemodes = { { Mode = -1, } }
 ATT.CaseEffectQCA = 3
@@ -236,7 +239,7 @@ ATT.Attachments = {
 		InstalledElements = {"has_optic"},
 
         Category = {"optic_css"},
-        Pos = Vector(0, -3.85, 0),
+        Pos = Vector(0, -2.25, 3),
         Ang = Angle(90, 0, -90),
     },
 
@@ -261,9 +264,12 @@ ATT.Sights = {
         KeepBaseIrons = false
     }
 }
-ATT.Hook_TranslateAnimation = function(wep, curanim) -- STRAIGHT UP JORKING IT
-	if	curanim == "reload_empty_drum"	then	return "reload_empty_roni"			end	
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload_empty_drum"	then	return "reload_empty_roni"			end
+	if	curanim == "reload_empty_hdrum"	then	return "reload_empty_hdrum_roni"	end	
 	if	curanim == "reload_empty_short"	then	return "reload_empty_short_roni"	end
+	if	curanim == "reload_empty"		then	return "reload_empty_def_roni"	end
+
 	if	curanim == "fire_iron"			then 	return "fire_iron_roni"				end	
 	if	curanim == "fire_iron_empty"	then 	return "fire_iron_empty_roni"		end		
 end
