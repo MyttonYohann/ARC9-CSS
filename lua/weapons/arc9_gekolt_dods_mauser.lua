@@ -259,12 +259,18 @@ SWEP.AttachmentElements = {
     },
 
     ["f_sd"] = {
-        Bodygroups = {{4, 2},{2, 3},{1, 3}},
+        Bodygroups = {{1, 3}},
     },
 
     ["f_brazil"] = {
-        Bodygroups = {{4, 1},{2, 1},{1, 1}},
-        AttPosMods = { [3] = { Pos = Vector(0, 0.1, 8.3), } }
+        Bodygroups = {{2, 1}},
+        --AttPosMods = { [3] = { Pos = Vector(0, 0.1, 8.3), } }
+    },
+    ["g_no"] = { Bodygroups = {{2, 3}}, }, 
+	["f_halfdrum"] = { Bodygroups = {{3, 4}}, },
+	["f_smoll"] = { Bodygroups = {{3, 1}}, },
+    ["s_brazil"] = {
+        Bodygroups = {{4, 1}},
     },
 
     ["f_carbine"] = {
@@ -281,6 +287,33 @@ SWEP.Attachments = {
         Category = "dod_mauser_frame",
         Bone = "W_Main",
         Pos = Vector(0, 2.5, -0.75),
+        Ang = Angle(0, 0, 0),
+    },  
+	{
+        PrintName = ARC9:GetPhrase("smorg_category_handguard") or "Handguard",
+        DefaultName = "Wooden Handguard",
+
+        Category = "dod_mauser_hg",
+        Bone = "W_Main",
+        Pos = Vector(0, 1, 3),
+        Ang = Angle(0, 0, 0),
+    },
+	{
+        PrintName = ARC9:GetPhrase("smorg_category_barrel") or "Barrel",
+        DefaultName = "Marksman Barrel",
+
+        Category = "dod_mauser_barrel",
+        Bone = "W_Main",
+        Pos = Vector(0, 0, 6),
+        Ang = Angle(0, 0, 0),
+    },
+	{
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
+        DefaultName = "Wooden Stock",
+
+        Category = "dod_mauser_stock",
+        Bone = "W_Main",
+        Pos = Vector(0, -2, 0),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -304,6 +337,17 @@ SWEP.Attachments = {
         Bone = "W_Main",
         Pos = Vector(0, 0.1, 17.1),
         Ang = Angle(90, 0, -90),
+    },  
+	{
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
+        DefaultName = "None",
+        InstalledElements = {"has_fg"},
+		
+        ExcludeElements = {"f_carbine"},
+        Category = {"grip_css"},
+        Bone = "W_Main",
+        Pos = Vector(0, 1.5, 5.5),
+        Ang = Angle(90, 0, -90),
     },
 
     {
@@ -320,25 +364,14 @@ SWEP.Attachments = {
     },
 }
 
-SWEP.Hook_TranslateAnimation = function(wep, anim)
-
-    if wep:HasElement("akimbo") then
-            if anim == "reload" then  return "reload_akimbo" end
-            if anim == "reload_empty" then  return "reload_empty_akimbo" end
-            if anim == "reload_p38" then  return "reload_akimbo" end
-            if anim == "reload_empty_p38" then  return "reload_empty_akimbo" end
-            if anim == "reload_ex" then  return "reload_akimbo" end
-            if anim == "reload_empty_ex" then  return "reload_empty_akimbo" end
-    end
-end
-
 SWEP.Hook_ModifyBodygroups = function(wep, data)
     local model = data.model
-    if wep:HasElement("has_optic") then model:SetBodygroup(5,1) end
-    if wep:HasElement("has_optic") and wep:HasElement("f_carbine") then model:SetBodygroup(4,3) end
-    if wep:HasElement("has_optic") and wep:HasElement("f_carbine") then model:SetBodygroup(5,0) end
+    if wep:HasElement("has_fg")		then model:SetBodygroup(2,4) end 
+	if wep:HasElement("has_optic")	then model:SetBodygroup(5,1) end
+    if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(4,3) end
+    if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(5,0) end
 
-    if wep:HasElement("has_optic") and wep:HasElement("f_edge") then model:SetBodygroup(5,2) end
+    if wep:HasElement("has_optic")	and wep:HasElement("f_edge") then model:SetBodygroup(5,2) end
 end
 
 SWEP.Animations = {
@@ -420,8 +453,83 @@ SWEP.Animations = {
         },
     },
 
+    ["reload_short"] = {
+        Source = "wet_short",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.75,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 8 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 40 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 47 / 40},
+        },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
+        },
+    },
+    ["reload_empty_short"] = {
+        Source = "dry_short",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 8 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 40 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 47 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 70 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.55, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 1, rhik = 1, },
+        },
+    },
+
+    ["reload_hdrum"] = {
+        Source = "wet_half_drum",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.7,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 62 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 68 / 40},
+        },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
+        },
+    },
+    ["reload_empty_hdrum"] = {
+        Source = "dry_half_drum",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 62 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 68 / 40},
+            {s =  "gekolt_dod/c96_boltback.wav" ,    t = 92 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 102 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.55, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 1, rhik = 1, },
+        },
+    },
+
+
     ["fire_iron_roni"] = {
         Source = "fire_iron_roni",
+    },
+    ["fire_iron_empty_roni"] = {
+        Source = "fire_iron_roni_emp",
     },
     ["reload_roni"] = {
         Source = "wet_roni",
