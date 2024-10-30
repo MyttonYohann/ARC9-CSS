@@ -268,13 +268,17 @@ SWEP.AttachmentElements = {
     },
     ["g_no"] = { Bodygroups = {{2, 3}}, }, 
 	["f_halfdrum"] = { Bodygroups = {{3, 4}}, },
+	["f_drum"] = { Bodygroups = {{3, 2}}, },
 	["f_smoll"] = { Bodygroups = {{3, 1}}, },
-    ["s_brazil"] = {
-        Bodygroups = {{4, 1}},
+    ["b_pistol"] = {
+        Bodygroups = {{1, 1}},
+        AttPosMods = { [6] = { Pos = Vector(0, 0.1, 8.3), } }
     },
+    ["s_brazil"] = {Bodygroups = {{4, 1}}, },
+    ["s_no"] = {Bodygroups = {{4, 2}}, },
 
     ["f_carbine"] = {
-        Bodygroups = {{5, 3},{4, 3},{3, 2},{2, 2},{1, 2}},
+        Bodygroups = {{5, 3},{4, 3},{2, 2}},
         AttPosMods = { [6] = { Pos = Vector(0, 0.1, 11.5), }, [7] = { Pos = Vector(0, 2.8, 6.5), } }
     },
 }
@@ -292,6 +296,7 @@ SWEP.Attachments = {
 	{
         PrintName = ARC9:GetPhrase("smorg_category_handguard") or "Handguard",
         DefaultName = "Wooden Handguard",
+		ExcludeElements = {"f_edge"},
 
         Category = "dod_mauser_hg",
         Bone = "W_Main",
@@ -301,7 +306,8 @@ SWEP.Attachments = {
 	{
         PrintName = ARC9:GetPhrase("smorg_category_barrel") or "Barrel",
         DefaultName = "Marksman Barrel",
-
+		ExcludeElements = {"f_edge"},
+		
         Category = "dod_mauser_barrel",
         Bone = "W_Main",
         Pos = Vector(0, 0, 6),
@@ -310,6 +316,7 @@ SWEP.Attachments = {
 	{
         PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "Wooden Stock",
+		ExcludeElements = {"f_edge", "f_carbine"},
 
         Category = "dod_mauser_stock",
         Bone = "W_Main",
@@ -342,6 +349,7 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"has_fg"},
+		ExcludeElements = {"f_edge"},
 
         Category = {"grip_css"},
         Bone = "W_Main",
@@ -371,7 +379,8 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
     if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(4,3) end
     if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(5,0) end
 
-    if wep:HasElement("has_optic")	and wep:HasElement("f_edge") then model:SetBodygroup(5,2) end
+    if wep:HasElement("has_optic")	and wep:HasElement("f_edge") 	then model:SetBodygroup(5,2) end 
+	if wep:HasElement("f_carbine")	and wep:HasElement("b_pistol") 	then model:SetBodygroup(1,5) end
 end
 
 SWEP.Animations = {
@@ -466,7 +475,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
     },
     ["reload_empty_short"] = {
@@ -484,6 +493,23 @@ SWEP.Animations = {
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.55, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 1, rhik = 1, },
+        },
+    },
+    ["reload_empty_short_roni"] = {
+        Source = "dry_short_roni",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 8 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 40 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 47 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 70 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
         },
     },
 
@@ -545,7 +571,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.775, lhik = 0, rhik = 1, },{ t = 0.85, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 0, rhik = 1, },{ t = 0.85, lhik = 1, rhik = 1, },
         },
     },
     ["reload_empty_roni"] = {
@@ -565,6 +591,25 @@ SWEP.Animations = {
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
+        },
+    },
+    ["reload_empty_drum"] = {
+        Source = "dry_drum",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 55 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 62 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 68 / 40},
+            {s =  "gekolt_dod/c96_boltback.wav" ,    t = 92 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 102 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.55, lhik = 0, rhik = 1, },{ t = 0.7, lhik = 1, rhik = 1, },
         },
     },
 
