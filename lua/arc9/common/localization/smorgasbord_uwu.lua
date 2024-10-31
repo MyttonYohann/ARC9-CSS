@@ -12,7 +12,7 @@ L["smorg_trivia_country_generic"] = "\"Insewt Genyewic Unyion/Communye Hewe\""
 L["smorg_trivia_country_austria"] = "Austwia"
 L["smorg_trivia_country_belgium"] = "Bewgium"
 L["smorg_trivia_country_brazil"] = "Bwaziw"
-L["smorg_trivia_country_canada"] = [[Canyada >w<]]
+L["smorg_trivia_country_canada"] = "Canyada >w<"
 L["smorg_trivia_country_czech_republic"] = "Cwech Wepubwic"
 L["smorg_trivia_country_france"] = "Fwance"
 L["smorg_trivia_country_germany"] = "Gewmany"
@@ -23,7 +23,7 @@ L["smorg_trivia_country_russia"] = "Wussia"
 L["smorg_trivia_country_scotland"] = "Scwotwand"
 L["smorg_trivia_country_south_africa"] = "South Afwica"
 L["smorg_trivia_country_soviet_union"] = "Sowiet Unyion"
-L["smorg_trivia_country_sweden"] = [[Sweden >w<]]
+L["smorg_trivia_country_sweden"] = "Sweden >w<"
 L["smorg_trivia_country_switzerland"] = "Switzewwand"
 L["smorg_trivia_country_uk"] = "Unyited Kingwom"
 L["smorg_trivia_country_usa"] = "Unyited Swates"
@@ -48,21 +48,21 @@ L["smorg_trivia_caliber_57x303"] = "57×303mmR"
 L["smorg_trivia_caliber_m72"] = "35mm M72"
 
 /////////////////// Credits
-L["smorg_trivia_coding"] = "Additional Coding1"
-L["smorg_trivia_sounds"] = "Sounds2"
-L["smorg_trivia_assets"] = "Assets3"
-L["smorg_trivia_contact"] = "Contact4"
+L["smorg_trivia_coding"] = "Additionyaw Cowing1"
+L["smorg_trivia_sounds"] = "Swounds2"
+L["smorg_trivia_assets"] = "Asswets3" -- ass wet?? /ash-shwet/
+L["smorg_trivia_contact"] = "Contact4 >w<"
 
 /////////////////// Firing Modes
-L["smorg_firemode_melee"] = "MELEE"
-L["smorg_firemode_bolt"] = "BOLT"
-L["smorg_firemode_pump"] = "PUMP"
+L["smorg_firemode_melee"] = "MEWEE"
+L["smorg_firemode_bolt"] = "BOWT"
+L["smorg_firemode_pump"] = "PUWMP"
 
-L["smorg_firemode_cluster"] = "CLUSTER"
-L["smorg_firemode_condensed"] = "CONDENSED"
+L["smorg_firemode_cluster"] = "CWUSTWR"
+L["smorg_firemode_condensed"] = "CONWENSED"
 
-L["smorg_firemode_he"] = "H.E."
-L["smorg_firemode_airburst"] = "AIRBURST"
+L["smorg_firemode_he"] = "H.E. ^w^"
+L["smorg_firemode_airburst"] = "AIRBUWST"
 
 /////////////////// Weapon Categories
 L["smorg_category_slot_aux"] = "Auxiwiawies"
@@ -88,82 +88,82 @@ L["smorg_class_weapon_atr"] = "Anti-Tank W-Wifwe"
 
 ////////////////////////////////////// Weapons
 /////////////////// Weapon Display Names
-L["smorg_gekolt_bo1_hammersickle"] = "Hammer and Sickle"
-L["smorg_gekolt_bo1_hammersickle_desc"] = "A pair of common work tools infused with the power of the proletariat.\nAssemble its true form to reduce damage from the front and radiate energy.\n\nThe power of Syndicalism compels you."
+L["smorg_gekolt_bo1_hammersickle"] = "Hammwer and Sickwle"
+L["smorg_gekolt_bo1_hammersickle_desc"] = "A paiw of common wowk toows infwused with the powew of the pwowetawiat.\nAssembwe its twue fowm to weduce damage fwom the fwont and wadiate enyewgy.\n\nThe powew of Whimsicalism compews you."
 
-L["smorg_gekolt_ca_m60"] = "Zwyneber-60"
+L["smorg_gekolt_ca_m60"] = "Zwynyebew-60"
 L["smorg_gekolt_ca_m60_real"] = "M60"
-L["smorg_gekolt_ca_m60_desc"] = "Heavy duty machine gun with great suppressing capacity."
+L["smorg_gekolt_ca_m60_desc"] = "Heawy duty machinye gun with gweat suppwessing capacity >w<"
 
-L["smorg_gekolt_css_ak47"] = "Avtoma-7"
+L["smorg_gekolt_css_ak47"] = "Awtoma-7"
 L["smorg_gekolt_css_ak47_real"] = "AK-47"
-L["smorg_gekolt_css_ak47_desc"] = "Rugged rifle with a simple design that can function under harsh conditions.\nA timeless design with a variant for every conceivable use case, and many inconceivable ones too."
+L["smorg_gekolt_css_ak47_desc"] = "Wugged wifle with a simwle design that can fuwction undew harsh conwitions.\nA timeless design with a vawiant fow evewy conceivabwe use case, and many inconceivabwe onyes t-too."
 
-L["smorg_gekolt_css_awp"] = "Aldric-38"
+L["smorg_gekolt_css_awp"] = "Awdwic-38" -- this is just an average Welsh word lmao
 L["smorg_gekolt_css_awp_real"] = "AWP"
-L["smorg_gekolt_css_awp_desc"] = "Imposing magnum sniper rifle used by the police. Overpenetrates up close, so step back.\nIts rarity and iconic status makes it all the more tempting to give it... unscrupulous tweaks."
+L["smorg_gekolt_css_awp_desc"] = "Imposing magnyum snyipew wifle used by the powice. Ovewpenyetwates up cwose, so step back.\nIts wawity and iconyic status makes it all t-t-the mowe tempting to give it... unscwupuwous tweaks."
 
-L["smorg_gekolt_css_flare"] = "Hoellenfeuer" -- "Höllenfeuer"
-L["smorg_gekolt_css_flare_real"] = "Leuchtpistole-34"
-L["smorg_gekolt_css_flare_desc"] = "Single shot survival tool intended to fire signal flares.\nOf course, it conveniently fits 12 gauge shotshells, so that's what we're doing with it."
+L["smorg_gekolt_css_flare"] = "Hoewwenfeuew"
+L["smorg_gekolt_css_flare_real"] = "Weuchtpistowe-34"
+L["smorg_gekolt_css_flare_desc"] = "Singwe shot suwvivaw toow intended towo fiwe signyal fwawes.\nOf course, it conveniently fits 12 gauge shotshells, Of couwse, it convenyientwy fits 12 gauge shotshewws, so that's what we'we doing with it."
 
-L["smorg_gekolt_css_grenade_german"] = "Grenade Bundle"
-L["smorg_gekolt_css_grenade_german_desc"] = "Bundle up to 7 grenades together so your explosions are never lonely.\nToggle between powerful cluster grenades or large condensed explosion.\n\nA sober person would throw it..."
+L["smorg_gekolt_css_grenade_german"] = "Gwenade Bundle"
+L["smorg_gekolt_css_grenade_german_desc"] = "Bwundle up to 7 gwenades together ^w^ so youw explosions awe nyevew wonyewy.\nToggwe between powewfuw cwustew gwenyades ow wawge condensed expwosion.\n\nA sobew pewson wouwd thwow it..."
 
-L["smorg_gekolt_css_m4"] = "Centilia Libero"
+L["smorg_gekolt_css_m4"] = "Centiwia Wibewo"
 L["smorg_gekolt_css_m4_real"] = "M4A1"
-L["smorg_gekolt_css_m4_desc"] = "Standard infantry carbine that is also absurdly popular in civilian markets.\nHas countless models and variations, some less stupid than others."
+L["smorg_gekolt_css_m4_desc"] = "Standard infantwy cawbine that is awso absuwdwy p-popuwaw in civiwian markwets.\nHas countwess modews and variations, some w-wess stupid than othews."
 
-L["smorg_gekolt_css_m9"] = "Arditi Elite"
-L["smorg_gekolt_css_m9_real"] = "Beretta 92G Elite II"
-L["smorg_gekolt_css_m9_desc"] = "A turn-of-the-century update to a straightforward double-stack pistol.\nSome aftermarket tinker options exist, though few of them deserve the \"Elite\" moniker."
+L["smorg_gekolt_css_m9"] = "Awditi Ewite"
+L["smorg_gekolt_css_m9_real"] = "Bewetta 92G Ewite II"
+L["smorg_gekolt_css_m9_desc"] = "A tuwn-of-the-centuwy update to a s-stwaightfowwawd doubwe-stack pistow.\nSome aftewmawket tinkew options exist, though few of them d-d-desewve the \"Ewite\" m-monyikew."
 
-L["smorg_gekolt_cw_baliff"] = "Paxica Wricht"
-L["smorg_gekolt_cw_baliff_real"] = ".410 Jury"
-L["smorg_gekolt_cw_baliff_desc"] = "Unfamiliar housing in unfamiliar tradition."
+L["smorg_gekolt_cw_baliff"] = "Pawica Wwicht"
+L["smorg_gekolt_cw_baliff_real"] = ".410 Juwy"
+L["smorg_gekolt_cw_baliff_desc"] = "Unfamiwiaw housing in unfamiliar twadition."
 
-L["smorg_gekolt_dods_garand"] = "Toudranéant-30"
-L["smorg_gekolt_dods_garand_real"] = "M1 Garand"
-L["smorg_gekolt_dods_garand_desc"] = "The first truly successful self-loading rifle; a watershed and forerunner among firearms.\nExperimental in nature, there are quite a few modifications available despite its status as a mass production weapon.\nIt also goes ping."
+L["smorg_gekolt_dods_garand"] = "Toudwanéant-30"
+L["smorg_gekolt_dods_garand_real"] = "M1 Gawand ^w^"
+L["smorg_gekolt_dods_garand_desc"] = "The fiwst twuwy successfuw sewf-woading w-wifwe; a w-watewshed and forerunnyer among fiweawms.\nExpewimentaw in nyatuwe, there awe quite a few modifications avaiwabwe despite its status as a mass pwoduction weapon.\nIt awso goes ping ^w^."
 
-L["smorg_gekolt_dods_mauser"] = "Roteernte-95"
-L["smorg_gekolt_dods_mauser_real"] = "M712 Schnellfeuer"
-L["smorg_gekolt_dods_mauser_desc"] = "An old as time pistol given a carbine kit and absurdly fast auto sear.\nSold en masse to Chinese warlords in the 1930s, so you're a little late to the party."
+L["smorg_gekolt_dods_mauser"] = "Woteewnte-95"	-- damn i shouldve used a dieresis to seperate rote and ernte
+L["smorg_gekolt_dods_mauser_real"] = "M712 Schnyewwfeuew"
+L["smorg_gekolt_dods_mauser_desc"] = "An owd as time pistow given a cawbine kit and absuwdwy fast autowo seaw.\nSowd en masse to Chinyese wawwowds in t-t-the 1930s, so you'we a wittwe late to t-t-the party."
 
-L["smorg_gekolt_dods_nambu"] = "Tenoku Hakenza"
-L["smorg_gekolt_dods_nambu_real"] = "Nambu Katana"
-L["smorg_gekolt_dods_nambu_desc"] = "Relic dug up from some far off island in the Pacific.\nThe spirit of the warrior lives on."
+L["smorg_gekolt_dods_nambu"] = "Tenyoku Hakenza"
+L["smorg_gekolt_dods_nambu_real"] = "Nyambu Katanya"
+L["smorg_gekolt_dods_nambu_desc"] = "Wewic dug up fwom some faw off iswand in t-t-the Pacific.\nThe spiwit of the wawwiow wives on ^w^."
 
-L["smorg_gekolt_ef_sten"] = "Athelanz-9"
-L["smorg_gekolt_ef_sten_real"] = "STEN"
-L["smorg_gekolt_ef_sten_desc"] = "Humble piece of steel that looks like it was clobbered together from rusty pipes. For its cheap cost, it might as well be.\nAbsurdly simple design lends itself to both pragmatic and unorthodox modifications."
+L["smorg_gekolt_ef_sten"] = "Athewanz-9"
+L["smorg_gekolt_ef_sten_real"] = "SWEN"
+L["smorg_gekolt_ef_sten_desc"] = "Humbwe piece of steew that wooks wike it was cwobbewed t-togethew fwom wusty pipes. Fow its cheap cost, it might as w-weww be.\nabsuwdwy simple design wends itself towo both pwagmatic and unyowthodox modifications."
 
-L["smorg_gekolt_fas1_bamboozle"] = "Claymore on a Stick"
-L["smorg_gekolt_fas1_bamboozle_desc"] = "Crude anti-tank-personnel-whateverinfrontofyou device from the peak of the highlands.\nLethality increases the longer it flies. Airburst detonates by proximity and shoots shrapnel, but has a long arm delay.\n\nUsing it as a spear has explosive consequences."
+L["smorg_gekolt_fas1_bamboozle"] = "Cwaymowe on a Stick"	-- pretty sure Cwaymoor is some gaelic king in the 7th century
+L["smorg_gekolt_fas1_bamboozle_desc"] = "Cwude anwi-tank-personnyel-whatevewinfwontofyou device fwom the peak of t-t-the highwands.\nWethawity incweases the wongew it fwies. Aiwbuwst detonyates by pwoximity and showots shwapnyew, but has a wong awm deway.\n\nUsing it as a speaw has expwosive consequences >w<."
 
-L["smorg_gekolt_fas2_m79"] = "Morthalza-90"
+L["smorg_gekolt_fas2_m79"] = "Mowthawza-90"
 L["smorg_gekolt_fas2_m79_real"] = "M79"
-L["smorg_gekolt_fas2_m79_desc"] = "Single shot explosive lobing device.\nMiniature barrage if you can get enough shot."
+L["smorg_gekolt_fas2_m79_desc"] = "Singwe shot explosive wobing device.\nMinyiature bawwage if you can get enyough shot."
 
-L["smorg_gekolt_fh2_thock"] = "Wykehr Libero"
-L["smorg_gekolt_fh2_thock_real"] = "Thlock"
-L["smorg_gekolt_fh2_thock_desc"] = "\"Subject Theta proves to be excellent on the battlefield, however can it still be improved? Shorter you say? How short?\" - Record#28\n\nThe Liberator-28 was amongst a myriad of failed experiments, however, modern time would revitalise it a new pair of wings to soar."
+L["smorg_gekolt_fh2_thock"] = "Wykehw Wibewo"
+L["smorg_gekolt_fh2_thock_real"] = "Thwock"
+L["smorg_gekolt_fh2_thock_desc"] = "\"Subject Theta p-pwuvs to be excewwent on t-t-the battwefiewd, h-howevew can it stiww be impwuvd?!?! Showtew you say?!! How showt!!11\" - Recowd#28\n\nT-The Wibewatow-28 was amongst a mywiad of f-faiwed expewiments, howevew, modewn time wouwd wevitawise it a nyew paiw of wings to soaw."
 
-L["smorg_gekolt_moah_m18"] = "Kromusgen-18"
+L["smorg_gekolt_moah_m18"] = "Kwomusgen-18"
 L["smorg_gekolt_moah_m18_real"] = "M18"
-L["smorg_gekolt_moah_m18_desc"] = "The King's Guard is always ready to take out any armoured opponent.\nPersonnel or Mechanised."
+L["smorg_gekolt_moah_m18_desc"] = "The King's Guawd is awways weady to take out any armoured opponyent >w<.\nPewsonnyew ow Mechanised."
 
-L["smorg_gekolt_pr2_m72"] = "Judresa-72"
-L["smorg_gekolt_pr2_m72_real"] = "M72 LAW"
-L["smorg_gekolt_pr2_m72_desc"] = "Reloading-disposable rocket package."
+L["smorg_gekolt_pr2_m72"] = "Judwesa-72"
+L["smorg_gekolt_pr2_m72_real"] = "M72 OwO"
+L["smorg_gekolt_pr2_m72_desc"] = "W-Wewoading-disposabwe rocket package."
 
 ////////////////////////////////////// Attachments
 /////////////////// Attachment Folders
-L["smorg_folder_magnifier"] = "Magnifier"
-L["smorg_folder_scopes"] = "Scopes"
-L["smorg_folder_reflex"] = "Reflex"
-L["smorg_folder_gadget"] = "Gadget"
-L["smorg_folder_mount"] = "Mount"
+L["smorg_folder_magnifier"] = "Magnyifiew"
+L["smorg_folder_scopes"] = "Scopes ^w^"
+L["smorg_folder_reflex"] = "Wefwex"
+L["smorg_folder_gadget"] = "Gadget >w<"
+L["smorg_folder_mount"] = "Mount OwO"
 
 /////////////////// Attachment Categories
 L["smorg_category_receiver"] = "Receiver"
