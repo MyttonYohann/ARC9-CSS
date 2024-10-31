@@ -596,3 +596,153 @@ L["gekolt_css_awp_f_sd.description"] = "\"Ah, finally, a brand-new state of the 
 L["gekolt_css_awp_f_obrez.printname"] = "Obrez Frame"
 L["gekolt_css_awp_f_obrez.compactname"] = "AO338"
 L["gekolt_css_awp_f_obrez.description"] = "Someone got their hands on a saw and some magic glue.\nIs mobility truly that important?"
+
+///////////// gekolt_css_m4_grip_stock
+L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW Foregrip"
+L["gekolt_css_m4_fg_saw.compactname"] = "SAW"
+L["gekolt_css_m4_fg_saw.description"] = "Obvious questions include \"why\", \"how\" and \"what\".\nA horizontal grip dramatically increases <color=100,255,100>hip-fire potential</color>.\nCannot be used with <color=255,100,100>optics</color>."
+
+L["gekolt_css_m4_g_wood.description"] = "Don't let the thermites get you."
+
+L["gekolt_css_m4_g_ske.description"] = "Because that amount of weight saved is really the defactor of life and death.\nWhat do you think would happen if your grip weighed nothing?"
+
+L["gekolt_css_m4_g_tw.printname"] = "Curved Grip"
+L["gekolt_css_m4_g_tw.compactname"] = "CURVE"
+L["gekolt_css_m4_g_tw.description"] = "Revolver-style grip instead of the typical pistol one."
+
+L["gekolt_css_m4_g_short.printname"] = "Short Grip"
+L["gekolt_css_m4_g_short.compactname"] = "SHORT"
+L["gekolt_css_m4_g_short.description"] = "How do you even hold this?\nOr rather, why would you even want it?"
+
+L["gekolt_css_m4_g_saw.printname"] = "ChainSAW Grip"
+L["gekolt_css_m4_g_saw.compactname"] = "SAW"
+L["gekolt_css_m4_g_saw.description"] = "Extremely uncomfortable grip used for hip-firing.\nDon't ask how you would press the magazine release."
+
+L["gekolt_css_m4_g_cali.printname"] = "Cali Compliance Grip"
+L["gekolt_css_m4_g_cali.compactname"] = "CALI"
+L["gekolt_css_m4_g_cali.description"] = "Uncomfortable hunting grip for bypassing dumb laws."
+
+L["gekolt_css_m4_g_adar.printname"] = "Hunting Grip"
+L["gekolt_css_m4_g_adar.compactname"] = "HUNT"
+L["gekolt_css_m4_g_adar.description"] = "A grip and stock combo for the infamous wooden roleplay market."
+
+L["gekolt_css_m4_s_607.printname"] = "Compact Stock"
+L["gekolt_css_m4_s_607.compactname"] = "COMPACT"
+L["gekolt_css_m4_s_607.description"] = "For the ones with long shoulders."
+
+L["gekolt_css_m4_s_608.printname"] = "Telescopic Stock"
+L["gekolt_css_m4_s_608.compactname"] = "TELE."
+L["gekolt_css_m4_s_608.description"] = "Non-sliding sliding stock."
+
+L["gekolt_css_m4_s_a1.description"] = "Classic, albeit a bit more rectangular, lengthy stock."
+
+L["gekolt_css_m4_s_bolt.printname"] = "Precision Stock"
+L["gekolt_css_m4_s_bolt.compactname"] = "PRECISION"
+L["gekolt_css_m4_s_bolt.description"] = "Sniper-like stock for single-shot compensation.\nYour cheek and shoulder will love you."
+
+L["gekolt_css_m4_s_light.printname"] = "Light Stock"
+L["gekolt_css_m4_s_light.compactname"] = "LIGHT"
+L["gekolt_css_m4_s_light.description"] = "Does the job of looking cool, not much else."
+
+L["gekolt_css_m4_s_pdw.printname"] = "PDW Stock"
+L["gekolt_css_m4_s_pdw.compactname"] = "PDW"
+L["gekolt_css_m4_s_pdw.description"] = "A heavily cumbersome chassis built from a PDW kit.\nHence the extremely misleading name."
+
+L["gekolt_css_m4_s_slide.printname"] = "Sliding Stock"
+L["gekolt_css_m4_s_slide.compactname"] = "SLIDE"
+L["gekolt_css_m4_s_slide.description"] = "In, out, in, out, slide it all about."
+
+L["gekolt_css_m4_s_swire.description"] = "A wired but sliding stock, but without the sliding."
+
+L["gekolt_css_m4_s_t91.printname"] = "Heavy Stock II"
+L["gekolt_css_m4_s_t91.compactname"] = "HEAVY II"
+L["gekolt_css_m4_s_t91.description"] = "Why wasn't the original one hugging the frame?"
+
+L["gekolt_css_m4_s_thomp.printname"] = "\"Wooden\" Stock"
+L["gekolt_css_m4_s_thomp.compactname"] = "TOMMY"
+L["gekolt_css_m4_s_thomp.description"] = "It's like they're not even trying anymore.\nExcessive visual pain..."
+
+L["gekolt_css_m4_s_tube.printname"] = "Buffer Tube"
+L["gekolt_css_m4_s_tube.compactname"] = "BUFFER"
+L["gekolt_css_m4_s_tube.description"] = "You do know that it comes free with a stock for a reason, right?"
+
+L["gekolt_css_m4_s_wire.description"] = "V-ish shape wire stock. Thicker than usual, nothing to do with failed modelling."
+
+L["gekolt_css_m4_s_x79.printname"] = "Sliding Stock II"
+L["gekolt_css_m4_s_x79.compactname"] = "SLIDE II"
+L["gekolt_css_m4_s_x79.description"] = "Reverse telescopic stock."
+
+///////////// gekolt_css_m4_handguard
+L["gekolt_css_m4_h_t86.printname"] = "Naval Handguard"
+L["gekolt_css_m4_h_t86.compactname"] = "NAVY"
+L["gekolt_css_m4_h_t86.description"] = "Take a deep dive in the island hopping campaign of the Pacific.\nImproves <color=100,255,100>accuracy and range</color> with a moderate penalty to <color=255,100,100>handling</color>."
+
+L["gekolt_css_m4_h_sten.printname"] = "No Handguard"
+L["gekolt_css_m4_h_sten.compactname"] = "NONE"
+L["gekolt_css_m4_h_sten.description"] = "Handguards are just another piece of superfluous accessory. You can make do without one."
+
+L["gekolt_css_m4_h_spr.printname"] = "Special-Purpose Rifle Handguard"
+L["gekolt_css_m4_h_spr.compactname"] = "SPR"
+L["gekolt_css_m4_h_spr.description"] = "Short cylindrical handguard with lower weight.\nSlim and thin, fits right in."
+
+L["gekolt_css_m4_h_ris.printname"] = "RIS Handguard"
+L["gekolt_css_m4_h_ris.compactname"] = "RIS"
+L["gekolt_css_m4_h_ris.description"] = "Extra railed handguard for mounting accessories.\nFitted with four extra rails."
+
+L["gekolt_css_m4_h_patriot.printname"] = "Stubby Handguard"
+L["gekolt_css_m4_h_patriot.compactname"] = "STUB"
+L["gekolt_css_m4_h_patriot.description"] = "Still longer than whatever you got down there."
+
+L["gekolt_css_m4_h_lr300.printname"] = "Targeter Handguard"
+L["gekolt_css_m4_h_lr300.compactname"] = "TARGET"
+L["gekolt_css_m4_h_lr300.description"] = "Carbine-length handguard with extra rails and a heatshield.\nSlightly improves <color=100,255,100>sustained fire performance</color>.\nDespite its name, it doesn't really help that much with targeting."
+
+L["gekolt_css_m4_h_lmg.printname"] = "Light Machine Gun Handguard"
+L["gekolt_css_m4_h_lmg.compactname"] = "LMG"
+L["gekolt_css_m4_h_lmg.description"] = "Heavy-duty handguard designed for long sustained fire.\n<color=255,100,100>Less accurate</color> and has <color=255,100,100>more sway</color>."
+
+L["gekolt_css_m4_h_dragoon.printname"] = "Dragoon Handguard"
+L["gekolt_css_m4_h_dragoon.compactname"] = "DRAGOON"
+L["gekolt_css_m4_h_dragoon.description"] = "Slim handguard fitted for mounting or moving.\nIncreases fire rate noticeably at the cost of spread.\nHit them with that driveby whip."
+
+L["gekolt_css_m4_h_doe.printname"] = "Bulwark Handguard"
+L["gekolt_css_m4_h_doe.compactname"] = "BULWARK"
+L["gekolt_css_m4_h_doe.description"] = "Shortened handguard outfitted with a peculiar flash guard.\nVery <color=255,100,100>short range</color>, but quite easy to handle."
+
+L["gekolt_css_m4_h_bn63.printname"] = "Marksman Handguard"
+L["gekolt_css_m4_h_bn63.compactname"] = "MARKSM."
+L["gekolt_css_m4_h_bn63.description"] = "Extended barrel and guard with 4 extra rails.\n<color=100,255,100>Superb precision and sway</color>, but <color=255,100,100>fires slower</color>.\nWhy couldn't they make a regular extended RIS guard?"
+
+L["gekolt_css_m4_h_adar.printname"] = "Woodsman Handguard"
+L["gekolt_css_m4_h_adar.compactname"] = "WOOD"
+L["gekolt_css_m4_h_adar.description"] = "Full length barrel with a sturdy wooden handguard.\nReduces <color=100,255,100>sway considerably</color>, but does not increase range as much.\nDoesn't make you wish for a nuclear winter all that much."
+
+L["gekolt_css_m4_h_acr.printname"] = "ACR Handguard"
+L["gekolt_css_m4_h_acr.compactname"] = "ACR"
+L["gekolt_css_m4_h_acr.description"] = "Tall full-length barrel and handguard with a cooling device allowing for <color=100,255,100>rapid first shot firing</color>.\nHeavy additions hurt <color=255,100,100>handling and sway</color>, and <color=255,100,100>rate of fire is greatly reduced</color>."
+
+L["gekolt_css_m4_h_a2.printname"] = "Full-Length Handguard"
+L["gekolt_css_m4_h_a2.compactname"] = "FULL"
+L["gekolt_css_m4_h_a2.description"] = "Full length handguard used by turn-of-the-century rifle models.\nComes with a <color=100,255,100>fast-firing 3-round burst</color> firing mode.\nFictional, but probably good enough for your G.I. roleplay."
+
+L["gekolt_css_m4_h_a1.printname"] = "Antique Handguard"
+L["gekolt_css_m4_h_a1.compactname"] = "ANTIQUE"
+L["gekolt_css_m4_h_a1.description"] = "It's old, outdated and you want it for your serious anarchist roleplay? A'ight.\nIncreases both <color=100,255,100>range and rate of fire</color>, but greatly decreases <color=255,100,100>accuracy</color>."
+
+L["gekolt_css_m4_h_608.printname"] = "Custodian Handguard"
+L["gekolt_css_m4_h_608.compactname"] = "CUSTODIAN"
+L["gekolt_css_m4_h_608.description"] = "A thin handguard fitted with a peculiar flash hider."
+
+L["gekolt_css_m4_h_148.printname"] = "Grenadier Handguard"
+L["gekolt_css_m4_h_148.compactname"] = "GRENADE"
+L["gekolt_css_m4_h_148.description"] = "Half of a handguard on top of a prototype grenade launcher.\nStill short as hell."
+
+L["gekolt_css_m4_h_148.firemodename"] = "Grenade Launcher"
+
+L["gekolt_css_m4_h_10.printname"] = "Precision Handguard"
+L["gekolt_css_m4_h_10.compactname"] = "PRECISION"
+L["gekolt_css_m4_h_10.description"] = "Long barrel and handguard manufactured for extreme precision.\nVery slow <color=255,100,100>fire rate</color>, but excellent <color=100,255,100>ballistic performance</color>."
+
+L["gekolt_css_m4_h_11.printname"] = "Athena Handguard"
+L["gekolt_css_m4_h_11.compactname"] = "ATHENA"
+L["gekolt_css_m4_h_11.description"] = "Sharpshooter extention with pre-packed accuracy."

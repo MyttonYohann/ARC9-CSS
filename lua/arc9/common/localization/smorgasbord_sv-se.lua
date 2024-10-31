@@ -590,3 +590,155 @@ L["gekolt_css_awp_f_sd.description"] = "\"Ah, äntligen, en helt ny toppmodern h
 L["gekolt_css_awp_f_obrez.printname"] = "Obrez-Ram"
 L["gekolt_css_awp_f_obrez.compactname"] = "AO338"
 L["gekolt_css_awp_f_obrez.description"] = "Någon fick tag på en såg och magiskt lim.\nÄr rörligheten verkligen så viktig?"
+
+///////////// gekolt_css_m4_grip_stock
+L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW-Framgrepp"
+L["gekolt_css_m4_fg_saw.compactname"] = "SAW"
+L["gekolt_css_m4_fg_saw.description"] = "Normala frågorna är \"varför\", \"hur\" och \"vad\".\nEtt horisontalt grepp som dramatiskt ökar <color=100,255,100>potentialen från höft-skytte</color>.\nKan inte utrustas tillsammans med <color=255,100,100>sikten</color>."
+
+L["gekolt_css_m4_g_wood.description"] = "Låt inte termiterna få tag på dig."
+
+L["gekolt_css_m4_g_ske.description"] = "Ja, den vikten du sparade är defaktorn för liv och död.\nVad tror du kommer hända ifall ditt grepp inte vägde något?"
+
+L["gekolt_css_m4_g_tw.printname"] = "Kurvat Grepp"
+L["gekolt_css_m4_g_tw.compactname"] = "KURVA"
+L["gekolt_css_m4_g_tw.description"] = "Grepp i revolverstilen istället för den normala pistolstilen."
+
+L["gekolt_css_m4_g_short.printname"] = "Kort Grepp"
+L["gekolt_css_m4_g_short.compactname"] = "KORT"
+L["gekolt_css_m4_g_short.description"] = "Hur håller du i den här?\nOch varför vill du ha den?"
+
+L["gekolt_css_m4_g_saw.printname"] = "ChainSAW-Grepp"
+L["gekolt_css_m4_g_saw.compactname"] = "SAW"
+L["gekolt_css_m4_g_saw.description"] = "Extremt obekvämt grepp som används för skytte från höften.\nFråga inte hur du trycker på magasinspärren."
+
+L["gekolt_css_m4_g_cali.printname"] = "Cali-Samtyckesgrepp"
+L["gekolt_css_m4_g_cali.compactname"] = "CALI"
+L["gekolt_css_m4_g_cali.description"] = "Obekvämt jaktgrepp för att undvika dumma lagar."
+
+L["gekolt_css_m4_g_adar.printname"] = "Jaktgrepp"
+L["gekolt_css_m4_g_adar.compactname"] = "JAKT"
+L["gekolt_css_m4_g_adar.description"] = "Kombinerad grepp och kolv för den ökända trä-rollspelsmarknaden."
+
+L["gekolt_css_m4_s_607.printname"] = "Kompakt Kolv"
+L["gekolt_css_m4_s_607.compactname"] = "KOMPAKT"
+L["gekolt_css_m4_s_607.description"] = "För dem med längre axlar."
+
+L["gekolt_css_m4_s_608.printname"] = "Teleskopisk Kolv"
+L["gekolt_css_m4_s_608.compactname"] = "TELE."
+L["gekolt_css_m4_s_608.description"] = "Icke-glidande glidande kolv."
+
+L["gekolt_css_m4_s_a1.description"] = "Klassisk, men mer rektangulär, och lång kolv."
+
+L["gekolt_css_m4_s_bolt.printname"] = "Precisionskolv"
+L["gekolt_css_m4_s_bolt.compactname"] = "PRECISION"
+L["gekolt_css_m4_s_bolt.description"] = "Krypskytte-liknande kolv för enkelskott kompensering.\nDin kind och axel kommer älska dig."
+
+L["gekolt_css_m4_s_light.printname"] = "Lätt Kolv"
+L["gekolt_css_m4_s_light.compactname"] = "LÄTT"
+L["gekolt_css_m4_s_light.description"] = "Utför jobbet att se coolt ut, inte mer än det."
+
+L["gekolt_css_m4_s_pdw.printname"] = "PDW-Kolv"
+L["gekolt_css_m4_s_pdw.compactname"] = "PDW"
+L["gekolt_css_m4_s_pdw.description"] = "En väldigt besvärlig chassi byggt från en PDW-kit.\nDärav det extremt vilseledande namnet."
+
+L["gekolt_css_m4_s_slide.printname"] = "Glidande Kolv"
+L["gekolt_css_m4_s_slide.compactname"] = "GLID"
+L["gekolt_css_m4_s_slide.description"] = "In, ut, in, ut, glid överallt."
+
+L["gekolt_css_m4_s_swire.description"] = "Tråd- men glidande kolv, utan glidandet."
+
+L["gekolt_css_m4_s_t91.printname"] = "Tung Kolv II"
+L["gekolt_css_m4_s_t91.compactname"] = "TUNG II"
+L["gekolt_css_m4_s_t91.description"] = "Varför var inte inte originalet inslaget runt ramen?"
+
+L["gekolt_css_m4_s_thomp.printname"] = "\"Träkolv\""
+L["gekolt_css_m4_s_thomp.compactname"] = "TOMMY"
+L["gekolt_css_m4_s_thomp.description"] = "Känns som om dem inte försöker längre.\nÖverdrivet visuell smärta..."
+
+L["gekolt_css_m4_s_tube.printname"] = "Bufferrör"
+L["gekolt_css_m4_s_tube.compactname"] = "BUFFER"
+L["gekolt_css_m4_s_tube.description"] = "Du vet att den kommer med en gratis kolv av en anledning, eller?"
+
+L["gekolt_css_m4_s_wire.description"] = "V-format (ish) trådkolv. Tjockare än vanligt, inte alls tack vare dålig modellering."
+
+L["gekolt_css_m4_s_x79.printname"] = "Glidande Kolv II"
+L["gekolt_css_m4_s_x79.compactname"] = "GLID II"
+L["gekolt_css_m4_s_x79.description"] = "Baklänges teleskopisk kolv."
+
+///////////// gekolt_css_m4_handguard
+L["gekolt_css_m4_h_t86.printname"] = "Marin Handskydd"
+L["gekolt_css_m4_h_t86.compactname"] = "MARIN"
+L["gekolt_css_m4_h_t86.description"] = "Ta en djup dykning i öhoppningskampanjen i Stilla havet.\nFörbättrar <color=100,255,100>träffsäkerhet och räckvidd</color> med en måttlig bestraffning till <color=255,100,100>hantering</color>."
+
+L["gekolt_css_m4_h_sten.printname"] = "Inget Handskydd"
+L["gekolt_css_m4_h_sten.compactname"] = "INGET"
+L["gekolt_css_m4_h_sten.description"] = "Handskydd är bara ännu ett överflödigt tillbehör. Du behöver inte en."
+
+L["gekolt_css_m4_h_spr.printname"] = "\"Special-Purpose Rifle\"-Handskydd"
+L["gekolt_css_m4_h_spr.compactname"] = "SPR"
+L["gekolt_css_m4_h_spr.description"] = "Kort cylindriskt handskydd med lägre vikt.\nSlät och tunn, passar precis in."
+
+L["gekolt_css_m4_h_ris.printname"] = "RIS-Handskydd"
+L["gekolt_css_m4_h_ris.compactname"] = "RIS"
+L["gekolt_css_m4_h_ris.description"] = "Handskydd med extra skenor för att montera tillbehör.\nUtrustat med fyra extra skenor."
+
+L["gekolt_css_m4_h_patriot.printname"] = "Kort och Tjockt Handskydd"
+L["gekolt_css_m4_h_patriot.compactname"] = "K.T."
+L["gekolt_css_m4_h_patriot.description"] = "Fortfarande längre än vad det nu är du har där nere."
+
+L["gekolt_css_m4_h_lr300.printname"] = "Målförvärvshandskydd"
+L["gekolt_css_m4_h_lr300.compactname"] = "MÅLFÖ."
+L["gekolt_css_m4_h_lr300.description"] = "Carbine-length handguard with extra rails and a heatshield.\nSlightly improves <color=100,255,100>sustained fire performance</color>.\nDespite its name, it doesn't really help that much with targeting."
+L["gekolt_css_m4_h_lr300.description"] = "Handskydd i karbinslängd med extra skenor och värmesköld.\nÖkar lätt <color=100,255,100>prestandan under kontinuerlig eld</color>.\nTrots namnet så hjälper den inte så vidare mycket med målförvärv."
+
+L["gekolt_css_m4_h_lmg.printname"] = "Lätt Kulspruta Handskydd"
+L["gekolt_css_m4_h_lmg.compactname"] = "KSP."
+L["gekolt_css_m4_h_lmg.description"] = "Tungt handskydd designat för lång kontinuerlig eld.\n<color=255,100,100>Mindre träffsäker</color> och har <color=255,100,100>mer sväjning</color>."
+
+L["gekolt_css_m4_h_dragoon.printname"] = "Dragon-Handskydd"
+L["gekolt_css_m4_h_dragoon.compactname"] = "DRAGON"
+L["gekolt_css_m4_h_dragoon.description"] = "Slät handskydd utrustat for montering eller rörelse.\nÖkar <color=100,255,100>eldhastigheten</color> märkvärdigt med kostnad på <color=255,100,100>spridning</color>.\nTräffa dem med den där \"drive-by\"."
+
+L["gekolt_css_m4_h_doe.printname"] = "Bålverk Handskydd"
+L["gekolt_css_m4_h_doe.compactname"] = "BÅLVERK"
+L["gekolt_css_m4_h_doe.description"] = "Förkortat handskydd utrustat med ett egendomligt mynningsskydd.\nVäldigt <color=255,100,100>kort räckvidd</color>, men väldigt lätt att hantera."
+
+L["gekolt_css_m4_h_bn63.printname"] = "Krypskyttehandskydd"
+L["gekolt_css_m4_h_bn63.compactname"] = "KRYPSKYTT."
+L["gekolt_css_m4_h_bn63.description"] = "Förlängd pipa och handskydd med 4 extra skenor.\n<color=100,255,100>Utmärkt precision och sväjning</color> med <color=255,100,100>sänkt eldhastighet</color>.\nVarför kunde dem inte göra ett normalt förlängt RIS-handskydd?"
+
+L["gekolt_css_m4_h_adar.printname"] = "Skogsarbetare Handskydd"
+L["gekolt_css_m4_h_adar.compactname"] = "SKOG"
+L["gekolt_css_m4_h_adar.description"] = "Hellängd pipa med ett stadigt trähandskydd.\nSänker <color=100,255,100>sväjningen en bra bit</color> men ökar inte räckvidden lika mycket.\nFår dig att inte önskar för en nukleär vinter lika mycket."
+
+L["gekolt_css_m4_h_acr.printname"] = "ACR-Handskydd"
+L["gekolt_css_m4_h_acr.compactname"] = "ACR"
+L["gekolt_css_m4_h_acr.description"] = "En hög fullängd pipa och handskydd med ett nedkylningsmekanism som tillåter <color=100,255,100>snabb skytte på första skottet</color>.\nTyngre tillägg skadar till <color=255,100,100>hantering och sväjning</color> och <color=255,100,100>eldhastigheten är drastiskt sänkt</color>."
+
+L["gekolt_css_m4_h_a2.printname"] = "Hellängd Handskydd"
+L["gekolt_css_m4_h_a2.compactname"] = "HEL"
+L["gekolt_css_m4_h_a2.description"] = "Full length handguard used by turn-of-the-century rifle models.\nComes with a <color=100,255,100>fast-firing 3-round burst</color> firing mode.\nFictional, but probably good enough for your G.I. roleplay."
+L["gekolt_css_m4_h_a2.description"] = "Hellängd handskydd som används av gevärsmodeller efter sekelskiftet.\nKommer med ett <color=100,255,100>snabbskjutande 3-skottsalvoläge</color>.\nFiktiv, men förmodligen bra nog för er G.I.-rollspel."
+
+L["gekolt_css_m4_h_a1.printname"] = "Antikt Handskydd"
+L["gekolt_css_m4_h_a1.compactname"] = "ANTIK"
+L["gekolt_css_m4_h_a1.description"] = "Gammal, föråldrad och du vill ha den till din seriösa anarki rollspel? Okej då.\nÖkar både <color=100,255,100>räckvidd och eldhastighet</color>, men sänker kraftigt <color=255,100,100>träffsäkerheten</color>."
+
+L["gekolt_css_m4_h_608.printname"] = "Väktare Handskydd"
+L["gekolt_css_m4_h_608.compactname"] = "VÄKTARE"
+L["gekolt_css_m4_h_608.description"] = "Ett tunt handskydd utrustat med en egendomlig mynningsbroms."
+
+L["gekolt_css_m4_h_148.printname"] = "Grenadjär Handskydd"
+L["gekolt_css_m4_h_148.compactname"] = "GRANAT"
+L["gekolt_css_m4_h_148.description"] = "Ett halvt handskydd ovanpå en prototyp granattillsats.\nFortfarande kort som tusan."
+
+L["gekolt_css_m4_h_148.firemodename"] = "Granattillsats"
+
+L["gekolt_css_m4_h_10.printname"] = "Precisionshandskydd"
+L["gekolt_css_m4_h_10.compactname"] = "PRECISION"
+L["gekolt_css_m4_h_10.description"] = "Lång pipa och handskydd tillverkad för extrem precision.\nVäldigt låg <color=255,100,100>eldhastighet</color>, men utmärkt <color=100,255,100>ballistik prestanda</color>."
+
+L["gekolt_css_m4_h_11.printname"] = "Athena-Handskydd"
+L["gekolt_css_m4_h_11.compactname"] = "ATHENA"
+L["gekolt_css_m4_h_11.description"] = "Krypskytte förlängning med inbyggd träffsäkerhet."
