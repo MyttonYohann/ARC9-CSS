@@ -15,7 +15,7 @@ ATT.ModelOffset = Vector(-0.1, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"scope_rail"},
 
@@ -104,7 +104,7 @@ ATT.ModelOffset = Vector(-0.1, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"scope_rail"},
 
@@ -170,7 +170,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"acog_mount_rail"},
 
@@ -182,7 +182,7 @@ ATT.Attachments = {
     },
 	
 	{
-        PrintName = "Angled Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic_angle") or "Angled Optic",
         DefaultName = "None",
 		InstalledElements = {"acog_mount_rail2"},
 
@@ -353,7 +353,7 @@ ATT.SprintToFireTimeAdd = 0.08
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css", "optic_css_holo", "css_scope_extra"
 		},
         Pos = Vector(1,0, -2.4),
@@ -611,7 +611,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"acog_mount_rail"},
 
@@ -691,7 +691,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"acog_mount_rail"},
 
@@ -807,14 +807,14 @@ ATT.SprintToFireTimeAdd = 0.05
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT Back",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_b") or "Mount B.",
         Category = {"tac_css_flat", "mount_css", "optic_css_s"},
         Pos = Vector(0,0, -2.15),
         Ang = Angle(0, 0, 0),
     },
 
     {
-        PrintName = "MOUNT Front",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_f") or "Mount F.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(-3.5,0, -2.15),
         Ang = Angle(0, 0, 0),
@@ -873,20 +873,20 @@ ATT.SprintToFireTimeAdd = 0.05
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css", "mount_css", "optic_css_holo", "css_scope_extra"},
         Pos = Vector(-1,0, -2.3),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = {"mountr_css", "tac_css", "css_scope_extra"},
         Pos = Vector(-1, -0.85, -1.375),
         Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(1, 0, 0),
     },
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = {"mountl_css", "tac_css", "css_scope_extra"},
         Pos = Vector(-1,0.85, -1.375),
         Ang = Angle(0, 0, 90),

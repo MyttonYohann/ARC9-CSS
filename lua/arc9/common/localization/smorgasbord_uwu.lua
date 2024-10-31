@@ -206,12 +206,17 @@ L["smorg_category_mount_l"] = "Mount L." -- "Left"
 L["smorg_category_mount_r"] = "Mount R." -- "Right"
 L["smorg_category_mount_u"] = "Mount U." -- "Up"
 L["smorg_category_mount_d"] = "Mount D." -- "Down"
+L["smorg_category_mount_f"] = "Mount F." -- "Front"
+L["smorg_category_mount_r"] = "Mount R." -- "Rear"
 L["smorg_category_ammo"] = "Ammo"
 L["smorg_category_offhand"] = "Off-Hand"
 L["smorg_category_barrel"] = "Barrel"
 L["smorg_category_magazine"] = "Magazine"
 L["smorg_category_kit"] = "Kit"
 L["smorg_category_payload"] = "Payload"
+L["smorg_category_optic_angle"] = "Angled Optic"
+
+L["smorg_category_ammo_ubgl"] = "Ammo (UB)"
 
 /////////////////// Attachment Toggle Stats
 L["smorg_stat_on"] = "ON"

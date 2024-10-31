@@ -18,7 +18,7 @@ ATT.ActivateElements = {"kit_xm70"}
 
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("smorg_category_muzzle") or "Muzzle",
         DefaultName = "None",
 
         DefaultIcon = Material("arc9/def_att_icons/barrel.png"),
@@ -264,7 +264,7 @@ DOESNT FUCKING WORK
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         Pos = Vector(0,0,3),

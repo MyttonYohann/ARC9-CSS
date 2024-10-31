@@ -228,7 +228,7 @@ ATT.Firemodes = {
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         Pos = Vector(0,2,-3),

@@ -350,7 +350,7 @@ ATT.SprintAngOverride = Angle(40, -15, -10)
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"has_optic"},
 
@@ -360,7 +360,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1.25, -2.15, -7.25),
         Ang = Angle(90, 0, 0),

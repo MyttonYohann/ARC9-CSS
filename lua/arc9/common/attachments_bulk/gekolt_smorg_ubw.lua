@@ -401,7 +401,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "UBGL Magazine",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo_ubgl") or "Ammo (UB)",
         Category = {"smorg_ubgl_ump_mag"},
         Pos = Vector(-2.5,0, 4),
         Ang = Angle(0, 180, 0),

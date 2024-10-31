@@ -204,7 +204,7 @@ ATT.Silenced = true
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.5,-0.3, -18),
         Ang = Angle(90, 180, 0),
@@ -212,7 +212,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1.5,-0.3, -18),
         Ang = Angle(90, 0, 0),
@@ -220,7 +220,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-1.95, -18),
         Ang = Angle(90, 0, -90),
@@ -266,7 +266,7 @@ ATT.Sights = {
 ATT.Firemodes = {
     {
         Mode = 1,
-        PrintName = "SINGLE"
+        -- PrintName = "SINGLE"
     }
 }
 
@@ -371,7 +371,7 @@ ATT.Sights = {
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-2.3, -10.5),
         Ang = Angle(90, 0, -90),
@@ -444,7 +444,7 @@ ATT.Ammo = "smg1"
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         Category = "mountr_css",
         InstalledElements = {"no_irons", "no_optic", "optic_main"},
         DefaultIcon = Material("arc9/def_att_icons/optic.png"),
@@ -456,7 +456,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.25,-0.25, -16.75),
         Ang = Angle(90, 180, 0),
@@ -464,7 +464,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1.25,-0.25, -16.75),
         Ang = Angle(90, 0, 0),
@@ -472,7 +472,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Bottom",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
         Category = {"tac_css", "rail_bottom"},
         Pos = Vector(0,1, -17),
         Ang = Angle(90, 0, 90),
@@ -480,7 +480,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         DefaultIcon = Material("arc9/def_att_icons/grip.png"),
 
@@ -532,7 +532,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         Category = "mountr_css",
         InstalledElements = {"no_irons", "no_optic", "optic_main"},
         DefaultIcon = Material("arc9/def_att_icons/optic.png"),
@@ -665,13 +665,13 @@ ATT.Sights = {
 ATT.Firemodes = {
     {
         Mode = 1,
-        PrintName = "PUMP"
+        PrintName = ARC9:GetPhrase("smorg_firemode_pump") or "PUMP"
     }
 }
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         Pos = Vector(0,3,-7),
@@ -748,7 +748,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         Pos = Vector(0,3,-6),
@@ -806,7 +806,7 @@ ATT.Ammo = "357"
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-1.7, -10.5),
         Ang = Angle(90, 0, -90),

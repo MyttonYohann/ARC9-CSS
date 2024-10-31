@@ -57,7 +57,7 @@ ATT.LHIK = true
 
 ATT.Attachments = {
     {
-        PrintName = "Clamp",
+        PrintName = ARC9:GetPhrase("smorg_category_clamp") or "Clamp",
         Category = {"clamp_s_css"},
         Pos = Vector(0,0.25, 0.5),
         Ang = Angle(90, 0, -90),
@@ -93,7 +93,7 @@ ATT.ActivateElements = {"guard_spr"}
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.25,0.2, -4),
         Ang = Angle(90, 180, 0),
@@ -101,7 +101,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1.25,0.2, -4),
         Ang = Angle(90, 0, 0),
@@ -109,7 +109,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-1.1, -3.25),
         Ang = Angle(90, 0, -90),
@@ -141,7 +141,7 @@ ATT.SwayAdd = 0.05
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.25,0.3, -4),
         Ang = Angle(90, 180, 0),
@@ -149,7 +149,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1.25,0.3, -4),
         Ang = Angle(90, 0, 0),
@@ -157,7 +157,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-1.1, -2),
         Ang = Angle(90, 0, -90),
@@ -165,7 +165,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Bottom",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
         Category = {"tac_css"},
         Pos = Vector(0,1.65, -5),
         Ang = Angle(90, 0, 90),
@@ -238,7 +238,7 @@ ATT.SprintToFireTimeAdd = 0.02
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1,0.3, -8.25),
         Ang = Angle(90, 180, 0),
@@ -246,7 +246,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1,0.3, -8.25),
         Ang = Angle(90, 0, 0),
@@ -254,7 +254,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Bottom",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
         Category = {"tac_css"},
         Pos = Vector(0,1.6, -8.5),
         Ang = Angle(90, 0, 90),
@@ -399,7 +399,7 @@ ATT.RecoilUpMult = 0.9
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT LEFT",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.25,0.3, -8.25),
         Ang = Angle(90, 180, 0),
@@ -407,7 +407,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(1.25,0.3, -8.25),
         Ang = Angle(90, 0, 0),
@@ -415,7 +415,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-1.25, -6.5),
         Ang = Angle(90, 0, -90),
@@ -423,7 +423,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Bottom",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
         Category = {"tac_css"},
         Pos = Vector(0,2, -9.5),
         Ang = Angle(90, 0, 90),
@@ -747,7 +747,7 @@ ATT.SprintToFireTimeAdd = 0.075
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT TOP",
+        PrintName = ARC9:GetPhrase("smorg_category_u") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(0,-1.25, -6.5),
         Ang = Angle(90, 0, -90),

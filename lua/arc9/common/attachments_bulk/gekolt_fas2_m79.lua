@@ -11,7 +11,7 @@ Explosive privilege revoked.
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo Type",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "Default Type",
         Category = {"css_ammo_sg"},
         Pos = Vector(0,3,0),
@@ -283,7 +283,7 @@ ATT.Sights = {
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "12 Gauge",
 
         Category = {"fas2_m79_ammo2", "css_ammo_sg"},
@@ -392,7 +392,7 @@ ATT.ModelBodygroups = "15000"
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo",
+        PrintName = ARC9:GetPhrase("smorg_category_ammo") or "Ammo",
         DefaultName = "12 Gauge",
 
         Category = {"fas2_m79_ammo2", "css_ammo_sg"},

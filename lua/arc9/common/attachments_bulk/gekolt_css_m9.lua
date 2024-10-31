@@ -27,7 +27,7 @@ ATT.RecoilRandomSideMult = 0.75 / 0.3
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "None",
         Category = {"css_m9_stock"},
         Pos = Vector(0, 2, 5),
@@ -86,14 +86,14 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",	-- this should be universal for everything except carbine, welrod and artillery, ill code later
+        PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",	-- this should be universal for everything except carbine, welrod and artillery, ill code later
         DefaultName = "None",
         Category = {"css_m9_stock"},
         Pos = Vector(0, 2, 5),
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = "Grip",
+        PrintName = ARC9:GetPhrase("smorg_category_grip") or "Grip",
         DefaultName = "None",
         Category = {"css_m9_grip"},
         Pos = Vector(0, 0.5, -4),
@@ -360,7 +360,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"has_optic"},
 
