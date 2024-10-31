@@ -530,3 +530,63 @@ L["gekolt_css_ak_hg11.description"] = "Specialpaket från en ganska lusiv kamrat
 L["gekolt_css_ak_hg12.printname"] = "Naket Handskydd"
 L["gekolt_css_ak_hg12.compactname"] = "NAKET"
 L["gekolt_css_ak_hg12.description"] = "Avskalad till det absolut nödvändigaste.\nSe att slutstycket skakar i spektakulär misslyckande."
+
+///////////// gekolt_css_ammo
+L["gekolt_ammo_sg_magnum.printname"] = "Pressat Magnumskott"
+L["gekolt_ammo_sg_magnum.compactname"] = "MAGNUM"
+L["gekolt_ammo_sg_magnum.description"] = "Trycksatt pulverladdning kan endast ha få kvantitet per skott.\nDet den saknar i dispersion gör den upp i stoppkraft på nära håll."
+
+L["gekolt_ammo_sg_drone.printname"] = "Foule Drönareskott"
+L["gekolt_ammo_sg_drone.compactname"] = "DRÖNARE"
+L["gekolt_ammo_sg_drone.description"] = "Packat med en större antal skott tillåter bredare spridning och mindre klumpar.\nKnocka dem där drönare, fåglarna, eller vad tusan annat är i luften utan problem."
+
+L["gekolt_ammo_sg_slug.printname"] = "Krypskytte Sluggskott"
+L["gekolt_ammo_sg_slug.compactname"] = "SLUGG"
+L["gekolt_ammo_sg_slug.description"] = "the scug\nplay rain world\nplay rainworld\nplay rain world\nplay rainworld"
+
+L["gekolt_ammo_sg_spring.printname"] = "\"Rebounder\" Studsskott"
+L["gekolt_ammo_sg_spring.compactname"] = "STUDS"
+L["gekolt_ammo_sg_spring.description"] = "En enda studsande projektil med magisk spårfunktionalitet."
+
+L["gekolt_ammo_sg_sharp.printname"] = "Pansarbrytande Flechetteskott"
+L["gekolt_ammo_sg_sharp.compactname"] = "FLECH."
+L["gekolt_ammo_sg_sharp.description"] = "Ihålig patroner laddade med 4 vassa, pansarbrytande projektiler."
+
+L["gekolt_ammo_sg_frag.printname"] = "\"FRAG-12\" Splitterskott"
+L["gekolt_ammo_sg_frag.compactname"] = "FRAG-12"
+L["gekolt_ammo_sg_frag.description"] = "Hagelskott laddade med en explosiv projektil."
+
+L["gekolt_ammo_sg_flame.printname"] = "Inflamma \"Dragon's Breath\""
+L["gekolt_ammo_sg_flame.compactname"] = "DRAGON"
+L["gekolt_ammo_sg_flame.description"] = "En väldigt oetisk flammpatron laddad med brännande bränsle."
+
+L["gekolt_ammo_sg_flare.printname"] = "Signalskott"
+L["gekolt_ammo_sg_flare.compactname"] = "SIGNAL"
+L["gekolt_ammo_sg_flare.description"] = "Patron med lågt tryck innehåller en upplysande signal som brinner vid väldigt hög temperatur.\nAnvänds oftast för att signalera, men kan tända fyr på grejer om det krävs."
+
+///////////// gekolt_css_awp
+L["gekolt_css_awp_s_no.description"] = "Tar helt bort all möjlighet att stödja dig från detta högkaliber gevär."
+
+L["gekolt_css_awp_f_howell.printname"] = "Howell Automateld Ram"
+L["gekolt_css_awp_f_howell.compactname"] = "AUTO"
+L["gekolt_css_awp_f_howell.description"] = "Denna gamla mekanismen från 1900-talet tillåter din icke-Lee-Enfield att skjuta i (halv-) automateld!\nKommer med ett komiskt stort 20-patronersmagasin av någon anledning som ser ut som att den håller 10 till (låt oss säga att den använder 'avlånga skott'...).\nTrots att det är samma kaliber så sänks skadan tack vare TV-spel balansering."
+
+L["gekolt_css_awp_s_fold.printname"] = "Vikbar Kolv"
+L["gekolt_css_awp_s_fold.compactname"] = "VIKBAR"
+L["gekolt_css_awp_s_fold.description"] = "Skelettkolv med rabatt."
+
+L["gekolt_css_awp_f_lc10.printname"] = "Lincoln Corp 10A2 Ram"
+L["gekolt_css_awp_f_lc10.compactname"] = "LC10A2"
+L["gekolt_css_awp_f_lc10.description"] = "Vi smugglade en KPist. låda in i krypskyttegevärets ram.\nEn opassande ram som ger ogynnsamma resultat."
+
+L["gekolt_css_awp_s_short.printname"] = "Optimiserad Kolv"
+L["gekolt_css_awp_s_short.compactname"] = "OPTIM."
+L["gekolt_css_awp_s_short.description"] = "Tar bort \"onödiga\" delar för att sänka vikten och öka prestandan."
+
+L["gekolt_css_awp_f_sd.printname"] = "AE50 Ram"
+L["gekolt_css_awp_f_sd.compactname"] = "AE50"
+L["gekolt_css_awp_f_sd.description"] = "\"Ah, äntligen, en helt ny toppmodern högkaliber konfig--\nVAD MENAR DU ATT VI ANVÄNDE FEL KALIBER?! DU SA .50-- .50 BMG, INTE--\n...\n...Åh, herre gud...\n...tja, den ser ju ganska söt ut i alla fall. Liknar dem där De Lisle-gevären från kriget--\n...håll den tanken. Har vi några extra komiskt stora ljuddämpare någonstans...?\""
+
+L["gekolt_css_awp_f_obrez.printname"] = "Obrez-Ram"
+L["gekolt_css_awp_f_obrez.compactname"] = "AO338"
+L["gekolt_css_awp_f_obrez.description"] = "Någon fick tag på en såg och magiskt lim.\nÄr rörligheten verkligen så viktig?"

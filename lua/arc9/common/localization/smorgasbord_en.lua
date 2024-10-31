@@ -506,7 +506,7 @@ L["gekolt_css_ak_hg2.description"] = "Northern variant built for the cold.\nCome
 
 L["gekolt_css_ak_hg3.printname"] = "Railed Handguard"
 L["gekolt_css_ak_hg3.compactname"] = "SAIGA"
-L["gekolt_css_ak_hg3.description"] = "Early bulky design in an attempt to modernize the rusty rifle."
+L["gekolt_css_ak_hg3.description"] = "Early bulky design in an attempt to modernise the rusty rifle."
 
 L["gekolt_css_ak_hg4.printname"] = "Krinkov Handguard"
 L["gekolt_css_ak_hg4.compactname"] = "KRINK"
@@ -528,9 +528,9 @@ L["gekolt_css_ak_hg9.printname"] = "Heavy Handguard"
 L["gekolt_css_ak_hg9.compactname"] = "HEAVY"
 L["gekolt_css_ak_hg9.description"] = "Oi, they just make the thing longer.\nRounded front sight for... more... accuracy?\nChucked a built-in bipod for good measures."
 
-L["gekolt_css_ak_hg10.printname"] = "Modernized Handguard"
+L["gekolt_css_ak_hg10.printname"] = "Modernised Handguard"
 L["gekolt_css_ak_hg10.compactname"] = "MODERN"
-L["gekolt_css_ak_hg10.description"] = "The \"latest\" production of a truly modernized handguard.\nA completely flat top and not so bulky rear sight."
+L["gekolt_css_ak_hg10.description"] = "The \"latest\" production of a truly modernised handguard.\nA completely flat top and not so bulky rear sight."
 
 L["gekolt_css_ak_hg11.printname"] = "Magyarie Handguard"
 L["gekolt_css_ak_hg11.compactname"] = "AMD"
@@ -539,3 +539,65 @@ L["gekolt_css_ak_hg11.description"] = "Special package from the quite lousy comr
 L["gekolt_css_ak_hg12.printname"] = "Naked Handguard"
 L["gekolt_css_ak_hg12.compactname"] = "NAKED"
 L["gekolt_css_ak_hg12.description"] = "Stripped down to its bare essentials.\nWatch that the bolt rattles in spectatular failure."
+
+///////////// gekolt_css_ammo
+L["gekolt_ammo_sg_magnum.printname"] = "Pressured Magnum Shot"
+L["gekolt_ammo_sg_magnum.compactname"] = "MAGNUM"
+L["gekolt_ammo_sg_magnum.description"] = "Pressurised powder load can only be carried in such few quantities per shot.\nWhat it lacks in dispersion, it makes up for in close range firepower."
+
+L["gekolt_ammo_sg_drone.printname"] = "Foule Drone Shot"
+L["gekolt_ammo_sg_drone.compactname"] = "DRONE"
+L["gekolt_ammo_sg_drone.description"] = "Condensed with a greater number of pellets allowing for wider spreading and looser clums.\nTake out those drones, birds or whatever else in the sky with more ease."
+
+L["gekolt_ammo_sg_slug.printname"] = "Marksman Slug Shot"
+L["gekolt_ammo_sg_slug.compactname"] = "SLUG"
+L["gekolt_ammo_sg_slug.description"] = "the scug\nplay rain world\nplay rainworld\nplay rain world\nplay rainworld"
+
+L["gekolt_ammo_sg_spring.printname"] = "Rebounder Spring Shot"
+L["gekolt_ammo_sg_spring.compactname"] = "SPRING"
+L["gekolt_ammo_sg_spring.description"] = "A single boucy projectile with magical homing properties."
+
+L["gekolt_ammo_sg_sharp.printname"] = "Armour-Piercing Flechettes"
+L["gekolt_ammo_sg_sharp.compactname"] = "FLECH."
+L["gekolt_ammo_sg_sharp.description"] = "Hollow shells loaded with 4 sharp, armour-piercing projectiles."
+
+L["gekolt_ammo_sg_frag.printname"] = "FRAG-12 High-Explosive Shot"
+L["gekolt_ammo_sg_frag.compactname"] = "FRAG-12"
+L["gekolt_ammo_sg_frag.description"] = "Shotgun shell filled with a highly explosive projectile."
+
+L["gekolt_ammo_sg_flame.printname"] = "Inflamma Dragon's Breath"
+L["gekolt_ammo_sg_flame.compactname"] = "DRAGON"
+L["gekolt_ammo_sg_flame.description"] = "A highly unethical flame round loaded with combustive fuel."
+
+L["gekolt_ammo_sg_flare.printname"] = "Signal Flare"
+L["gekolt_ammo_sg_flare.compactname"] = "FLARE"
+L["gekolt_ammo_sg_flare.description"] = "Low pressure shell containing an illuminating flare burning at a high temperature.\nUsually used for signalling, but can light things up in a pinch."
+
+///////////// gekolt_css_awp
+L["gekolt_css_awp_s_no.printname"] = ARC9:GetPhrase("gekolt_css_ak_stock0.printname") or "No Stock"
+L["gekolt_css_awp_s_no.compactname"] = ARC9:GetPhrase("gekolt_css_ak_stock0.compactname") or "NONE"
+L["gekolt_css_awp_s_no.description"] = "Completely removes any sense of bracing from a high-calibre rifle."
+
+L["gekolt_css_awp_f_howell.printname"] = "Howell Full-Auto Frame"
+L["gekolt_css_awp_f_howell.compactname"] = "AUTO"
+L["gekolt_css_awp_f_howell.description"] = "This ancient mechanism from the 1900's allows your not-Lee-Enfield to fire in (semi-) automatic!\nComes with a comically large 20-round magazine for some reason that looks like it can hold 10 more (let's say it uses 'tall bullets', i dunno).\nDespite using the exact same calibre, the damage is reduced in the name of video game balance."
+
+L["gekolt_css_awp_s_fold.printname"] = "Folding Stock"
+L["gekolt_css_awp_s_fold.compactname"] = "FOLD"
+L["gekolt_css_awp_s_fold.description"] = "Discounted skeletal stock."
+
+L["gekolt_css_awp_f_lc10.printname"] = "Lincoln Corp 10A2 Frame"
+L["gekolt_css_awp_f_lc10.compactname"] = "LC10A2"
+L["gekolt_css_awp_f_lc10.description"] = "We smuggled an SMG receiver into the sniper's frame.\nAn unfitting frame yielding unfavourable results."
+
+L["gekolt_css_awp_s_short.printname"] = "Optimised Stock"
+L["gekolt_css_awp_s_short.compactname"] = "OPTIM."
+L["gekolt_css_awp_s_short.description"] = "Removes \"unnecessary\" bits in order to reduce weight and improve performance."
+
+L["gekolt_css_awp_f_sd.printname"] = "AE50 Frame"
+L["gekolt_css_awp_f_sd.compactname"] = "AE50"
+L["gekolt_css_awp_f_sd.description"] = "\"Ah, finally, a brand-new state of the art high-calibre confi--\nOI, WHAT DO YOU MEAN WE USED THE WRONG CALIBRE?! I SAID .50-- .50 BMG, NOT--\n...\n...Oh, my lord...\n...I guess it does look cute, like one of those De Lisle rifles from the war--\n...hold that thought. Do we have any spare comically large suppressors lying about...?\""
+
+L["gekolt_css_awp_f_obrez.printname"] = "Obrez Frame"
+L["gekolt_css_awp_f_obrez.compactname"] = "AO338"
+L["gekolt_css_awp_f_obrez.description"] = "Someone got their hands on a saw and some magic glue.\nIs mobility truly that important?"
