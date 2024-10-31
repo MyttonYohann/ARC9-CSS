@@ -19,6 +19,14 @@ ATT.SpreadMultHipFire = 1.25
 ATT.SpreadMultMove = 1.25
 ATT.AimDownSightsTimeMult = 0.65
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(3.5, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(3.5, 0, 0)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_stock0")
 
 ----------------------------------------------------------------------------------
@@ -512,6 +520,14 @@ ATT.Sights = {
     }
 }
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-3, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(-3, 0, 0)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_hg4")
 
 
@@ -549,6 +565,9 @@ ATT.Sights = {
         KeepBaseIrons = false
     }
 }
+
+ATT.CustomizePos = Vector(16, 47.5, 6)
+ATT.CustomizeRotateAnchor = Vector(16, -2.55, -2.23)
 
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_hg6")
 
@@ -620,6 +639,9 @@ ATT.RecoilMult = 1.15
 ATT.AimDownSightsTimeAdd = -0.02
 ATT.SprintToFireTimeAdd = -0.05
 
+ATT.CustomizePos = Vector(8, 47.5, 6)
+ATT.CustomizeRotateAnchor = Vector(8, -2.55, -2.23)
+
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_hg8")
 
 
@@ -663,6 +685,9 @@ ATT.ExcludeElements = {"pre_bipod"}
 
 ATT.Bipod = true
 ATT.RecoilDissipationRateMultBipod = 2
+
+ATT.CustomizePos = Vector(16, 47.5, 6)
+ATT.CustomizeRotateAnchor = Vector(16, -2.55, -2.23)
 
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_hg9")
 

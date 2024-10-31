@@ -229,6 +229,14 @@ ATT.SortOrder = 15
 ATT.Category = "css_ak_up"
 ATT.ActivateElements = {"u_566", "noguard", "nofg"}
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(1.5, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(1.5, 0, 0)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_mag4")
 
 
@@ -280,6 +288,13 @@ ATT.Sights = {
     }
 }
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(3, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(3, 0, 0)
+end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_mag5")
 

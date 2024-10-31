@@ -82,6 +82,8 @@ SWEP.SpeedMultBlindFire = 1
 SWEP.ShootWhileSprint = true
 SWEP.BashWhileSprint = true
 
+SWEP.NoAimAssist = true -- Disables aim assistance even if enabled in settings - useful for melees and throwables.
+
 -------------------------- MELEE
 
 SWEP.Bash = true
@@ -123,8 +125,9 @@ SWEP.ActivePos = Vector(0, -2, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CustomizeAng = Angle(0, 0, 0)
-SWEP.CustomizePos = Vector(0, 10, 3)
-SWEP.CustomizeSnapshotFOV = 110
+SWEP.CustomizePos = Vector(0, 25, 3)
+SWEP.CustomizeSnapshotFOV = 65
+
 SWEP.Hook_TranslateAnimation = function(wep, curanim)		-- 	changes to epic pose during 'customisation' actually should i give this attachment
 	if wep:GetCustomize() then
 	if	curanim == "idle" then return "idle_sights"	end	
@@ -134,7 +137,9 @@ end
 SWEP.CrouchPos = Vector(0, -0.5, -1)
 SWEP.CrouchAng = Angle(0, 0, 0)
 
-SWEP.CustomizeRotateAnchor = Vector(15, -2, 0)
+SWEP.CustomizeRotateAnchor = Vector(15, 0, 0)
+
+SWEP.CustomizeNoRotate = true
 
 SWEP.PeekPos = Vector(0, -3, -8)
 SWEP.PeekAng = Angle(0, 10, 0)

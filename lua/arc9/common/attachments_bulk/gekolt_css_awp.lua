@@ -25,6 +25,10 @@ ATT.CustomizePosHook = function(wep, vec)
     return vec + Vector(3, 0, 0)
 end
 
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(3, 0, 0)
+end
+
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_s_no")
 
@@ -78,6 +82,14 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "fire_iron"			then 	return "fire_iron_br"		end	
 	if	curanim == "reload"				then 	return "reload_br"			end	
 	if	curanim == "reload_empty"		then 	return "reload_empty_br"	end	
+end
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-4, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(-4, 0, 0)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_howell")
@@ -187,7 +199,11 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 end
 
 ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-6, 0, 0)
+    return vec + Vector(-7.5, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(-7.5, 0, 0)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_lc10")
@@ -215,6 +231,14 @@ ATT.RecoilMult = 1.15
 ATT.RecoilKickMult = 1.2
 
 ATT.FreeAimRadiusMult = 1.1
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(1.25, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(1.25, 0, 0)
+end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_s_short")
 
@@ -273,6 +297,14 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload_empty"	then 	return "reload_empty_sd"	end	
 end
 
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-2, 0, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(-2, 0, 0)
+end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_sd")
 
 
@@ -326,7 +358,11 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 end
 
 ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-3.5, 0, 0)
+    return vec + Vector(-5, -7.5, 0)
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+    return vec + Vector(-5, 0, 0)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_obrez")
