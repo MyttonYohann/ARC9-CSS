@@ -1,6 +1,29 @@
-L = {}
+L = {} -- Swedish by Moka
 
-////////////////////////////////////// Country of Origin
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////// Notes
+
+--[[
+
+Includes localizations for every accessory and outright weird attachment part of Unlameifier.
+If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
+If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
+
+If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
+For example, Spanish is "_es-es" and Russian is "_ru".
+
+If a localization has multiple lines, you have two choices:
+One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
+Note: If you wish to use quotation marks, you'll need to write it as < \" >
+
+Two: Use square brackets at the start and end. Example further down.
+
+[[ Text in Line 1
+Text in Line 2 ]]
+
+--]]
+
+////////////////////////////////////// Spawnmenu Category
 L["smorg_category"] = "ARC9 - Smörgåsbord"
 
 ////////////////////////////////////// Trivia
@@ -292,16 +315,16 @@ L["gekolt_css_tac_ti_flash.compactname"] = "LAMPA II"
 L["gekolt_css_tac_ti_las.printname"] = "Tac-Light II"
 L["gekolt_css_tac_ti_las.compactname"] = "TAC II"
 
-L["gekolt_css_tac_ti_radar.printname"] = "Radar"
-L["gekolt_css_tac_ti_radar.compactname"] = "RADAR"
-L["gekolt_css_tac_ti_radar.description"] = "REPLACEME"
+-- L["gekolt_css_tac_ti_radar.printname"] = "Radar"
+-- L["gekolt_css_tac_ti_radar.compactname"] = "RADAR"
+-- L["gekolt_css_tac_ti_radar.description"] = "REPLACEME"
 
 L["gekolt_css_tac_tri.printname"] = "Tri-Beam"
 L["gekolt_css_tac_tri.compactname"] = "TROIS"
 
-L["gekolt_fukcoff_akimibos.printname"] = "REPLACEME"
-L["gekolt_fukcoff_akimibos.compactname"] = "REPLACEME"
-L["gekolt_fukcoff_akimibos.description"] = "REPLACEME"
+-- L["gekolt_fukcoff_akimibos.printname"] = "REPLACEME"
+-- L["gekolt_fukcoff_akimibos.compactname"] = "REPLACEME"
+-- L["gekolt_fukcoff_akimibos.description"] = "REPLACEME"
 
 /////////////////////////// Bulk
 ///////////// gekolt_ca_m60
@@ -402,3 +425,108 @@ L["gekolt_css_ak_mag7.description"] = "Spiralformat staplade pistolskott.\nVerkl
 L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
 L["gekolt_css_ak_mag8.compactname"] = "16G"
 L["gekolt_css_ak_mag8.description"] = "Underdimensionerad trummagasin laddat med oproportionerliga kaliber 16[??].\nKan, på något sätt, fortfarande skjuta från en liten gevärspipa.\n\nUdda konvertering ger måttlig ballistik till skillnad från verkligen hagelbössor."
+
+///////////// gekolt_css_ak_stock
+L["gekolt_css_ak_stock0.printname"] = "Ingen Kolv"
+L["gekolt_css_ak_stock0.compactname"] = "INGEN"
+L["gekolt_css_ak_stock0.description"] = "Nä."
+
+L["gekolt_css_ak_stock1.printname"] = "Vikbar Kolv I"
+L["gekolt_css_ak_stock1.compactname"] = "VIKB. I"
+L["gekolt_css_ak_stock1.description"] = "En simpel vikbar kolv."
+
+L["gekolt_css_ak_stock2.printname"] = "Vikbar Kolv II"
+L["gekolt_css_ak_stock2.compactname"] = "VIKB. II"
+L["gekolt_css_ak_stock2.description"] = "Hybrid vikbar kolv gjord från Trä och Stål.\nTill rollspelare på östsidan."
+
+L["gekolt_css_ak_stock3.printname"] = "Vikbar Kolv III"
+L["gekolt_css_ak_stock3.compactname"] = "VIKB. III"
+L["gekolt_css_ak_stock3.description"] = "Kompakt vikbar kolv."
+
+-- L["gekolt_css_ak_stock30.printname"] = "Vikt Kolv"
+-- L["gekolt_css_ak_stock30.compactname"] = "VIKT"
+-- L["gekolt_css_ak_stock30.description"] = "REPLACEME"
+
+L["gekolt_css_ak_stock4.printname"] = "Glidande Trådkolv"
+L["gekolt_css_ak_stock4.compactname"] = "TRÅD"
+L["gekolt_css_ak_stock4.description"] = "En simpel trådkolv som ökar <color=100,255,100>målförvärv</color>."
+
+L["gekolt_css_ak_stock5.printname"] = "Tung Kolv"
+L["gekolt_css_ak_stock5.compactname"] = "TUNG"
+L["gekolt_css_ak_stock5.description"] = "Lade till en stagpunkt och vikt för <color=100,255,100>rekylkontrollen</color>."
+
+L["gekolt_css_ak_stock6.printname"] = "Hel Kolv"
+L["gekolt_css_ak_stock6.compactname"] = "HEL"
+L["gekolt_css_ak_stock6.description"] = "<color=100,255,100>Hela paketet</color>."
+
+L["gekolt_css_ak_stock7.printname"] = "Polymer Kolv I"
+L["gekolt_css_ak_stock7.compactname"] = "POLY. I"
+L["gekolt_css_ak_stock7.description"] = "Från dem senaste materialen."
+
+L["gekolt_css_ak_stock8.printname"] = "Polymer Kolv II"
+L["gekolt_css_ak_stock8.compactname"] = "POLY. II"
+L["gekolt_css_ak_stock8.description"] = "Smalt och rakt rör designad för vintermiljöer."
+
+L["gekolt_css_ak_stock9.printname"] = "Polymer Kolv III"
+L["gekolt_css_ak_stock9.compactname"] = "POLY. III"
+L["gekolt_css_ak_stock9.description"] = "Magiskt och kosmetiskt bärhandtag för västvärldens kolvadaption.\nVariationer inkluderas ej."
+
+L["gekolt_css_ak_grip1.printname"] = "Polymer Grepp"
+L["gekolt_css_ak_grip1.compactname"] = "POLY."
+L["gekolt_css_ak_grip1.description"] = "Termiterna kommer inte tugga igenom denna."
+
+L["gekolt_css_ak_grip2.printname"] = "Skelettgrepp"
+L["gekolt_css_ak_grip2.compactname"] = "SKEL."
+L["gekolt_css_ak_grip2.description"] = "Har termiter ätit sig igenom denna?\nHur lyckades dem borra den såhär?"
+
+L["gekolt_css_ak_grip3.printname"] = "Gevärsgrepp"
+L["gekolt_css_ak_grip3.compactname"] = "GEVÄR"
+L["gekolt_css_ak_grip3.description"] = "Helt besvärligt jägargrepp lägger förmodligen till... något."
+
+L["gekolt_css_ak_grip4.printname"] = "Polymer Gevärsgrepp"
+L["gekolt_css_ak_grip4.compactname"] = "P. GEVÄR"
+L["gekolt_css_ak_grip4.description"] = "West Coast Customs certifierad.\n\nFöljer nu Californias regler!"
+
+L["gekolt_css_ak_hg1.printname"] = "Stalker-Handskydd"
+L["gekolt_css_ak_hg1.compactname"] = "STALKER"
+L["gekolt_css_ak_hg1.description"] = "Lång internt ljuddämpad konfiguering.\nSlät design sänker vikten medans den ökar framgrepp alternativ."
+
+L["gekolt_css_ak_hg2.printname"] = "Polymer Handskydd"
+L["gekolt_css_ak_hg2.compactname"] = "POLY."
+L["gekolt_css_ak_hg2.description"] = "Variant från norr byggd för kylan.\nKommer med ett najs bakre sikte."
+
+L["gekolt_css_ak_hg3.printname"] = "Handskydd med Skena"
+L["gekolt_css_ak_hg3.compactname"] = "SAIGA"
+L["gekolt_css_ak_hg3.description"] = "Tidig, tung design i ett försök att modernisera det rostiga geväret."
+
+L["gekolt_css_ak_hg4.printname"] = "Krinkov-Handskydd"
+L["gekolt_css_ak_hg4.compactname"] = "KRINK"
+L["gekolt_css_ak_hg4.description"] = "Lilla kamraten är utrustad med dess egna mynningsenhet."
+
+L["gekolt_css_ak_hg6.printname"] = "Huntsman-Handskydd"
+L["gekolt_css_ak_hg6.compactname"] = "JÄGARE"
+L["gekolt_css_ak_hg6.description"] = "Lång och regulerat handskydd och pipa för jakt."
+
+L["gekolt_css_ak_hg7.printname"] = "Sputnik-Handskydd"
+L["gekolt_css_ak_hg7.compactname"] = "N94"
+L["gekolt_css_ak_hg7.description"] = "En magisk flytande pipa som borde vara fram- och återgående med möjlighet att utföra en <color=100,255,100>hypersnabb 2-skottsalvo</color> när du börjar med automateld.\nDefinitivt inte ett tekniskt fel."
+
+L["gekolt_css_ak_hg8.printname"] = "Auxiliärt Handskydd"
+L["gekolt_css_ak_hg8.compactname"] = "AUX."
+L["gekolt_css_ak_hg8.description"] = "Ser ut som att botten är ihålig.\nSer lite ut som att någon vill att du ska använda ett annat magasin till denna."
+
+L["gekolt_css_ak_hg9.printname"] = "Tungt Handskydd"
+L["gekolt_css_ak_hg9.compactname"] = "TUNG"
+L["gekolt_css_ak_hg9.description"] = "Hallå, dem gjorde den längre.\nRundat främre kornsikte för... högre... träffsäkerhet?\nSatte på ett inbyggt skjutstöd också bara för att."
+
+L["gekolt_css_ak_hg10.printname"] = "Moderniserat Handskydd"
+L["gekolt_css_ak_hg10.compactname"] = "MODERN"
+L["gekolt_css_ak_hg10.description"] = "Den \"senaste\" produkten av ett verkligt moderniserat handskydd.\nEn helt slät topp och inte så skrymmande bakre sikte."
+
+L["gekolt_css_ak_hg11.printname"] = "Magyarie-Handskydd"
+L["gekolt_css_ak_hg11.compactname"] = "AMD"
+L["gekolt_css_ak_hg11.description"] = "Specialpaket från en ganska lusiv kamrat, kommer med ett inbyggt framgrepp.\nVad menar du med att du fick tag på fel kamrat?"
+
+L["gekolt_css_ak_hg12.printname"] = "Naket Handskydd"
+L["gekolt_css_ak_hg12.compactname"] = "NAKET"
+L["gekolt_css_ak_hg12.description"] = "Avskalad till det absolut nödvändigaste.\nSe att slutstycket skakar i spektakulär misslyckande."

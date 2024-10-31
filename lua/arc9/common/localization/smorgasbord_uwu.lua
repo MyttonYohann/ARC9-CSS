@@ -1,6 +1,32 @@
-L = {}
--- https://uwuifier.com
-////////////////////////////////////// Country of Origin
+L = {} -- UwU by Mytton
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////// Notes
+
+--[[
+
+Includes localizations for every accessory and outright weird attachment part of Unlameifier.
+If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
+If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
+
+If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
+For example, Spanish is "_es-es" and Russian is "_ru".
+
+If a localization has multiple lines, you have two choices:
+One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
+Note: If you wish to use quotation marks, you'll need to write it as < \" >
+
+Two: Use square brackets at the start and end. Example further down.
+
+[[ Text in Line 1
+Text in Line 2 ]]
+
+--]]
+
+-- https://uwuifier.com is used for the uwu-ification.
+
+
+////////////////////////////////////// Spawnmenu Category
 L["smorg_category"] = "ARC9 - Smowgasbowd"
 -- Moka, is there a lore reason why you dont use [[]]
 ////////////////////////////////////// Trivia
@@ -247,7 +273,6 @@ L["gekolt_css_mount_45lb.description"] = "Canted rail for foregrip attachments a
 
 L["gekolt_css_mount_45r.printname"] = "45° Canted Mount (Right)"
 L["gekolt_css_mount_45r.compactname"] = "45° R"
-L["gekolt_css_mount_45r.description"] = ARC9:GetPhrase("gekolt_css_mount_45l.description") or "Extra rail for extra attachments."
 
 L["gekolt_css_mount_clamp.printname"] = "Clamped Rail"
 L["gekolt_css_mount_clamp.compactname"] = "RAIL"
@@ -255,10 +280,7 @@ L["gekolt_css_mount_clamp.description"] = "Extend your handguard even more."
 
 L["gekolt_css_mount_clamp_a.printname"] = "Clamped Rail (Angled)"
 L["gekolt_css_mount_clamp_a.compactname"] = "RAIL (A)"
-L["gekolt_css_mount_clamp_a.description"] = ARC9:GetPhrase("gekolt_css_mount_clamp.description") or "Extend your handguard even more."
 
-L["gekolt_css_mount_clamp_f.printname"] = ARC9:GetPhrase("gekolt_css_mount_clamp.printname") or "Clamped Rail"
-L["gekolt_css_mount_clamp_f.compactname"] = ARC9:GetPhrase("gekolt_css_mount_clamp.compactname") or "RAIL"
 L["gekolt_css_mount_clamp_f.description"] = "Extend your handguard even more. This time with a foregrip option!"
 
 L["gekolt_css_mount_rail.printname"] = "Rail Extension"
@@ -295,11 +317,9 @@ L["gekolt_css_tac_ti_corner.description"] = "Have a quick peak on this 40 FPS ca
 
 L["gekolt_css_tac_ti_flash.printname"] = "Flashlight II"
 L["gekolt_css_tac_ti_flash.compactname"] = "FLASH II"
-L["gekolt_css_tac_ti_flash.description"] = ARC9:GetPhrase("gekolt_css_tac_flash.description") or "Light module that <color=100,255,100>lights up the areas in front of you</color>. <color=100,255,100>Can blind enemies</color>, but will definitely <color=255,100,100>reveal the location of the user</color>."
 
 L["gekolt_css_tac_ti_las.printname"] = "Tac-Light II"
 L["gekolt_css_tac_ti_las.compactname"] = "TAC II"
-L["gekolt_css_tac_ti_las.description"] = ARC9:GetPhrase("gekolt_css_tac_2.description") or "Compact laser that provides an <color=100,255,100>aiming point while hip-firing</color>. Lasers helps with aiming, and <color=100,255,100>can blind enemies</color>, but will <color=255,100,100>reveal the location of the user</color>."
 
 L["gekolt_css_tac_ti_radar.printname"] = "Radar"
 L["gekolt_css_tac_ti_radar.compactname"] = "RADAR"
@@ -411,3 +431,108 @@ L["gekolt_css_ak_mag7.description"] = "Helically stacked pistol cartridges.\nAn 
 L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
 L["gekolt_css_ak_mag8.compactname"] = "16G"
 L["gekolt_css_ak_mag8.description"] = "Undersized drum magazine loaded with disproportionate 16[??] Gauge.\nSomehow still be able to fire from a small rifle barrel.\n\nBodged conversion yields mediocre ballistics comparing to true shotguns."
+
+///////////// gekolt_css_ak_stock
+L["gekolt_css_ak_stock0.printname"] = "No Stock"
+L["gekolt_css_ak_stock0.compactname"] = "NONE"
+L["gekolt_css_ak_stock0.description"] = "Just no."
+
+L["gekolt_css_ak_stock1.printname"] = "Folding Stock I"
+L["gekolt_css_ak_stock1.compactname"] = "FOLD I"
+L["gekolt_css_ak_stock1.description"] = "A simple folding stock."
+
+L["gekolt_css_ak_stock2.printname"] = "Folding Stock II"
+L["gekolt_css_ak_stock2.compactname"] = "FOLD II"
+L["gekolt_css_ak_stock2.description"] = "A hybrid folding stock out of Wood and Steel.\nFor the eastern roleplayer."
+
+L["gekolt_css_ak_stock3.printname"] = "Folding Stock III"
+L["gekolt_css_ak_stock3.compactname"] = "FOLD III"
+L["gekolt_css_ak_stock3.description"] = "A compact folding stock."
+
+-- L["gekolt_css_ak_stock30.printname"] = "Folded Stock"
+-- L["gekolt_css_ak_stock30.compactname"] = "FOLDED"
+-- L["gekolt_css_ak_stock30.description"] = "REPLACEME"
+
+L["gekolt_css_ak_stock4.printname"] = "Sliding Wire Stock"
+L["gekolt_css_ak_stock4.compactname"] = "WIRE"
+L["gekolt_css_ak_stock4.description"] = "A simple wired stock increases <color=100,255,100>sight acquisition</color>."
+
+L["gekolt_css_ak_stock5.printname"] = "Heavy Stock"
+L["gekolt_css_ak_stock5.compactname"] = "HEAVY"
+L["gekolt_css_ak_stock5.description"] = "Added bracing point and weight for <color=100,255,100>recoil control</color>."
+
+L["gekolt_css_ak_stock6.printname"] = "Full Stock"
+L["gekolt_css_ak_stock6.compactname"] = "FULL"
+L["gekolt_css_ak_stock6.description"] = "The <color=100,255,100>complete package</color>."
+
+L["gekolt_css_ak_stock7.printname"] = "Polymer Stock I"
+L["gekolt_css_ak_stock7.compactname"] = "POLY. I"
+L["gekolt_css_ak_stock7.description"] = "From the latest material."
+
+L["gekolt_css_ak_stock8.printname"] = "Polymer Stock II"
+L["gekolt_css_ak_stock8.compactname"] = "POLY. II"
+L["gekolt_css_ak_stock8.description"] = "Small straight tube designed for winter environments."
+
+L["gekolt_css_ak_stock9.printname"] = "Polymer Stock III"
+L["gekolt_css_ak_stock9.compactname"] = "POLY. III"
+L["gekolt_css_ak_stock9.description"] = "Magical cosmetic carrying handle for western stock adaption.\nVariations not included."
+
+L["gekolt_css_ak_grip1.printname"] = "Polymer Grip"
+L["gekolt_css_ak_grip1.compactname"] = "POLY."
+L["gekolt_css_ak_grip1.description"] = "The termites won't chew on this."
+
+L["gekolt_css_ak_grip2.printname"] = "Skeleton Grip"
+L["gekolt_css_ak_grip2.compactname"] = "SKEL."
+L["gekolt_css_ak_grip2.description"] = "Did termites eat through this?\nHow'd they even drill it like that?"
+
+L["gekolt_css_ak_grip3.printname"] = "Rifle Grip"
+L["gekolt_css_ak_grip3.compactname"] = "RIFLE"
+L["gekolt_css_ak_grip3.description"] = "Full awkward hunting grip, supposedly adds... I dunno."
+
+L["gekolt_css_ak_grip4.printname"] = "Polymer Rifle Grip"
+L["gekolt_css_ak_grip4.compactname"] = "P. RIFLE"
+L["gekolt_css_ak_grip4.description"] = "West Coast Customs certified.\n\nNow California compliant!"
+
+L["gekolt_css_ak_hg1.printname"] = "Stalker Handguard"
+L["gekolt_css_ak_hg1.compactname"] = "STALKER"
+L["gekolt_css_ak_hg1.description"] = "Long internally suppressed configuration.\nSlim design decreases weight while lengthen the foregrip option."
+
+L["gekolt_css_ak_hg2.printname"] = "Polymer Handguard"
+L["gekolt_css_ak_hg2.compactname"] = "POLY."
+L["gekolt_css_ak_hg2.description"] = "Northern variant built for the cold.\nComes with a fancy rear iron sight."
+
+L["gekolt_css_ak_hg3.printname"] = "Railed Handguard"
+L["gekolt_css_ak_hg3.compactname"] = "SAIGA"
+L["gekolt_css_ak_hg3.description"] = "Early bulky design in an attempt to modernize the rusty rifle."
+
+L["gekolt_css_ak_hg4.printname"] = "Krinkov Handguard"
+L["gekolt_css_ak_hg4.compactname"] = "KRINK"
+L["gekolt_css_ak_hg4.description"] = "The little comrade is fitted with its own muzzle device."
+
+L["gekolt_css_ak_hg6.printname"] = "Huntsman Handguard"
+L["gekolt_css_ak_hg6.compactname"] = "HUNTER"
+L["gekolt_css_ak_hg6.description"] = "Long and regulated handguard and barrel for hunting purpose."
+
+L["gekolt_css_ak_hg7.printname"] = "Sputnik Handguard"
+L["gekolt_css_ak_hg7.compactname"] = "N94"
+L["gekolt_css_ak_hg7.description"] = "A magic non-reciprocating floating barrel capable of performing a <color=100,255,100>hyper-fast 2-round burst</color> when starting to auto-fire.\nDefinitely not a technical issue."
+
+L["gekolt_css_ak_hg8.printname"] = "Auxiliary Handguard"
+L["gekolt_css_ak_hg8.compactname"] = "AUX."
+L["gekolt_css_ak_hg8.description"] = "Looks like the bottom is hollowed out.\nIt's like they want you to perhaps use a different magazine more fitted for this."
+
+L["gekolt_css_ak_hg9.printname"] = "Heavy Handguard"
+L["gekolt_css_ak_hg9.compactname"] = "HEAVY"
+L["gekolt_css_ak_hg9.description"] = "Oi, they just make the thing longer.\nRounded front sight for... more... accuracy?\nChucked a built-in bipod for good measures."
+
+L["gekolt_css_ak_hg10.printname"] = "Modernized Handguard"
+L["gekolt_css_ak_hg10.compactname"] = "MODERN"
+L["gekolt_css_ak_hg10.description"] = "The \"latest\" production of a truly modernized handguard.\nA completely flat top and not so bulky rear sight."
+
+L["gekolt_css_ak_hg11.printname"] = "Magyarie Handguard"
+L["gekolt_css_ak_hg11.compactname"] = "AMD"
+L["gekolt_css_ak_hg11.description"] = "Special package from the quite lousy comrade, comes with a built-in foregrip.\nWhat do you mean you got the wrong comrade?"
+
+L["gekolt_css_ak_hg12.printname"] = "Naked Handguard"
+L["gekolt_css_ak_hg12.compactname"] = "NAKED"
+L["gekolt_css_ak_hg12.description"] = "Stripped down to its bare essentials.\nWatch that the bolt rattles in spectatular failure."
