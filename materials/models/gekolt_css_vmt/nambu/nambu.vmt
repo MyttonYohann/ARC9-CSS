@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\gekolt_css_vmt\nambu\nambu"	
-	"$basetexture" "models\gekolt_css_vmt\nambu\nambu_normal"
+	"$bumpmap" "models\gekolt_css_vmt\nambu\nambu_normal"
 	"$normalmapalphaenvmapmask" "1"
 	"$halflambert" 1
 	"$model" "1"
