@@ -14,8 +14,8 @@ ATT.Description = [[Short interally suppressed barrel for late night trench raid
 
 ATT.SortOrder = 1.5
 ATT.Category = "dod_mauser_barrel"
-ATT.ActivateElements = {"f_sd", "pre_muzzed"}
-ATT.ExcludeElements = {"f_carbine"}
+ATT.ActivateElements = {"b_sd", "pre_muzzed"}
+ATT.ExcludeElements = {"g_carbine"}
 
 ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 0, 0)
@@ -311,8 +311,8 @@ Fitted with a double-snail mag for good measure.
 
 ATT.SortOrder = 2
 ATT.Category = "dod_mauser_hg"
-ATT.ActivateElements = {"f_carbine", "pre_optic", "akantbo"}
-ATT.ExcludeElements = {"dod_mauser_stock", "f_sd"}
+ATT.ActivateElements = {"g_carbine", "pre_optic", "akantbo"}
+ATT.ExcludeElements = {"dod_mauser_stock", "b_sd"}
 ATT.Firemodes = { { Mode = -1, } }
 ATT.CaseEffectQCA = 3
 
@@ -407,7 +407,7 @@ Grip is added to emotionally help you.
 
 ATT.SortOrder = 1
 ATT.Category = "dod_mauser_hg"
-ATT.ActivateElements = {"f_brazil"}
+ATT.ActivateElements = {"g_brazil"}
 
 ATT.Firemodes = { { Mode = 3, } }
 ATT.RunawayBurst = true

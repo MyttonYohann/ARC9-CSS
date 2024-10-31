@@ -257,30 +257,27 @@ SWEP.AttachmentElements = {
         Bodygroups = {{4, 2},{3, 1},{2, 3},{1, 1}},
         AttPosMods = { [6] = { Pos = Vector(0, 0.1, 8.3), }, [5] = { Pos = Vector(1.3, -0.75, -0.5), } }
     },
-
-    ["f_sd"] = {
-        Bodygroups = {{1, 3}},
-    },
-
-    ["f_brazil"] = {
-        Bodygroups = {{2, 1}},
-        --AttPosMods = { [3] = { Pos = Vector(0, 0.1, 8.3), } }
-    },
-    ["g_no"] = { Bodygroups = {{2, 3}}, }, 
 	["f_halfdrum"] = { Bodygroups = {{3, 4}}, },
 	["f_drum"] = { Bodygroups = {{3, 2}}, },
 	["f_smoll"] = { Bodygroups = {{3, 1}}, },
+
+    ["b_sd"] = {
+        Bodygroups = {{1, 3}},
+    },
     ["b_pistol"] = {
         Bodygroups = {{1, 1}},
         AttPosMods = { [6] = { Pos = Vector(0, 0.1, 8.3), } }
     },
-    ["s_brazil"] = {Bodygroups = {{4, 1}}, },
-    ["s_no"] = {Bodygroups = {{4, 2}}, },
 
-    ["f_carbine"] = {
+    ["g_carbine"] = {
         Bodygroups = {{5, 3},{4, 3},{2, 2}},
         AttPosMods = { [7] = { Pos = Vector(0, 2.8, 6.5), } }
     },
+    ["g_brazil"] = { Bodygroups = {{2, 1}}, },
+    ["g_no"] = { Bodygroups = {{2, 3}}, }, 
+
+    ["s_brazil"] = {Bodygroups = {{4, 1}}, },
+    ["s_no"] = {Bodygroups = {{4, 2}}, },
 }
 
 SWEP.Attachments = {
@@ -316,7 +313,7 @@ SWEP.Attachments = {
 	{
         PrintName = ARC9:GetPhrase("smorg_category_stock") or "Stock",
         DefaultName = "Wooden Stock",
-		ExcludeElements = {"f_edge", "f_carbine"},
+		ExcludeElements = {"f_edge", "g_carbine"},
 
         Category = "dod_mauser_stock",
         Bone = "W_Main",
@@ -374,13 +371,13 @@ SWEP.Attachments = {
 SWEP.Hook_ModifyBodygroups = function(wep, data)
     local model = data.model
     if wep:HasElement("has_fg")		then model:SetBodygroup(2,4) end 
-    if wep:HasElement("has_fg")		and wep:HasElement("f_carbine")	then model:SetBodygroup(2,2) end 
+    if wep:HasElement("has_fg")		and wep:HasElement("g_carbine")	then model:SetBodygroup(2,2) end 
 	if wep:HasElement("has_optic")	then model:SetBodygroup(5,1) end
-    if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(4,3) end
-    if wep:HasElement("has_optic")	and wep:HasElement("f_carbine") then model:SetBodygroup(5,0) end
+    if wep:HasElement("has_optic")	and wep:HasElement("g_carbine") then model:SetBodygroup(4,3) end
+    if wep:HasElement("has_optic")	and wep:HasElement("g_carbine") then model:SetBodygroup(5,0) end
 
     if wep:HasElement("has_optic")	and wep:HasElement("f_edge") 	then model:SetBodygroup(5,2) end 
-	if wep:HasElement("f_carbine")	and wep:HasElement("b_pistol") 	then model:SetBodygroup(1,5) end
+	if wep:HasElement("g_carbine")	and wep:HasElement("b_pistol") 	then model:SetBodygroup(1,5) end
 end
 
 SWEP.Animations = {

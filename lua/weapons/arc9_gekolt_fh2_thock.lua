@@ -341,6 +341,7 @@ SWEP.Attachments = {
         InstalledElements = {"fg_def"},
         DefaultIcon = Material("arc9/def_att_icons/grip.png"),
         ExcludeElements = {"nofg"},
+		RejectAttachments = { ["gekolt_css_fg_thomp"] = true },
         Category = {"grip_css", "fh2_thock_grip"},
         Bone = "W_Main",
         Pos = Vector(0, -0.075, 7.5),
