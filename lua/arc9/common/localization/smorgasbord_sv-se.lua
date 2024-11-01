@@ -300,10 +300,6 @@ L["gekolt_css_optic_m4_thomp.printname"] = "Teleskopiska Järn & Korn"
 L["gekolt_css_optic_m4_thomp.compactname"] = "T.J.K."
 L["gekolt_css_optic_m4_thomp.description"] = "Gammla järn och korn system designad för variabel räckvidd.\nNej, du kan inte växla mellan dem."
 
-L["gekolt_css_magnus.printname"] = "Magnus-Kikarsikte"
-L["gekolt_css_magnus.compactname"] = "MAGNUS"
-L["gekolt_css_magnus.description"] = "Kikarsikte med förmågan att växla mellan lång- och medelräckvidd magnifiering alternativ.\nDu kommer ha svårt att använda den dock tack vare dess <color=100,255,100>otroliga hårkors</color>."
-
 L["gekolt_css_tac_2.printname"] = "Tac-Light"
 L["gekolt_css_tac_2.compactname"] = "TAC"
 L["gekolt_css_tac_2.description"] = "Kompakt laser som erbjuder <color=100,255,100>siktpunkt under skytte från höften</color>. Lasern hjälper med siktandet och <color=100,255,100>kan blända fiender</color>, men kan <color=255,100,100>avslöja användarens position</color>."
@@ -847,3 +843,70 @@ L["gekolt_css_m9_s1.description"] = "Greppmonterad kolv. Tillåter dig att spän
 L["gekolt_css_m9_g1.printname"] = "Impugnatura \"raffica\"" -- "Burst Grip"
 L["gekolt_css_m9_g1.compactname"] = "GREPP"
 L["gekolt_css_m9_g1.description"] = "Salvoeld framgrepp ger dig en bättre plats för att hålla ett snabbskjutande sidovapen."
+
+///////////// gekolt_css_optic
+L["gekolt_css_scope_rangefider.printname"] = "Avståndsmätare"
+L["gekolt_css_scope_rangefider.compactname"] = "AVSTÅND"
+L["gekolt_css_scope_rangefider.description"] = "Avståndsmätande enhet.\nLika värdelös som det låter."
+
+-- L["gekolt_css_scope_radar.printname"] = "Radar"
+-- L["gekolt_css_scope_radar.compactname"] = "RADAR"
+-- L["gekolt_css_scope_radar.description"] = "En ganska sölig radarenhet."
+
+L["gekolt_css_optic_acog.printname"] = "\"Enhanced Optical Gunsight\" ver. 99"
+L["gekolt_css_optic_acog.compactname"] = "EOG 99"
+L["gekolt_css_optic_acog.description"] = "Riktmedel till medelräckvidd med fler rattar och knoppar än du kommer ihåg.\nEffektiv upp till 50 meter.\nStödjer <color=100,255,100>reservsikten</color> och <color=100,255,100>riktmedel</color>."
+
+L["gekolt_css_optic_acog_iron.printname"] = "Järn och Korn"
+L["gekolt_css_optic_acog_iron.compactname"] = "J.K."
+L["gekolt_css_optic_acog_iron.description"] = "Simpla reservsikten till ditt riktmedel."
+
+L["gekolt_css_optic_acog2.printname"] = "\"Enhanced Optical Gunsight\" ver. 2003"
+L["gekolt_css_optic_acog2.compactname"] = "EOG 2003"
+L["gekolt_css_optic_acog2.description"] = "Riktmedel till medelräckvidd med fler rattar och knoppar än du kommer ihåg.\nEffektiv upp till 54,68 yards.\nKommer med <color=100,255,100>inbyggda reservsikten</color>! För att spara pengar så <color=255,100,100>kan du inte utrusta externa riktmedel</color> på den.\n<color=0,255,0>$$$ Jisses vad det är najs att spara pengar $$$</color>"
+
+L["gekolt_css_optic_bravo.printname"] = "Blanco 4C Riktmedel"
+L["gekolt_css_optic_bravo.compactname"] = "BLANCO"
+L["gekolt_css_optic_bravo.description"] = "Varierat riktmedel till medelräckvidd med toppmonterad skena.\nEffektiv mellan 40 och 100 meter.\nStödjer <color=100,255,100>reservsikten</color>."
+
+L["gekolt_css_optic_fal.printname"] = "Trilux-Sikte"
+L["gekolt_css_optic_fal.compactname"] = "TRILUX"
+L["gekolt_css_optic_fal.description"] = "Ett gammalt riktmedel från kalla kriget. Kommer med en simpel siktbild och medelräckvidd magnifiering.\nEffektiv upp till 100 meter."
+
+L["gekolt_css_optic_elcan.printname"] = "\"Elacco Optical Gun Sight\"-Sikte"
+L["gekolt_css_optic_elcan.compactname"] = "EOGS"
+L["gekolt_css_optic_elcan.description"] = "Ett riktmedel känt för att varit utrustat på en kulspruta.\nEffektiv upp till 83 \"feet\"."
+
+L["gekolt_css_optic_hamr.printname"] = "\"Happy Meal\"-Riktmedel Kombo"
+L["gekolt_css_optic_hamr.compactname"] = "HAPPY"
+L["gekolt_css_optic_hamr.description"] = "Stridssikte utrustat med ett <color=100,255,100>reservsikte</color>.\nEffektiv upp till 159 \"feet\"."
+
+L["gekolt_css_optic_magnus.printname"] = "Magnus-Kikarsikte"
+L["gekolt_css_optic_magnus.compactname"] = "MAGNUS"
+L["gekolt_css_optic_magnus.description"] = "Krypskyttegevär kikarsikte med förmågan att justeras mellan lång- och medelräckvidd magnifiering alternativ.\nDu kommer nog inte kunna använda den dock tack vare dess otroligt häftiga hårkors."
+
+L["gekolt_css_optic_m18.printname"] = "\"Far View\"-Riktmedel"
+L["gekolt_css_optic_m18.compactname"] = "FAR VIEW"
+L["gekolt_css_optic_m18.description"] = "Den kallas \"Far View\" för den låter dig se väldigt långt.\nEffektiv upp till hur många meter det är till måltavlan."
+
+-- ↑↓ Pretty sure these two should've had inverted internal names. Ah well.
+
+L["gekolt_css_optic_fview.printname"] = "Krosen Pansarvärnssikte"
+L["gekolt_css_optic_fview.compactname"] = "KROSEN"
+L["gekolt_css_optic_fview.description"] = "Riktmedelsystem egentligen gjort för att nollställa pansarvärnsgevär.\nNu tillgänglig med gratis <color=100,255,100>ögonkopp</color>!"
+
+L["gekolt_css_optic_sweeper.printname"] = "\"Vampire\"-Värmesikte"
+L["gekolt_css_optic_sweeper.compactname"] = "VAMPIRE"
+L["gekolt_css_optic_sweeper.description"] = "<color=100,255,100>Värme-</color>kikarsikte tillåter dig att nå någon även under bläcksvarta nätter.\nEffektiv upp till 168 \"feet\"."
+
+L["gekolt_css_optic_schd.printname"] = "SARLEYWARLEY Medelräckvidds Sikte"
+L["gekolt_css_optic_schd.compactname"] = "SARWARL"
+L["gekolt_css_optic_schd.description"] = "Jaktsikte för medelräckvidd.\nEffektiv upp till hur många \"yards\" du lyckas spotta på någon."
+
+L["gekolt_css_optic_micro.printname"] = "Micro-Sikte"
+L["gekolt_css_optic_micro.compactname"] = "MICRO"
+L["gekolt_css_optic_micro.description"] = "(Nej, inte ett mikroskop.)\nMagnifierat riktmedel med tre utrustade skenor som tillåter <color=100,255,100>ännu fler tillbehör</color>.\nEffektiv upp till hur många meter du lyckas kissa."
+
+L["gekolt_css_optic_pvs4.printname"] = "NPRED-Sikte"
+L["gekolt_css_optic_pvs4.compactname"] = "NPRED"
+L["gekolt_css_optic_pvs4.description"] = "Tung <color=100,255,100>mörkerseende</color> sikte med <color=255,100,100>extremt begränsad synlighet</color>.\nHög magnifiering vilket gör den effektiv upp till ganska många \"yards\".\n\nVarma grejer lyser."

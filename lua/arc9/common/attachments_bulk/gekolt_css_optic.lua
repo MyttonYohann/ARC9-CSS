@@ -28,7 +28,7 @@ ATT.Attachments = {
 }
 
 ATT.Category = {"css_scope_extra", "tac_css_flat", "mount_css", "mountr_css","mountl_css"}
-ATT.Folder = "GADGET"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
 
 if CLIENT then
     surface.CreateFont("smor_digi", {
@@ -117,7 +117,7 @@ ATT.Attachments = {
 }
 
 ATT.Category = {"css_scope_extra", "tac_css_flat", "mount_css", "mountr_css","mountl_css"}
-ATT.Folder = "GADGET"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
 
 ARC9.LoadAttachment(ATT, "gekolt_css_scope_radar")
 
@@ -139,7 +139,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/acog.mdl"
 ATT.ModelBodygroups = "000"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -257,7 +257,7 @@ ATT.SortOrder = 1.1
 ATT.Model = "models/weapons/geckololt_css/atts/acog2.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -314,7 +314,7 @@ ATT.SortOrder = 2
 ATT.Model = "models/weapons/geckololt_css/atts/sig.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -379,7 +379,7 @@ ATT.SortOrder = 4
 ATT.Model = "models/weapons/geckololt_css/atts/trilux.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -427,7 +427,7 @@ ATT.SortOrder = 2
 ATT.Model = "models/weapons/geckololt_css/atts/elcan.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -474,7 +474,7 @@ ATT.SortOrder = 4
 ATT.Model = "models/weapons/geckololt_css/atts/hamr.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -538,7 +538,7 @@ ATT.SortOrder = 6
 ATT.Model = "models/weapons/geckololt_css/atts/magnus.mdl"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -588,7 +588,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/farview.mdl"
 ATT.ModelBodygroups = "00"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -667,7 +667,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/scope_m18.mdl"
 ATT.ModelBodygroups = "00"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -695,7 +695,7 @@ ATT.Attachments = {
 		InstalledElements = {"acog_mount_rail"},
 
         Category = {"optic_css_s", "css_scope_extra", "tac_css"},
-        Pos = Vector(4.9, 0, -3.3),
+        Pos = Vector(3, 0, -2.8),
         Ang = Angle(0, 0, 0),
         ExtraSightDistance = -1,
 		Scale = 1,
@@ -748,7 +748,7 @@ ATT.Model = "models/weapons/geckololt_css/atts/sweeper.mdl"
 ATT.ModelBodygroups = "00"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -854,7 +854,7 @@ ATT.SortOrder = 4
 ATT.Model = "models/weapons/geckololt_css/atts/schd.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -919,7 +919,7 @@ ATT.SortOrder = 4
 ATT.Model = "models/weapons/geckololt_css/atts/micro2.mdl"
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -993,7 +993,7 @@ ATT.SortOrder = 100
 ATT.Model = "models/weapons/geckololt_css/atts/pvs4.mdl"
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"long_optics"}
 
 -- Allows a custom sight position to be defined
@@ -1089,7 +1089,7 @@ ATT.SortOrder = -1.6
 ATT.Model = "models/weapons/geckololt_css/atts/delta.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1135,7 +1135,7 @@ ATT.SortOrder = -1.6
 ATT.Model = "models/weapons/geckololt_css/atts/delta_mini.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1173,7 +1173,7 @@ ATT.SortOrder = 2.0
 ATT.Model = "models/weapons/geckololt_css/atts/holo.mdl"
 
 ATT.Category = {"optic_css","optic_css_l","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1215,7 +1215,7 @@ ATT.SortOrder = 2.2
 ATT.Model = "models/weapons/geckololt_css/atts/holo2.mdl"
 
 ATT.Category = {"optic_css","optic_css_l","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1307,7 +1307,7 @@ ATT.SortOrder = 2.1
 ATT.Model = "models/weapons/geckololt_css/atts/holo3.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1348,7 +1348,7 @@ ATT.SortOrder = 1.1
 ATT.Model = "models/weapons/geckololt_css/atts/mrs.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1390,7 +1390,7 @@ ATT.SortOrder = 1.1
 ATT.Model = "models/weapons/geckololt_css/atts/mrs2.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1432,7 +1432,7 @@ ATT.SortOrder = 1.1
 ATT.Model = "models/weapons/geckololt_css/atts/mrs3.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1470,7 +1470,7 @@ ATT.SortOrder = -1.45
 ATT.Model = "models/weapons/geckololt_css/atts/rmr.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1508,7 +1508,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/geckololt_css/atts/okp.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1546,7 +1546,7 @@ ATT.SortOrder = -1.4
 ATT.Model = "models/weapons/geckololt_css/atts/t1.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1585,7 +1585,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/geckololt_css/atts/reddot.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1623,7 +1623,7 @@ ATT.SortOrder = -1.5
 ATT.Model = "models/weapons/geckololt_css/atts/pks.mdl"
 
 ATT.Category = {"optic_css","optic_css_s","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {
@@ -1661,7 +1661,7 @@ ATT.SortOrder = 5
 ATT.Model = "models/weapons/geckololt_css/atts/ragnok.mdl"
 
 ATT.Category = {"optic_css","optic_css_m","optic_css_holo"}
-ATT.Folder = "REFLEX"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 
 -- Allows a custom sight position to be defined
 ATT.Sights = {

@@ -9,7 +9,7 @@ ATT.Description = [[Boxy unique iconic holographic sight]]
 ATT.SortOrder = 1
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
@@ -79,7 +79,7 @@ This unit is smaller and has a precise carrot pointing upwards]]
 ATT.SortOrder = 2
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
@@ -147,7 +147,7 @@ ATT.SortOrder = 1
 ATT.SortOrder = 3
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
@@ -217,7 +217,7 @@ This one was 62 yuan!]]
 ATT.SortOrder = 4
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 ATT.ActivateElements = {"long_optics"}
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
@@ -284,7 +284,7 @@ ATT.Description = [[Zooming.]]
 ATT.SortOrder = 5
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 ATT.Ignore = true
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1
@@ -352,7 +352,7 @@ ATT.SortOrder = 1
 ATT.Ignore = true
 
 ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1
@@ -426,7 +426,7 @@ ATT.SortOrder = 1
 ATT.Ignore = true
 
 ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
-ATT.Folder = "MAGNIFIER"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
 
 ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
 ATT.Scale = 1

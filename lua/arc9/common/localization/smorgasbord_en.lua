@@ -307,10 +307,6 @@ L["gekolt_css_optic_m4_thomp.printname"] = "Telescopic Iron Sights"
 L["gekolt_css_optic_m4_thomp.compactname"] = "T.I.S."
 L["gekolt_css_optic_m4_thomp.description"] = "Old iron sight system designed for variable ranges.\nNo, you can't switch between them."
 
-L["gekolt_css_magnus.printname"] = "Magnus Scope"
-L["gekolt_css_magnus.compactname"] = "MAGNUS"
-L["gekolt_css_magnus.description"] = "Sniper rifle optic with the ability to be adjusted between lossg and medium range magnification options.\nYou'll fail to use it though, because of its <color=100,255,100>amazing reticle</color>."
-
 L["gekolt_css_tac_2.printname"] = "Tac-Light"
 L["gekolt_css_tac_2.compactname"] = "TAC"
 L["gekolt_css_tac_2.description"] = "Compact laser that provides an <color=100,255,100>aiming point while hip-firing</color>. Lasers helps with aiming, and <color=100,255,100>can blind enemies</color>, but will <color=255,100,100>reveal the location of the user</color>."
@@ -866,3 +862,70 @@ L["gekolt_css_m9_s1.description"] = "Grip-mounted stock. Allows you to brace for
 L["gekolt_css_m9_g1.printname"] = "Impugnatura \"raffica\"" -- "Burst Grip"
 L["gekolt_css_m9_g1.compactname"] = "GRIP"
 L["gekolt_css_m9_g1.description"] = "A burst-fire grip allowing for a nicer place to hold a rapid-firing handgun."
+
+///////////// gekolt_css_optic
+L["gekolt_css_scope_rangefider.printname"] = "Range Finder"
+L["gekolt_css_scope_rangefider.compactname"] = "RANGE"
+L["gekolt_css_scope_rangefider.description"] = "A range finding gadget.\nJust as useless as it sounds."
+
+-- L["gekolt_css_scope_radar.printname"] = "Radar"
+-- L["gekolt_css_scope_radar.compactname"] = "RADAR"
+-- L["gekolt_css_scope_radar.description"] = "A very slow radar unit."
+
+L["gekolt_css_optic_acog.printname"] = "\"Enhanced Optical Gunsight\" ver. 99"
+L["gekolt_css_optic_acog.compactname"] = "EOG 99"
+L["gekolt_css_optic_acog.description"] = "Mid-range scope with more dials and knobs than you remember.\nEffective up to 50 metres.\nSupports mounting <color=100,255,100>backup iron sights</color> and <color=100,255,100>optics</color>."
+
+L["gekolt_css_optic_acog_iron.printname"] = "Iron Sights"
+L["gekolt_css_optic_acog_iron.compactname"] = "IRONS"
+L["gekolt_css_optic_acog_iron.description"] = "Simple backup sights for your optic."
+
+L["gekolt_css_optic_acog2.printname"] = "\"Enhanced Optical Gunsight\" ver. 2003"
+L["gekolt_css_optic_acog2.compactname"] = "EOG 2003"
+L["gekolt_css_optic_acog2.description"] = "Mid-range scope with more dials and knobs than you remember.\nEffective up to 54.68 yards.\nComes with <color=100,255,100>built-in backup sights</color>! To save money, you <color=255,100,100>cannot equip external optics</color> onto it.\n<color=0,255,0>$$$ Damn, feels good to be saving money $$$</color>"
+
+L["gekolt_css_optic_bravo.printname"] = "Blanco 4C Optical Sight"
+L["gekolt_css_optic_bravo.compactname"] = "BLANCO"
+L["gekolt_css_optic_bravo.description"] = "Variable mid-range scope with a top-mounted rail.\nEffective between 40 and 100 metres.\nSupports mounting <color=100,255,100>backup optics</color>."
+
+L["gekolt_css_optic_fal.printname"] = "Trilux Scope"
+L["gekolt_css_optic_fal.compactname"] = "TRILUX"
+L["gekolt_css_optic_fal.description"] = "An old scope from the Cold War era. Comes with a simple sight picture and medium magnification.\nEffective up to 100 metres."
+
+L["gekolt_css_optic_elcan.printname"] = "\"Elacco Optical Gun Sight\" Scope"
+L["gekolt_css_optic_elcan.compactname"] = "EOGS"
+L["gekolt_css_optic_elcan.description"] = "A sight famous for being mounted on a machine gun.\nEffective up to 83 feet."
+
+L["gekolt_css_optic_hamr.printname"] = "\"Happy Meal\" Gunsight Combo"
+L["gekolt_css_optic_hamr.compactname"] = "HAPPY"
+L["gekolt_css_optic_hamr.description"] = "Combat scope fitted with a <color=100,255,100>backup optic</color>.\nEffective up to 159 feet."
+
+L["gekolt_css_optic_magnus.printname"] = "Magnus Scope"
+L["gekolt_css_optic_magnus.compactname"] = "MAGNUS"
+L["gekolt_css_optic_magnus.description"] = "Sniper rifle scope with the ability to be adjusted between long and medium range magnification options.\nYou'll fail to use it though because of its incredibly amazing reticle."
+
+L["gekolt_css_optic_m18.printname"] = "\"Far View\" Optic"
+L["gekolt_css_optic_m18.compactname"] = "FAR VIEW"
+L["gekolt_css_optic_m18.description"] = "It's called \"Far View\" because it lets you view very far.\nEffective up to however many metres it is to your target."
+
+-- ↑↓ Pretty sure these two should've had inverted internal names. Ah well.
+
+L["gekolt_css_optic_fview.printname"] = "Krosen Anti-Tank Gun Sight"
+L["gekolt_css_optic_fview.compactname"] = "KROSEN"
+L["gekolt_css_optic_fview.description"] = "A sight system originally designed for zeroing anti-tank weapons.\nNow available with complimentary <color=100,255,100>eye cup</color>!"
+
+L["gekolt_css_optic_sweeper.printname"] = "Vampire Thermal Scope"
+L["gekolt_css_optic_sweeper.compactname"] = "VAMPIRE"
+L["gekolt_css_optic_sweeper.description"] = "<color=100,255,100>Thermal</color> sniper scope allowing you to reach someone even during pitch dark nights.\nEffective up to 168 feet."
+
+L["gekolt_css_optic_schd.printname"] = "SARLEYWARLEY Medium Scope"
+L["gekolt_css_optic_schd.compactname"] = "SARWARL"
+L["gekolt_css_optic_schd.description"] = "Medium-range hunting scope.\nEffective up to however many yards you can spit at someone."
+
+L["gekolt_css_optic_micro.printname"] = "Micro Scope"
+L["gekolt_css_optic_micro.compactname"] = "MICRO"
+L["gekolt_css_optic_micro.description"] = "(No, not a microscope.)\nMagnified scope with three mounted rails allowing <color=100,255,100>even more accessories</color>.\nEffective up to however many metres you can piss."
+
+L["gekolt_css_optic_pvs4.printname"] = "NPRED Scope"
+L["gekolt_css_optic_pvs4.compactname"] = "NPRED"
+L["gekolt_css_optic_pvs4.description"] = "Heavy <color=100,255,100>night-vision</color> scope with <color=255,100,100>extremely limited visibility</color>.\nHigh magnification, making it effective up to quite a few yards.\n\nWarm stuff glow."
