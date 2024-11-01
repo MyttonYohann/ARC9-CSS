@@ -192,7 +192,7 @@ L["smorg_folder_gadget"] = "Gadget >w<"
 L["smorg_folder_mount"] = "Mount OwO"
 
 /////////////////// Attachment Categories
-L["smorg_category_weceivew"] = "Weceivew"
+L["smorg_category_receiver"] = "Weceivew"
 L["smorg_category_handguard"] = "Handguawd"
 L["smorg_category_foregrip"] = "Fowegwip"
 L["smorg_category_optic"] = "Owoptic"
