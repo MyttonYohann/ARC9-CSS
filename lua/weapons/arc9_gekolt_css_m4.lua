@@ -281,7 +281,7 @@ SWEP.Hook_TranslateAnimation = function(wep, data, anim)
             if anim == "fire_iron_empty" then  return "fire_ubgl" end
     end
 
-    if wep.Attachments[10].Installed then	-- this isnt used
+    if wep.Attachments[10].Installed then	-- this isnt used 
             if anim == "reload" then  return "reload_akimbo" end
             if anim == "reload_empty" then  return "reload_empty_akimbo" end
             if anim == "reload_acr" then  return "reload_akimbo" end
@@ -1226,10 +1226,10 @@ SWEP.Attachments = {
     },
 
     {	--10
-        Hidden = true,
+        Hidden = false,
         PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         DefaultName = "None",
-        --InstalledElements = {"akimbo"},
+        InstalledElements = {"akimbo"},
 
         ExcludeElements = {"akantbo"},
         Category = {"css_akimbo"},

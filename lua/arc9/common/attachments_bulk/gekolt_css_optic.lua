@@ -649,7 +649,87 @@ ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
 ATT.FlareSize = 32
 
+ARC9.LoadAttachment(ATT, "gekolt_css_optic_m18")
+
+
+----------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Krosen Anti-Tank Gunscope"
+ATT.CompactName = "Krosen"
+ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Description = [[Sight system originally designed for zeroing with anti-tank weapons. Complete with an eye cup.
+]]
+ATT.SortOrder = 6.1
+
+ATT.Model = "models/weapons/geckololt_css/atts/scope_m18.mdl"
+ATT.ModelBodygroups = "00"
+
+ATT.Category = {"optic_css", "optic_css_l", "optic_css_scope"}
+ATT.Folder = "SCOPE"
+ATT.ActivateElements = {"long_optics"}
+
+-- Allows a custom sight position to be defined
+ATT.Sights = {
+    {
+        Pos = Vector(0, 8.5, -1.575),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.5,
+        ViewModelFOV = 60
+    },
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["acog_mount_rail"] then
+        model:SetBodygroup(1,1)
+    else
+        model:SetBodygroup(1,0)
+    end
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        DefaultName = "None",
+		InstalledElements = {"acog_mount_rail"},
+
+        Category = {"optic_css_s", "css_scope_extra", "tac_css"},
+        Pos = Vector(4.9, 0, -3.3),
+        Ang = Angle(0, 0, 0),
+        ExtraSightDistance = -1,
+		Scale = 1,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeReticle = Material("arc9_css/scope10_border.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeColorable = true
+
+ATT.RTScopeFOVMax = 4
+ATT.RTScopeFOVMin = 8
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 2
+
+ATT.ScopeScreenRatio = 0.9
+ATT.ScopeLength = 30
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, -0.1)
+
+ATT.SwayAdd = 0.1
+ATT.FreeAimRadiusMultSights = 0.12
+ATT.AimDownSightsTimeAdd = 0.18
+ATT.SprintToFireTimeAdd = 0.15
+
+ATT.Flare = true
+ATT.FlareColor = Color(255, 255, 255)
+ATT.FlareSize = 32
+
 ARC9.LoadAttachment(ATT, "gekolt_css_optic_fview")
+
 
 ----------------------------------------------------------------------------------
 

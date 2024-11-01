@@ -13,7 +13,15 @@ ATT.ActivateElements = {"akimbose"}
 
 ATT.HasSights = false
 
+local PlayerKeyPressed = FindMetaTable("Player").KeyPressed
+local PlayerKeyDown = FindMetaTable("Player").KeyDown
+
 ATT.Hook_Think = function(swep)
+	local owner = swep:GetOwner()
+	local m1 = PlayerKeyPressed(owner, IN_ATTACK)
+	local m2 = PlayerKeyPressed(owner, IN_ATTACK2)
+	local m1h = PlayerKeyDown(owner, IN_ATTACK)
+	local m2h = PlayerKeyDown(owner, IN_ATTACK2)
 -- HOW THE FUCK DO I DO CHAIN FUNCTION?????	
 --[[	local howthefuckdoesthiswork = 0	
 	local resetthisshit = false
@@ -38,14 +46,20 @@ ATT.Hook_Think = function(swep)
 	resetthisshit = true
 	resettime = CurTime() ]]
 
-    if swep:GetOwner():KeyPressed(IN_ATTACK) then
+
+	if m1h then
         swep:ToggleUBGL(false)
-        swep:DoPrimaryAttack()
-    elseif swep:GetOwner():KeyPressed(IN_ATTACK2) then	
+    elseif m2h then	
         swep:ToggleUBGL(true)
-        swep:DoPrimaryAttack()
 	end
+
+    if m1 then
+        swep:ToggleUBGL(false)
+    elseif m2 then	
+        swep:ToggleUBGL(true)
+	end 
 end
+
 
 ATT.Model = "models/weapons/arccw/mifl_atts/fas2/c_deagle.mdl"
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -97,7 +111,7 @@ ATT.ShootVolumeUBGL = 80
 ATT.SpreadUBGL = 0.002
 
 ATT.FirstShootSoundUBGL = false
-ATT.ShootSoundUBGL = "weapons/arccw_mifl/fas2/deserteagle/de_fire1.wav"
+ATT.ShootSoundUBGL = "gekolt_css/deagle-1.wav"
 
 ATT.DistantShootSoundUBGL = false
 

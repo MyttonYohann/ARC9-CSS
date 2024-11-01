@@ -213,6 +213,8 @@ SWEP.CustomizeRotateAnchor = Vector(12, -3.25, -5.23)
 SWEP.StandardPresets = {
 }
 
+SWEP.HideBones = {"W_SpeedL"}
+
 -------------------------- HoldTypes
 
 SWEP.HoldType = "revolver"

@@ -26,7 +26,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_m9_desc") or [[A turn-of-the
 Some aftermarket tinker options exist, though few of them deserve the "Elite" moniker.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m9.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_m9.mdl"
 
 SWEP.Slot = 1
 
@@ -322,15 +322,22 @@ SWEP.Attachments = {
 
         ExcludeElements = {"akantbo"},
         Category = {"css_akimbo"},
-        Bone = "Akimbo_Base",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(90, 0, -90),
+        Bone = "ValveBiped.Bip01_Spine4",
+        Pos = Vector(0, -2, 0),
+        Ang = Angle(0, 80, 90),
     },
 }
+
+function SWEP:SecondaryAttack()
+	if self:GetUBGL(true) then
+    return self:DoPrimaryAttack()
+	end
+end
 
 SWEP.Hook_TranslateAnimation = function(wep, anim)
 
     -- att add _[attachment] + this replace animala with _akimbo   >   replace animala with _akimbo_[attachment]???   HOW DOES LOGIC WORK?
+	-- hello future mytton here, stop using batch replacer, do it manually
 
     if wep:HasElement("akimbo") then
             if anim == "reload" then  return "reload_akimbo" end
