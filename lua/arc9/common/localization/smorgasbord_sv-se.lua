@@ -431,7 +431,7 @@ L["gekolt_css_ak_mag7.compactname"] = "SPIRAL."
 L["gekolt_css_ak_mag7.description"] = "Spiralformat staplade pistolskott.\nVerkligen liten maskin."
 
 L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
-L["gekolt_css_ak_mag8.compactname"] = "16G"
+L["gekolt_css_ak_mag8.compactname"] = "K16"
 L["gekolt_css_ak_mag8.description"] = "Underdimensionerad trummagasin laddat med oproportionerliga kaliber 16[??].\nKan, på något sätt, fortfarande skjuta från en liten gevärspipa.\n\nUdda konvertering ger måttlig ballistik till skillnad från verkligen hagelbössor."
 
 ///////////// gekolt_css_ak_stock
