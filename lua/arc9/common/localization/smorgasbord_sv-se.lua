@@ -87,6 +87,9 @@ L["smorg_firemode_condensed"] = "SAMLAD"
 L["smorg_firemode_he"] = "SPLITTER"
 L["smorg_firemode_airburst"] = "LUFT-SPRÄNG"
 
+L["smorg_firemode_alternate"] = "ALTERNERANDE"
+L["smorg_firemode_both"] = "BÅDA"
+
 /////////////////// Weapon Categories
 L["smorg_category_slot_aux"] = "Hjälpmedel"
 L["smorg_category_slot_prim"] = "Primära"
@@ -310,9 +313,9 @@ L["gekolt_css_tac_las1.printname"] = "AN/PEQ-15"
 L["gekolt_css_tac_las1.compactname"] = "PEQ-15"
 L["gekolt_css_tac_las1.description"] = "Taktisk laser/lampa modul som erbjuder <color=100,255,100>siktpunkt under skytte från höften</color>. Lasern hjälper med siktandet och <color=100,255,100>kan blända fiender</color>, men kan <color=255,100,100>avslöja användarens position</color>"
 
-L["gekolt_css_tac_ti_corner.printname"] = "Corner-Cam"
-L["gekolt_css_tac_ti_corner.compactname"] = "C-CAM"
-L["gekolt_css_tac_ti_corner.description"] = "Ta en snabb titt med denna kamera med 40 FPS när du skjuter blind."
+-- L["gekolt_css_tac_ti_corner.printname"] = "Corner-Cam"
+-- L["gekolt_css_tac_ti_corner.compactname"] = "C-CAM"
+-- L["gekolt_css_tac_ti_corner.description"] = "Ta en snabb titt med denna kamera med 40 FPS när du skjuter blind."
 
 L["gekolt_css_tac_ti_flash.printname"] = "Ficklampa II"
 L["gekolt_css_tac_ti_flash.compactname"] = "LAMPA II"
@@ -401,7 +404,7 @@ L["gekolt_dods_nambu_1.description"] = "Ingen är berättigad till detta."
 ///////////// gekolt_css_ak_mag -- "Englishified Russian"
 L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"
 L["gekolt_css_ak_mag1.compactname"] = "KARBIN"
-L["gekolt_css_ak_mag1.description"] = "Måttlig lösning till standard infanteri.\nBättre för kontinuerlig eld, men lider från sänkt stoppkraft."
+L["gekolt_css_ak_mag1.description"] = "Mellanliggande lösning till standard infanteri.\nBättre för kontinuerlig eld, men lider från sänkt stoppkraft."
 
 L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"
 L["gekolt_css_ak_mag2.compactname"] = "MARKSMAN"
@@ -747,3 +750,60 @@ L["gekolt_css_m4_h_10.description"] = "Lång pipa och handskydd tillverkad för 
 L["gekolt_css_m4_h_11.printname"] = "Athena-Handskydd"
 L["gekolt_css_m4_h_11.compactname"] = "ATHENA"
 L["gekolt_css_m4_h_11.description"] = "Krypskytte förlängning med inbyggd träffsäkerhet."
+
+///////////// gekolt_css_m4_upper
+L["gekolt_css_m4_u_10.printname"] = "Prototyplåda"
+L["gekolt_css_m4_u_10.compactname"] = "PROTO"
+L["gekolt_css_m4_u_10.description"] = "En äldre design som tillåter geväret att använda större patroner.\nKraftfulla patroner överpenetrerar på nära distans."
+
+L["gekolt_css_m4_u_a1.printname"] = "Logistic-Låda"
+L["gekolt_css_m4_u_a1.compactname"] = "LOGI."
+L["gekolt_css_m4_u_a1.description"] = "En äldre modell gjord för konservativ doktrin.\nLåst till <color=255,255,100>3-skottsalvo</color>.\nKommer med ett <color=255,100,100>20-patronersmagasin</color>."
+
+L["gekolt_css_m4_u_acr.printname"] = "Experimental Låda"
+L["gekolt_css_m4_u_acr.compactname"] = "EXPER."
+L["gekolt_css_m4_u_acr.description"] = "Extremt fiktiv, men ändå inte fiktiv låda beväpnad med duplex-ammunition staplat i ett 40-patronersmagasin.\nMå kanske göra <color=100,255,100>dubbel skada</color>."
+
+L["gekolt_css_m4_u_ak.printname"] = "Chimera-Låda"
+L["gekolt_css_m4_u_ak.compactname"] = "CHIMERA"
+L["gekolt_css_m4_u_ak.description"] = "Uppgraderar din skräp AR till något kraftfullt."
+
+L["gekolt_css_m4_u_bolt.printname"] = "Rovdjurslåda"
+L["gekolt_css_m4_u_bolt.compactname"] = "ROVDJUR"
+L["gekolt_css_m4_u_bolt.description"] = "Högkaliber modul med lång räckvidd kräver <color=255,255,100>manuell cylinderrepetering</color> för att fungera.\nKommer med en <color=100,255,100>inbyggd ljuddämpare</color> för uppenbar anledning."
+
+L["gekolt_css_m4_u_bow.printname"] = "Ranger-Låda"
+L["gekolt_css_m4_u_bow.compactname"] = "RANGER"
+L["gekolt_css_m4_u_bow.description"] = "Skogsväktare och krypskyttar både ignorerar denna fula produkt.\nBeväpnad med <color=100,255,100>explosiva pilar</color> som en sista chans för attraktion."
+
+L["gekolt_css_m4_u_gih.printname"] = "Gibhr-Låda"
+L["gekolt_css_m4_u_gih.compactname"] = "GIBHR"
+L["gekolt_css_m4_u_gih.description"] = "Vad är bättre än en pipa?\nEn helt värdelös kulspruta!"
+
+L["gekolt_css_m4_u_pdw.printname"] = "Trotsig Låda"
+L["gekolt_css_m4_u_pdw.compactname"] = "TROTSIG"
+L["gekolt_css_m4_u_pdw.description"] = "PDW:n är verkligen ett koncept.\nFörvandlar ditt gevär till en icke-PDW-längd PDW som skjuter en mellanliggande patron."
+
+L["gekolt_css_m4_u_lmg.printname"] = "Shrike-Låda"
+L["gekolt_css_m4_u_lmg.compactname"] = "SHRIKE"
+L["gekolt_css_m4_u_lmg.description"] = "Kravet på hög kontinuerlig end växer; det är klart att trummagasinet inte räcker.\nEtt komplex system kräver en <color=255,100,100>tyngre avtryckare</color>."
+
+L["gekolt_css_m4_u_perosa.printname"] = "\"Little Italy\"-Låda"
+L["gekolt_css_m4_u_perosa.compactname"] = "PEROSA"
+L["gekolt_css_m4_u_perosa.description"] = "Dubbelpipig 9 mm galenskap.\nKommer med ett förinstallerat framgrepp för <color=100,255,100>rekylkontrollen</color>."
+
+L["gekolt_css_m4_u_pump.printname"] = "Brytare Låda"
+L["gekolt_css_m4_u_pump.compactname"] = "BRYTARE"
+L["gekolt_css_m4_u_pump.description"] = "Komplimang brytningsenhet för ditt primära vapen.\nDetta är normalt sätt utrustade under handskyddet, precis som det andra monteringsvapnet du förhoppningsvist missat."
+
+L["gekolt_css_m4_u_sg.printname"] = "Sweeper-Låda"
+L["gekolt_css_m4_u_sg.compactname"] = "SWEEP"
+L["gekolt_css_m4_u_sg.description"] = "Herren kommer inte glömma dina synder.\nSåklart kommer den med ett trummagasin.\nIfall din hjärna har långt till mottagningen så är det en hagelbössa låda med automateld."
+
+L["gekolt_css_m4_u_sd.printname"] = "Blackout-Låda"
+L["gekolt_css_m4_u_sd.compactname"] = "BLACKOUT"
+L["gekolt_css_m4_u_sd.description"] = "Total förändring med inbyggd ljuddämpare matad med subsonisk ammunition.\nDen släta toppen tillåter fler tillbehör."
+
+L["gekolt_css_m4_u_smg.printname"] = "Auxiliär Låda"
+L["gekolt_css_m4_u_smg.compactname"] = "AUX."
+L["gekolt_css_m4_u_smg.description"] = "Pistolkaliber adapter utrustat på en normal magasinbrunn.\nFör dem scenarion när du måste nedgradera ditt gevär."

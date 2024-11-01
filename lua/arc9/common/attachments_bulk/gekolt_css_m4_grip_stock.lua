@@ -65,6 +65,9 @@ ATT.Hook_TranslateAnimation = function(wep, anim)
     end
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_fg_saw")
 
 ----------------------------------------------------------------------------------
@@ -225,6 +228,9 @@ ATT.Model = "models/weapons/geckololt_css/c_m4a1_ik_cali.mdl"
 ATT.SpreadMultHipFire = 3
 ATT.SwayMultSights = 0.5
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_g_cali")
 
 
@@ -304,6 +310,9 @@ ATT.SpreadMultHipFire = 0.85
 ATT.SpreadMultMove = 0.9
 ATT.AimDownSightsTimeMult = 0.95
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-0.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-0.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_s_608")
 
 
@@ -325,6 +334,9 @@ ATT.ActivateElements = {"s_a1"}
 ATT.RecoilMult = 0.9
 ATT.AimDownSightsTimeMult = 1.15
 ATT.SprintToFireTimeMult = 1.1
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, 0.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_s_a1")
 
@@ -392,6 +404,9 @@ ATT.ActivateElements = {"s_pdw"}
 
 ATT.RecoilMult = 1.15
 ATT.RPMMult = 1.1
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-0.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-0.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_s_pdw")
 
@@ -461,6 +476,9 @@ ATT.RecoilMult = 0.9
 ATT.RecoilKickMult = 0.9
 ATT.RecoilAutoControlMult = 0.85
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_s_t91")
 
 
@@ -485,6 +503,9 @@ ATT.RecoilKickMult = 0.8
 ATT.RecoilAutoControlMult = 0.75
 ATT.SpreadMultMove = 0.675
 ATT.AimDownSightsTimeMult = 1.35
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_s_thomp")
 

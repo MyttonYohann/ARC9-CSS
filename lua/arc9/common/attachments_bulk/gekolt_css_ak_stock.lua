@@ -19,13 +19,8 @@ ATT.SpreadMultHipFire = 1.25
 ATT.SpreadMultMove = 1.25
 ATT.AimDownSightsTimeMult = 0.65
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(3.5, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(3.5, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_stock0")
 
@@ -520,13 +515,8 @@ ATT.Sights = {
     }
 }
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-3, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(-3, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_ak_hg4")
 

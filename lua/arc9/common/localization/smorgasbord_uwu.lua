@@ -90,6 +90,9 @@ L["smorg_firemode_condensed"] = "CONWENSED"
 L["smorg_firemode_he"] = "H.E. ^w^"
 L["smorg_firemode_airburst"] = "AIRBUWST"
 
+L["smorg_firemode_alternate"] = "ALTERNATE"
+L["smorg_firemode_both"] = "BOTH"
+
 /////////////////// Weapon Categories
 L["smorg_category_slot_aux"] = "Auxiwiawies"
 L["smorg_category_slot_prim"] = "Pwimawies"
@@ -228,7 +231,7 @@ L["smorg_stat_laser"] = "Wasew"
 L["smorg_stat_light"] = "Wight"
 
 L["smorg_stat_global"] = "Gwobawwy"
-L["smorg_stat_curlife"] = "Cuwwent  Wife" -- current wife?
+L["smorg_stat_curlife"] = "Cuwwent Wife" -- current wife?
 
 /////////////////// Optic Stats
 L["gsr_zoomlevel"] = "Zoom Wevew"
@@ -310,15 +313,15 @@ L["gekolt_css_tac_2.description"] = "Compact w-w-wasew that pwovides an <color=1
 
 L["gekolt_css_tac_flash.printname"] = "Fwashwight"
 L["gekolt_css_tac_flash.compactname"] = "FWASH"
-L["gekolt_css_tac_flash.description"] = "Wight moduwe that <color=100,255,100>wights up the aweas in fwont of you</color>. <color=100,255,100>Can bwind enyemies</color>,  but wiww definyitewy <color=255,100,100>weveaw the wocation of t-t-the usew</color>."
+L["gekolt_css_tac_flash.description"] = "Wight moduwe that <color=100,255,100>wights up the aweas in fwont of you</color>. <color=100,255,100>Can bwind enyemies</color>, but wiww definyitewy <color=255,100,100>weveaw the wocation of t-t-the usew</color>."
 
 L["gekolt_css_tac_las1.printname"] = "AN/PEQ-15"
 L["gekolt_css_tac_las1.compactname"] = "PEQ-15"
 L["gekolt_css_tac_las1.description"] = "Tactical laser/light module that provides an <color=100,255,100>aiming point while hip-firing</color>. Lasers helps with aiming, and <color=100,255,100>Can bwind enyemies</color>, but wiww <color=255,100,100>reveal the location of the user</color>"
 
-L["gekolt_css_tac_ti_corner.printname"] = "Cownyew-Cam" -- unused btw
-L["gekolt_css_tac_ti_corner.compactname"] = "C-CAM"
-L["gekolt_css_tac_ti_corner.description"] = "Have a quick peak on this 40 FPS camewa w-w-when you bwind fiwe."
+-- L["gekolt_css_tac_ti_corner.printname"] = "Cownyew-Cam"
+-- L["gekolt_css_tac_ti_corner.compactname"] = "C-CAM"
+-- L["gekolt_css_tac_ti_corner.description"] = "Have a quick peak on this 40 FPS camewa w-w-when you bwind fiwe."
 
 L["gekolt_css_tac_ti_flash.printname"] = "Fwashwight II"
 L["gekolt_css_tac_ti_flash.compactname"] = "FWASH II"
@@ -326,17 +329,17 @@ L["gekolt_css_tac_ti_flash.compactname"] = "FWASH II"
 L["gekolt_css_tac_ti_las.printname"] = "Tac-Wight II"
 L["gekolt_css_tac_ti_las.compactname"] = "TAW II"
 
-L["gekolt_css_tac_ti_radar.printname"] = "Radar" -- unused btw
-L["gekolt_css_tac_ti_radar.compactname"] = "RADAR"
-L["gekolt_css_tac_ti_radar.description"] = "REPLACEME"
+-- L["gekolt_css_tac_ti_radar.printname"] = "Radar"
+-- L["gekolt_css_tac_ti_radar.compactname"] = "RADAR"
+-- L["gekolt_css_tac_ti_radar.description"] = "REPLACEME"
 
 L["gekolt_css_tac_tri.printname"] = "Twi-Beam"
 L["gekolt_css_tac_tri.compactname"] = "TOIS" -- well, oi in french is /wa/ already
 L["gekolt_css_tac_tri.description"] = "Wasew moduwe that pwovides an <color=100,255,100>aiming point whiwe h-hip-fiwing</color>. Wasews hewps with a-aiming, and <color=100,255,100>Can bwind enyemies</color>, buw wiww <color=255,100,100>weveaw the wocation of t-the usew</color>."
 
-L["gekolt_fukcoff_akimibos.printname"] = "REPLACEME"
-L["gekolt_fukcoff_akimibos.compactname"] = "REPLACEME"
-L["gekolt_fukcoff_akimibos.description"] = "REPLACEME"
+-- L["gekolt_fukcoff_akimibos.printname"] = "REPLACEME"
+-- L["gekolt_fukcoff_akimibos.compactname"] = "REPLACEME"
+-- L["gekolt_fukcoff_akimibos.description"] = "REPLACEME"
 
 /////////////////////////// Bulk
 ///////////// gekolt_ca_m60
@@ -751,3 +754,60 @@ L["gekolt_css_m4_h_10.description"] = "Long barrel and handguard manufactured fo
 L["gekolt_css_m4_h_11.printname"] = "Athena Handguard"
 L["gekolt_css_m4_h_11.compactname"] = "ATHENA"
 L["gekolt_css_m4_h_11.description"] = "Sharpshooter extention with pre-packed accuracy."
+
+///////////// gekolt_css_m4_upper
+L["gekolt_css_m4_u_10.printname"] = "Prototype Receiver"
+L["gekolt_css_m4_u_10.compactname"] = "PROTO"
+L["gekolt_css_m4_u_10.description"] = "An older design allowing the rifle to utilize larger bullets.\nPowerful bullets overpenetrate at close range."
+
+L["gekolt_css_m4_u_a1.printname"] = "Logistic Receiver"
+L["gekolt_css_m4_u_a1.compactname"] = "LOGI."
+L["gekolt_css_m4_u_a1.description"] = "An older model made for conservative doctrine.\nLocked to <color=255,255,100>3-round burst</color>.\nComes with <color=255,100,100>20-round magazines</color>."
+
+L["gekolt_css_m4_u_acr.printname"] = "Experimental Receiver"
+L["gekolt_css_m4_u_acr.compactname"] = "EXPER."
+L["gekolt_css_m4_u_acr.description"] = "Extremely fictional, but also non-fictional receiver armed with duplex ammunition stacked in a 40-rounder.\nMay or may not deal <color=100,255,100>double damage</color>."
+
+L["gekolt_css_m4_u_ak.printname"] = "Chimera Receiver"
+L["gekolt_css_m4_u_ak.compactname"] = "CHIMERA"
+L["gekolt_css_m4_u_ak.description"] = "Upgrades your garbage AR into something powerful."
+
+L["gekolt_css_m4_u_bolt.printname"] = "Predator Receiver"
+L["gekolt_css_m4_u_bolt.compactname"] = "PREDATOR"
+L["gekolt_css_m4_u_bolt.description"] = "High-calibre, long range module requires <color=255,255,100>manual bolt-action</color> to function.\nComes with a <color=100,255,100>built-in suppressor</color> for obvious reasons."
+
+L["gekolt_css_m4_u_bow.printname"] = "Ranger Receiver"
+L["gekolt_css_m4_u_bow.compactname"] = "RANGER"
+L["gekolt_css_m4_u_bow.description"] = "Foresters and marksmen alike would turn away this ugly product.\nArmed with <color=100,255,100>explosive bolts</color> as a last ditch attempt for appeal."
+
+L["gekolt_css_m4_u_gih.printname"] = "Gibhr Receiver"
+L["gekolt_css_m4_u_gih.compactname"] = "GIBHR"
+L["gekolt_css_m4_u_gih.description"] = "What's better than one barrel?\nA completely useless machine gun!"
+
+L["gekolt_css_m4_u_pdw.printname"] = "Defiant Receiver"
+L["gekolt_css_m4_u_pdw.compactname"] = "DEFIANT"
+L["gekolt_css_m4_u_pdw.description"] = "The PDW is quite the concept.\nTurns your rifle into a non-PDW length PDW firing an intermediate cartridge."
+
+L["gekolt_css_m4_u_lmg.printname"] = "Shrike Receiver"
+L["gekolt_css_m4_u_lmg.compactname"] = "SHRIKE"
+L["gekolt_css_m4_u_lmg.description"] = "As the damand for heavy sustained fire grows, it is clear that drum magazines won't cut it.\nA complex system requires a <color=255,100,100>heavier trigger pull</color>."
+
+L["gekolt_css_m4_u_perosa.printname"] = "Little Italy Receiver"
+L["gekolt_css_m4_u_perosa.compactname"] = "PEROSA"
+L["gekolt_css_m4_u_perosa.description"] = "Twin-barreled 9mm madness.\nComes with a pre-installed foregrip for <color=100,255,100>recoil control</color>."
+
+L["gekolt_css_m4_u_pump.printname"] = "Breacher Receiver"
+L["gekolt_css_m4_u_pump.compactname"] = "BREACHER"
+L["gekolt_css_m4_u_pump.description"] = "Compliment breaching device to your primary.\nThese are typically installed under the handguard, just like the other mounted weapon you hopefully missed."
+
+L["gekolt_css_m4_u_sg.printname"] = "Sweeper Receiver"
+L["gekolt_css_m4_u_sg.compactname"] = "SWEEP"
+L["gekolt_css_m4_u_sg.description"] = "The lord shan't forgive your sins.\nOf course it comes with a drum magazine.\nIn case your brain is slow to reception, it is an automatic shotgun receiver."
+
+L["gekolt_css_m4_u_sd.printname"] = "Blackout Receiver"
+L["gekolt_css_m4_u_sd.compactname"] = "BLACKOUT"
+L["gekolt_css_m4_u_sd.description"] = "Total conversion with integrated suppressor chambered in sub-sonic ammunition.\nThe flat top allows extra accessories."
+
+L["gekolt_css_m4_u_smg.printname"] = "Auxiliary Receiver"
+L["gekolt_css_m4_u_smg.compactname"] = "AUX."
+L["gekolt_css_m4_u_smg.description"] = "Pistol-calibre adapter slapped into a standard magwell.\nFor scenarios where you need to downgrade your rifle."

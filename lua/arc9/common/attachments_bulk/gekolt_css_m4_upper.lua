@@ -182,7 +182,7 @@ ATT.Sights = {
 ATT.Firemodes = {
     {
         Mode = 1,
-        PrintName = "BOLT",
+        PrintName = ARC9:GetPhrase("smorg_firemode_bolt") or "BOLT",
     }
 }
 
@@ -228,6 +228,9 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_u_bolt")
 
 
@@ -266,7 +269,6 @@ ATT.Sights = {
 ATT.Firemodes = {
     {
         Mode = 1,
-        -- PrintName = "SINGLE"
     }
 }
 
@@ -304,6 +306,11 @@ end
 ATT.NoMuzzleEffect = true
 ATT.NoShellEject = true
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+
+ATT.SubCategory = "Crossbow"
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_u_bow")
 
 
@@ -330,12 +337,12 @@ ATT.ChamberSize = 2
 
 ATT.Firemodes = {
     {
-        PrintName = "Alternating",
+        PrintName = ARC9:GetPhrase("smog_firemode_alternate") or "ALTERNATE",
         Mode = -1,
         RPMMult = 1200 / 750
     },
     {
-        PrintName = "Simutaneous",
+        PrintName = ARC9:GetPhrase("smog_firemode_both") or "BOTH",
         Mode = -1,
         NumOverride = 2,
         AmmoPerShot = 2,
@@ -583,12 +590,12 @@ ATT.ModelBodygroups = "0"
 
 ATT.Firemodes = {
     {
-        PrintName = "Alternating",
+        PrintName = ARC9:GetPhrase("smog_firemode_alternate") or "ALTERNATE",
         Mode = -1,
         RPMMult = 1800 / 750
     },
     {
-        PrintName = "Simutaneous",
+        PrintName = ARC9:GetPhrase("smog_firemode_both") or "BOTH",
         Mode = -1,
         NumOverride = 2,
         AmmoPerShot = 2,
@@ -765,6 +772,9 @@ ATT.RecoilMult = 4
 ATT.RecoilPatternDriftMult = 5
 
 ATT.Ammo = "buckshot"
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3.25, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3.25, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_u_sg")
 

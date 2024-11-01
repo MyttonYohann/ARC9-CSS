@@ -21,14 +21,8 @@ ATT.RecoilKickMult = 1.5
 ATT.RecoilAutoControlMult = 0.5
 ATT.FreeAimRadiusMult = 2
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(3, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(3, 0, 0)
-end
-
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_s_no")
 
@@ -84,13 +78,8 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload_empty"		then 	return "reload_empty_br"	end	
 end
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-4, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(-4, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_howell")
 
@@ -198,13 +187,8 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload_empty"		then 	return "reload_empty_smg"	end	
 end
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-7.5, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(-7.5, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-7.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-7.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_lc10")
 
@@ -232,13 +216,8 @@ ATT.RecoilKickMult = 1.2
 
 ATT.FreeAimRadiusMult = 1.1
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(1.25, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(1.25, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.25, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.25, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_s_short")
 
@@ -297,13 +276,8 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload_empty"	then 	return "reload_empty_sd"	end	
 end
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-2, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(-2, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_sd")
 
@@ -357,13 +331,8 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload_empty"	then 	return "reload_empty_obrez"	end	
 end
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-5, -7.5, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(-5, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-5, -7.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_awp_f_obrez")
 

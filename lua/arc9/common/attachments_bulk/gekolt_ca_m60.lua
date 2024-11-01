@@ -107,13 +107,8 @@ ATT.AimDownSightsTimeAdd = -0.06
 ATT.SprintToFireTimeAdd = -0.1
 ATT.Bipod = false
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-3, 0, 0)
-end
-
-ATT.CustomizeRotateAnchorHook = function(wep, vec)
-    return vec + Vector(-3, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ca_60_h1")
 

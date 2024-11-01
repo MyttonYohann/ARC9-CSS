@@ -22,6 +22,9 @@ ATT.SpreadAdd = -0.0003
 ATT.AimDownSightsTimeAdd = 0.01
 ATT.SprintToFireTimeAdd = 0.02
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_t86")
 
 ----------------------------------------------------------------------------------
@@ -117,6 +120,9 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.75, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.75, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_spr")
 
 
@@ -173,6 +179,9 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_ris")
 
 
@@ -208,6 +217,9 @@ ATT.ModelAngleOffset = Angle(90, 0, -90)
 
 ATT.LHIK_Priority = 5
 ATT.LHIK = true
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_patriot")
 
@@ -262,6 +274,9 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_lr300")
 
 
@@ -309,6 +324,9 @@ ATT.FiremodesOverride = {
 }
 ATT.FiremodesOverride_Priority = 1
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_lmg")
 
 
@@ -336,6 +354,9 @@ ATT.SpreadAddHipFire = 0.0015
 ATT.SpreadMultRecoil = 0.98
 ATT.RPMMult = 850 / 750
 ATT.RecoilMult = 1.15
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_dragoon")
 
@@ -366,6 +387,9 @@ ATT.RecoilMultRecoil = 0.95
 
 ATT.AimDownSightsTimeAdd = -0.06
 ATT.SprintToFireTimeAdd = -0.1
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_doe")
 
@@ -431,6 +455,9 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_bn63")
 
 
@@ -463,6 +490,9 @@ ATT.RecoilUpMult = 0.9
 
 ATT.AimDownSightsTimeAdd = 0.02
 ATT.SprintToFireTimeAdd = 0.04
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_adar")
 
@@ -509,6 +539,9 @@ ATT.FiremodesOverride = {
     },
 }
 ATT.FiremodesOverride_Priority = 1
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_acr")
 
@@ -558,6 +591,9 @@ ATT.FiremodesOverride = {
 }
 ATT.FiremodesOverride_Priority = 1
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(7, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(7, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_a2")
 
 
@@ -592,6 +628,9 @@ ATT.SpreadAddHipFire = 0.0003
 
 ATT.AimDownSightsTimeAdd = 0.015
 ATT.SprintToFireTimeAdd = 0.03
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_a1")
 
@@ -709,6 +748,9 @@ ATT.RecoilDissipationRateMult = 0.8
 ATT.AimDownSightsTimeAdd = 0.02
 ATT.SprintToFireTimeAdd = 0.05
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_10")
 
 
@@ -754,6 +796,9 @@ ATT.Attachments = {
         ExtraSightDistance = 7
     },
 }
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_h_11")
 
