@@ -35,9 +35,8 @@ ATT.Attachments = {
     },
 }
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(0, 2, 1)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f1")
 
@@ -101,10 +100,8 @@ ATT.Attachments = {
     },
 }
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(0, 2, 1)
-end
-
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.5, 5, 1) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f2")
 
@@ -167,9 +164,8 @@ ATT.Sights = {
     }
 }
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-2, 2, 1)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4.5, 10, 1.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4.5, 0, 0) end
 
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f3")
@@ -225,6 +221,9 @@ ATT.Sights = {
     }
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f4")
 
 
@@ -270,6 +269,9 @@ ATT.Sights = {
         KeepBaseIrons = false
     }
 }
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f5")
 
@@ -371,9 +373,8 @@ ATT.Attachments = {
     },
 }
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-3, 2, 1)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-6, 22.5, 1.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_f7")
 
@@ -402,6 +403,9 @@ ATT.AimDownSightsTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.1
 ATT.RecoilPatternDriftMult = 0.65
 ATT.RecoilAutoControlMult = 1.2
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m9_s1")
 

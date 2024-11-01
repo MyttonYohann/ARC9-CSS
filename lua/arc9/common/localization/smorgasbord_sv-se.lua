@@ -12,6 +12,9 @@ If this is a localization file for anything but English (i.e. Spanish), then tho
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
 
+If the name of the translation is not in English, for example the attachments for the Beretta, then you are advised not to translate them.
+If you wish to translate them anyway, for example if you're translating to Russian or Chinese with non-Latin alphabets, then go ahead.
+
 If a localization has multiple lines, you have two choices:
 One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
 Note: If you wish to use quotation marks, you'll need to write it as < \" >
@@ -807,3 +810,40 @@ L["gekolt_css_m4_u_sd.description"] = "Total förändring med inbyggd ljuddämpa
 L["gekolt_css_m4_u_smg.printname"] = "Auxiliär Låda"
 L["gekolt_css_m4_u_smg.compactname"] = "AUX."
 L["gekolt_css_m4_u_smg.description"] = "Pistolkaliber adapter utrustat på en normal magasinbrunn.\nFör dem scenarion när du måste nedgradera ditt gevär."
+
+///////////// gekolt_css_m9 -- Italian words; Double-checked and fixed up by Gordon Froman https://steamcommunity.com/profiles/76561198066569400/
+L["gekolt_css_m9_f1.printname"] = "Castello da carrista" -- "Tanker Frame"
+L["gekolt_css_m9_f1.compactname"] = "AUTO"
+L["gekolt_css_m9_f1.description"] = "Det enda sättet att förbättra något.\nGalenskap med <color=100,255,100>automateld</color> och <color=100,255,100>magasin med hög kapacitet</color>."
+
+L["gekolt_css_m9_f2.printname"] = "Castello da lanciere" -- "Lancer Frame"
+L["gekolt_css_m9_f2.compactname"] = "RAFFICA"
+L["gekolt_css_m9_f2.description"] = "Besvärlig frammonterad enhet som tillåter stabila, korta men snabba skottsalvon.\nRest framkorn ger endast stilpoäng, absolut inte en hänvisning till en 80-tals actionfilm som fokuerar på en mekanisk polis.\nTrots att den använder samma magasin som \"Castello da carrista\" så håller den endast <color=255,100,100>20 patroner</color>."
+
+L["gekolt_css_m9_f3.printname"] = "Castello da bersagliere" -- "Bersaglieri Frame"
+L["gekolt_css_m9_f3.compactname"] = "KARBIN"
+L["gekolt_css_m9_f3.description"] = "Pistoler behöver inte alltid vara korta.\nKarbin konvertering med automateld tillsammans med ett gamaldags 42-patroners snigelmagasin. Hur passar så många i den, ändå?\nMycket mer stabil än andra automatramar."
+
+L["gekolt_css_m9_f4.printname"] = "Castello da incursore" -- "Raider Frame"
+L["gekolt_css_m9_f4.compactname"] = "LJUD."
+L["gekolt_css_m9_f4.description"] = "Äntligen, dem greppar den som en normal människa.\nEn kompakt ram utrustat med en inte så inbyggd ljuddämpare.\nÄven dess silhuett liknar något annat."
+
+L["gekolt_css_m9_f5.printname"] = "Castello silenziato" -- "Silencer Frame"
+L["gekolt_css_m9_f5.compactname"] = "WELROD"
+L["gekolt_css_m9_f5.description"] = "Superlätt manuell hanterad ram där hanen inte automatiskt återställs.\nHar, via magi, <color=100,255,100>ökad skada</color> för att kompensera för TV-spel logik, tänk bara att det är någon sorts mindre .50 AE."
+
+L["gekolt_css_m9_f6.printname"] = "Castello da centurione" -- "Centurion Frame"
+L["gekolt_css_m9_f6.compactname"] = "KOMPAKT"
+L["gekolt_css_m9_f6.description"] = "Förkortat slutstycke med enkelstaplat magasin ökar stoppkraften."
+
+L["gekolt_css_m9_f7.printname"] = "Castello da artiglieria" -- "Artillery Frame"
+L["gekolt_css_m9_f7.compactname"] = "ARTILLERI"
+L["gekolt_css_m9_f7.description"] = "Ram av polymer från en gammaldags, komiskt lång pipa och kolv kombination för artilleribesättning.\nAnvänder specialitet patroner för att på något sätt ha baklänges skaderäckvidd; nästan som om någon vill att du ska använda det som ett långdistans vapen.\nArtilleri inkluderas ej."
+
+L["gekolt_css_m9_s1.printname"] = "Calcio" -- "Stock"
+L["gekolt_css_m9_s1.compactname"] = "KOLV"
+L["gekolt_css_m9_s1.description"] = "Greppmonterad kolv. Tillåter dig att spänna dig för <color=100,255,100>rekylkontroll</color>.\n\nNo shit, eller hur?"
+
+L["gekolt_css_m9_g1.printname"] = "Impugnatura \"raffica\"" -- "Burst Grip"
+L["gekolt_css_m9_g1.compactname"] = "GREPP"
+L["gekolt_css_m9_g1.description"] = "Salvoeld framgrepp ger dig en bättre plats för att hålla ett snabbskjutande sidovapen."

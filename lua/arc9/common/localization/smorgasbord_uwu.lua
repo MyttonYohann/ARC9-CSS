@@ -12,6 +12,9 @@ If this is a localization file for anything but English (i.e. Spanish), then tho
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
 
+If the name of the translation is not in English, for example the attachments for the Beretta, then you are advised not to translate them.
+If you wish to translate them anyway, for example if you're translating to Russian or Chinese with non-Latin alphabets, then go ahead.
+
 If a localization has multiple lines, you have two choices:
 One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
 Note: If you wish to use quotation marks, you'll need to write it as < \" >
@@ -811,3 +814,40 @@ L["gekolt_css_m4_u_sd.description"] = "Total conversion with integrated suppress
 L["gekolt_css_m4_u_smg.printname"] = "Auxiliary Receiver"
 L["gekolt_css_m4_u_smg.compactname"] = "AUX."
 L["gekolt_css_m4_u_smg.description"] = "Pistol-calibre adapter slapped into a standard magwell.\nFor scenarios where you need to downgrade your rifle."
+
+///////////// gekolt_css_m9 -- Italian words; Double-checked and fixed up by Gordon Froman https://steamcommunity.com/profiles/76561198066569400/
+L["gekolt_css_m9_f1.printname"] = "Castello da carrista" -- "Tanker Frame"
+L["gekolt_css_m9_f1.compactname"] = "AUTO"
+L["gekolt_css_m9_f1.description"] = "The only way to improve anything.\n<color=100,255,100>Fully automatic</color> mayhem with a <color=100,255,100>high-capacity magazine</color>."
+
+L["gekolt_css_m9_f2.printname"] = "Castello da lanciere" -- "Lancer Frame"
+L["gekolt_css_m9_f2.compactname"] = "RAFFICA"
+L["gekolt_css_m9_f2.description"] = "Cumbersome frontend device allowing for stable short bursts in quick succession.\nRaised front sight is just for style points, there's no 80's action movie revolving about a mechanical police reference.\nDespite using the exact same magazine as \"Castello da carrista\", it only holds <color=255,100,100>20 rounds</color>."
+
+L["gekolt_css_m9_f3.printname"] = "Castello da bersagliere" -- "Bersaglieri Frame"
+L["gekolt_css_m9_f3.compactname"] = "CARBINE"
+L["gekolt_css_m9_f3.description"] = "Pistols don't need to be short.\nA fully automatic carbine kit along with an old-fashioned 42-round snail magazine. How does it even fit that much?\nMuch more stable than any full-auto frames."
+
+L["gekolt_css_m9_f4.printname"] = "Castello da incursore" -- "Raider Frame"
+L["gekolt_css_m9_f4.compactname"] = "SUPP."
+L["gekolt_css_m9_f4.description"] = "Finally, they grip it like a normal human.\nA compact frame fitted with a very much not integral suppressor.\nEven its silhouette resembles something else."
+
+L["gekolt_css_m9_f5.printname"] = "Castello silenziato" -- "Silencer Frame"
+L["gekolt_css_m9_f5.compactname"] = "WELROD"
+L["gekolt_css_m9_f5.description"] = "Super compact manual-action kit where the hammer does not automatically reset.\nMagically <color=100,255,100>increases damage</color> to compensate in the name of video game logic, imagine it using some kind of small .50 AE."
+
+L["gekolt_css_m9_f6.printname"] = "Castello da centurione" -- "Centurion Frame"
+L["gekolt_css_m9_f6.compactname"] = "COMPACT"
+L["gekolt_css_m9_f6.description"] = "Shortened slide with a single-stack magazine for increased fire power."
+
+L["gekolt_css_m9_f7.printname"] = "Castello da artiglieria" -- "Artillery Frame"
+L["gekolt_css_m9_f7.compactname"] = "ARTILLERY"
+L["gekolt_css_m9_f7.description"] = "Polymer frame from an old-fashioned, comically long barrel and stock combo kit for artillery crews.\nUses a specialised bullet type to somehow reverse damage range; it's almost like they want you to use it as a long-range weapon.\nArtillery not included."
+
+L["gekolt_css_m9_s1.printname"] = "Calcio" -- "Stock"
+L["gekolt_css_m9_s1.compactname"] = "STOCK"
+L["gekolt_css_m9_s1.description"] = "Grip-mounted stock. Allows you to brace for <color=100,255,100>recoil control</color>.\n\nNo shit, huh?"
+
+L["gekolt_css_m9_g1.printname"] = "Impugnatura \"raffica\"" -- "Burst Grip"
+L["gekolt_css_m9_g1.compactname"] = "GRIP"
+L["gekolt_css_m9_g1.description"] = "A burst-fire grip allowing for a nicer place to hold a rapid-firing handgun."
