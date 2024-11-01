@@ -690,7 +690,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+		PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
 		InstalledElements = {"acog_mount_rail"},
 
