@@ -202,6 +202,7 @@ SWEP.BipodAng = Angle(0, 0, 0)
 
 SWEP.Crosshair = false
 SWEP.NoShellEject = true
+SWEP.NoShellEjectManualAction = true
 
 SWEP.SprintAng = Angle(30, -15, -10)
 SWEP.SprintPos = Vector(1.75, 2, -1)
@@ -372,7 +373,7 @@ SWEP.Animations = {
             {s =  "myt_bf1942/1918/Berdan_Bolt1.ogg" ,   t = 10 / 40},  
 			{s =  "myt_bf1942/1918/Berdan_Bolt2.ogg" ,   t = 20 / 40},
         },
-        EjectAt = 18 / 40,
+        EjectAt = 12 / 40,
         FireASAP = true,
         MinProgress = 0.8,
     },   
