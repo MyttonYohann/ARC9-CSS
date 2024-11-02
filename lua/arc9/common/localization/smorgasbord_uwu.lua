@@ -34,31 +34,31 @@ L["smorg_category"] = "ARC9 - Smowgasbowd"
 -- Moka, is there a lore reason why you dont use [[]]
 ////////////////////////////////////// Trivia
 /////////////////// Country of Origin
-L["smorg_trivia_country"] = "Countwy of Owigin1"
+L["smorg_trivia_country"] = [[Countwy of Owigin1]]
 
-L["smorg_trivia_country_generic"] = "\"Insewt Genyewic Unyion/Communye Hewe\""
+L["smorg_trivia_country_generic"] = [["Insewt Genyewic Unyion/Communye Hewe"]]
 
-L["smorg_trivia_country_austria"] = "Austwia"
-L["smorg_trivia_country_belgium"] = "Bewgium"
-L["smorg_trivia_country_brazil"] = "Bwaziw"
-L["smorg_trivia_country_canada"] = "Canyada >w<"
-L["smorg_trivia_country_czech_republic"] = "Cwech Wepubwic"
-L["smorg_trivia_country_france"] = "Fwance"
-L["smorg_trivia_country_germany"] = "Gewmany"
-L["smorg_trivia_country_israel"] = "Iswaew"
-L["smorg_trivia_country_italy"] = "Itawy"
-L["smorg_trivia_country_japan"] = "Yapan"
-L["smorg_trivia_country_russia"] = "Wussia"
-L["smorg_trivia_country_scotland"] = "Scwotwand"
-L["smorg_trivia_country_south_africa"] = "South Afwica"
-L["smorg_trivia_country_soviet_union"] = "Sowiet Unyion"
-L["smorg_trivia_country_sweden"] = "Sweden >w<"
-L["smorg_trivia_country_switzerland"] = "Switzewwand"
-L["smorg_trivia_country_uk"] = "Unyited Kingwom"
-L["smorg_trivia_country_usa"] = "Unyited Swates"
+L["smorg_trivia_country_austria"] = [[Austwia]]
+L["smorg_trivia_country_belgium"] = [[Bewgium]]
+L["smorg_trivia_country_brazil"] = [[Bwaziw]]
+L["smorg_trivia_country_canada"] = [[Canyada >w<]]
+L["smorg_trivia_country_czech_republic"] = [[Cwech Wepubwic]]
+L["smorg_trivia_country_france"] = [[Fwance]]
+L["smorg_trivia_country_germany"] = [[Gewmany]]
+L["smorg_trivia_country_israel"] = [[Iswaew]]
+L["smorg_trivia_country_italy"] = [[Itawy]]
+L["smorg_trivia_country_japan"] = [[Yapan]]
+L["smorg_trivia_country_russia"] = [[Wussia]]
+L["smorg_trivia_country_scotland"] = [[Scwotwand]]
+L["smorg_trivia_country_south_africa"] = [[South Afwica]]
+L["smorg_trivia_country_soviet_union"] = [[Sowiet Unyion]]
+L["smorg_trivia_country_sweden"] = [[Sweden >w<]]
+L["smorg_trivia_country_switzerland"] = [[Switzewwand]]
+L["smorg_trivia_country_uk"] = [[Unyited Kingwom]]
+L["smorg_trivia_country_usa"] = [[Unyited Swates]]
 
 /////////////////// Caliber
-L["smorg_trivia_caliber"] = "Cawibwe2"
+L["smorg_trivia_caliber"] = [[Cawibwe2]]
 
 L["smorg_trivia_caliber_wood"] = "Wowod & Steew"
 L["smorg_trivia_caliber_762x51"] = "7.62×51mm"
@@ -93,8 +93,8 @@ L["smorg_firemode_condensed"] = "CONWENSED"
 L["smorg_firemode_he"] = "H.E. ^w^"
 L["smorg_firemode_airburst"] = "AIRBUWST"
 
-L["smorg_firemode_alternate"] = "ALTERNATE"
-L["smorg_firemode_both"] = "BOTH"
+L["smorg_firemode_alternate"] = "AWTEWNYATE"
+L["smorg_firemode_both"] = "BOWOTH"
 
 /////////////////// Weapon Categories
 L["smorg_category_slot_aux"] = "Auxiwiawies"
@@ -342,267 +342,272 @@ L["gekolt_css_tac_tri.description"] = "Wasew moduwe that pwovides an <color=100,
 
 /////////////////////////// Bulk
 ///////////// gekolt_ca_m60
-L["gekolt_ca_m60_mag1.printname"] = "Belt-Only Config"
-L["gekolt_ca_m60_mag1.compactname"] = "BELT"
-L["gekolt_ca_m60_mag1.description"] = "<color=255,100,100>50-Round</color> belt link reduces load both in weight and in capacity."
+L["gekolt_ca_m60_mag1.printname"] = "Bewt-Onwy Config"
+L["gekolt_ca_m60_mag1.compactname"] = "BEWT"
+L["gekolt_ca_m60_mag1.description"] = "<color=255,100,100>50-Wound</color> bewt wink w-weduces woad both in weight and in c-c-capacity."
 
-L["gekolt_ca_m60_mag2.printname"] = "Paratropper Configuration"
-L["gekolt_ca_m60_mag2.compactname"] = "PARA"
-L["gekolt_ca_m60_mag2.description"] = "Definitely not just a G3 magazine attached on the side."
+L["gekolt_ca_m60_mag2.printname"] = "Pawatwoppew Configuwation"
+L["gekolt_ca_m60_mag2.compactname"] = "PAWA"
+L["gekolt_ca_m60_mag2.description"] = "Definyitewy nyot just a G3 magazinye attached on the side."
 
-L["gekolt_ca_m60_mag3.printname"] = "Paratropper Extended Configuration"
-L["gekolt_ca_m60_mag3.compactname"] = "PARA-X"
-L["gekolt_ca_m60_mag3.description"] = "Definitely not a curved G3 magazine with a higher capacity attached to the side."
+L["gekolt_ca_m60_mag3.printname"] = "Pawatwoppew Extwended Configuwation"
+L["gekolt_ca_m60_mag3.compactname"] = [[PAWA -w-]]
+L["gekolt_ca_m60_mag3.description"] = "Definyitewy nyot a cuwved G3 magazinye with a highew capacity attached to t-the side."
 
-L["gekolt_ca_60_h1.printname"] = "Paratrooper Handguard"
-L["gekolt_ca_60_h1.compactname"] = "PARA"
-L["gekolt_ca_60_h1.description"] = "Don't need it.\nRemoves the ability to <color=255,100,100>double bipod</color>."
+L["gekolt_ca_60_h1.printname"] = "Pawatwoopew Handguawd"
+L["gekolt_ca_60_h1.compactname"] = "PAWA"
+L["gekolt_ca_60_h1.description"] = "Don't nyeed it\nWemuvs t-the abiwity to  <color=255,100,100>doubwe bipod</color>."
 
 L["gekolt_fh2_thock_mag1.printname"] = "40-Round Magazine"
 L["gekolt_fh2_thock_mag1.compactname"] = "40R"
-L["gekolt_fh2_thock_mag1.description"] = "<color=100,255,100>Double the capacity</color> with zero cost."
+L["gekolt_fh2_thock_mag1.description"] = "<color=100,255,100>Doubwe the capacity</color> with zero cost."
 
-L["gekolt_fh2_thock_mag2.printname"] = "12-Round Magnum Magazine"
-L["gekolt_fh2_thock_mag2.compactname"] = "12R MAG"
-L["gekolt_fh2_thock_mag2.description"] = "Converts to a single-stack magazine firing a slightly stronger load.\nUnknown cartridge locks the weapon to <color=255,100,100>semi-auto</color>."
+L["gekolt_fh2_thock_mag2.printname"] = "12-Wound Magnyum M-Magazinye"
+L["gekolt_fh2_thock_mag2.compactname"] = "12W MAG"
+L["gekolt_fh2_thock_mag2.description"] = "Convewts to a singwe-stack magazinye fiwing a swightwy stwongew woad.\nUnknyown  cawtwidge wocks t-t-the weapon to <color=255,100,100>semwi-autowo</color>."
 
-L["gekolt_fh2_thock_stock2.printname"] = "Wired Stock"
-L["gekolt_fh2_thock_stock2.compactname"] = "WIRED"
-L["gekolt_fh2_thock_stock2.description"] = "Simple welded stock. Somehow quite stable."
+L["gekolt_fh2_thock_stock2.printname"] = "Wiwed  Swock"
+L["gekolt_fh2_thock_stock2.compactname"] = "WIWED"
+L["gekolt_fh2_thock_stock2.description"] = "Simpwe wewded stock. Somehow quite stabwe."
 
-L["gekolt_fh2_thock_stock1.printname"] = "Wooden Stock"
-L["gekolt_fh2_thock_stock1.compactname"] = "WOOD"
-L["gekolt_fh2_thock_stock1.description"] = "Gradually regains its identity."
+L["gekolt_fh2_thock_stock1.printname"] = "Wowoden Swock"
+L["gekolt_fh2_thock_stock1.compactname"] = "WOwOD"
+L["gekolt_fh2_thock_stock1.description"] = "Gwaduawwy wegains its identity."
 
-L["gekolt_fh2_thock_grip.printname"] = "Wooden Grip"
-L["gekolt_fh2_thock_grip.compactname"] = "WOOD"
-L["gekolt_fh2_thock_grip.description"] = "Wonder why it's missing it in the first place..."
+L["gekolt_fh2_thock_grip.printname"] = "Wowoden Gwip"
+L["gekolt_fh2_thock_grip.compactname"] = "WOwOD"
+L["gekolt_fh2_thock_grip.description"] = "Wondew why it's missing it in t-t-the fiwst pwace..."
 
-L["gekolt_fh2_thock_b1.printname"] = "Medium Barrel"
+L["gekolt_fh2_thock_b1.printname"] = "Medium Bawwew"
 L["gekolt_fh2_thock_b1.compactname"] = "EXT"
-L["gekolt_fh2_thock_b1.description"] = "Just packing through."
+L["gekolt_fh2_thock_b1.description"] = "Just packing thwough."
 
-L["gekolt_fh2_thock_b2.printname"] = "Long Barrel"
+L["gekolt_fh2_thock_b2.printname"] = "Wong Bawwew"
 L["gekolt_fh2_thock_b2.compactname"] = "EX-EXT"
-L["gekolt_fh2_thock_b2.description"] = "Overcompensating, much?"
+L["gekolt_fh2_thock_b2.description"] = "Ovewcompensating, m-much?!!"
 
-L["gekolt_cw_baliff_b1.printname"] = "Short Barrel"
-L["gekolt_cw_baliff_b1.compactname"] = "SHORT"
-L["gekolt_cw_baliff_b1.description"] = "It's compact enough."
+L["gekolt_cw_baliff_b1.printname"] = "Showt Bawwew"
+L["gekolt_cw_baliff_b1.compactname"] = "SHOWT"
+L["gekolt_cw_baliff_b1.description"] = "It's compact enyough."
 
-L["gekolt_cw_baliff_b2.printname"] = "Extra Short Barrel"
-L["gekolt_cw_baliff_b2.compactname"] = "EX-SHORT"
-L["gekolt_cw_baliff_b2.description"] = "Is there any range left?"
+L["gekolt_cw_baliff_b2.printname"] = "Extwa Showt Bawwew"
+L["gekolt_cw_baliff_b2.compactname"] = "EX-SHOWT"
+L["gekolt_cw_baliff_b2.description"] = "Is thewe any wange weft?!?!"
 
-L["gekolt_cw_baliff_b3.printname"] = "Long Barrel"
+L["gekolt_cw_baliff_b3.printname"] = "Wong Barrel"
 L["gekolt_cw_baliff_b3.compactname"] = "EXT"
-L["gekolt_cw_baliff_b3.description"] = "Over-reaching length."
+L["gekolt_cw_baliff_b3.description"] = "Ovew-weaching wength."
 
-L["gekolt_cw_baliff_b4.printname"] = "Digilos Kit"
-L["gekolt_cw_baliff_b4.compactname"] = "DIGILOS"
-L["gekolt_cw_baliff_b4.description"] = "Extremely oversized shell jammed into the entire cylinder."
+L["gekolt_cw_baliff_b4.printname"] = "Digiwos Kit"
+L["gekolt_cw_baliff_b4.compactname"] = "DIGIWOS"
+L["gekolt_cw_baliff_b4.description"] = "Extwemewy uvwsized sheww jammed into t-t-the entiwe cywindew."
 
-L["gekolt_dods_nambu_1.printname"] = "Full Auto"
+L["gekolt_dods_nambu_1.printname"] = "Fuww Autowo"
 L["gekolt_dods_nambu_1.compactname"] = "F.A."
-L["gekolt_dods_nambu_1.description"] = "There is no justification for this."
+L["gekolt_dods_nambu_1.description"] = "Thewe is nyo justification fow this UwU."
 
 ///////////// gekolt_css_ak_mag -- "Englishified Russian"
-L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"
-L["gekolt_css_ak_mag1.compactname"] = "CARBINE"
-L["gekolt_css_ak_mag1.description"] = "Intermediate solution for standard infantry.\nBetter at sustained fire, but suffers from slightly less stopping power."
+L["gekolt_css_ak_mag1.printname"] = "Atakowat-Rama" -- "Атаковат-Рама"
+L["gekolt_css_ak_mag1.compactname"] = "CAWBINE"
+L["gekolt_css_ak_mag1.description"] = "Intewmediate sowution fow standawd infantwy.\nBettew at sustainyed fiwe, but suffews fwom swightwy w-wess stopping powew."
 
-L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"
-L["gekolt_css_ak_mag2.compactname"] = "MARKSMAN"
-L["gekolt_css_ak_mag2.description"] = "Battle rifle caliber conversion. More accurate, more powerful, longer range.\nPunishing recoil makes firing more than one shot at a time difficult."
+L["gekolt_css_ak_mag2.printname"] = "Okhowa-Rama" -- "Охота-Рама"
+L["gekolt_css_ak_mag2.compactname"] = "MAWKSMAN"
+L["gekolt_css_ak_mag2.description"] = "Battwe wifwe cawibew convewsion. Mowe accuwate, mowe powewfuw, wongew wange.\nPunyishing wecoiw makes fiwing mowe than onye shot at a time difficuwt."
 
-L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish: Special Frame"
-L["gekolt_css_ak_mag3.compactname"] = "ASSAULT"
-L["gekolt_css_ak_mag3.description"] = "Magwell adaptor to use a NATO calibre through Western Magic™.\nMediocre stopping power, but has very controllable recoil on a heavy gun like this."
+L["gekolt_css_ak_mag3.printname"] = "Ewikoiskehys" -- Finnish: Special Frame"
+L["gekolt_css_ak_mag3.compactname"] = "ASSAUWT"
+L["gekolt_css_ak_mag3.description"] = "Magweww adaptow to use a NyATO cawibwe thwough Westewn Magic™.\nMediocwe stopping powew, but has vewy c-contwowwabwe wecoiw on a heavy gun wike this."
 
-L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"
-L["gekolt_css_ak_mag4.compactname"] = "DART"
-L["gekolt_css_ak_mag4.description"] = "Flechette dart underwater firing mechanism that also works on land.\nUnimpressive ballistics profile, but does <color=100,255,100>extra damage underwater</color>.\nLong steel projectile penetrates well and is very lethal on headshot."
+L["gekolt_css_ak_mag4.printname"] = "Podwod-Rama" -- "Подвод-Рама"
+L["gekolt_css_ak_mag4.compactname"] = "DAWT"
+L["gekolt_css_ak_mag4.description"] = "Fwechette dawt undewwatew fiwing mechanyism that awso wowks on wand.\nUnyimpwessive bawwistics pwofiwe, but does <color=100,255,100>extwa damage undewwatew</color>.\nWong steew pwojectiwe penyetwates w-weww and is vewy wethaw on headshot."
 
-L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"
-L["gekolt_css_ak_mag5.compactname"] = "LMG"
-L["gekolt_css_ak_mag5.description"] = "Mounted or on the move, embrace your Tachanka spirit and purge the royalist Whites.\nCompletely altered weapon requires a <color=255,100,100>heavier trigger</color>."
+L["gekolt_css_ak_mag5.printname"] = "Kavawewiya-Rama" -- "Кавалерия-Рама"
+L["gekolt_css_ak_mag5.compactname"] = "LMG ~w~"
+L["gekolt_css_ak_mag5.description"] = "Mounted ow on the muv, embwace youw Tachanka spiwit and puwge t-t-the woyawist Whites.\nCompwetewy awtewed weapon w-wequiwes a <color=255,100,100>heaview twiggew</color>."
 
-L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"
+L["gekolt_css_ak_mag6.printname"] = "Dobawoch-Rama" -- "Добавоч-Рама"
 L["gekolt_css_ak_mag6.compactname"] = "AUX."
-L["gekolt_css_ak_mag6.description"] = "Sub-machine configuration.\nFor scenarios where you need to downgrade your rifle."
+L["gekolt_css_ak_mag6.description"] = "Sub-machinye configuwation.\nFow scenyawios whewe you nyeed to downgwade youw wifwe."
 
-L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"
-L["gekolt_css_ak_mag7.compactname"] = "HELICAL"
-L["gekolt_css_ak_mag7.description"] = "Helically stacked pistol cartridges.\nAn actual \"sub\"-machine."
+L["gekolt_css_ak_mag7.printname"] = "Gewikoidaw-Rama" -- "Геликоидальный-Рама"
+L["gekolt_css_ak_mag7.compactname"] = "HEWICAL"
+L["gekolt_css_ak_mag7.description"] = "Hewicawwy stacked pistow cawtwidges.\nAn actuaw \"sub\"-machinye."
 
-L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
+L["gekolt_css_ak_mag8.printname"] = "Dvownyik-Rama" -- "Дворник-Рама"
 L["gekolt_css_ak_mag8.compactname"] = "16G"
-L["gekolt_css_ak_mag8.description"] = "Undersized drum magazine loaded with disproportionate 16[??] Gauge.\nSomehow still be able to fire from a small rifle barrel.\n\nBodged conversion yields mediocre ballistics comparing to true shotguns."
+L["gekolt_css_ak_mag8.description"] = "Undewsized dwum magazinye woaded with dispwopowtionyate 16[??] Gauge.\nSomehow stiww be abwe to fiwe fwom a s-s-smaww wifwe bawwew.\n\nBodged convewsion yiewds mediocwe bawwistics compawing to twue shotguns."
 
 ///////////// gekolt_css_ak_stock
-L["gekolt_css_ak_stock0.printname"] = "No Stock"
+L["gekolt_css_ak_stock0.printname"] = "Nyo Stock"
 L["gekolt_css_ak_stock0.compactname"] = "NONE"
-L["gekolt_css_ak_stock0.description"] = "Just no."
+L["gekolt_css_ak_stock0.description"] = "Just nyo ^w^."
 
-L["gekolt_css_ak_stock1.printname"] = "Folding Stock I"
-L["gekolt_css_ak_stock1.compactname"] = "FOLD I"
-L["gekolt_css_ak_stock1.description"] = "A simple folding stock."
+L["gekolt_css_ak_stock1.printname"] = "Fowding Stock I"
+L["gekolt_css_ak_stock1.compactname"] = "FOWD I"
+L["gekolt_css_ak_stock1.description"] = "A simpwe fowding stock."
 
-L["gekolt_css_ak_stock2.printname"] = "Folding Stock II"
-L["gekolt_css_ak_stock2.compactname"] = "FOLD II"
-L["gekolt_css_ak_stock2.description"] = "A hybrid folding stock out of Wood and Steel.\nFor the eastern roleplayer."
+L["gekolt_css_ak_stock2.printname"] = "Fowding Stock II"
+L["gekolt_css_ak_stock2.compactname"] = "FOWD II"
+L["gekolt_css_ak_stock2.description"] = "A hybwid fowding stock out of Wood and Steew.\nFow t-t-the eastewn wowepwayew."
 
-L["gekolt_css_ak_stock3.printname"] = "Folding Stock III"
-L["gekolt_css_ak_stock3.compactname"] = "FOLD III"
-L["gekolt_css_ak_stock3.description"] = "A compact folding stock."
+L["gekolt_css_ak_stock3.printname"] = "Fowding Stock III"
+L["gekolt_css_ak_stock3.compactname"] = "FOWD III"
+L["gekolt_css_ak_stock3.description"] = "A compact fowding stock."
 
 -- L["gekolt_css_ak_stock30.printname"] = "Folded Stock"
 -- L["gekolt_css_ak_stock30.compactname"] = "FOLDED"
 -- L["gekolt_css_ak_stock30.description"] = "REPLACEME"
 
-L["gekolt_css_ak_stock4.printname"] = "Sliding Wire Stock"
-L["gekolt_css_ak_stock4.compactname"] = "WIRE"
-L["gekolt_css_ak_stock4.description"] = "A simple wired stock increases <color=100,255,100>sight acquisition</color>."
+L["gekolt_css_ak_stock4.printname"] = "S-Swiding Wiwe Stock"
+L["gekolt_css_ak_stock4.compactname"] = "WIWE"
+L["gekolt_css_ak_stock4.description"] = "A simpwe w-wiwed stock incweases <color=100,255,100>sight awuisition</color>."
 
-L["gekolt_css_ak_stock5.printname"] = "Heavy Stock"
-L["gekolt_css_ak_stock5.compactname"] = "HEAVY"
-L["gekolt_css_ak_stock5.description"] = "Added bracing point and weight for <color=100,255,100>recoil control</color>."
+L["gekolt_css_ak_stock5.printname"] = "Heawy Stock"
+L["gekolt_css_ak_stock5.compactname"] = "HEAWY"
+L["gekolt_css_ak_stock5.description"] = "Added bwacing point and weight fow <color=100,255,100>wecoil contwol</color>."
 
-L["gekolt_css_ak_stock6.printname"] = "Full Stock"
-L["gekolt_css_ak_stock6.compactname"] = "FULL"
-L["gekolt_css_ak_stock6.description"] = "The <color=100,255,100>complete package</color>."
+L["gekolt_css_ak_stock6.printname"] = "Fuww Stock"
+L["gekolt_css_ak_stock6.compactname"] = "FUWW"
+L["gekolt_css_ak_stock6.description"] = "The <color=100,255,100>compwete package</color>."
 
-L["gekolt_css_ak_stock7.printname"] = "Polymer Stock I"
-L["gekolt_css_ak_stock7.compactname"] = "POLY. I"
-L["gekolt_css_ak_stock7.description"] = "From the latest material."
+L["gekolt_css_ak_stock7.printname"] = "Powymew Stock I"
+L["gekolt_css_ak_stock7.compactname"] = "POWY. I"
+L["gekolt_css_ak_stock7.description"] = "Fwom t-t-the watest matewiaw."
 
-L["gekolt_css_ak_stock8.printname"] = "Polymer Stock II"
-L["gekolt_css_ak_stock8.compactname"] = "POLY. II"
-L["gekolt_css_ak_stock8.description"] = "Small straight tube designed for winter environments."
+L["gekolt_css_ak_stock8.printname"] = "Powymew Stock II"
+L["gekolt_css_ak_stock8.compactname"] = "POWY. II"
+L["gekolt_css_ak_stock8.description"] = "Smaww stwaight tube designyed fow wintew enviwonments."
 
-L["gekolt_css_ak_stock9.printname"] = "Polymer Stock III"
-L["gekolt_css_ak_stock9.compactname"] = "POLY. III"
-L["gekolt_css_ak_stock9.description"] = "Magical cosmetic carrying handle for western stock adaption.\nVariations not included."
+L["gekolt_css_ak_stock9.printname"] = "Powymew Stock III"
+L["gekolt_css_ak_stock9.compactname"] = "POWY. III"
+L["gekolt_css_ak_stock9.description"] = "Magicaw cosmetic cawwying handwe fow westewn stock adaption OwO.\nVawiations nyot incwuded."
 
-L["gekolt_css_ak_grip1.printname"] = "Polymer Grip"
-L["gekolt_css_ak_grip1.compactname"] = "POLY."
-L["gekolt_css_ak_grip1.description"] = "The termites won't chew on this."
+L["gekolt_css_ak_grip1.printname"] = "Powymew Gwip"
+L["gekolt_css_ak_grip1.compactname"] = "POWY."
+L["gekolt_css_ak_grip1.description"] = "The tewmites won't chew on this."
 
-L["gekolt_css_ak_grip2.printname"] = "Skeleton Grip"
+L["gekolt_css_ak_grip2.printname"] = "Skeleton Gwip"
 L["gekolt_css_ak_grip2.compactname"] = "SKEL."
-L["gekolt_css_ak_grip2.description"] = "Did termites eat through this?\nHow'd they even drill it like that?"
+L["gekolt_css_ak_grip2.description"] = "Did tewmites eat thwough this?!?1\nHow'd they even dwiww it wike that!!11"
 
-L["gekolt_css_ak_grip3.printname"] = "Rifle Grip"
+L["gekolt_css_ak_grip3.printname"] = "Rifle Gwip"
 L["gekolt_css_ak_grip3.compactname"] = "RIFLE"
-L["gekolt_css_ak_grip3.description"] = "Full awkward hunting grip, supposedly adds... I dunno."
+L["gekolt_css_ak_grip3.description"] = "Fuww awkwawd hunting gwip, supposedwy adds... I dunnyo."
 
-L["gekolt_css_ak_grip4.printname"] = "Polymer Rifle Grip"
-L["gekolt_css_ak_grip4.compactname"] = "P. RIFLE"
-L["gekolt_css_ak_grip4.description"] = "West Coast Customs certified.\n\nNow California compliant!"
+L["gekolt_css_ak_grip4.printname"] = "Powymer Wiwle Gwrip"
+L["gekolt_css_ak_grip4.compactname"] = "P. WIWLE"
+L["gekolt_css_ak_grip4.description"] = "W-West Coast Customs cewtified.\n\nNyow Cawifownyia compwiant?!?1"
 
-L["gekolt_css_ak_hg1.printname"] = "Stalker Handguard"
-L["gekolt_css_ak_hg1.compactname"] = "STALKER"
-L["gekolt_css_ak_hg1.description"] = "Long internally suppressed configuration.\nSlim design decreases weight while lengthen the foregrip option."
+L["gekolt_css_ak_hg1.printname"] = "Stawkew Handguawd"
+L["gekolt_css_ak_hg1.compactname"] = "STAWKEW"
+L["gekolt_css_ak_hg1.description"] = "Wong intewnyawwy s-s-suppwessed configuwation.\nSwim design d-d-decweases weight whiwe wengthen the fowegwip option."
 
-L["gekolt_css_ak_hg2.printname"] = "Polymer Handguard"
+L["gekolt_css_ak_hg2.printname"] = "Polymer Handguawd"
 L["gekolt_css_ak_hg2.compactname"] = "POLY."
-L["gekolt_css_ak_hg2.description"] = "Northern variant built for the cold.\nComes with a fancy rear iron sight."
+L["gekolt_css_ak_hg2.description"] = "Nowthewn vawiant buiwt fow t-t-the cowd.\nComes with a fancy weaw iwon sight."
 
-L["gekolt_css_ak_hg3.printname"] = "Railed Handguard"
-L["gekolt_css_ak_hg3.compactname"] = "SAIGA"
-L["gekolt_css_ak_hg3.description"] = "Early bulky design in an attempt to modernize the rusty rifle."
+L["gekolt_css_ak_hg3.printname"] = "Railed Handguawd"
+L["gekolt_css_ak_hg3.compactname"] = "SAIWA"
+L["gekolt_css_ak_hg3.description"] = "Eawwy buwky design in an attempt to modewnyize t-t-the wusty wifwe."
 
-L["gekolt_css_ak_hg4.printname"] = "Krinkov Handguard"
-L["gekolt_css_ak_hg4.compactname"] = "KRINK"
-L["gekolt_css_ak_hg4.description"] = "The little comrade is fitted with its own muzzle device."
+L["gekolt_css_ak_hg4.printname"] = "Kwinkov Handguawd"
+L["gekolt_css_ak_hg4.compactname"] = "KWINK"
+L["gekolt_css_ak_hg4.description"] = "The wittwe comwade is fitted with its own muzzwe device."
 
-L["gekolt_css_ak_hg6.printname"] = "Huntsman Handguard"
-L["gekolt_css_ak_hg6.compactname"] = "HUNTER"
-L["gekolt_css_ak_hg6.description"] = "Long and regulated handguard and barrel for hunting purpose."
+L["gekolt_css_ak_hg6.printname"] = "Huntsman Handguawd"
+L["gekolt_css_ak_hg6.compactname"] = "HUNWER"
+L["gekolt_css_ak_hg6.description"] = "Wong and weguwated handguawd and bawwew fow hunting puwpose."
 
-L["gekolt_css_ak_hg7.printname"] = "Sputnik Handguard"
+L["gekolt_css_ak_hg7.printname"] = "Sputnyik Handguawd"
 L["gekolt_css_ak_hg7.compactname"] = "N94"
-L["gekolt_css_ak_hg7.description"] = "A magic non-reciprocating floating barrel capable of performing a <color=100,255,100>hyper-fast 2-round burst</color> when starting to auto-fire.\nDefinitely not a technical issue."
+L["gekolt_css_ak_hg7.description"] = "A magic nyon-wecipwocating fwoating bawwew capabwe of pewfowming a <color=100,255,100>hypew-fast 2-wound buwst</color> w-w-when stawting to auto-fiwe.\nDefinyitewy nyot a technyicaw issue."
 
-L["gekolt_css_ak_hg8.printname"] = "Auxiliary Handguard"
+L["gekolt_css_ak_hg8.printname"] = "Auxiwiawy Handguawd"
 L["gekolt_css_ak_hg8.compactname"] = "AUX."
-L["gekolt_css_ak_hg8.description"] = "Looks like the bottom is hollowed out.\nIt's like they want you to perhaps use a different magazine more fitted for this."
+L["gekolt_css_ak_hg8.description"] = "Looks like the bottom is hollowed out.\nIt's wike they want you to pewhaps use a diffewent magazinye mowe fitted fow this."
 
-L["gekolt_css_ak_hg9.printname"] = "Heavy Handguard"
-L["gekolt_css_ak_hg9.compactname"] = "HEAVY"
-L["gekolt_css_ak_hg9.description"] = "Oi, they just make the thing longer.\nRounded front sight for... more... accuracy?\nChucked a built-in bipod for good measures."
+L["gekolt_css_ak_hg9.printname"] = "Heawy Handguawd"
+L["gekolt_css_ak_hg9.compactname"] = "HEAWY"
+L["gekolt_css_ak_hg9.description"] = "Oi, they just make the thing wongew.\nWounded fwont sight fow... m-mowe... accuwacy?\nChucked a buiwt-in bipod fow good measuwes."
 
-L["gekolt_css_ak_hg10.printname"] = "Modernized Handguard"
+L["gekolt_css_ak_hg10.printname"] = "Modewnyised Handguawd"
 L["gekolt_css_ak_hg10.compactname"] = "MODERN"
-L["gekolt_css_ak_hg10.description"] = "The \"latest\" production of a truly modernized handguard.\nA completely flat top and not so bulky rear sight."
+L["gekolt_css_ak_hg10.description"] = "T-The \"watest\" pwoduction of a twuwy modewnyised handguawd.\nA compwetewy fwat top and nyot so buwky weaw sight."
 
-L["gekolt_css_ak_hg11.printname"] = "Magyarie Handguard"
+L["gekolt_css_ak_hg11.printname"] = "Magyawie Handguawd"
 L["gekolt_css_ak_hg11.compactname"] = "AMD"
-L["gekolt_css_ak_hg11.description"] = "Special package from the quite lousy comrade, comes with a built-in foregrip.\nWhat do you mean you got the wrong comrade?"
+L["gekolt_css_ak_hg11.description"] = "Speciaw package fwom t-t-the quite wousy c-comwade, comes with a buiwt-in fowegwip.\nWhat do you mean you got t-t-the wwong comwade!!11"
 
-L["gekolt_css_ak_hg12.printname"] = "Naked Handguard"
-L["gekolt_css_ak_hg12.compactname"] = "NAKED"
-L["gekolt_css_ak_hg12.description"] = "Stripped down to its bare essentials.\nWatch that the bolt rattles in spectatular failure."
+L["gekolt_css_ak_hg12.printname"] = "Nyaked Handguawd"
+L["gekolt_css_ak_hg12.compactname"] = "NYAKED"
+L["gekolt_css_ak_hg12.description"] = "Stwipped down to its bawe essentiaws.\nWatch that t-t-the bowt wattwes in spectatuwaw faiwuwe."
 
 ///////////// gekolt_css_ammo
-L["gekolt_ammo_sg_magnum.printname"] = "Pressured Magnum Shot"
-L["gekolt_ammo_sg_magnum.compactname"] = "MAGNUM"
-L["gekolt_ammo_sg_magnum.description"] = "Pressurised powder load can only be carried in such few quantities per shot.\nWhat it lacks in dispersion, it makes up for in close range firepower."
+L["gekolt_ammo_sg_magnum.printname"] = "Pwessuwed Magnyum Shot"
+L["gekolt_ammo_sg_magnum.compactname"] = "MAGNYUM"
+L["gekolt_ammo_sg_magnum.description"] = "wessuwised powdew woad can onwy be cawwied in s-such few quantities pew shot\nWhat it wacks in dispewsion, it makes up fow in cwose wange f-f-fiwepowew."
 
-L["gekolt_ammo_sg_drone.printname"] = "Foule Drone Shot"
-L["gekolt_ammo_sg_drone.compactname"] = "DRONE"
-L["gekolt_ammo_sg_drone.description"] = "Condensed with a greater number of pellets allowing for wider spreading and looser clums.\nTake out those drones, birds or whatever else in the sky with more ease."
+L["gekolt_ammo_sg_drone.printname"] = "Fouwe Dwonye Shot"
+L["gekolt_ammo_sg_drone.compactname"] = "DWOYNE"
+L["gekolt_ammo_sg_drone.description"] = "Condensed with a g-g-gweatew nyumbew of pewwets awwowing fow widew spweading and woosew cwums.\nTake out those dwonyes, biwds ow whatevew ewse in t-t-the sky with mowe ease."
 
-L["gekolt_ammo_sg_slug.printname"] = "Marksman Slug Shot"
-L["gekolt_ammo_sg_slug.compactname"] = "SLUG"
-L["gekolt_ammo_sg_slug.description"] = "the scug\nplay rain world\nplay rainworld\nplay rain world\nplay rainworld"
+L["gekolt_ammo_sg_slug.printname"] = "Mawksman Swug Shot"
+L["gekolt_ammo_sg_slug.compactname"] = "SWUG"
+L["gekolt_ammo_sg_slug.description"] = "the scug\npway wain worwd\nplay wainworwd\npway wain worwd\nplay wainworwd"
 
-L["gekolt_ammo_sg_spring.printname"] = "Rebounder Spring Shot"
-L["gekolt_ammo_sg_spring.compactname"] = "SPRING"
-L["gekolt_ammo_sg_spring.description"] = "A single boucy projectile with magical homing properties."
+L["gekolt_ammo_sg_spring.printname"] = "Weboundew Spwing Shot"
+L["gekolt_ammo_sg_spring.compactname"] = "SPWING"
+L["gekolt_ammo_sg_spring.description"] = "A singwe b-boucy pwojectiwe with magicaw homing pwopewties."
 
-L["gekolt_ammo_sg_sharp.printname"] = "Armour-Piercing Flechettes"
-L["gekolt_ammo_sg_sharp.compactname"] = "FLECH."
-L["gekolt_ammo_sg_sharp.description"] = "Hollow shells loaded with 4 sharp, armour-piercing projectiles."
+L["gekolt_ammo_sg_sharp.printname"] = "Awmouw-Piewcing Fwechettes"
+L["gekolt_ammo_sg_sharp.compactname"] = "FWECH."
+L["gekolt_ammo_sg_sharp.description"] = "Howwow shewws woaded with 4 shawp, awmouw-piewcing pwojectiwes."
 
-L["gekolt_ammo_sg_frag.printname"] = "FRAG-12 High-Explosive Shot"
-L["gekolt_ammo_sg_frag.compactname"] = "FRAG-12"
-L["gekolt_ammo_sg_frag.description"] = "Shotgun shell filled with a highly explosive projectile."
+L["gekolt_ammo_sg_frag.printname"] = "FWAG-12 H-High-Expwosive Shot"
+L["gekolt_ammo_sg_frag.compactname"] = "FWAG-12"
+L["gekolt_ammo_sg_frag.description"] = "Shotgun sheww fiwwed with a highwy expwosive pwojectiwe."
 
-L["gekolt_ammo_sg_flame.printname"] = "Inflamma Dragon's Breath"
-L["gekolt_ammo_sg_flame.compactname"] = "DRAGON"
-L["gekolt_ammo_sg_flame.description"] = "A highly unethical flame round loaded with combustive fuel."
+L["gekolt_ammo_sg_flame.printname"] = "Infwamma Dwagon's Bweath"
+L["gekolt_ammo_sg_flame.compactname"] = "DWAGON UwU"
+L["gekolt_ammo_sg_flame.description"] = "A highwy unyethicaw fwame wound woaded with combustive fuew."
 
-L["gekolt_ammo_sg_flare.printname"] = "Signal Flare"
-L["gekolt_ammo_sg_flare.compactname"] = "FLARE"
-L["gekolt_ammo_sg_flare.description"] = "Low pressure shell containing an illuminating flare burning at a high temperature.\nUsually used for signalling, but can light things up in a pinch."
+L["gekolt_ammo_sg_flare.printname"] = "Signyaw Fware"
+L["gekolt_ammo_sg_flare.compactname"] = "FWARE"
+L["gekolt_ammo_sg_flare.description"] = "W-Wow p-pwessuwe sheww containying an iwwuminyating fwawe buwnying at a high tempewatuwe.\nUsuawwy used fow signyawwing, but can wight things up in a p-pinch."
 
 ///////////// gekolt_css_awp
-L["gekolt_css_awp_s_no.description"] = "Completely removes any sense of bracing from a high-calibre rifle."
+L["gekolt_css_awp_s_no.description"] = "Compwetewy wemuvs any OwO sense of bwacing fwom a high-cawibwe wifwe."
 
-L["gekolt_css_awp_f_howell.printname"] = "Howell Full-Auto Frame"
-L["gekolt_css_awp_f_howell.compactname"] = "AUTO"
-L["gekolt_css_awp_f_howell.description"] = "This ancient mechanism from the 1900's allows your not-Lee-Enfield to fire in (semi-) automatic!\nComes with a comically large 20-round magazine for some reason that looks like it can hold 10 more (let's say it uses 'tall bullets', i dunno).\nDespite using the exact same calibre, the damage is reduced in the name of video game balance."
+L["gekolt_css_awp_f_howell.printname"] = "Howeww Fuww-Autowo Fwame"
+L["gekolt_css_awp_f_howell.compactname"] = "AUTOwO"
+L["gekolt_css_awp_f_howell.description"] = "This ancient mechanyism fwom t-the 1900's awwows youw nyot-Wee-Enfiewd to fiwe in (semi-) autowomatic!\nComes with a comicawwy wawge 20-wound magazinye fow some weason that wooks wike it can howd 10 mowe (IT'S USING TAWW BUWWETS!11).\nDespite using t-t-the exact same cawibwe, t-t-the damage is weduced in t-t-the nyame of video game bawance."
 
-L["gekolt_css_awp_s_fold.printname"] = "Folding Stock"
-L["gekolt_css_awp_s_fold.compactname"] = "FOLD"
-L["gekolt_css_awp_s_fold.description"] = "Discounted skeletal stock."
+L["gekolt_css_awp_s_fold.printname"] = "Fowding Swock"
+L["gekolt_css_awp_s_fold.compactname"] = "FOWD"
+L["gekolt_css_awp_s_fold.description"] = "Discounted skewetaw stock."
 
-L["gekolt_css_awp_f_lc10.printname"] = "Lincoln Corp 10A2 Frame"
-L["gekolt_css_awp_f_lc10.compactname"] = "LC10A2"
-L["gekolt_css_awp_f_lc10.description"] = "We smuggled an SMG weceivew into the sniper's frame.\nAn unfitting frame yielding unfavourable results."
+L["gekolt_css_awp_f_lc10.printname"] = "Wincown Cowp 10A2 Fwame"
+L["gekolt_css_awp_f_lc10.compactname"] = "WC10A2"
+L["gekolt_css_awp_f_lc10.description"] = "We smuggwed an SMG w-weceivew into the snyipew's fwame ;;w;;.\nAn unfitting fwame yiewding unfavouwabwe wesuwts."
 
-L["gekolt_css_awp_s_short.printname"] = "Optimised Stock"
-L["gekolt_css_awp_s_short.compactname"] = "OPTIM."
-L["gekolt_css_awp_s_short.description"] = "Removes \"unnecessary\" bits in order to reduce weight and improve performance."
+L["gekolt_css_awp_s_short.printname"] = "Optiwised Swock"
+L["gekolt_css_awp_s_short.compactname"] = "OPTIW."
+L["gekolt_css_awp_s_short.description"] = "Wemuvs \"unnyecessawy\" bits in owdew to weduce weight and impwuv pewfowmance."
 
 L["gekolt_css_awp_f_sd.printname"] = "AE50 Frame"
 L["gekolt_css_awp_f_sd.compactname"] = "AE50"
-L["gekolt_css_awp_f_sd.description"] = "\"Ah, finally, a brand-new state of the art high-calibre confi--\nOI, WHAT DO YOU MEAN WE USED THE WRONG CALIBRE?! I SAID .50-- .50 BMG, NOT--\n...\n...Oh, my lord...\n...I guess it does look cute, like one of those De Lisle rifles from the war--\n...hold that thought. Do we have any spare comically large suppressors lying about...?\""
+L["gekolt_css_awp_f_sd.description"] = [["Ah, finyawwy, a bwand-nyew state of the a-awt high-cawibwe confi--
+OI, WHAT DO YOU MEAN WE USED THE WWONG CAWIBWE!!11 I SAID .50-- .50 BMG, NYOT
+...
+...Oh, my wowd...
+...I guess it does wook cute, wike onye of those De Wiswe wifwes fwom t-t-the waw
+...howd that thought. Do w-w-we have any spawe comicawwy wawge suppwessows wying about...?]]
 
-L["gekolt_css_awp_f_obrez.printname"] = "Obrez Frame"
+L["gekolt_css_awp_f_obrez.printname"] = "Obwez Fwame"
 L["gekolt_css_awp_f_obrez.compactname"] = "AO338"
-L["gekolt_css_awp_f_obrez.description"] = "Someone got their hands on a saw and some magic glue.\nIs mobility truly that important?"
+L["gekolt_css_awp_f_obrez.description"] = "Someonye got theiw hands on a saw and some magic gwue.\nIs mobiwity twuwy that impowtant?"
 
 ///////////// gekolt_css_m4_grip_stock
 L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW Foregrip"

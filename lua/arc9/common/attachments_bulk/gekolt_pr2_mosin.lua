@@ -17,19 +17,15 @@ ATT.SortOrder = 10
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"frame_auto"}
 
-ATT.SwayAdd = -0.3
-ATT.FreeAimRadiusAdd = -5
-ATT.SwayAddMove = -0.4
+ATT.SwayAdd = 0.3
+ATT.FreeAimRadiusAdd = -2
+ATT.SwayAddMove = 0.5
 ATT.SwayMultSights = 2
 
 ATT.SpreadAdd = 0.004
 
-ATT.RecoilMult = 1.15
-ATT.SpreadMultRecoil = 1.1
-ATT.RecoilMultRecoil = 0.9
-
-ATT.AimDownSightsTimeAdd = -0.04
-ATT.SprintToFireTimeAdd = -0.06
+ATT.AimDownSightsTimeAdd = 0.04
+ATT.SprintToFireTimeAdd = 0.06
 
 ATT.ManualAction = false
 ATT.ManualActionNoLastCycle = false
