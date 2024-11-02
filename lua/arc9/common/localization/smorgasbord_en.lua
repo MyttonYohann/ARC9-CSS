@@ -116,7 +116,7 @@ L["smorg_class_weapon_mp"] = "Machine Pistol"
 L["smorg_class_weapon_atr"] = "Anti-Tank Rifle"
 
 ////////////////////////////////////// Weapons
-/////////////////// Weapon Display Names
+/////////////////// Weapon Info
 L["smorg_gekolt_bo1_hammersickle"] = "Hammer and Sickle"
 L["smorg_gekolt_bo1_hammersickle_desc"] = "A pair of common work tools infused with the power of the proletariat.\nAssemble its true form to reduce damage from the front and radiate energy.\n\nThe power of Syndicalism compels you."
 
@@ -984,3 +984,86 @@ L["gekolt_css_optic_pks.description"] = "A small reflex sight for use as a backu
 L["gekolt_css_optic_kemperxl.printname"] = "Temper Anti-Air & Air-Powered Rangefinder Reflex Sight"
 L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER AA"
 L["gekolt_css_optic_kemperxl.description"] = "Extremely wide holographic sight with a built-in range finder for machine gunners, plane gunners and people who don't like planes and maybe those who do like planes."
+
+////////////////////////////////////// Smorgasbord Remix
+/////////////////// Remix Trivia
+L["smorg_trivia_country_hl2"] = "Half-Life 2 Universe"
+
+L["smorg_trivia_caliber_rebar"] = "Hot Rebar"
+L["smorg_trivia_caliber_473x33"] = "4.73×33mm Caseless"
+L["smorg_trivia_caliber_50ae"] = ".50 Action Express"
+L["smorg_trivia_caliber_polymer"] = "Polymer & Steel"
+
+L["smorg_class_weapon_sho"] = "Shotgun"
+L["smorg_class_weapon_riot"] = "Riot Control Gear"
+
+L["smorg_category_config"] = "Config"
+L["smorg_category_tactical"] = "Tactical"
+
+/////////////////// Remix Weapons
+L["smorg_gekolt_remix_aksg"] = "Nidrovich-12"
+L["smorg_gekolt_remix_aksg_real"] = "AKSG-12"
+L["smorg_gekolt_remix_aksg_desc"] = "First, last and undocumented interation of a failed line of alteration.\nInfamy breeds infamy."
+
+L["smorg_gekolt_remix_apc9"] = "Milizersch Libero"
+L["smorg_gekolt_remix_apc9_real"] = "APC9"
+L["smorg_gekolt_remix_apc9_desc"] = "Carbine-length variant with a ligher load."
+
+L["smorg_gekolt_remix_aug_b"] = "Valteyrka-B"
+L["smorg_gekolt_remix_aug_b_real"] = "Unbullpup AUG"
+L["smorg_gekolt_remix_aug_b_desc"] = "Ergonomics be damned! Conventional is always universal."
+
+L["smorg_gekolt_remix_bowhl2"] = "Bow"
+L["smorg_gekolt_remix_bowhl2_desc"] = "Crossbows are too expensive to make.\nSignificantly higher firing rate while aiming."
+
+L["smorg_gekolt_remix_deuxb"] = "Emisavoie"
+L["smorg_gekolt_remix_deuxb_real"] = "Coach Gun"
+L["smorg_gekolt_remix_deuxb_desc"] = "Old and reliable. Nothing could go wrong with a classic."
+
+L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
+L["smorg_gekolt_remix_g3_b_real"] = "Bullpup G3"
+L["smorg_gekolt_remix_g3_b_desc"] = "Ergonomics be praised! Unconventional is the way forward."
+
+L["smorg_gekolt_remix_g11"] = "Husellisch-11"
+L["smorg_gekolt_remix_g11_real"] = "G11"
+L["smorg_gekolt_remix_g11_desc"] = "Impractical from the start, a design too ambitious for its time."
+
+L["smorg_gekolt_remix_gepard"] = "Ryszachti-9"
+L["smorg_gekolt_remix_gepard_real"] = "Gepard PP"
+L["smorg_gekolt_remix_gepard_desc"] = "A response to a desire for an even more compact design."
+
+L["smorg_gekolt_remix_jackham"] = "Pancolhver-12"
+L["smorg_gekolt_remix_jackham_real"] = "Jackhammer"
+L["smorg_gekolt_remix_jackham_desc"] = "Overly complex design that fails at everything."
+
+L["smorg_gekolt_remix_minid"] = "Ohlderogl Wricht"
+L["smorg_gekolt_remix_minid_real"] = "Baby Desert Eagle"
+L["smorg_gekolt_remix_minid_desc"] = "Compact version of a hunting pistol."
+
+L["smorg_gekolt_remix_sg552"] = "Orkaneer-52"
+L["smorg_gekolt_remix_sg552_real"] = "SG552"
+L["smorg_gekolt_remix_sg552_desc"] = "Barely customizable modular weapon."
+
+L["smorg_gekolt_remix_shieldtonfa"] = "Riot Shield & Tonfa"
+L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-riot gear, allowing for quick guarding with the shield and skulls to be cracked with the tonfa."
+
+L["smorg_gekolt_remix_uzi"] = "Yvelzy-9"
+L["smorg_gekolt_remix_uzi_real"] = "UZI"
+L["smorg_gekolt_remix_uzi_desc"] = "A staple of rapid manufacturing."
+
+/////////////////////////// Remix Attachments
+L["gekolt_fof_coach_b2.printname"] = "Nitro Load"
+L["gekolt_fof_coach_b2.compactname"] = "NITRO"
+L["gekolt_fof_coach_b2.description"] = "A bigger game requires a bigger load."
+
+L["gekolt_fof_coach_b1.printname"] = "Sawed-Off Barrel"
+L["gekolt_fof_coach_b1.compactname"] = "SAWED"
+L["gekolt_fof_coach_b1.description"] = "Harms your gun but it does look good tho."
+
+L["gekolt_ca_uzi_1.printname"] = "One-Handed"
+L["gekolt_ca_uzi_1.compactname"] = "GANGSTA"
+L["gekolt_ca_uzi_1.description"] = "Fold that stock in and walk like you own the place."
+
+L["gekolt_ca_uzi_1.printname"] = "Micro-C"
+L["gekolt_ca_uzi_1.compactname"] = "MICRO"
+L["gekolt_ca_uzi_1.description"] = "It very short."

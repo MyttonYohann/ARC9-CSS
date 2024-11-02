@@ -116,7 +116,7 @@ L["smorg_class_weapon_mp"] = "Maskinpistol"
 L["smorg_class_weapon_atr"] = "Pansarvärnsgevär"
 
 ////////////////////////////////////// Weapons
-/////////////////// Weapon Display Names
+/////////////////// Weapon Info
 L["smorg_gekolt_bo1_hammersickle"] = "Hammare och Skära"
 L["smorg_gekolt_bo1_hammersickle_desc"] = "Ett par vanliga arbetsverktyg gjutna i proletariat-kraften.\nSätt ihop dess sanna form för att sänka skadan framifrån och stråla ut energi.\n\nSyndikalismens kraft tvingar dig."
 
@@ -965,3 +965,86 @@ L["gekolt_css_optic_pks.description"] = "Ett litet reflexsikte som används som 
 L["gekolt_css_optic_kemperxl.printname"] = "Temper Luftvärns & Luftdriven Avståndsmätande Reflexsikte"
 L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER LV"
 L["gekolt_css_optic_kemperxl.description"] = "Extremt brett holografiskt sikte med inbyggd avståndsmätare för kulspruteskyttar, planskyttar eller folk som inte tycker om plan och kanske dem som tycker om plan."
+
+////////////////////////////////////// Smorgasbord Remix
+/////////////////// Remix Trivia
+L["smorg_trivia_country_hl2"] = "Half-Life 2 Universum"
+
+L["smorg_trivia_caliber_rebar"] = "Varm Kamstång"
+L["smorg_trivia_caliber_473x33"] = "4,73 × 33 mm Skallös"
+L["smorg_trivia_caliber_50ae"] = ".50 \"Action Express\""
+L["smorg_trivia_caliber_polymer"] = "Polymer & Stål"
+
+L["smorg_class_weapon_sho"] = "Hagelbössa"
+L["smorg_class_weapon_riot"] = "Piketpolisutrustning"
+
+L["smorg_category_config"] = "Konfig"
+L["smorg_category_tactical"] = "Taktisk"
+
+/////////////////// Remix Weapons
+L["smorg_gekolt_remix_aksg"] = "Nidrovich-12"
+L["smorg_gekolt_remix_aksg_real"] = "AKSG-12"
+L["smorg_gekolt_remix_aksg_desc"] = "Första, sista och odokumenterad integrering i en misslyckad linje av ändringar.\nVanära föder vanära."
+
+L["smorg_gekolt_remix_apc9"] = "Milizersch Libero"
+L["smorg_gekolt_remix_apc9_real"] = "APC9"
+L["smorg_gekolt_remix_apc9_desc"] = "Karbinlängd variant med en lättare laddning."
+
+L["smorg_gekolt_remix_aug_b"] = "Valteyrka-B"
+L["smorg_gekolt_remix_aug_b_real"] = "Unbullpup AUG"
+L["smorg_gekolt_remix_aug_b_desc"] = "Fördöm ergonomin! Konventionellt är alltid universalt."
+
+L["smorg_gekolt_remix_bowhl2"] = "Båge"
+L["smorg_gekolt_remix_bowhl2_desc"] = "Armborstar är för dyra att göra.\nKraftigt högre eldhastighet i siktet."
+
+L["smorg_gekolt_remix_deuxb"] = "Emisavoie"
+L["smorg_gekolt_remix_deuxb_real"] = "\"Coach Gun\""
+L["smorg_gekolt_remix_deuxb_desc"] = "Gammal och pålitlig. Inget kan gå fel med en klassiker."
+
+L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
+L["smorg_gekolt_remix_g3_b_real"] = "Bullpup G3"
+L["smorg_gekolt_remix_g3_b_desc"] = "Beröm ergonomin! Okonventionellt är vägen framåt."
+
+L["smorg_gekolt_remix_g11"] = "Husellisch-11"
+L["smorg_gekolt_remix_g11_real"] = "G11"
+L["smorg_gekolt_remix_g11_desc"] = "Opraktisk från början, en design för ambitiös för dess tid."
+
+L["smorg_gekolt_remix_gepard"] = "Ryszachti-9"
+L["smorg_gekolt_remix_gepard_real"] = "Gepard PP"
+L["smorg_gekolt_remix_gepard_desc"] = "Ett svar till en önskan för en ännu mer kompakt design."
+
+L["smorg_gekolt_remix_jackham"] = "Pancolhver-12"
+L["smorg_gekolt_remix_jackham_real"] = "Jackhammer"
+L["smorg_gekolt_remix_jackham_desc"] = "Alltför komplicerad design som misslyckas med allt."
+
+L["smorg_gekolt_remix_minid"] = "Ohlderogl Wricht"
+L["smorg_gekolt_remix_minid_real"] = "Baby Desert Eagle"
+L["smorg_gekolt_remix_minid_desc"] = "Kompakt version av en jaktpistol."
+
+L["smorg_gekolt_remix_sg552"] = "Orkaneer-52"
+L["smorg_gekolt_remix_sg552_real"] = "SG552"
+L["smorg_gekolt_remix_sg552_desc"] = "Knappt anpassningsbart modulärt vapen."
+
+L["smorg_gekolt_remix_shieldtonfa"] = "Kravallsköld och Tonfa"
+L["smorg_gekolt_remix_shieldtonfa_desc"] = "Samling kravallutrustning som tillåter för snabbt skydd med skölden och skallar att öppnas upp med tonfan."
+
+L["smorg_gekolt_remix_uzi"] = "Yvelzy-9"
+L["smorg_gekolt_remix_uzi_real"] = "UZI"
+L["smorg_gekolt_remix_uzi_desc"] = "Stapelvara i snabb tillverkning."
+
+/////////////////////////// Remix Attachments
+L["gekolt_fof_coach_b2.printname"] = "Nitro-Laddning"
+L["gekolt_fof_coach_b2.compactname"] = "NITRO"
+L["gekolt_fof_coach_b2.description"] = "Högvilt kräver högre laddning."
+
+L["gekolt_fof_coach_b1.printname"] = "Avsågad Pipa"
+L["gekolt_fof_coach_b1.compactname"] = "SÅGAD"
+L["gekolt_fof_coach_b1.description"] = "Skadar vapnet men det ser ju schysst ut."
+
+L["gekolt_ca_uzi_1.printname"] = "Enhands"
+L["gekolt_ca_uzi_1.compactname"] = "GANGSTA"
+L["gekolt_ca_uzi_1.description"] = "Vik in kolven och gå runt som om du äger stället."
+
+L["gekolt_ca_uzi_1.printname"] = "Micro-C"
+L["gekolt_ca_uzi_1.compactname"] = "MICRO"
+L["gekolt_ca_uzi_1.description"] = "Ganska kort."
