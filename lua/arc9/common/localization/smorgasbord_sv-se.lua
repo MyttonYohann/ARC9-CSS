@@ -889,8 +889,6 @@ L["gekolt_css_optic_m18.printname"] = "\"Far View\"-Riktmedel"
 L["gekolt_css_optic_m18.compactname"] = "FAR VIEW"
 L["gekolt_css_optic_m18.description"] = "Den kallas \"Far View\" för den låter dig se väldigt långt.\nEffektiv upp till hur många meter det är till måltavlan."
 
--- ↑↓ Pretty sure these two should've had inverted internal names. Ah well.
-
 L["gekolt_css_optic_fview.printname"] = "Krosen Pansarvärnssikte"
 L["gekolt_css_optic_fview.compactname"] = "KROSEN"
 L["gekolt_css_optic_fview.description"] = "Riktmedelsystem egentligen gjort för att nollställa pansarvärnsgevär.\nNu tillgänglig med gratis <color=100,255,100>ögonkopp</color>!"
@@ -910,3 +908,60 @@ L["gekolt_css_optic_micro.description"] = "(Nej, inte ett mikroskop.)\nMagnifier
 L["gekolt_css_optic_pvs4.printname"] = "NPRED-Sikte"
 L["gekolt_css_optic_pvs4.compactname"] = "NPRED"
 L["gekolt_css_optic_pvs4.description"] = "Tung <color=100,255,100>mörkerseende</color> sikte med <color=255,100,100>extremt begränsad synlighet</color>.\nHög magnifiering vilket gör den effektiv upp till ganska många \"yards\".\n\nVarma grejer lyser."
+
+-- Reflexes
+L["gekolt_css_optic_delta.printname"] = "Gammer Reflexsikte"
+L["gekolt_css_optic_delta.compactname"] = "GAMMER"
+L["gekolt_css_optic_delta.description"] = "Ett litet reflexsikte designat som reservsikte.\nKommer med ett udda hårkors."
+
+L["gekolt_css_optic_delta_mini.printname"] = "Gammer Lågprofil Reflexsikte"
+L["gekolt_css_optic_delta_mini.compactname"] = "GAMMER LP"
+L["gekolt_css_optic_delta_mini.description"] = "Ett litet reflexsikte designat som reservsikte.\nMonterat lägre än den andra.\nKommer med ett udda hårkors."
+
+L["gekolt_css_optic_holo.printname"] = "Fritotech Holographic"
+L["gekolt_css_optic_holo.compactname"] = "FRITO."
+L["gekolt_css_optic_holo.description"] = "Ett unikt och boxigt holografiskt sikte."
+
+L["gekolt_css_optic_holo2.printname"] = "Fritotech Prototyp \"Hotmale\"-Sikte"
+L["gekolt_css_optic_holo2.compactname"] = "F-PROTO."
+L["gekolt_css_optic_holo2.description"] = "Ett unikt och boxigt sikte nu utrustat med lite \"tech\" skräp.\nHar nu fått <color=100,255,100>värmesikte</color> förmåga.\nGråskala tack vare inte spelrelaterade anledningar.\nF&U kanske eller kanske inte var involverad i dess skapelse."
+
+L["gekolt_css_optic_holo3.printname"] = "Fritotech \"Pequeño holográfico\""
+L["gekolt_css_optic_holo3.compactname"] = "PEQUEÑO"
+L["gekolt_css_optic_holo3.description"] = "Ett unikt och boxigt holografiskt sikte.\nDenna enhet är mindre och en precis morot pekar uppåt."
+
+L["gekolt_css_optic_mrs.printname"] = "Aniracco Usual"
+L["gekolt_css_optic_mrs.compactname"] = "USUAL"
+L["gekolt_css_optic_mrs.description"] = "Det mest simpla reflexsiktet som klonats världen runt.\n\nDenna kostade endast ¥62!"
+
+L["gekolt_css_optic_mrs2.printname"] = "Aniracco Sona"
+L["gekolt_css_optic_mrs2.compactname"] = "SONA"
+L["gekolt_css_optic_mrs2.description"] = "Det mest simpla reflexsiktet som klonats världen runt.\nDenna har en öppen topp för förbättrade reflexer! (???)\nDenna kostade endast ¥98!"
+
+L["gekolt_css_optic_mrs3.printname"] = "Aniracco Slommy"
+L["gekolt_css_optic_mrs3.compactname"] = "SLOMMY"
+L["gekolt_css_optic_mrs3.description"] = "Det mest simpla reflexsiktet som klonats världen runt.\nDenna har ett anpassat hårkors som tillåter precisa och träffsäkra skott och luktar salami!\nDenna kostade endast ¥137!"
+
+L["gekolt_css_optic_rmr.printname"] = "RCK Lågprofil"
+L["gekolt_css_optic_rmr.compactname"] = "RCK"
+L["gekolt_css_optic_rmr.description"] = "Ett kompakt reflexsikte designat för användning på mindre eldvapen, exempelvis sidovapen."
+
+L["gekolt_css_optic_okp.printname"] = "Stoppur Reflexsikte"
+L["gekolt_css_optic_okp.compactname"] = "STOPPUR"
+L["gekolt_css_optic_okp.description"] = "Ett reflexsikte med ett sparre hårkors som liknar en äldre herre med sådant skägg som pekar rakt ner."
+
+L["gekolt_css_optic_t1.printname"] = "Tick Lågprofil"
+L["gekolt_css_optic_t1.compactname"] = "TICK"
+L["gekolt_css_optic_t1.description"] = "Ett populärt lågprofil rödpunktsikte."
+
+L["gekolt_css_optic_reddot.printname"] = "Teller Reflexsikte"
+L["gekolt_css_optic_reddot.compactname"] = "TELLER"
+L["gekolt_css_optic_reddot.description"] = "Cylindriskt sikte med många cirklar."
+
+L["gekolt_css_optic_pks.printname"] = "Kilimanjaro Lågprofil"
+L["gekolt_css_optic_pks.compactname"] = "KILIMANJARO"
+L["gekolt_css_optic_pks.description"] = "Ett litet reflexsikte som används som reservsikte."
+
+L["gekolt_css_optic_kemperxl.printname"] = "Temper Luftvärns & Luftdriven Avståndsmätande Reflexsikte"
+L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER LV"
+L["gekolt_css_optic_kemperxl.description"] = "Extremt brett holografiskt sikte med inbyggd avståndsmätare för kulspruteskyttar, planskyttar eller folk som inte tycker om plan och kanske dem som tycker om plan."

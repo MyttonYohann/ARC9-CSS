@@ -65,8 +65,8 @@ ATT.Hook_TranslateAnimation = function(wep, anim)
     end
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 0, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+-- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_fg_saw")
 

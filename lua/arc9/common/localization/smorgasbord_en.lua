@@ -907,9 +907,7 @@ L["gekolt_css_optic_magnus.description"] = "Sniper rifle scope with the ability 
 L["gekolt_css_optic_m18.printname"] = "\"Far View\" Optic"
 L["gekolt_css_optic_m18.compactname"] = "FAR VIEW"
 L["gekolt_css_optic_m18.description"] = "It's called \"Far View\" because it lets you view very far.\nEffective up to however many metres it is to your target."
-
 -- ↑↓ Pretty sure these two should've had inverted internal names. Ah well.
-
 L["gekolt_css_optic_fview.printname"] = "Krosen Anti-Tank Gun Sight"
 L["gekolt_css_optic_fview.compactname"] = "KROSEN"
 L["gekolt_css_optic_fview.description"] = "A sight system originally designed for zeroing anti-tank weapons.\nNow available with complimentary <color=100,255,100>eye cup</color>!"
@@ -929,3 +927,60 @@ L["gekolt_css_optic_micro.description"] = "(No, not a microscope.)\nMagnified sc
 L["gekolt_css_optic_pvs4.printname"] = "NPRED Scope"
 L["gekolt_css_optic_pvs4.compactname"] = "NPRED"
 L["gekolt_css_optic_pvs4.description"] = "Heavy <color=100,255,100>night-vision</color> scope with <color=255,100,100>extremely limited visibility</color>.\nHigh magnification, making it effective up to quite a few yards.\n\nWarm stuff glow."
+
+-- Reflexes
+L["gekolt_css_optic_delta.printname"] = "Gammer Reflex Sight"
+L["gekolt_css_optic_delta.compactname"] = "GAMMER"
+L["gekolt_css_optic_delta.description"] = "A small reflex sight designed as a backup sight.\nComes with a peculiar reticle."
+
+L["gekolt_css_optic_delta_mini.printname"] = "Gammer Low-Profile Reflex Sight"
+L["gekolt_css_optic_delta_mini.compactname"] = "GAMMER LP"
+L["gekolt_css_optic_delta_mini.description"] = "A small reflex sight designed as a backup sight.\nMounted lower than the other one.\nComes with a peculiar reticle."
+
+L["gekolt_css_optic_holo.printname"] = "Fritotech Holographic"
+L["gekolt_css_optic_holo.compactname"] = "FRITO."
+L["gekolt_css_optic_holo.description"] = "A unique boxy holographic sight."
+
+L["gekolt_css_optic_holo2.printname"] = "Fritotech Prototype \"Hotmale\" Scope"
+L["gekolt_css_optic_holo2.compactname"] = "F-PROTO."
+L["gekolt_css_optic_holo2.description"] = "A once unique boxy sight now outfitted with some \"Tech\" garbo.\nHas now acquired <color=100,255,100>thermal</color> capabilities.\nGrayscaled for reasons not related to gameplay.\nR&D may or may not have been involved in its creation."
+
+L["gekolt_css_optic_holo3.printname"] = "Fritotech \"Pequeño holográfico\""
+L["gekolt_css_optic_holo3.compactname"] = "PEQUEÑO"
+L["gekolt_css_optic_holo3.description"] = "A unique boxy holographic sight.\nThis unit is smaller and a precise carrot pointing upwards."
+
+L["gekolt_css_optic_mrs.printname"] = "Aniracco Usual"
+L["gekolt_css_optic_mrs.compactname"] = "USUAL"
+L["gekolt_css_optic_mrs.description"] = "The most basic reflex sight, cloned all over the world.\n\nThis one only cost ¥62!"
+
+L["gekolt_css_optic_mrs2.printname"] = "Aniracco Sona"
+L["gekolt_css_optic_mrs2.compactname"] = "SONA"
+L["gekolt_css_optic_mrs2.description"] = "The most basic reflex sight, cloned all over the world.\nThis one has an open top for enhanced reflexes! (???)\nThis one only cost ¥98!"
+
+L["gekolt_css_optic_mrs3.printname"] = "Aniracco Slommy"
+L["gekolt_css_optic_mrs3.compactname"] = "SLOMMY"
+L["gekolt_css_optic_mrs3.description"] = "The most basic reflex sight, cloned all over the world.\nThis one has a custom reticle that allows precise and accurate shots and smells like salami!\nThis one only cost ¥137!"
+
+L["gekolt_css_optic_rmr.printname"] = "RCK Low-Profile"
+L["gekolt_css_optic_rmr.compactname"] = "RCK"
+L["gekolt_css_optic_rmr.description"] = "A compact reflex sight designed for use on smaller firearms, such as pistols."
+
+L["gekolt_css_optic_okp.printname"] = "Stopwatch Reflex Sight"
+L["gekolt_css_optic_okp.compactname"] = "STOPWATCH"
+L["gekolt_css_optic_okp.description"] = "A reflex sight with a chevron reticle that looks like an old fellow with one of those long straight-down beards."
+
+L["gekolt_css_optic_t1.printname"] = "Tick Low-Profile"
+L["gekolt_css_optic_t1.compactname"] = "TICK"
+L["gekolt_css_optic_t1.description"] = "A low-profile popular red dot sight."
+
+L["gekolt_css_optic_reddot.printname"] = "Teller Reflex Sight"
+L["gekolt_css_optic_reddot.compactname"] = "TELLER"
+L["gekolt_css_optic_reddot.description"] = "Cylindrical optics with lots of circles."
+
+L["gekolt_css_optic_pks.printname"] = "Kilimanjaro Low-Profile"
+L["gekolt_css_optic_pks.compactname"] = "KILIMANJARO"
+L["gekolt_css_optic_pks.description"] = "A small reflex sight for use as a backup optic."
+
+L["gekolt_css_optic_kemperxl.printname"] = "Temper Anti-Air & Air-Powered Rangefinder Reflex Sight"
+L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER AA"
+L["gekolt_css_optic_kemperxl.description"] = "Extremely wide holographic sight with a built-in range finder for machine gunners, plane gunners and people who don't like planes and maybe those who do like planes."
