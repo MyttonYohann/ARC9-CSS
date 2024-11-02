@@ -22,36 +22,12 @@ ATT.Hook_Think = function(swep)
 	local m2 = PlayerKeyPressed(owner, IN_ATTACK2)
 	local m1h = PlayerKeyDown(owner, IN_ATTACK)
 	local m2h = PlayerKeyDown(owner, IN_ATTACK2)
--- HOW THE FUCK DO I DO CHAIN FUNCTION?????	
---[[	local howthefuckdoesthiswork = 0	
-	local resetthisshit = false
-	local resettime = 0
 
-	if wep:GetOwner():KeyPressed(IN_RELOAD) then
-		if !resetthisshit then
-			resettime = 0
-		end
-	    if resettime > CurTime() - (1 / 30) then return end
-	
-		howthefuckdoesthiswork = howthefuckdoesthiswork + (math.random(0, 5) * math.random(0, 5) * (1 / 30) / 6.25)
-		if howthefuckdoesthiswork < 0.1 then   --- self explainatory
-			wep:GetUBGL(false)	-- third		
-			wep:Reload()	-- first
-		elseif howthefuckdoesthiswork < 0.15 then
-			wep:GetUBGL(true) -- second
-			wep:Reload()	
-		else howthefuckdoesthiswork >= 0.2 then
-			wep:GetUBGL(false)	-- third	
-		end
-	resetthisshit = true
-	resettime = CurTime() ]]
-
-
-	if m1h then
+	--[[if m1h then
         swep:ToggleUBGL(false)
     elseif m2h then	
         swep:ToggleUBGL(true)
-	end
+	end]]
 
     if m1 then
         swep:ToggleUBGL(false)
