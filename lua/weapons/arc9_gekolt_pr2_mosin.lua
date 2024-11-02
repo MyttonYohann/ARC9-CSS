@@ -432,7 +432,7 @@ SWEP.Animations = {
         EventTable = {
 			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 8 / 40},	
 			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 42 / 40},
-			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 57 / 40},
+			{s =  "gekolt_mosin/Mag2.ogg" ,		t = 57 / 40},
 			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 77 / 40}, 
         },
         MinProgress = 0.975,

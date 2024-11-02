@@ -703,7 +703,7 @@ ATT.Attachments = {
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeReticle = Material("arc9_css/scope10_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
