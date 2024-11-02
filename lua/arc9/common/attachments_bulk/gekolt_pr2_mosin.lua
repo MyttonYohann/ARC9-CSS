@@ -31,8 +31,6 @@ ATT.RecoilMultRecoil = 0.9
 ATT.AimDownSightsTimeAdd = -0.04
 ATT.SprintToFireTimeAdd = -0.06
 
-ATT.RPM = 200
-
 ATT.ManualAction = false
 ATT.ManualActionNoLastCycle = false
 

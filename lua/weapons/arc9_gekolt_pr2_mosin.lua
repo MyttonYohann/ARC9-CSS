@@ -47,7 +47,7 @@ SWEP.DamageMin = 84 -- Damage done at maximum range
 SWEP.RangeMin = 100 -- How far bullets retain their maximum damage for.
 SWEP.RangeMax = 12000 -- In Hammer units, how far bullets can travel before dealing DamageMin.
 
-SWEP.Penetration = 12 -- Units of wood that can be penetrated by this gun.
+SWEP.Penetration = 18 -- Units of wood that can be penetrated by this gun.
 
 SWEP.BodyDamageMults = {
     [HITGROUP_HEAD] = 2.5,
@@ -74,7 +74,7 @@ SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 300
+SWEP.RPM = 200
 
 -- Works different to ArcCW
 
@@ -95,33 +95,31 @@ SWEP.Firemodes = {
 SWEP.Recoil = 1
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
-SWEP.RecoilUp = 0.6 -- Multiplier for vertical recoil
-SWEP.RecoilSide = 0.2 -- Multiplier for vertical recoil
+SWEP.RecoilUp = 1 -- Multiplier for vertical recoil
+SWEP.RecoilSide = 0.3 -- Multiplier for vertical recoil
 
 -- These values determine how much extra movement is applied to the recoil entirely randomly, like in a circle.
 -- This type of recoil CANNOT be predicted.
-SWEP.RecoilRandomUp = 0.3
-SWEP.RecoilRandomSide = 0.15
+SWEP.RecoilRandomUp = 0.2
+SWEP.RecoilRandomSide = 0.75
 
 SWEP.RecoilDissipationRate = 10 -- How much recoil dissipates per second.
 SWEP.RecoilResetTime = 0 -- How long the gun must go before the recoil pattern starts to reset.
 
 SWEP.RecoilAutoControl = 0
 
-SWEP.RecoilKick = 2
+SWEP.RecoilKick = 1.5
 
-SWEP.RecoilMultRecoil = 1.75 -- Looks stupid but it means expoential recoil growth.
+SWEP.RecoilMultRecoil = 1.25 -- Looks stupid but it means expoential recoil growth.
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.0012
+SWEP.Spread = 0.0005
 
-SWEP.SpreadAddRecoil = 0.003
-SWEP.SpreadMultRecoil = 1.25
-SWEP.RecoilModifierCap = 4
+SWEP.SpreadAddRecoil = 0.02
+SWEP.RecoilModifierCap = 5
 
-SWEP.SpreadAddHipFire = 0.015
-SWEP.SpreadMultHipFire = 1.25
+SWEP.SpreadAddHipFire = 0.02
 
 -------------------------- HANDLING
 
@@ -204,8 +202,8 @@ SWEP.Crosshair = false
 SWEP.NoShellEject = true
 SWEP.NoShellEjectManualAction = true
 
+SWEP.SprintPos = Vector(2, 1, -0.5)
 SWEP.SprintAng = Angle(30, -15, -10)
-SWEP.SprintPos = Vector(1.75, 2, -1)
 
 SWEP.SprintMidPoint = {
     Pos = Vector(-1, -5, -3),

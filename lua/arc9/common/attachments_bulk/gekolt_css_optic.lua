@@ -658,7 +658,7 @@ ATT = {}
 
 ATT.PrintName = "Krosen Anti-Tank Gunscope"
 ATT.CompactName = "Krosen"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_optic/m18.png.png", "mips smooth")
 ATT.Description = [[Sight system originally designed for zeroing with anti-tank weapons. Complete with an eye cup.
 ]]
 ATT.SortOrder = 6.1
@@ -704,7 +704,7 @@ ATT.Attachments = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeReticle = Material("arc9_css/scope10_border.png", "mips smooth")
+ATT.RTScopeReticle = Material("arc9_css/scope11_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
 

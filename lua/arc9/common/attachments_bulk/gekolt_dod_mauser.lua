@@ -8,8 +8,8 @@ ATT = {}
 
 ATT.PrintName = [[Kundschafter-Lauf]] -- it means scout methinks whatev
 ATT.CompactName = [[SD]]
-ATT.Icon = Material("entities/gekolt_dod_c96_sd.png", "mips smooth")
-ATT.Description = [[Short interally suppressed barrel for late night trench raiding
+ATT.Icon = Material("entities/gekolt_dod_c96_barrel_sd.png", "mips smooth")
+ATT.Description = [[Short interally suppressed barrel for late night trench raiding.
 ]]
 
 ATT.SortOrder = 1.5
@@ -38,8 +38,8 @@ ATT = {}
 
 ATT.PrintName = [[Kurz-Lauf]]
 ATT.CompactName = [[Short]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
-ATT.Description = [[
+ATT.Icon = Material("entities/gekolt_dod_c96_barrel_short.png", "mips smooth")
+ATT.Description = [[Revert back to a pistol length barrel.
 ]]
 
 ATT.SortOrder = 1
@@ -60,9 +60,9 @@ ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b2")
 
 ATT = {}
 
-ATT.PrintName = [[Karabiner-Lauf]]
-ATT.CompactName = [[Short]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.PrintName = [[Karabiner-Lauf]]	-- unused
+ATT.CompactName = [[Medium]]
+ATT.Icon = Material("entities/gekolt_dod_c96_guard_roni.png", "mips smooth")
 ATT.Description = [[
 ]]
 
@@ -148,7 +148,7 @@ ATT = {}
 
 ATT.PrintName = [[Schnecker-Gestell]]
 ATT.CompactName = [[Escargot]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_dod_c96_mag_snail.png", "mips smooth")
 ATT.Description = [[Snail mag fitted with lower pressure bullet for reliable feeding.
 ]]
 
@@ -181,7 +181,7 @@ ATT = {}
 
 ATT.PrintName = [[Zwecker-Gestell]]
 ATT.CompactName = [[Drummer]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_dod_c96_mag_drum.png", "mips smooth")
 ATT.Description = [[Double snail mag fitted with lower pressure bullet for reliable feeding.
 ]]
 
@@ -223,7 +223,7 @@ ATT = {}
 
 ATT.PrintName = [[Heschuetze-Gestell]]
 ATT.CompactName = [[Sniper]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_dod_c96_mag_snipe.png", "mips smooth")
 ATT.Description = [[Small mag loaded with over-pressurised bullet.
 ]]
 
@@ -304,7 +304,7 @@ ATT = {}
 
 ATT.PrintName = [[Karabiner-Gestell]]
 ATT.CompactName = [[Carbine]]
-ATT.Icon = Material("entities/gekolt_dod_c96_carbine.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_dod_c96_guard_roni.png", "mips smooth")
 ATT.Description = [[An attempt to modernise a rusty old pistol with a more stable but lower rate of fire and a long top rail system for full length optics.
 Fitted with a double-snail mag for good measure.
 ]]
@@ -400,7 +400,7 @@ ATT = {}
 
 ATT.PrintName = [[Aufplatzen-Gestell]]
 ATT.CompactName = [[Burst]]
-ATT.Icon = Material("entities/gekolt_dod_c96_burst.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_dod_c96_guard_burst.png", "mips smooth")
 ATT.Description = [[Aftermarket three-round burst system straight from the favelas of Brazil
 Grip is added to emotionally help you.
 ]]
@@ -439,7 +439,7 @@ ATT = {}
 ATT.PrintName = [[Removed Stock]]
 ATT.CompactName = [[Removed]]
 ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
-ATT.Description = [[
+ATT.Description = [[Strip the rifle back to a pistol length
 ]]
 
 ATT.SortOrder = 1
@@ -460,8 +460,8 @@ ATT = {}
 
 ATT.PrintName = [[Wire Stock]]
 ATT.CompactName = [[PASAM]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
-ATT.Description = [[
+ATT.Icon = Material("entities/gekolt_dod_c96_stock_burst.png", "mips smooth")
+ATT.Description = [[Simple makeshift wire stock to aid with mobility at the cost of recoil
 ]]
 
 ATT.SortOrder = 1
