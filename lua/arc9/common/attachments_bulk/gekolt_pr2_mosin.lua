@@ -57,7 +57,7 @@ ATT = {}
 ATT.PrintName = "Deadeye-Rama"
 ATT.CompactName = "Deadeye"
 ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
-ATT.Description = [[Sniper Bolt]]
+ATT.Description = [[Curved Bolt for use with a sniper scope, using a secret technique to reload unhindered faster]]
 
 ATT.Pros = {}
 ATT.Cons = {}

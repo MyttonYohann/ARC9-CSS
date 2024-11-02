@@ -505,6 +505,13 @@ SWEP.Animations = {
         MinProgress = 0.975,
 		RefillProgress = 0.725,
         EventTable = {
+			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
+			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 20 / 40},	
+			{s =  "gekolt_mosin/Strip_In.ogg" ,		t = 55 / 40},
+			{s =  "gekolt_mosin/Strip_5.ogg" ,		t = 63 / 40},	
+			{s =  "gekolt_mosin/Scope_Out.ogg" ,	t = 100 / 40},
+			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 110 / 40},	
+			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 125 / 40}, 
         },
     },
 
