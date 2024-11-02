@@ -36,6 +36,13 @@ ATT.Hook_Think = function(swep)
 	end 
 end
 
+--[[function ATT:SecondaryAttack()
+	if self:GetUBGL(true) then
+    return self:DoPrimaryAttack()
+	end
+end]]
+
+
 
 ATT.Model = "models/weapons/arccw/mifl_atts/fas2/c_deagle.mdl"
 ATT.ModelOffset = Vector(0, 0, 0)

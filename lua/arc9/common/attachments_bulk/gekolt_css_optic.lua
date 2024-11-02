@@ -654,11 +654,12 @@ ARC9.LoadAttachment(ATT, "gekolt_css_optic_m18")
 
 ----------------------------------------------------------------------------------
 
+
 ATT = {}
 
 ATT.PrintName = "Krosen Anti-Tank Gunscope"
 ATT.CompactName = "Krosen"
-ATT.Icon = Material("entities/gekolt_css_optic/m18.png.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_optic/m18.png", "mips smooth")
 ATT.Description = [[Sight system originally designed for zeroing with anti-tank weapons. Complete with an eye cup.
 ]]
 ATT.SortOrder = 6.1
@@ -729,6 +730,53 @@ ATT.FlareColor = Color(255, 255, 255)
 ATT.FlareSize = 32
 
 ARC9.LoadAttachment(ATT, "gekolt_css_optic_fview")
+
+ 
+----------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = "Centilia Scope"
+ATT.CompactName = "Centilia"
+ATT.Icon = Material("entities/gekolt_css_optic/colt.png", "mips smooth")
+ATT.Description = [[Scope system originally mounted on M16 Carry Handle.]]
+ATT.SortOrder = 2.5
+
+ATT.Model = "models/weapons/geckololt_css/atts/m4_scope_2.mdl"
+
+ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
+
+-- Allows a custom sight position to be defined
+ATT.Sights = {
+    {
+        Pos = Vector(0, 8, -1.89),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.5,
+        ViewModelFOV = 40,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeFOV = 10
+ATT.RTScopeReticle = Material("arc9_css/scope_border.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.9
+ATT.RTScopeColorable = true
+ATT.RTScopeShadowIntensity = 7
+
+ATT.ScopeScreenRatio = 0.9
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1, 0, 0)
+
+ATT.SwayAdd = 0.05
+ATT.FreeAimRadiusMultSights = 0.1
+ATT.AimDownSightsTimeAdd = 0.12
+ATT.SprintToFireTimeAdd = 0.05
+
+ARC9.LoadAttachment(ATT, "gekolt_css_optic_m4_2")
 
 
 ----------------------------------------------------------------------------------

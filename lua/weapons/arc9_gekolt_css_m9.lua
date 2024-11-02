@@ -330,12 +330,6 @@ SWEP.Attachments = {
     },
 }
 
-function SWEP:SecondaryAttack()
-	if self:GetUBGL(true) then
-    return self:DoPrimaryAttack()
-	end
-end
-
 SWEP.Hook_TranslateAnimation = function(wep, anim)
 
     -- att add _[attachment] + this replace animala with _akimbo   >   replace animala with _akimbo_[attachment]???   HOW DOES LOGIC WORK?
