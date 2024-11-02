@@ -8,7 +8,7 @@ ATT = {}
 ATT.PrintName = "Cyclone-Rama"
 ATT.CompactName = "Cyclone"
 ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
-ATT.Description = [[Full auto]]
+ATT.Description = [[External device redirecting gas flow from firing to a makeshift self rechambering bolt system.]]
 
 ATT.Pros = {}
 ATT.Cons = {}
@@ -31,7 +31,7 @@ ATT.RecoilMultRecoil = 0.9
 ATT.AimDownSightsTimeAdd = -0.04
 ATT.SprintToFireTimeAdd = -0.06
 
-ATT.RPM = 360
+ATT.RPM = 200
 
 ATT.ManualAction = false
 ATT.ManualActionNoLastCycle = false
@@ -57,11 +57,11 @@ ATT = {}
 ATT.PrintName = "Deadeye-Rama"
 ATT.CompactName = "Deadeye"
 ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
-ATT.Description = [[Bolt]]
+ATT.Description = [[Sniper Bolt]]
 
 ATT.Pros = {}
 ATT.Cons = {}
-ATT.SortOrder = 10
+ATT.SortOrder = 1
 
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"frame_curved"}

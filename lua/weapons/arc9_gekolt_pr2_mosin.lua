@@ -219,11 +219,11 @@ SWEP.CrouchPos = Vector(-0.2, -0.5, -0.75)
 SWEP.CrouchAng = Angle(0, 0, -7)
 
 SWEP.ViewModelFOVBase = 70
-SWEP.ActivePos = Vector(0, 3, 0)
+SWEP.ActivePos = Vector(0, 0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
+SWEP.CustomizePos = Vector(23, 31, 7)
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(13, 26, 4)
 
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeNoRotate = false
@@ -260,7 +260,7 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
 -------------------------- SOUNDS
 
-SWEP.ShootSound = "gekolt_dod/garand_shoot.ogg"
+SWEP.ShootSound = "gekolt_mosin/Fire.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/tmp-1.wav"
 SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
 
@@ -291,8 +291,8 @@ end]]
 
 SWEP.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
-        DefaultName = "Standard Frame",
+        PrintName = ARC9:GetPhrase("smorg_category_frame") or "Bolt",
+        DefaultName = "Infantry Bolt",
 
         Category = "pr2_mosin_frame",
         Bone = "W_Main",
@@ -362,6 +362,10 @@ SWEP.Animations = {
     }, 
 	["fire_auto"] = {
         Source = "fire_auto",
+        EjectAt = 4 / 40,
+        EventTable = {
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 0 / 40},  
+        },
     },
 
     ["cycle"] = {
@@ -370,10 +374,10 @@ SWEP.Animations = {
         { t = 0, lhik = 1, rhik = 0, }, { t = 1, lhik = 1, rhik = 0, },
         },
         EventTable = {
-            {s =  "myt_bf1942/1918/Berdan_Bolt1.ogg" ,   t = 10 / 40},  
-			{s =  "myt_bf1942/1918/Berdan_Bolt2.ogg" ,   t = 20 / 40},
+			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 11 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 25 / 40},  
         },
-        EjectAt = 12 / 40,
+        EjectAt = 15 / 40,
         FireASAP = true,
         MinProgress = 0.8,
     },   
@@ -383,10 +387,10 @@ SWEP.Animations = {
         { t = 0, lhik = 1, rhik = 0, }, { t = 1, lhik = 1, rhik = 0, },
         },
         EventTable = {
-            {s =  "myt_bf1942/1918/Berdan_Bolt1.ogg" ,   t = 10 / 40},  
-			{s =  "myt_bf1942/1918/Berdan_Bolt2.ogg" ,   t = 20 / 40},
+			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 11 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 25 / 40},  
         },
-        EjectAt = 18 / 40,
+        EjectAt = 15 / 40,
         FireASAP = true,
         MinProgress = 0.8,
     },  
@@ -397,10 +401,10 @@ SWEP.Animations = {
         { t = 0, lhik = 1, rhik = 0, }, { t = 1, lhik = 1, rhik = 0, },
         },
         EventTable = {
-            {s =  "myt_bf1942/1918/Berdan_Bolt1.ogg" ,   t = 10 / 40},  
-			{s =  "myt_bf1942/1918/Berdan_Bolt2.ogg" ,   t = 20 / 40},
+			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 11 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 25 / 40},  
         },
-        EjectAt = 18 / 40,
+        EjectAt = 15 / 40,
         FireASAP = true,
         MinProgress = 0.8,
     },  
@@ -411,6 +415,9 @@ SWEP.Animations = {
         Source = "reload1",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
+			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 8 / 40},	
+			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 42 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 59 / 40}, 
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
@@ -423,6 +430,10 @@ SWEP.Animations = {
         Source = "reload2",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
+			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 8 / 40},	
+			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 42 / 40},
+			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 57 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 77 / 40}, 
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
@@ -435,6 +446,11 @@ SWEP.Animations = {
         Source = "reload3",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
+			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 8 / 40},	
+			{s =  "gekolt_mosin/Strip_In.ogg" ,		t = 46 / 40},
+			{s =  "gekolt_mosin/Strip_3.ogg" ,		t = 62 / 40},	
+			{s =  "gekolt_mosin/Strip_Out.ogg" ,	t = 83 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 95 / 40}, 
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
@@ -447,6 +463,10 @@ SWEP.Animations = {
         Source = "reload4",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
+			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 8 / 40},	
+			{s =  "gekolt_mosin/Strip_In.ogg" ,		t = 46 / 40},
+			{s =  "gekolt_mosin/Strip_4.ogg" ,		t = 62 / 40},	
+			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 86 / 40}, 
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
@@ -461,9 +481,10 @@ SWEP.Animations = {
         MinProgress = 0.975,
 		RefillProgress = 0.725,
         EventTable = {
-            {s =  "gekolt_dod/garand_clipin1.wav" ,   t = 30 / 40},
-            {s =  "gekolt_dod/garand_clipin2.wav" ,    t = 35 / 40},
-            {s =  "gekolt_dod/garand_boltforward.wav" ,    t = 50 / 40},
+			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 10 / 40},	
+			{s =  "gekolt_mosin/Strip_In.ogg" ,		t = 50 / 40},
+			{s =  "gekolt_mosin/Strip_5.ogg" ,		t = 62 / 40},	
+			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 86 / 40}, 
         },
     },
 	
@@ -494,7 +515,9 @@ SWEP.Animations = {
         RestoreAmmo = 1,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
-            {s =  "gekolt_dod/1887_shell1.wav" ,   t = 5 / 40},
+			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 10 / 40},	
+			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 28 / 40},
+			{s =  "gekolt_mosin/Mag1.ogg" ,			t = 50 / 40},	
         },
         IKTimeLine = {	{ t = 0, lhik = 1, rhik = 1, }, { t = 0.5, lhik = 0, rhik = 1, }, { t = 1, lhik = 0, rhik = 1, }	},
     },
@@ -502,7 +525,7 @@ SWEP.Animations = {
         Source = "reload_scope_loop",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         EventTable = {
-            {s =  "gekolt_dod/1887_shell1.wav" ,   t = 5 / 40},
+			{s =  "gekolt_mosin/Mag1.ogg" ,			t = 12 / 40},
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 0, }, { t = 1, lhik = 0, rhik = 0, },	},
     },
@@ -510,9 +533,10 @@ SWEP.Animations = {
         Source = "reload_scope_close",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.5,
+        MinProgress = 0.75,
         EventTable = {
-
+			{s =  "gekolt_mosin/Scope_Out.ogg" ,	t = 11 / 40},
+			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 59 / 40},	
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.85, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
     },   
@@ -520,9 +544,12 @@ SWEP.Animations = {
         Source = "reload_scope_close_dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         FireASAP = true,
-        MinProgress = 0.5,
+        MinProgress = 0.9,
         EventTable = {
-
+			{s =  "gekolt_mosin/Scope_Out.ogg" ,	t = 11 / 40},
+			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 59 / 40},	
+			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 46 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 60 / 40},  
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.85, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
     },
