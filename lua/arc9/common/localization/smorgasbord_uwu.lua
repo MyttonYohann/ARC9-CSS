@@ -77,10 +77,10 @@ L["smorg_trivia_caliber_57x303"] = "57×303mmR"
 L["smorg_trivia_caliber_m72"] = "35mm M72"
 
 /////////////////// Credits
-L["smorg_trivia_coding"] = "Additionyaw Cowing1"
-L["smorg_trivia_sounds"] = "Swounds2"
-L["smorg_trivia_assets"] = "Asswets3" -- ass wet?? /ash-shwet/
-L["smorg_trivia_contact"] = "Contact4 >w<"
+L["smorg_trivia_coding"] = [[Additionyaw Cowing1]]
+L["smorg_trivia_sounds"] = [[Swounds2]]
+L["smorg_trivia_assets"] = [[Assets3]] -- ass wet?? /ash-shwet/
+L["smorg_trivia_contact"] = [[Contact >w<4]]
 
 /////////////////// Firing Modes
 L["smorg_firemode_melee"] = "MEWEE"
@@ -97,12 +97,12 @@ L["smorg_firemode_alternate"] = "AWTEWNYATE"
 L["smorg_firemode_both"] = "BOWOTH"
 
 /////////////////// Weapon Categories
-L["smorg_category_slot_aux"] = "Auxiwiawies"
-L["smorg_category_slot_prim"] = "Pwimawies"
-L["smorg_category_slot_sec"] = "Secondawies"
+L["smorg_category_slot_aux"] = [[Auxiwiawies]]
+L["smorg_category_slot_prim"] = [[Pwimawies]]
+L["smorg_category_slot_sec"] = [[Secondawies]]
 
 /////////////////// Weapon Classes
-L["smorg_class_weapon_ia"] = "Ideowogicaw Awtefact"
+L["smorg_class_weapon_ia"] = [[Ideowogicaw Awtefact]]
 
 L["smorg_class_weapon_ar"] = "Assauwt Wifle"
 L["smorg_class_weapon_mg"] = "Machinye Gun"
