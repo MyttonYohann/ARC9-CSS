@@ -342,6 +342,16 @@ SWEP.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload"  and wep:Clip1() == 1	then	return "reload_4"	end	
 end
 
+
+SWEP.ExtraShellModels = {
+    [1] = {
+        model = "models/weapons/geckololt_css/shell_garand_raw.mdl",
+        smoke = false,
+        velocity = {0.75, 1.5},
+		scale = 1.5,
+    },
+}
+
 SWEP.Animations = {
     ["idle"] = {
         Source = "idle",
@@ -511,6 +521,27 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Scope_Out.ogg" ,	t = 100 / 40},
 			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 110 / 40},	
 			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 125 / 40}, 
+        },
+    },  
+	["reload_auto_wet"] = {
+        Source = "reload_auto_wet",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        MinProgress = 0.975,
+		RefillProgress = 0.725,
+        EventTable = {
+			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
+			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 20 / 40},	
+			{s =  "gekolt_mosin/Strip_In.ogg" ,		t = 55 / 40},
+			{s =  "gekolt_mosin/Strip_5.ogg" ,		t = 63 / 40},	
+			{s =  "gekolt_mosin/Scope_Out.ogg" ,	t = 100 / 40},
+			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 110 / 40},
+			
+			
+            {shelleject = {index = 1, upto = 1}, att = 3, t = 15 / 40},
+            {shelleject = {index = 1, upto = 2}, att = 3, t = 15.5 / 40},
+            {shelleject = {index = 1, upto = 3}, att = 3, t = 16 / 40},
+            {shelleject = {index = 1, upto = 4}, att = 3, t = 16.5 / 40},
+            {shelleject = {index = 1, upto = 5}, att = 3, t = 17 / 40},
         },
     },
 

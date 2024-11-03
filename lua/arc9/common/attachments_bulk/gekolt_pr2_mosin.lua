@@ -31,10 +31,10 @@ ATT.ManualAction = false
 ATT.ManualActionNoLastCycle = false
 
 ATT.Hook_TranslateAnimation = function(wep, curanim)
-	if	curanim == "reload_1"		then	return "reload_auto"		end
-	if	curanim == "reload_2"		then	return "reload_auto"		end
-	if	curanim == "reload_3"		then	return "reload_auto"		end	
-	if	curanim == "reload_4"		then	return "reload_auto"		end
+	if	curanim == "reload_1"		then	return "reload_auto_wet"	end
+	if	curanim == "reload_2"		then	return "reload_auto_wet"	end
+	if	curanim == "reload_3"		then	return "reload_auto_wet"	end	
+	if	curanim == "reload_4"		then	return "reload_auto_wet"	end
 	if	curanim == "reload_empty"	then	return "reload_auto"		end
 	if	curanim == "fire"			then	return "fire_auto"			end	
 end
