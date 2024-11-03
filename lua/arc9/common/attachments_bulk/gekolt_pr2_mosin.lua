@@ -60,6 +60,7 @@ ATT.SortOrder = 1
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"frame_curved"}
 ATT.ShotgunReload = true
+ATT.CanReloadWhileUnCycled = true
 --ATT.HybridReload = true
 
 ATT.Hook_TranslateAnimation = function(wep, curanim)
