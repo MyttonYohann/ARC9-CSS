@@ -86,6 +86,7 @@ L["smorg_trivia_contact"] = [[Contact >w<4]]
 L["smorg_firemode_melee"] = "MEWEE"
 L["smorg_firemode_bolt"] = "BOWT"
 L["smorg_firemode_pump"] = "PUWMP"
+L["smorg_firemode_lever"] = "LEVER-ACTION"
 
 L["smorg_firemode_cluster"] = "CWUSTWR"
 L["smorg_firemode_condensed"] = "CONWENSED"
@@ -95,6 +96,9 @@ L["smorg_firemode_airburst"] = "AIRBUWST"
 
 L["smorg_firemode_alternate"] = "AWTEWNYATE"
 L["smorg_firemode_both"] = "BOWOTH"
+
+L["smorg_firemode_slam"] = "SLAMFIRE"
+L["smorg_firemode_focus"] = "FOWOCUS"
 
 /////////////////// Weapon Categories
 L["smorg_category_slot_aux"] = [[Auxiwiawies]]
@@ -974,6 +978,35 @@ L["gekolt_css_optic_pks.description"] = "A small reflex sight for use as a backu
 L["gekolt_css_optic_kemperxl.printname"] = "Temper Anti-Air & Air-Powered Rangefinder Reflex Sight"
 L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER AA"
 L["gekolt_css_optic_kemperxl.description"] = "Extremely wide holographic sight with a built-in range finder for machine gunners, plane gunners and people who don't like planes and maybe those who do like planes."
+
+///////////// gekolt_dod_garand -- French names
+L["gekolt_dod_garand_vanguard.printname"] = "Récepteur Vanguard" -- Roughly "Vanguard Receiver"
+L["gekolt_dod_garand_vanguard.compactname"] = "VANGUARD"
+L["gekolt_dod_garand_vanguard.description"] = "Extra short experimental paratrooper model with an extra funky non-foldable stock.\nModified magazine allows quick ejection of non-empty clips in a spectacular, but wasteful fashion."
+
+L["gekolt_dod_garand_m14.printname"] = "Récepteur de chasse" -- Roughly "Hunting Receiver"
+L["gekolt_dod_garand_m14.compactname"] = "YSL"
+L["gekolt_dod_garand_m14.description"] = "Select-fire prototype that accepts box magazines.\nThis model has a curiously short barrel that makes it resemble a later US military rifle.\n\nIntegrity of your shoulder is not guaranteed if you dare touch that fire selector."
+
+L["gekolt_dod_garand_min.printname"] = "Récepteur sportif" -- Roughly "Sport Receiver"
+L["gekolt_dod_garand_min.compactname"] = "SCF"
+L["gekolt_dod_garand_min.description"] = "\"Modernised\" carbine model firing intermediate cartridges from STANAG magazines. Its short barrel and pistol grip <color=100,255,100>improve handling</color>.\nA travesty of a conversion, but at least it comes with an auto sear that won't dislocate your shoulder."
+
+L["gekolt_dod_garand_slam.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_slam.compactname"] = "SLAM"
+L["gekolt_dod_garand_slam.description"] = "An unholy creation for all you trench sweeping needs.\nStill goes \"PING\" despite not using clips anymore. This is because-- *dies of cringe*\n\nSomewhere in the afterlife, John Garand is weeping for your sins (yes, that is his real name)."
+
+L["gekolt_dod_garand_strip.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_strip.compactname"] = "SCAV."
+L["gekolt_dod_garand_strip.description"] = "Lever-action conversion that could only have come from the hands of some Eastern European crackhead.\nA wooden \"dong\" grip is somehow carved into the frame for \"stability\".\nFires high-calibre rounds that overpenetrates up close, and can only be loaded manually or via stripper clips."
+
+L["gekolt_dod_garand_drg.printname"] = "Récepteur de pierre rocheuse" -- Roughly "Rocky Stone Receiver"
+L["gekolt_dod_garand_drg.compactname"] = "M1000"
+L["gekolt_dod_garand_drg.description"] = "Futuristic garage kit made for space mining operations.\nModified trigger and gas system allows shooting <color=100,255,100>2 shots</color> after a short charge period.\nSpecialized low-pressure rounds reduce <color=255,100,100>damage and recoil</color>."
+
+L["gekolt_dod_grip_air.printname"] = "Display Rail"
+L["gekolt_dod_grip_air.compactname"] = "RAIL"
+L["gekolt_dod_grip_air.description"] = "Show the rail without equipping any attachments.\nPurely <color=175,175,255>cosmetic</color>."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia

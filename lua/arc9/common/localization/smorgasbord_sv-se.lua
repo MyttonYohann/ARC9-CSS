@@ -83,6 +83,7 @@ L["smorg_trivia_contact"] = "Kontakt4"
 L["smorg_firemode_melee"] = "NÄRSTRID"
 L["smorg_firemode_bolt"] = "CYLINDER"
 L["smorg_firemode_pump"] = "PUMP"
+L["smorg_firemode_lever"] = "BYGELREPETER"
 
 L["smorg_firemode_cluster"] = "KLUSTER"
 L["smorg_firemode_condensed"] = "SAMLAD"
@@ -92,6 +93,9 @@ L["smorg_firemode_airburst"] = "LUFT-SPRÄNG"
 
 L["smorg_firemode_alternate"] = "ALTERNERANDE"
 L["smorg_firemode_both"] = "BÅDA"
+
+L["smorg_firemode_slam"] = "\"SLAMFIRE\""
+L["smorg_firemode_focus"] = "FOKUS"
 
 /////////////////// Weapon Categories
 L["smorg_category_slot_aux"] = "Hjälpmedel"
@@ -965,6 +969,35 @@ L["gekolt_css_optic_pks.description"] = "Ett litet reflexsikte som används som 
 L["gekolt_css_optic_kemperxl.printname"] = "Temper Luftvärns & Luftdriven Avståndsmätande Reflexsikte"
 L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER LV"
 L["gekolt_css_optic_kemperxl.description"] = "Extremt brett holografiskt sikte med inbyggd avståndsmätare för kulspruteskyttar, planskyttar eller folk som inte tycker om plan och kanske dem som tycker om plan."
+
+///////////// gekolt_dod_garand -- French names
+L["gekolt_dod_garand_vanguard.printname"] = "Récepteur Vanguard" -- Roughly "Vanguard Receiver"
+L["gekolt_dod_garand_vanguard.compactname"] = "VANGUARD"
+L["gekolt_dod_garand_vanguard.description"] = "Extra kort experimental fallskärmsjägare modell med en extra udda icke-vikbar kolv.\nModifierat magasin tillåter snabb utmatning av icke-tomma hållare i en spektakulär, men slösaktig stil."
+
+L["gekolt_dod_garand_m14.printname"] = "Récepteur de chasse" -- Roughly "Hunting Receiver"
+L["gekolt_dod_garand_m14.compactname"] = "YSL"
+L["gekolt_dod_garand_m14.description"] = "Prototyp med väljbara skjutlägen som accepterar lådmagasin.\nDenna modell har en märkvärdig kort pipa som gör att den liknar ett senare tjänstegevär i USA.\n\nDin axels integritet garanteras ej om du vågar röra skottomställaren."
+
+L["gekolt_dod_garand_min.printname"] = "Récepteur sportif" -- Roughly "Sport Receiver"
+L["gekolt_dod_garand_min.compactname"] = "SCF"
+L["gekolt_dod_garand_min.description"] = "\"Moderniserad\" karbinmodell som skjuter mellanliggande patroner från STANAG-magasin. Dess korta pipa och pistolgrepp <color=100,255,100>förbättrar hanteringen</color>.\nGalenskap av en konvertering, men den kommer i alla fall med en automateld avtryckarhake som inte tar din axel ur led."
+
+L["gekolt_dod_garand_slam.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_slam.compactname"] = "SLAM"
+L["gekolt_dod_garand_slam.description"] = "En ohelig skapelse för alla era skyttegrav rensande behov.\n\"PING\"-ar fortfarande trots att den inte använder laddramar längre. Detta tack vare-- *dör av skam*\n\nNågonstans, i sitt efterliv, John Garand gråter för dina synder (ja, han heter verkligen det)."
+
+L["gekolt_dod_garand_strip.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_strip.compactname"] = "SCAV."
+L["gekolt_dod_garand_strip.description"] = "Bygelrepeter konvertering som bara kunde kommit från en droganvändare från något östeuropeiskt land.\nEtt \"dong\"-trägrepp är, på något sätt, hugget in i ramen för \"stabilitet\".\nSkjuter högkaliber skott som överpeneterar på nära håll och kan endast laddas manuellt eller med laddramar."
+
+L["gekolt_dod_garand_drg.printname"] = "Récepteur de pierre rocheuse" -- Roughly "Rocky Stone Receiver"
+L["gekolt_dod_garand_drg.compactname"] = "M1000"
+L["gekolt_dod_garand_drg.description"] = "Garagebyggelse från framtiden gjort för gruvdrift i rymden.\nAnpassad avtryckare och gassystem tillåter vapnet att skjuta <color=100,255,100>2 skott</color> efter en kort laddningsperiod.\nSpecialiserade skott med lågt tryck sänker <color=255,100,100>skadan och rekylen</color>."
+
+L["gekolt_dod_grip_air.printname"] = "Visa Skenan"
+L["gekolt_dod_grip_air.compactname"] = "SKENA"
+L["gekolt_dod_grip_air.description"] = "Visa skenan utan att utrusta några tillbehör.\nEndast <color=175,175,255>kosmetiskt</color>."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia

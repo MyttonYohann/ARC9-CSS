@@ -41,6 +41,9 @@ ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_vanguard"
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_vanguard")
 
 ----------------------------------------------------------------------------------
@@ -113,6 +116,9 @@ ATT.Hook_PrimaryAttack = function(wep)
         end)
     end
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_m14")
 
@@ -189,6 +195,9 @@ ATT.ModelAngleOffset = Angle(120, -90, 0)
 ATT.Model = "models/weapons/geckololt_css/c_garand.mdl"
 ATT.ModelBodygroups = "15000"
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-7, -3, 0.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-7, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_min")
 
 
@@ -216,12 +225,20 @@ ATT.ShootSound = "gekolt_dod/1887_fire01.wav"
 ATT.ShellModelOverride = "models/shells/shell_12gauge.mdl"
 ATT.ShellScaleOverride = 1
 
-ATT.RPM = 100
+ATT.RPM = 130
 ATT.RPMEmpty = 600
 ATT.Firemodes = {
     {
         Mode = -1,
-        PrintName = "SLAM"
+		RPM = 130,
+		RecoilMult = 3,
+        PrintName = ARC9:GetPhrase("smorg_firemode_slam") or "SLAMFIRE"
+    },
+    {
+        Mode = -1,
+		RPM = 95,
+		RecoilMult = 1.5,
+        PrintName = ARC9:GetPhrase("smorg_firemode_pump") or "PUMP"
     }
 }
 
@@ -244,7 +261,7 @@ ATT.SpreadAdd = 0.0175
 ATT.DamageMax = 12
 ATT.DamageMin = 6
 
-ATT.RecoilMult = 3
+-- ATT.RecoilMult = 3
 ATT.RecoilModifierCap = 2
 
 ATT.Ammo = "buckshot"
@@ -263,6 +280,9 @@ ATT.Hook_Think = function(wep)	-- reset RPM
 	elseif wep:Clip1() == 0 then wep:SetNextPrimaryFire(1)
 	end
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_slam")
 
@@ -292,6 +312,7 @@ ATT.RPMEmpty = 600
 ATT.Firemodes = {
     {
         Mode = 1,
+		PrintName = ARC9:GetPhrase("smorg_firemode_lever") or "LEVER-ACTION",
     },
 }
 
@@ -353,6 +374,9 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-6.5, -2, 1.5)
 ATT.ModelAngleOffset = Angle(90, -90, 0)
 ATT.Model = "models/weapons/geckololt_css/grip/garand_romania.mdl"
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_strip")
 
@@ -420,7 +444,7 @@ end
 ATT.Firemodes = {
     {
         Mode = 1,
-        PrintName = "FOCUS",
+        PrintName = ARC9:GetPhrase("smorg_firemode_focus") or "FOCUS",
     },
 }
 
@@ -431,6 +455,9 @@ ATT.Hook_TranslateAnimation = function(wep, anim)
         return anim .. "_drg"
     end
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_dod_garand_drg")
 
