@@ -15,7 +15,7 @@ ATT.Cons = {}
 ATT.SortOrder = 10
 
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"frame_auto"}
+ATT.ActivateElements = {"frame_auto", "tall_optics"}
 
 ATT.SwayAdd = 0.3
 ATT.FreeAimRadiusAdd = -2
@@ -58,7 +58,7 @@ ATT.Cons = {}
 ATT.SortOrder = 1
 
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"frame_curved"}
+ATT.ActivateElements = {"frame_curved", "tall_optics"}
 ATT.ShotgunReload = true
 ATT.CanReloadWhileUnCycled = true
 --ATT.HybridReload = true

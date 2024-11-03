@@ -274,18 +274,19 @@ SWEP.HideBones = {
 }
 
 SWEP.AttachmentElements = {
-    ["garand_slam"] = {
-        Bodygroups = {{1, 2}},
-        AttPosMods = { [3] = { Pos = Vector(0, 0.1, 20), }, [4] = { Pos = Vector(0, 1.15, 0.75), }, [5] = { Pos = Vector(-0.9, -0.55, 0.5), } }
+    ["tall_optics"] = {
+        AttPosMods = { [2] = { Pos = Vector(0, -3.875, 4), }, },
     },
 
-    ["frame_curved"] 	= {Bodygroups = {{2, 2}},},
+    ["rail_top"] 		= {Bodygroups = {{6, 1}},}, 
+	["frame_curved"] 	= {Bodygroups = {{2, 2}},},
     ["frame_auto"] 		= {Bodygroups = {{2, 3}},},
 }
 
---[[SWEP.Hook_ModifyBodygroups = function(wep, data)
+SWEP.Hook_ModifyBodygroups = function(wep, data)
     local model = data.model
-end]]
+    if wep:HasElement("rail_top") and wep:HasElement("tall_optics") 	then model:SetBodygroup(6,2) end
+end
 
 SWEP.Attachments = {
     {
@@ -302,9 +303,9 @@ SWEP.Attachments = {
         DefaultName = "None",
         InstalledElements = {"rail_top"},
 
-        Category = {"optic_css", "optic_css_free"},
+        Category = {"optic_css"},
         Bone = "W_Main",
-        Pos = Vector(0, -1.1, 9),
+        Pos = Vector(0, -3, 12),
         Ang = Angle(90, 0, -90),
     },
     {
