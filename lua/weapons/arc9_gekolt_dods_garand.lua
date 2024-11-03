@@ -224,12 +224,14 @@ SWEP.ActivePos = Vector(0, 3, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(13, 26, 4)
+SWEP.CustomizePos = Vector(14, 45, 4)
 
-SWEP.CustomizeSnapshotFOV = 110
+SWEP.CustomizeSnapshotPos = Vector(0, 40, 0)
+SWEP.CustomizeSnapshotFOV = 65
+
 SWEP.CustomizeNoRotate = false
 
-SWEP.CustomizeRotateAnchor = Vector(15, -2, -5.23)
+SWEP.CustomizeRotateAnchor = Vector(14, -2, -5.23)
 
 SWEP.StandardPresets = {
 }

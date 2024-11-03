@@ -220,10 +220,12 @@ SWEP.ViewModelFOVBase = 70
 SWEP.ActivePos = Vector(0, 0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CustomizePos = Vector(23, 31, 7)
+SWEP.CustomizePos = Vector(23, 55, 3)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 
-SWEP.CustomizeSnapshotFOV = 110
+SWEP.CustomizeSnapshotPos = Vector(0, 75, 0)
+SWEP.CustomizeSnapshotFOV = 65
+
 SWEP.CustomizeNoRotate = false
 
 SWEP.CustomizeRotateAnchor = Vector(15, -2, -5.23)
