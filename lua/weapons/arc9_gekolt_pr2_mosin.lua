@@ -513,6 +513,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
 		RefillProgress = 0.725,
+		EjectAt = 130/40,
         EventTable = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
 			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 20 / 40},	
@@ -541,7 +542,6 @@ SWEP.Animations = {
             {shelleject = {index = 1, upto = 2}, att = 3, t = 15.5 / 40},
             {shelleject = {index = 1, upto = 3}, att = 3, t = 16 / 40},
             {shelleject = {index = 1, upto = 4}, att = 3, t = 16.5 / 40},
-            {shelleject = {index = 1, upto = 5}, att = 3, t = 17 / 40},
         },
     },
 
