@@ -1195,6 +1195,11 @@ L["gekolt_pr2_m72_a1.printname"] = "0 Gauge"
 L["gekolt_pr2_m72_a1.compactname"] = "SG"
 L["gekolt_pr2_m72_a1.description"] = "The biggest of all buckshots.\nTHIS DON'T FUCKING WORK"
 
+///////////// gekolt_pr2_mosin -- "Englishified Russian" - Won't touch yet except first one.
+-- L["gekolt_pr2_mosin_f1.printname"] = "Cyclone-Rama" -- "Циклон-Рама"; Roughly "Cyclone Frame"
+-- L["gekolt_pr2_mosin_f1.compactname"] = "CYCLONE"
+-- L["gekolt_pr2_mosin_f1.description"] = "External device redirects gas flow from firing to a makeshift self-rechambering bolt system."
+
 ///////////// gekolt_pr2_optic_magnifier
 L["gekolt_pr2_optic_m1.printname"] = ARC9:GetPhrase("gekolt_css_optic_holo.printname") or "Fritotech Holographic"
 L["gekolt_pr2_optic_m1.compactname"] = ARC9:GetPhrase("gekolt_css_optic_holo.compactname") or "FRITO."
@@ -1211,6 +1216,52 @@ L["gekolt_pr2_optic_m3.description"] = "A reflex sight with a chevron reticle th
 L["gekolt_pr2_optic_m4.printname"] = ARC9:GetPhrase("gekolt_css_optic_mrs.printname") or "Aniracco Usual"
 L["gekolt_pr2_optic_m4.compactname"] = ARC9:GetPhrase("gekolt_css_optic_mrs.compactname") or "USUAL"
 L["gekolt_pr2_optic_m4.description"] = "The most basic reflex sight, cloned all over the world.\n\nThis one only cost ¥62!\nComes with a <color=100,255,100>magnifier</color>."
+
+///////////// gekolt_smorg_muzzle
+L["gekolt_css_muz_breach.printname"] = "Breacher"
+L["gekolt_css_muz_breach.compactname"] = "BEAT"
+L["gekolt_css_muz_breach.description"] = "Muzzle with spikes for bashing people or doors."
+
+L["gekolt_css_muz_neg.printname"] = "Negator"
+L["gekolt_css_muz_neg.compactname"] = "NALA"
+L["gekolt_css_muz_neg.description"] = "Heavy device improves <color=100,255,100>recoil control</color>."
+
+L["gekolt_css_muz_long.printname"] = "Slanted"
+L["gekolt_css_muz_long.compactname"] = "SLANTED"
+L["gekolt_css_muz_long.description"] = "Compensator, like the one on that one really famous rifle.\nMakes the <color=100,255,100>recoil</color> go down."
+
+L["gekolt_css_muz_heavy.printname"] = "Heavy Muzzle Brake"
+L["gekolt_css_muz_heavy.compactname"] = "HEAVY"
+L["gekolt_css_muz_heavy.description"] = "Muzzle device designed to compensate heavy weapon recoil.\n<color=100,255,100>Reduces recoil</color>, but also <color=255,100,100>increases recoil</color> during auto-fire."
+
+L["gekolt_css_muz_flash.printname"] = "Flash Hider"
+L["gekolt_css_muz_flash.compactname"] = "FLASH"
+L["gekolt_css_muz_flash.description"] = "Hides the muzzle flash and converts most vertical kick into horizontal.\nUnstable report."
+
+L["gekolt_css_muz_comp.printname"] = "Compensator"
+L["gekolt_css_muz_comp.compactname"] = "COMP."
+L["gekolt_css_muz_comp.description"] = "Muzzle device that improves <color=100,255,100>recoil and sway</color>."
+
+L["gekolt_css_muz_cage.printname"] = "Bird Cage"
+L["gekolt_css_muz_cage.compactname"] = "CAGE"
+L["gekolt_css_muz_cage.description"] = "Improves <color=100,255,100>stability</color> during auto-fire."
+
+-- Suppressors
+L["gekolt_css_muz_sd.printname"] = "Standard Suppressor"
+L["gekolt_css_muz_sd.compactname"] = "SUPP."
+L["gekolt_css_muz_sd.description"] = "Traditional weapon suppressor."
+
+L["gekolt_css_muz_sd2.printname"] = "Mk.IV Suppressor"
+L["gekolt_css_muz_sd2.compactname"] = "SUPP. II"
+L["gekolt_css_muz_sd2.description"] = "More modern tactical suppressor for more modern tactical operations."
+
+L["gekolt_css_muz_sd3.printname"] = "Multi-Shot Suppressor"
+L["gekolt_css_muz_sd3.compactname"] = "SUPP. III"
+L["gekolt_css_muz_sd3.description"] = "Large suppressor intended for use on shotguns, but can also be used on any weapon because yes."
+
+L["gekolt_css_muz_sd4.printname"] = "Sharpshooter Suppressor"
+L["gekolt_css_muz_sd4.compactname"] = "SUPP. IV"
+L["gekolt_css_muz_sd4.description"] = "Large suppressor for precision weapons, such as sniper rifles.\nYes, you can use this on any weapon."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia

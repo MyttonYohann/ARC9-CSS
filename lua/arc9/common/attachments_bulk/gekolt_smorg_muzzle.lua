@@ -227,7 +227,7 @@ ATT.PrintName = "Suppressor"
 ATT.CompactName = "SUPP. KLON"
 ATT.Icon = Material("entities/gekolt_css_muz_sd.png", "mips smooth")
 ATT.Description = [[Small suppressor]]
-ATT.SortOrder = 2
+ATT.SortOrder = 1.7
 
 ATT.Model = "models/weapons/geckololt_css/atts/sd_m.mdl"
 ATT.Category = "muzzle_css"
@@ -250,6 +250,9 @@ ATT.MuzzleDevice = true
 
 ATT.RecoilUpMult = 1.1
 ATT.RecoilRandomMult = 0.9
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_muz_sd")
 
@@ -282,6 +285,9 @@ ATT.MuzzleDevice = true
 
 ATT.RecoilUpMult = 0.95
 ATT.RecoilRandomMult = 0.95
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_muz_sd2")
 
@@ -317,6 +323,9 @@ ATT.RecoilRandomMult = 0.95
 ATT.ShootPitchMult = 1.05
 ATT.ShootVolumeMult = 0.85
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(7, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(7, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_muz_sd3")
 
 ATT = {}
@@ -351,5 +360,8 @@ ATT.RecoilUpMult = 0.85
 ATT.RecoilRandomMult = 0.8
 ATT.ShootPitchMult = 1.1
 ATT.ShootVolumeMult = 0.65
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(7, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(7, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_muz_sd4")

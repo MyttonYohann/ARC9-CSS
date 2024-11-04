@@ -107,7 +107,7 @@ L["smorg_class_weapon_ia"] = "Ideologisk Artefakt"
 
 L["smorg_class_weapon_ar"] = "Automatkarbin"
 L["smorg_class_weapon_mg"] = "Kulspruta"
-L["smorg_class_weapon_sr"] = "Prickskyttegevär"
+L["smorg_class_weapon_sr"] = "Krypskyttegevär"
 L["smorg_class_weapon_pis"] = "Pistol"
 L["smorg_class_weapon_exp"] = "Sprängmedel"
 L["smorg_class_weapon_ac"] = "Kulsprutekarbin"
@@ -1172,6 +1172,11 @@ L["gekolt_pr2_m72_a1.printname"] = "Kaliber 0"
 L["gekolt_pr2_m72_a1.compactname"] = "HG"
 L["gekolt_pr2_m72_a1.description"] = "Största hagelskottet.\nDETTA FUNKAR JU FAN EJ"
 
+///////////// gekolt_pr2_mosin -- "Englishified Russian" - Won't touch yet except first one.
+-- L["gekolt_pr2_mosin_f1.printname"] = "Cyclone-Rama" -- "Циклон-Рама"; Roughly "Cyclone Frame"
+-- L["gekolt_pr2_mosin_f1.compactname"] = "CYCLONE"
+-- L["gekolt_pr2_mosin_f1.description"] = "External device redirects gas flow from firing to a makeshift self-rechambering bolt system."
+
 ///////////// gekolt_pr2_optic_magnifier
 L["gekolt_pr2_optic_m1.description"] = "Ett unikt och boxigt holografiskt sikte.\nKommer med ett <color=100,255,100>förstoringsglas</color>."
 
@@ -1180,6 +1185,52 @@ L["gekolt_pr2_optic_m2.description"] = "Ett unikt och boxigt holografiskt sikte.
 L["gekolt_pr2_optic_m3.description"] = "Ett reflexsikte med ett sparre hårkors som liknar en äldre herre med sådant skägg som pekar rakt ner.\nKommer med ett <color=100,255,100>förstoringsglas</color>."
 
 L["gekolt_pr2_optic_m4.description"] = "Det mest simpla reflexsiktet som klonats världen runt.\n\nDenna kostade endast ¥62!\nKommer med ett <color=100,255,100>förstoringsglas</color>."
+
+///////////// gekolt_smorg_muzzle
+L["gekolt_css_muz_breach.printname"] = "Brytare"
+L["gekolt_css_muz_breach.compactname"] = "BEAT"
+L["gekolt_css_muz_breach.description"] = "Mynning med spikar för att slå på folk eller dörrar."
+
+L["gekolt_css_muz_neg.printname"] = "Nollställare"
+L["gekolt_css_muz_neg.compactname"] = "NALA"
+L["gekolt_css_muz_neg.description"] = "Tung enhet som förbättrar <color=100,255,100>rekylkontrollen</color>"
+
+L["gekolt_css_muz_long.printname"] = "Sned"
+L["gekolt_css_muz_long.compactname"] = "SNED"
+L["gekolt_css_muz_long.description"] = "Kompensator, likt den på det riktigt kända geväret.\nGör att <color=100,255,100>rekylen</color> går ner."
+
+L["gekolt_css_muz_heavy.printname"] = "Tung Mynningsbroms"
+L["gekolt_css_muz_heavy.compactname"] = "TUNG"
+L["gekolt_css_muz_heavy.description"] = "Mynningsenhet designad att kompensera tyngre vapens rekyl.\n<color=100,255,100>Sänker rekylen</color> men <color=255,100,100>ökar också rekylen</color> under automateld."
+
+L["gekolt_css_muz_flash.printname"] = "Flamdämpare"
+L["gekolt_css_muz_flash.compactname"] = "FLAM"
+L["gekolt_css_muz_flash.description"] = "Gömmer mynningsflamman och konverterar vertikal kick till horisontal.\nOstabil rapport."
+
+L["gekolt_css_muz_comp.printname"] = "Kompensator"
+L["gekolt_css_muz_comp.compactname"] = "KOMP."
+L["gekolt_css_muz_comp.description"] = "Mynningsenhet som förbättrar <color=100,255,100>rekyl och sväjning</color>."
+
+L["gekolt_css_muz_cage.printname"] = "Fågelbur"
+L["gekolt_css_muz_cage.compactname"] = "BUR"
+L["gekolt_css_muz_cage.description"] = "Förbättrar <color=100,255,100>stabilitet</color> under automateld."
+
+-- Suppressors
+L["gekolt_css_muz_sd.printname"] = "Standard Ljuddämpare"
+L["gekolt_css_muz_sd.compactname"] = "LJUDD."
+L["gekolt_css_muz_sd.description"] = "Traditionell ljuddämpare till vapen."
+
+L["gekolt_css_muz_sd2.printname"] = "Mk.IV Ljuddämpare"
+L["gekolt_css_muz_sd2.compactname"] = "LJUDD. II"
+L["gekolt_css_muz_sd2.description"] = "Mer modern och taktisk ljuddämpare till mer moderna och taktiska operationer."
+
+L["gekolt_css_muz_sd3.printname"] = "\"Multi-Shot\"-Ljuddämpare"
+L["gekolt_css_muz_sd3.compactname"] = "LJUDD. III"
+L["gekolt_css_muz_sd3.description"] = "Stor ljuddämpare gjord för användning på hagelbössor, men den kan också användas på alla vapen för att jag säger det."
+
+L["gekolt_css_muz_sd4.printname"] = "Krypskyttegevär Ljuddämpare"
+L["gekolt_css_muz_sd4.compactname"] = "LJUDD. IV"
+L["gekolt_css_muz_sd4.description"] = "Stor ljuddämpare till precisionsvapen, exempelvis krypskyttegevär.\nJa, du kan använda denna på vilket vapen som helst."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia

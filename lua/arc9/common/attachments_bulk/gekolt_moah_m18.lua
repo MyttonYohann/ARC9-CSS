@@ -115,7 +115,7 @@ ATT.UBGL = true
 ATT.UBGLAmmo = "RPG_Round"
 ATT.UBGLClipSize = 1
 ATT.UBGLFiremode = 1
-ATT.UBGLFiremodeName = "Anti-Armour"
+ATT.UBGLFiremodeName = ARC9:GetPhrase("smorg_gekolt_moah_m18_real") or "M18"
 ATT.UBGLChamberSize = 0
 ATT.ShootVolumeUBGL = 110
 

@@ -30,7 +30,7 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.AimDownSightsTimeAdd = -0.1
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -1, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b1")
 
@@ -144,7 +144,7 @@ ATT.Hook_TranslateAnimation = function(wep, curanim) -- STRAIGHT UP JORKING IT
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -8, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_mag1")
 
@@ -180,7 +180,7 @@ ATT.Hook_TranslateAnimation = function(wep, curanim) -- STRAIGHT UP JORKING IT
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 2, 2.5) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_mag2")
 
@@ -462,7 +462,7 @@ ATT.ActivePosHook = function(wep, vec)
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, -6, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-6, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_s1")
 
@@ -483,7 +483,7 @@ ATT.Category = "dod_mauser_stock"
 ATT.ActivateElements = {"s_brazil"}
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -1, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_s2")
 
