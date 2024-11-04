@@ -1137,7 +1137,7 @@ L["gekolt_fas2_m79_a2.description"] = "Reconfigurate the MTS to fire traditional
 
 L["gekolt_fas2_m79_f1.printname"] = "Pirate Frame"
 L["gekolt_fas2_m79_f1.compactname"] = "PIRATE"
-L["gekolt_fas2_m79_f1.description"] = "Removes and shortens everything.\The Magic™ automatic ejection is no more."
+L["gekolt_fas2_m79_f1.description"] = "Removes and shortens everything.\nThe Magic™ automatic ejection is no more."
 
 L["gekolt_fas2_m79_f2.printname"] = "Alofs Frame"
 L["gekolt_fas2_m79_f2.compactname"] = "ALOFS"
