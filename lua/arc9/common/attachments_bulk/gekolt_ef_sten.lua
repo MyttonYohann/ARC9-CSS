@@ -32,7 +32,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, -10),
         Reticle = nil,
 
-        Magnification = 1.05,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -102,7 +102,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, -10),
         Reticle = nil,
 
-        Magnification = 1.05,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -286,7 +286,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0), -- tilt it a bit
         Reticle = nil,
 
-        Magnification = 1.05,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }

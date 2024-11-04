@@ -174,7 +174,7 @@ SWEP.IronSights = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(-10, 0, -25),
     },
-    Magnification = 1,
+    Magnification = 1.1,
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
     CrosshairInSights = false,
 }

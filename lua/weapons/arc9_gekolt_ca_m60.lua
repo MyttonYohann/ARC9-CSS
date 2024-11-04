@@ -178,7 +178,7 @@ SWEP.IronSights = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(0, 0, -45),
     },
-    Magnification = 1.1,
+    Magnification = 1.15,
     CrosshairInSights = false
 }
 

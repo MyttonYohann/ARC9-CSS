@@ -18,5 +18,9 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,15),
+}
+
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)

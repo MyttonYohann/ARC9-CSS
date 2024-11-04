@@ -173,7 +173,7 @@ ATT.Sights = {
         Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
 
 
-        Magnification = 1,
+        Magnification = 1.15,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -260,7 +260,7 @@ ATT.Sights = {
         Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
 
 
-        Magnification = 1,
+        Magnification = 1.15,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -370,7 +370,7 @@ ATT.Sights = {
         Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
 
 
-        Magnification = 1,
+        Magnification = 1.15,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -423,7 +423,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, 5),
         Reticle = nil,
 
-        Magnification = 1.05,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -615,7 +615,7 @@ ATT.Sights = {
         Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
 
 
-        Magnification = 1,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -663,7 +663,7 @@ ATT.Sights = {
         Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
 
 
-        Magnification = 1,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -743,7 +743,7 @@ ATT.Sights = {
         Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
 
 
-        Magnification = 1,
+        Magnification = 1.15,
         IsIronSight = true,
         KeepBaseIrons = false
     }

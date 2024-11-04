@@ -219,7 +219,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Reticle = nil,
 
-        Magnification = 1.05,
+        Magnification = 1.15,
         IsIronSight = true,
         KeepBaseIrons = false
     }
@@ -273,11 +273,11 @@ ATT.ActivateElements = {"u_disk", "noguard", "pre_muzzed"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 12, -5.24),
-        Ang = Angle(0, 0, 0),
+        Pos = Vector(0, 12, -5.4),
+        Ang = Angle(0, -0.325, 0),
         Reticle = nil,
 
-        Magnification = 1.05,
+        Magnification = 1.15,
         IsIronSight = true,
         KeepBaseIrons = false
     }

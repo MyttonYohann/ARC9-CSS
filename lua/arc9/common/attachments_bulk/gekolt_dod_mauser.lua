@@ -386,7 +386,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Reticle = nil, 
 
-        Magnification = 1.05,
+        Magnification = 1.1,
         IsIronSight = true,
         KeepBaseIrons = false
     }
