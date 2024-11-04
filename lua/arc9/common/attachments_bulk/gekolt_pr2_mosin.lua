@@ -135,6 +135,8 @@ ATT.RPMMult = 500 / 200
 ATT.ClipSizeOverride = 20
 
 ATT.Penetration = 1
+ATT.RecoilMult = 0.5
+ATT.RecoilPatternDriftMult = 0.5
 
 ATT.SpreadMult = 0.75
 ATT.SpreadSights = 0.01

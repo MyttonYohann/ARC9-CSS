@@ -434,6 +434,7 @@ SWEP.Animations = {
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
+        FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -450,6 +451,7 @@ SWEP.Animations = {
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
+        FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -467,6 +469,7 @@ SWEP.Animations = {
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
+        FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -483,6 +486,7 @@ SWEP.Animations = {
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
+        FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -493,6 +497,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
 		RefillProgress = 0.725,
+        FireASAP = true,
         EventTable = {
 			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 10 / 40},	
 			{s =  "gekolt_mosin/Strip_In.ogg" ,		t = 50 / 40},
@@ -517,6 +522,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
 		RefillProgress = 0.725,
+        FireASAP = true,
 		EjectAt = 130/40,
         EventTable = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
@@ -533,6 +539,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
 		RefillProgress = 0.725,
+        FireASAP = true,
         EventTable = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
 			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 20 / 40},	
@@ -605,8 +612,9 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 30 / 40},
 			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 45 / 40}, 
         },
-        MinProgress = 0.975,
-		RefillProgress = 0.825,
+        MinProgress = 0.85,
+        FireASAP = true,
+		RefillProgress = 0.7,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -623,6 +631,7 @@ SWEP.Animations = {
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
+        FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
@@ -641,6 +650,7 @@ SWEP.Animations = {
         },
         MinProgress = 0.975,
 		RefillProgress = 0.825,
+        FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
