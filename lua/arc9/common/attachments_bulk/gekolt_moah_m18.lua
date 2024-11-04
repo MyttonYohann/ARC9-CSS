@@ -182,9 +182,8 @@ ATT.Hook_ModifyBodygroups = function(wep, data)
 	end
 end
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(-5, 0, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-6, -3, 2) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_moah_m18_sweden")
 
@@ -212,6 +211,9 @@ ATT.ShootEntForce = 200000
 
 ATT.AimDownSightsTimeAdd = -0.06
 ATT.SprintToFireTimeAdd = -0.1
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 4, 0) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_moah_m18_rpg")
 
@@ -241,6 +243,9 @@ end
 
 ATT.AimDownSightsTimeAdd = -0.04
 ATT.SprintToFireTimeAdd = -0.05
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 14, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_moah_m18_rpg2")
 

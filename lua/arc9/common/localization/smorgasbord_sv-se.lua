@@ -1164,9 +1164,9 @@ L["gekolt_moah_m18_rpg.printname"] = "Landskapsjägare Ram" -- "Landscape Hunter
 L["gekolt_moah_m18_rpg.compactname"] = "RPG"
 L["gekolt_moah_m18_rpg.description"] = "Lägg undan din pansarvärns tankesätt och omfatta galenskap.\nDem försökte verkligen smyga in ett raketgevär."
 
-L["gekolt_moah_m18_rpg.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
-L["gekolt_moah_m18_rpg.compactname"] = "TANDUM"
-L["gekolt_moah_m18_rpg.description"] = "Konsentrerat sprängmedel för att behålla normala pansarvärns tankesättet.\nFortfarande galenskap."
+L["gekolt_moah_m18_rpg2.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
+L["gekolt_moah_m18_rpg2.compactname"] = "TANDUM"
+L["gekolt_moah_m18_rpg2.description"] = "Konsentrerat sprängmedel för att behålla normala pansarvärns tankesättet.\nFortfarande galenskap."
 
 L["gekolt_pr2_m72_a1.printname"] = "Kaliber 0"
 L["gekolt_pr2_m72_a1.compactname"] = "HG"

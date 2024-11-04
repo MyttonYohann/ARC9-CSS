@@ -20,7 +20,7 @@ end
 
 ATT.Num = 1
 ATT.ShootEnt = "gekolt_css_m4_nade"
-ATT.ShootEntForce = 10000
+ATT.ShootEntForce = 6000
 
 ATT.ActivePosOverride = Vector(-0.25, 1, -1.5)
 ATT.ActiveAngOverride = Angle(0, 0, 0)
@@ -39,6 +39,9 @@ ATT.Sights = {
         KeepBaseIrons = false
     }
 }
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 13, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fnv_flare_1")
 
@@ -70,6 +73,9 @@ ATT.ActiveAngOverride = Angle(0, 0, 0)
 
 ATT.SprintPosOverride = Vector(5, -0.5, -2)
 ATT.SprintAngOverride = Angle(35, -10, -10)
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fnv_flare_2")
 
@@ -121,6 +127,9 @@ ATT.MuzzleParticleOverride = "muzzleflash_minimi"
 
 ATT.TracerColor = Color(255, 225, 200)
 ATT.TracerSize = 1
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fnv_flare_3")
 

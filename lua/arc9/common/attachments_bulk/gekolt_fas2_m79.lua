@@ -151,6 +151,9 @@ ATT.Hook_TranslateAnimation = function(wep, anim) -- mang fuck that shit
     return anim .. "_pirate"
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, -6, 1) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_fas2_m79_f1")
 
 
@@ -293,16 +296,15 @@ ATT.Attachments = {
     },
 }
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(6, 0, 0)
-end
-
 ATT.Hook_TranslateAnimation = function(wep, anim) -- mang fuck that shit
 	if anim == "reload" then return "reload_mts" end
 	if anim == "reload_empty" then return "reload_mts" end
 	if anim == "fire" then return "fire_rev" end
 	if anim == "fire_iron" then return "fire_rev" end
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 8, 1) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fas2_m79_f3")
 
@@ -401,6 +403,9 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
 }
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3.5, -4, 1) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fas2_m79_f4")
 

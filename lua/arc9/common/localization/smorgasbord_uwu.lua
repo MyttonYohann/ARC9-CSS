@@ -1173,9 +1173,9 @@ L["gekolt_moah_m18_rpg.printname"] = "Landskapsjägare Ram" -- "Landscape Hunter
 L["gekolt_moah_m18_rpg.compactname"] = "RPG"
 L["gekolt_moah_m18_rpg.description"] = "Ditch your anti-armour mindset and fully embrace madness.\nThey really tried to sneak an RPG in."
 
-L["gekolt_moah_m18_rpg.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
-L["gekolt_moah_m18_rpg.compactname"] = "TANDUM"
-L["gekolt_moah_m18_rpg.description"] = "Concentrated explosive to retain the normal anti-armour mindset.\nStill madness."
+L["gekolt_moah_m18_rpg2.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
+L["gekolt_moah_m18_rpg2.compactname"] = "TANDUM"
+L["gekolt_moah_m18_rpg2.description"] = "Concentrated explosive to retain the normal anti-armour mindset.\nStill madness."
 
 L["gekolt_pr2_m72_a1.printname"] = "0 Gauge"
 L["gekolt_pr2_m72_a1.compactname"] = "SG"
