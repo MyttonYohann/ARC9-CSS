@@ -1304,7 +1304,7 @@ L["smorg_gekolt_remix_deuxb_real"] = "\"Coach Gun\""
 L["smorg_gekolt_remix_deuxb_desc"] = "Gammal och pålitlig. Inget kan gå fel med en klassiker."
 
 L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
-L["smorg_gekolt_remix_g3_b_real"] = "Bullpup G3"
+L["smorg_gekolt_remix_g3_b_real"] = "Bullpup AK4"
 L["smorg_gekolt_remix_g3_b_desc"] = "Beröm ergonomin! Okonventionellt är vägen framåt."
 
 L["smorg_gekolt_remix_g11"] = "Husellisch-11"
