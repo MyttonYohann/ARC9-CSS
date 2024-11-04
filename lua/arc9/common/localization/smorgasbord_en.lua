@@ -1140,6 +1140,78 @@ L["gekolt_ef_sten_b4.printname"] = "Partially Shrouded Barrel"
 L["gekolt_ef_sten_b4.compactname"] = "P-SHROUD"
 L["gekolt_ef_sten_b4.description"] = "Smaller shroud mainly for aesthetic purposes."
 
+///////////// gekolt_fas2_m79
+L["gekolt_fas2_m79_a1.printname"] = "12-Gauge"
+L["gekolt_fas2_m79_a1.compactname"] = "12G"
+L["gekolt_fas2_m79_a1.description"] = "Oversized buckshot round for your angry explosive tube.\nExplosive privilege revoked."
+
+L["gekolt_fas2_m79_a2.printname"] = "Rifle Round"
+L["gekolt_fas2_m79_a2.compactname"] = ".308"
+L["gekolt_fas2_m79_a2.description"] = "Reconfigurate the MTS to fire traditional rifle rounds."
+
+L["gekolt_fas2_m79_f1.printname"] = "Pirate Frame"
+L["gekolt_fas2_m79_f1.compactname"] = "PIRATE"
+L["gekolt_fas2_m79_f1.description"] = "Removes and shortens everything.\The Magic™ automatic ejection is no more."
+
+L["gekolt_fas2_m79_f2.printname"] = "Alofs Frame"
+L["gekolt_fas2_m79_f2.compactname"] = "ALOFS"
+L["gekolt_fas2_m79_f2.description"] = "An overbulking attempt to have the classic, outdated grenade launcher compete with modern automatic grenade launchers.\nChina Lakes are too expensive."
+
+L["gekolt_fas2_m79_f3.printname"] = "MTS Frame"
+L["gekolt_fas2_m79_f3.compactname"] = "MTS"
+L["gekolt_fas2_m79_f3.description"] = "There are guns that look like other guns. This ain't it, pal.\nThe inclusive urge to bundle a revolver is too great to ignore. - definitely not the author"
+
+L["gekolt_fas2_m79_f4.printname"] = "MTS-S Frame"
+L["gekolt_fas2_m79_f4.compactname"] = "MTS-S"
+L["gekolt_fas2_m79_f4.description"] = "The inclusive urge to bundle an actual revolver is too great to ignore. - definitely not the author\nBreak action is easier to animate, that's it."
+
+///////////// gekolt_fnv_flare
+L["gekolt_fnv_flare_1.printname"] = "Sturm-Gehäuse" -- Roughly "Storm Frame"
+L["gekolt_fnv_flare_1.compactname"] = "STURM"
+L["gekolt_fnv_flare_1.description"] = "Bracing and special payload for downed pilots to „signal“."
+
+L["gekolt_fnv_flare_2.printname"] = "Doppelläufiges Gehäuse" -- Roughly "Double-Barreled Frame"
+L["gekolt_fnv_flare_2.compactname"] = "DOPPEL"
+L["gekolt_fnv_flare_2.description"] = "Twice the barrel for twice the fun."
+
+L["gekolt_fnv_flare_3.printname"] = "Der Gehäuse des Teufels" -- Roughly "The Devils' Frame"
+L["gekolt_fnv_flare_3.compactname"] = ".50"
+L["gekolt_fnv_flare_3.description"] = "For when you want to stop an elephant, but all you got is a single-shot flare gun." -- Massively shortened and different description.
+
+///////////// gekolt_moah_m18
+L["gekolt_moah_m18_sweden.printname"] = "Hjälpare Ram" -- "Helper Frame"
+L["gekolt_moah_m18_sweden.compactname"] = "XM70"
+L["gekolt_moah_m18_sweden.description"] = "You've heard of underbarrel anti-tank weaponry. Now get ready for\nA not at all G3 underbarrel weapon for your anti-tank rifle."
+
+L["gekolt_moah_m18_rpg.printname"] = "Landskapsjägare Ram" -- "Landscape Hunter Frame"
+L["gekolt_moah_m18_rpg.compactname"] = "RPG"
+L["gekolt_moah_m18_rpg.description"] = "Ditch your anti-armour mindset and fully embrace madness.\nThey really tried to sneak an RPG in."
+
+L["gekolt_moah_m18_rpg.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
+L["gekolt_moah_m18_rpg.compactname"] = "TANDUM"
+L["gekolt_moah_m18_rpg.description"] = "Concentrated explosive to retain the normal anti-armour mindset.\nStill madness."
+
+L["gekolt_pr2_m72_a1.printname"] = "0 Gauge"
+L["gekolt_pr2_m72_a1.compactname"] = "SG"
+L["gekolt_pr2_m72_a1.description"] = "The biggest of all buckshots.\nTHIS DON'T FUCKING WORK"
+
+///////////// gekolt_pr2_optic_magnifier
+L["gekolt_pr2_optic_m1.printname"] = ARC9:GetPhrase("gekolt_css_optic_holo.printname") or "Fritotech Holographic"
+L["gekolt_pr2_optic_m1.compactname"] = ARC9:GetPhrase("gekolt_css_optic_holo.compactname") or "FRITO."
+L["gekolt_pr2_optic_m1.description"] = "A unique boxy holographic sight.\nComes with a <color=100,255,100>magnifier</color>."
+
+L["gekolt_pr2_optic_m2.printname"] = ARC9:GetPhrase("gekolt_css_optic_holo3.printname") or "Fritotech \"Pequeño holográfico\""
+L["gekolt_pr2_optic_m2.compactname"] = ARC9:GetPhrase("gekolt_css_optic_holo3.compactname") or "PEQUEÑO"
+L["gekolt_pr2_optic_m2.description"] = "A unique boxy holographic sight.\nThis unit is smaller and a precise carrot pointing upwards.\nComes with a <color=100,255,100>magnifier</color>."
+
+L["gekolt_pr2_optic_m3.printname"] = ARC9:GetPhrase("gekolt_css_optic_okp.printname") or "Stopwatch Reflex Sight"
+L["gekolt_pr2_optic_m3.compactname"] = ARC9:GetPhrase("gekolt_css_optic_okp.compactname") or "STOPWATCH"
+L["gekolt_pr2_optic_m3.description"] = "A reflex sight with a chevron reticle that looks like an old fellow with one of those long straight-down beards.\nComes with a <color=100,255,100>magnifier</color>."
+
+L["gekolt_pr2_optic_m4.printname"] = ARC9:GetPhrase("gekolt_css_optic_mrs.printname") or "Aniracco Usual"
+L["gekolt_pr2_optic_m4.compactname"] = ARC9:GetPhrase("gekolt_css_optic_mrs.compactname") or "USUAL"
+L["gekolt_pr2_optic_m4.description"] = "The most basic reflex sight, cloned all over the world.\n\nThis one only cost ¥62!\nComes with a <color=100,255,100>magnifier</color>."
+
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia
 L["smorg_trivia_country_hl2"] = "Half-Life 2 Universe"

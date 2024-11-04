@@ -1117,6 +1117,70 @@ L["gekolt_ef_sten_b4.printname"] = "Delvist Skyddad Pipa"
 L["gekolt_ef_sten_b4.compactname"] = "D-SKYDD."
 L["gekolt_ef_sten_b4.description"] = "Mindre skydd mestadels för aestetisk anledning."
 
+///////////// gekolt_fas2_m79
+L["gekolt_fas2_m79_a1.printname"] = "Kaliber 12"
+L["gekolt_fas2_m79_a1.compactname"] = "K12"
+L["gekolt_fas2_m79_a1.description"] = "Överdimensionerad hagelskott patron till ditt elaka explosiva rör.\nSprängmedel förmån borttagen."
+
+L["gekolt_fas2_m79_a2.printname"] = "Gevärspatron"
+L["gekolt_fas2_m79_a2.compactname"] = ".308"
+L["gekolt_fas2_m79_a2.description"] = "Omkonfiguerar MTS att skjuta traditionella gevärsskott."
+
+L["gekolt_fas2_m79_f1.printname"] = "Pirat Ram"
+L["gekolt_fas2_m79_f1.compactname"] = "PIRAT"
+L["gekolt_fas2_m79_f1.description"] = "Tar bort och förkortar allt.\nMagiska™ automatiska utmatningen finns ej längre."
+
+L["gekolt_fas2_m79_f2.printname"] = "Alofs-Ram"
+L["gekolt_fas2_m79_f2.compactname"] = "ALOFS"
+L["gekolt_fas2_m79_f2.description"] = "Överbulkande försök att ha den klassiska, uråldriga granatkastaren att tävla mot moderna automatiska granatkastare.\n\"China Lake\"-kastarna är för dyra."
+
+L["gekolt_fas2_m79_f3.printname"] = "MTS-Ram"
+L["gekolt_fas2_m79_f3.compactname"] = "MTS"
+L["gekolt_fas2_m79_f3.description"] = "Det finns vapen som liknar andra vapen. Polaren, detta är inte det.\nDen inkluderande driften att samla en revolver är för stor att ignorera. - definitivt inte skaparen"
+
+L["gekolt_fas2_m79_f4.printname"] = "MTS-S-Ram"
+L["gekolt_fas2_m79_f4.compactname"] = "MTS-S"
+L["gekolt_fas2_m79_f4.description"] = "Den inkluderande driften att samla en verklig revolver är för stor att ignorera. - definitivt inte skaparen\nBrytningen är lättare att animera, det är allt."
+
+///////////// gekolt_fnv_flare
+L["gekolt_fnv_flare_1.printname"] = "Sturm-Gehäuse" -- Roughly "Storm Frame"
+L["gekolt_fnv_flare_1.compactname"] = "STURM"
+L["gekolt_fnv_flare_1.description"] = "Spänningen och speciella belastningen för nedskjutna piloter att „signalera“."
+
+L["gekolt_fnv_flare_2.printname"] = "Doppelläufiges Gehäuse" -- Roughly "Double-Barreled Frame"
+L["gekolt_fnv_flare_2.compactname"] = "DOPPEL"
+L["gekolt_fnv_flare_2.description"] = "Dubbelt så många pipor för dubbelt så mycket skoj."
+
+L["gekolt_fnv_flare_3.printname"] = "Der Gehäuse des Teufels" -- Roughly "The Devils' Frame"
+L["gekolt_fnv_flare_3.compactname"] = ".50"
+L["gekolt_fnv_flare_3.description"] = "När du behöver stoppa en elefant men allt du har är en enkelskott signalpistol."
+
+///////////// gekolt_moah_m18
+L["gekolt_moah_m18_sweden.printname"] = "Hjälpare Ram" -- "Helper Frame"
+L["gekolt_moah_m18_sweden.compactname"] = "XM70"
+L["gekolt_moah_m18_sweden.description"] = "Du har hört om undermonterade pansarvärnsvapen. Förbered dig nu för\nAbsolut inte undermonterat AK4-gevär till ditt pansarvärnsgevär."
+
+L["gekolt_moah_m18_rpg.printname"] = "Landskapsjägare Ram" -- "Landscape Hunter Frame"
+L["gekolt_moah_m18_rpg.compactname"] = "RPG"
+L["gekolt_moah_m18_rpg.description"] = "Lägg undan din pansarvärns tankesätt och omfatta galenskap.\nDem försökte verkligen smyga in ett raketgevär."
+
+L["gekolt_moah_m18_rpg.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
+L["gekolt_moah_m18_rpg.compactname"] = "TANDUM"
+L["gekolt_moah_m18_rpg.description"] = "Konsentrerat sprängmedel för att behålla normala pansarvärns tankesättet.\nFortfarande galenskap."
+
+L["gekolt_pr2_m72_a1.printname"] = "Kaliber 0"
+L["gekolt_pr2_m72_a1.compactname"] = "HG"
+L["gekolt_pr2_m72_a1.description"] = "Största hagelskottet.\nDETTA FUNKAR JU FAN EJ"
+
+///////////// gekolt_pr2_optic_magnifier
+L["gekolt_pr2_optic_m1.description"] = "Ett unikt och boxigt holografiskt sikte.\nKommer med ett <color=100,255,100>förstoringsglas</color>."
+
+L["gekolt_pr2_optic_m2.description"] = "Ett unikt och boxigt holografiskt sikte.\nDenna enhet är mindre och en precis morot pekar uppåt.\nKommer med ett <color=100,255,100>förstoringsglas</color>."
+
+L["gekolt_pr2_optic_m3.description"] = "Ett reflexsikte med ett sparre hårkors som liknar en äldre herre med sådant skägg som pekar rakt ner.\nKommer med ett <color=100,255,100>förstoringsglas</color>."
+
+L["gekolt_pr2_optic_m4.description"] = "Det mest simpla reflexsiktet som klonats världen runt.\n\nDenna kostade endast ¥62!\nKommer med ett <color=100,255,100>förstoringsglas</color>."
+
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia
 L["smorg_trivia_country_hl2"] = "Half-Life 2 Universum"

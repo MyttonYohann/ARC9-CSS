@@ -18,29 +18,25 @@ ATT.ModelOffset = Vector(-2, 0, -0.1)
 ATT.ModelBodygroups = "000"
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["pozkas_off"] then
-        model:SetBodygroup(1,1)
-    else
-        model:SetBodygroup(1,0)
-    end
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
 end
 
 ATT.Sights = {
-    {
-        Pos = Vector(0, 6, -1.25),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.2,
-        ViewModelFOV = 40,
-        IgnoreExtra = true,
-    },
-    {
+    { -- No Mag.
         Pos = Vector(0, 5.5, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 60,
         IgnoreExtra = false,
-        ActivateElements = {"pozkas_off"},
+        -- ActivateElements = {"pozkas_off"},
         Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
     },
 }
 
@@ -51,11 +47,11 @@ ATT.HoloSightColorable = true
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_holo.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.75
-ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
 
@@ -88,29 +84,25 @@ ATT.ModelOffset = Vector(-2, 0, -0.1)
 ATT.ModelBodygroups = "001"
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["pozkas_off"] then
-        model:SetBodygroup(1,1)
-    else
-        model:SetBodygroup(1,0)
-    end
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
 end
 
 ATT.Sights = {
-    {
-        Pos = Vector(0, 6.5, -1.25),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.2,
-        ViewModelFOV = 40,
-        IgnoreExtra = true,
-    },
-    {
-        Pos = Vector(0, 5.75, -1.25),
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 60,
         IgnoreExtra = false,
-        ActivateElements = {"pozkas_off"},
+        -- ActivateElements = {"pozkas_off"},
         Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
     },
 }
 
@@ -121,11 +113,11 @@ ATT.HoloSightColorable = true
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_holo2.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
 
@@ -156,29 +148,25 @@ ATT.ModelOffset = Vector(-2, 0, -0.1)
 ATT.ModelBodygroups = "002"
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["pozkas_off"] then
-        model:SetBodygroup(1,1)
-    else
-        model:SetBodygroup(1,0)
-    end
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
 end
 
 ATT.Sights = {
-    {
-        Pos = Vector(0, 6.5, -1.25),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.2,
-        ViewModelFOV = 40,
-        IgnoreExtra = true,
-    },
-    {
-        Pos = Vector(0, 5.75, -1.25),
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 60,
         IgnoreExtra = false,
-        ActivateElements = {"pozkas_off"},
+        -- ActivateElements = {"pozkas_off"},
         Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
     },
 }
 
@@ -189,10 +177,10 @@ ATT.HoloSightColorable = true
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_okp.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.75
+ATT.RTScopeReticleScale = 0.85
 ATT.RTScopeShadowIntensity = 2
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
@@ -226,44 +214,40 @@ ATT.ModelOffset = Vector(-2, 0, -0.1)
 ATT.ModelBodygroups = "003"
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["pozkas_off"] then
-        model:SetBodygroup(1,1)
-    else
-        model:SetBodygroup(1,0)
-    end
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
 end
 
 ATT.Sights = {
-    {
-        Pos = Vector(0, 6.5, -1.25),
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.375),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 60,
+        IgnoreExtra = false,
+        -- ActivateElements = {"pozkas_off"},
+        Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 40,
         IgnoreExtra = true,
     },
-    {
-        Pos = Vector(0, 5.75, -1.375),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
-        ViewModelFOV = 60,
-        IgnoreExtra = false,
-        ActivateElements = {"pozkas_off"},
-        Disassociate = true,
-    },
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
-ATT.HoloSightSize = 1000
+ATT.HoloSightSize = 750
 ATT.HoloSightColorable = true
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_mrs.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
 
@@ -326,7 +310,6 @@ ATT.HoloSightColorable = true
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 15
-ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("arc9_css/mag_reddot.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.75
 ATT.RTScopeShadowIntensity = 7
@@ -394,7 +377,6 @@ ATT.HoloSightColorable = true
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 15
-ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("arc9_css/acog_top.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.5
 ATT.RTScopeShadowIntensity = 7
@@ -465,7 +447,6 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 15
-ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("arc9_css/scope4_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 7
