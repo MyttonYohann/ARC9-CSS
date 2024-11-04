@@ -245,8 +245,10 @@ L["smorg_stat_global"] = "Gwobawwy"
 L["smorg_stat_curlife"] = "Cuwwent Wife" -- current wife?
 
 /////////////////// Optic Stats
-L["gsr_zoomlevel"] = "Zoom Wevew"
-L["gsr_ifstat"] = "%s - %s"
+L["smorg_zoomlevel"] = "Zoom Wevew"
+L["smorg_zoomlevel_val"] = "%s.%sx" -- "2.2x" for example
+L["smorg_zoomlevel_val_val"] = "%s.%sx - %s.%sx" -- "2.2x - 2.2x" for example
+L["smorg_ifstat"] = "%s - %s"
 
 ////////////////////////////////////// Attachments
 /////////////////////////// Non-Bulk
@@ -910,6 +912,10 @@ L["gekolt_css_optic_fview.printname"] = "Krosen Anti-Tank Gun Sight"
 L["gekolt_css_optic_fview.compactname"] = "KROSEN"
 L["gekolt_css_optic_fview.description"] = "A sight system originally designed for zeroing anti-tank weapons.\nNow available with complimentary <color=100,255,100>eye cup</color>!"
 
+L["gekolt_css_optic_m4_2.printname"] = "Centilia Scope"
+L["gekolt_css_optic_m4_2.compactname"] = "CENTILIA"
+L["gekolt_css_optic_m4_2.description"] = "Magnified optic originally mounted on a carrying handle.\nEffective up to at least one football field."
+
 L["gekolt_css_optic_sweeper.printname"] = "Vampire Thermal Scope"
 L["gekolt_css_optic_sweeper.compactname"] = "VAMPIRE"
 L["gekolt_css_optic_sweeper.description"] = "<color=100,255,100>Thermal</color> sniper scope allowing you to reach someone even during pitch dark nights.\nEffective up to 168 feet."
@@ -982,6 +988,7 @@ L["gekolt_css_optic_pks.description"] = "A small reflex sight for use as a backu
 L["gekolt_css_optic_kemperxl.printname"] = "Temper Anti-Air & Air-Powered Rangefinder Reflex Sight"
 L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER AA"
 L["gekolt_css_optic_kemperxl.description"] = "Extremely wide holographic sight with a built-in range finder for machine gunners, plane gunners and people who don't like planes and maybe those who do like planes."
+L["gekolt_css_optic_kemperxl.oor"] = "OUT OF RANGE"
 
 ///////////// gekolt_dod_garand -- French names
 L["gekolt_dod_garand_vanguard.printname"] = "Récepteur Vanguard" -- Roughly "Vanguard Receiver"

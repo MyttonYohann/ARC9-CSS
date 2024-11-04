@@ -239,8 +239,10 @@ L["smorg_stat_laser"] = "Laser"
 L["smorg_stat_light"] = "Lampa"
 
 /////////////////// Optic Stats
-L["gsr_zoomlevel"] = "Zoom-Nivå"
-L["gsr_ifstat"] = "%s - %s"
+L["smorg_zoomlevel"] = "Zoom-Nivå"
+L["smorg_zoomlevel_val"] = "%s,%sx" -- "2,2 x" for example
+L["smorg_zoomlevel_val_val"] = "%s,%sx - %s,%sx" -- "2.2x - 2.2x" for example
+L["smorg_ifstat"] = "%s - %s"
 
 ////////////////////////////////////// Attachments
 /////////////////////////// Non-Bulk
@@ -901,6 +903,10 @@ L["gekolt_css_optic_fview.printname"] = "Krosen Pansarvärnssikte"
 L["gekolt_css_optic_fview.compactname"] = "KROSEN"
 L["gekolt_css_optic_fview.description"] = "Riktmedelsystem egentligen gjort för att nollställa pansarvärnsgevär.\nNu tillgänglig med gratis <color=100,255,100>ögonkopp</color>!"
 
+L["gekolt_css_optic_m4_2.printname"] = "Centilia-Riktmedel"
+L["gekolt_css_optic_m4_2.compactname"] = "CENTILIA"
+L["gekolt_css_optic_m4_2.description"] = "Magnifierat riktmedel egentligen monterat på ett bärhandtag.\nEffektiv upp till minst ett fotbollsfält."
+
 L["gekolt_css_optic_sweeper.printname"] = "\"Vampire\"-Värmesikte"
 L["gekolt_css_optic_sweeper.compactname"] = "VAMPIRE"
 L["gekolt_css_optic_sweeper.description"] = "<color=100,255,100>Värme-</color>kikarsikte tillåter dig att nå någon även under bläcksvarta nätter.\nEffektiv upp till 168 \"feet\"."
@@ -973,6 +979,7 @@ L["gekolt_css_optic_pks.description"] = "Ett litet reflexsikte som används som 
 L["gekolt_css_optic_kemperxl.printname"] = "Temper Luftvärns & Luftdriven Avståndsmätande Reflexsikte"
 L["gekolt_css_optic_kemperxl.compactname"] = "TEMPER LV"
 L["gekolt_css_optic_kemperxl.description"] = "Extremt brett holografiskt sikte med inbyggd avståndsmätare för kulspruteskyttar, planskyttar eller folk som inte tycker om plan och kanske dem som tycker om plan."
+L["gekolt_css_optic_kemperxl.oor"] = "UTANFÖR RÄCKVIDD"
 
 ///////////// gekolt_dod_garand -- French names
 L["gekolt_dod_garand_vanguard.printname"] = "Récepteur Vanguard" -- Roughly "Vanguard Receiver"

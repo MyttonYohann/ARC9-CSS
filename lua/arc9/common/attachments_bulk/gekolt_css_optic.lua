@@ -144,7 +144,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0.005, 8, -1.095),
+        Pos = Vector(0.005, 7, -1.095),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 40
@@ -194,16 +194,18 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 2,5),
+}
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 2.5
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/scope2_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.98
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -277,15 +279,18 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 3,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/scope4_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 1
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0.05)
@@ -326,20 +331,23 @@ ATT.Sights = {
     },
 }
 
-ATT.RTScopeFOVMax = 5
-ATT.RTScopeFOVMin = 12
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 2,0, 3,25),
+}
+
 ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 2
+ATT.RTScopeAdjustmentLevels = 1
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 2
+ATT.RTScopeMagnificationMin = 2
+ATT.RTScopeMagnificationMax = 3.25
+ATT.ScopeScreenRatio = 500/1080
 ATT.RTScopeReticle = Material("arc9_css/scope5_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
-
-ATT.ScopeScreenRatio = 0.7
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.175)
@@ -392,14 +400,17 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 3,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 5
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/scope_fal.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.04
 ATT.RTScopeColorable = true
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -439,14 +450,17 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 3,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 7
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/scope7_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.03
 ATT.RTScopeColorable = true
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -493,19 +507,22 @@ ATT.Sights = {
     },
 }
 
-ATT.RTScopeFOVMax = 9
-ATT.RTScopeFOVMin = 17
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 1
+-- ATT.RTScopeFOVMax = 9
+-- ATT.RTScopeFOVMin = 17
+-- ATT.RTScopeAdjustable = true
+-- ATT.RTScopeAdjustmentLevels = 1
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 3,0, 1,2),
+}
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/scope3_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeColorable = true
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -551,15 +568,24 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 6,0, 12,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 4
+ATT.RTScopeMagnification = 4
+
+ATT.RTScopeAdjustable = true
+ATT.RTScopeMagnificationMin = 6
+ATT.RTScopeMagnificationMax = 12
+ATT.RTScopeAdjustmentLevels = 1
+
+ATT.ScopeScreenRatio = 750/1080
 ATT.RTScopeReticle = Material("arc9_css/scope9_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.01
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1.25
 ATT.ModelOffset = Vector(0, 0, -0.25)
@@ -594,7 +620,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0.063, 10, -1.95),
+        Pos = Vector(0.063, 8.25, -1.95),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -623,19 +649,17 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 8,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeMagnification = 8
+ATT.ScopeScreenRatio = 750/1080
 ATT.RTScopeReticle = Material("arc9_css/scope10_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
-
-ATT.RTScopeFOVMax = 1.5
-ATT.RTScopeFOVMin = 12
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 4
-
-ATT.ScopeScreenRatio = 0.9
-ATT.ScopeLength = 30
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -674,7 +698,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 8.5, -1.575),
+        Pos = Vector(0, 7.5, -1.575),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -703,19 +727,17 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 5,5),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeMagnification = 5.5
+ATT.ScopeScreenRatio = 400/1080
 ATT.RTScopeReticle = Material("arc9_css/scope11_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
-
-ATT.RTScopeFOVMax = 4
-ATT.RTScopeFOVMin = 8
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 2
-
-ATT.ScopeScreenRatio = 0.9
-ATT.ScopeLength = 30
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -751,22 +773,25 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 8, -1.89),
+        Pos = Vector(0, 6, -1.89),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 40,
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 4,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 575/1080
 ATT.RTScopeReticle = Material("arc9_css/scope_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-1, 0, 0)
@@ -802,7 +827,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -1.49),
+        Pos = Vector(0, 6.5, -1.49),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -831,15 +856,18 @@ ATT.Attachments = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 3,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 475/1080
 ATT.RTScopeReticle = Material("arc9_css/thermal_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 6
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -915,15 +943,18 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 4,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 6
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 450/1080
 ATT.RTScopeReticle = Material("arc9_css/scope6_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1.25
 ATT.ModelOffset = Vector(0, 0, -0.2)
@@ -980,15 +1011,18 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 2,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 7
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 500/1080
 ATT.RTScopeReticle = Material("arc9_css/scope8_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.02
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-1, 0, -0.1)
@@ -1054,15 +1088,18 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,75),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 5
+ATT.RTScopeMagnification = 1.75
+ATT.ScopeScreenRatio = 450/1080
 ATT.RTScopeReticle = Material("arc9_css/nv_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1.05
 ATT.ModelOffset = Vector(0, 0, -0.2)
@@ -1142,24 +1179,28 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.05),
+        Pos = Vector(0, 7.5, -1.05),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60,
         HoloSightReticle = Material("arc9_css/uwu.png", "mips smooth"),
     },
-    {
-        Pos = Vector(0, 10, -1.05),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
-        ViewModelFOV = 60,
-        HoloSightReticle = Material("arc9_css/boring/ReticleDot.png", "mips smooth")
-    },
+    -- {
+        -- Pos = Vector(0, 10, -1.05),
+        -- Ang = Angle(0, 0, 0),
+        -- Magnification = 1.1,
+        -- ViewModelFOV = 60,
+        -- HoloSightReticle = Material("arc9_css/boring/ReticleDot.png", "mips smooth") -- This unfortunately doesn't work.
+    -- },
+}
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/uwu.png", "mips smooth")
-ATT.HoloSightSize = 650
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1188,16 +1229,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.05),
+        Pos = Vector(0, 7.5, -1.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/acog_top.png", "mips smooth")
-ATT.HoloSightSize = 650
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1226,11 +1271,15 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -1.25),
+        Pos = Vector(0, 8, -1.25),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
+}
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
 }
 
 ATT.HoloSight = true
@@ -1270,7 +1319,7 @@ ATT.Sights = {
     {
         Pos = Vector(-0.0075, 6, -1.07),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.3,
+        Magnification = 1.2,
         ViewModelFOV = 60,
         InvertColors = true,
     }
@@ -1282,10 +1331,14 @@ ATT.SwayAdd = 0.02
 ATT.FreeAimRadiusMultSights = 0.25
 ATT.SprintToFireTimeAdd = 0.035
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 10
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 1.2
+ATT.ScopeScreenRatio = 350/1080
 ATT.RTScopeReticle = Material("arc9_css/holo2.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeShadowIntensity = 1.5
@@ -1362,9 +1415,13 @@ ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -1.25),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
+}
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
 }
 
 ATT.HoloSight = true
@@ -1401,16 +1458,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.3),
+        Pos = Vector(0, 7.5, -1.3),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
-ATT.HoloSightSize = 1200
+ATT.HoloSightSize = 950
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1443,16 +1504,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.3),
+        Pos = Vector(0, 7.5, -1.3),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs3.png", "mips smooth")
-ATT.HoloSightSize = 750
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1485,16 +1550,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.3),
+        Pos = Vector(0, 7.5, -1.3),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs2.png", "mips smooth")
-ATT.HoloSightSize = 1400
+ATT.HoloSightSize = 825
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1523,16 +1592,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -0.8),
+        Pos = Vector(0, 6.5, -0.8),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/rmr.png", "mips smooth")
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 400
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1563,9 +1636,13 @@ ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -0.9),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
+}
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
 }
 
 ATT.HoloSight = true
@@ -1599,16 +1676,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 8, -0.65),
+        Pos = Vector(0, 6.5, -0.65),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/t1.png", "mips smooth")
-ATT.HoloSightSize = 800
+ATT.HoloSightSize = 600
 ATT.HoloSightColorable = true
 
 ATT.Scale = 1.1
@@ -1638,16 +1719,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -1.375),
+        Pos = Vector(0, 6.25, -1.375),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/reddot.png", "mips smooth")
-ATT.HoloSightSize = 900
+ATT.HoloSightSize = 850
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1676,16 +1761,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -0.8),
+        Pos = Vector(0, 7, -0.8),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/romeo.png", "mips smooth")
-ATT.HoloSightSize = 550
+ATT.HoloSightSize = 400
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.05)
@@ -1714,16 +1803,20 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 9, -2),
+        Pos = Vector(0, 8, -2),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60
     }
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,2),
+}
+
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/ragnok.png", "mips smooth")
-ATT.HoloSightSize = 2200
+ATT.HoloSightSize = 1600
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1745,7 +1838,7 @@ end
 if CLIENT then
 
     ATT.HoloSightFunc = function(swep, pos, mdl)
-        local col = Color(200, 200, 250, 150)
+        local col = Color(255, 255, 255, 255)
         local col_tp = Color(col.r, col.g, col.b, 1)
         local ang = mdl:GetAngles()
         ang:RotateAroundAxis(ang:Right(), 90)
@@ -1765,14 +1858,14 @@ if CLIENT then
         })
 
         if tr.HitSky then
-            top = "OUT OF RANGE"
+            top = ARC9:GetPhrase("gekolt_css_optic_kemperxl.oor") or "NIL"
         else
-            top = tostring(math.ceil(tr.Fraction * d * ARC9.HUToM)) .. "m"
+            top = tostring(math.ceil(tr.Fraction * d * ARC9.HUToM)) .. " m"
         end
 
         surface.SetTextColor(col)
         surface.SetFont("css_font_digi")
-        surface.SetTextPos(128 - (surface.GetTextSize(top) / 2), -5)
+        surface.SetTextPos(128 - (surface.GetTextSize(top) / 2), 10)
         surface.DrawText(top)
 
         cam.End3D2D()

@@ -25,7 +25,7 @@ ATT.Sights = {
     { -- No Mag.
         Pos = Vector(0, 5.5, -1.25),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60,
         IgnoreExtra = false,
         -- ActivateElements = {"pozkas_off"},
@@ -44,6 +44,10 @@ ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/holo.png", "mips smooth")
 ATT.HoloSightSize = 800
 ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
@@ -91,7 +95,7 @@ ATT.Sights = {
     { -- No Mag.
         Pos = Vector(0, 5.5, -1.25),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60,
         IgnoreExtra = false,
         -- ActivateElements = {"pozkas_off"},
@@ -110,6 +114,10 @@ ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/holo3.png", "mips smooth")
 ATT.HoloSightSize = 800
 ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
@@ -155,7 +163,7 @@ ATT.Sights = {
     { -- No Mag.
         Pos = Vector(0, 5.5, -1.25),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60,
         IgnoreExtra = false,
         -- ActivateElements = {"pozkas_off"},
@@ -174,6 +182,10 @@ ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/okp.png", "mips smooth")
 ATT.HoloSightSize = 800
 ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
@@ -221,7 +233,7 @@ ATT.Sights = {
     { -- No Mag.
         Pos = Vector(0, 5.5, -1.375),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1,
+        Magnification = 1.2,
         ViewModelFOV = 60,
         IgnoreExtra = false,
         -- ActivateElements = {"pozkas_off"},
@@ -240,6 +252,10 @@ ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
 ATT.HoloSightSize = 750
 ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2

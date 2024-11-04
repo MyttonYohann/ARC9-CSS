@@ -22,15 +22,18 @@ ATT.Sights = {
     },
 }
 
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 4,0),
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 10
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 500/1080
 ATT.RTScopeReticle = Material("arc9_css/scope_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
-
-ATT.ScopeScreenRatio = 0.9
 
 ATT.Scale = 1.25
 ATT.ModelOffset = Vector(0, 0, -0.75)
