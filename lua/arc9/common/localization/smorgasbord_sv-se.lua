@@ -405,37 +405,37 @@ L["gekolt_dods_nambu_1.compactname"] = "A.E."
 L["gekolt_dods_nambu_1.description"] = "Ingen är berättigad till detta."
 
 ///////////// gekolt_css_ak_mag -- "Englishified Russian"
-L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"
+L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"; Roughly "Attack Frame"
 L["gekolt_css_ak_mag1.compactname"] = "KARBIN"
 L["gekolt_css_ak_mag1.description"] = "Mellanliggande lösning till standard infanteri.\nBättre för kontinuerlig eld, men lider från sänkt stoppkraft."
 
-L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"
+L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"; Roughly "Hunting Frame"
 L["gekolt_css_ak_mag2.compactname"] = "MARKSMAN"
 L["gekolt_css_ak_mag2.description"] = "Stridsgevär kaliber konvertering. Mer träffsäker, mer kraftfull, längre räckvidd.\nStraffbar rekyl gör det svårare att skjuta fler än ett skott i taget."
 
-L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish: Special Frame"
+L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish for "Special Frame"
 L["gekolt_css_ak_mag3.compactname"] = "ANFALL"
-L["gekolt_css_ak_mag3.description"] = "Magasinbrunn adapter för att använda NATO-kalibern genom Västvärldens Magi.\nMåttlig stoppkraft, men mer kontrollbar rekyl på ett tyngre vapen som den här."
+L["gekolt_css_ak_mag3.description"] = "Magasinbrunn adapter för att använda NATO-kalibern genom Västvärldens Magi™.\nMåttlig stoppkraft, men mer kontrollbar rekyl på ett tyngre vapen som den här."
 
-L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"
+L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"; Roughly "Submarine Frame"
 L["gekolt_css_ak_mag4.compactname"] = "PIL"
 L["gekolt_css_ak_mag4.description"] = "Flechette-pil skottmekanisk för under vatten användning fungerar också på land.\nOimponerande prestanda för ballistik, men gör <color=100,255,100>ökad skada under vattnet</color>.\nAvlånga stålprojektiler penetrerar väl och är dödliga vid huvudskott."
 
-L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"
+L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"; Roughly "Cavalry Frame"
 L["gekolt_css_ak_mag5.compactname"] = "KSP"
 L["gekolt_css_ak_mag5.description"] = "Monterad eller under rörelse, omfamna din Tachanka-anda och rensa dem rojalistiska vita.\nHelt ändrat vapen kräver en <color=255,100,100>tyngre avtryckare</color>."
 
-L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"
+L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"; Roughly "Add Frame"
 L["gekolt_css_ak_mag6.compactname"] = "AUX."
 L["gekolt_css_ak_mag6.description"] = "Kulsprutepistol konfiguering.\nFör scenarion där du behöver nedgradera ditt gevär."
 
-L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"
+L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"; Roughly "Helical Frame"
 L["gekolt_css_ak_mag7.compactname"] = "SPIRAL."
 L["gekolt_css_ak_mag7.description"] = "Spiralformat staplade pistolskott.\nVerkligen liten maskin."
 
-L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
+L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"; Roughly "Street Cleaner Frame"
 L["gekolt_css_ak_mag8.compactname"] = "K16"
-L["gekolt_css_ak_mag8.description"] = "Underdimensionerad trummagasin laddat med oproportionerliga kaliber 16[??].\nKan, på något sätt, fortfarande skjuta från en liten gevärspipa.\n\nUdda konvertering ger måttlig ballistik till skillnad från verkligen hagelbössor."
+L["gekolt_css_ak_mag8.description"] = "Underdimensionerad trummagasin laddat med oproportionerliga kaliber 16[??].\nKan, på något sätt, fortfarande skjuta från en liten gevärspipa.\n\nUdda konvertering ger måttlig ballistik till skillnad från sanna hagelbössor."
 
 ///////////// gekolt_css_ak_stock
 L["gekolt_css_ak_stock0.printname"] = "Ingen Kolv"
@@ -998,6 +998,124 @@ L["gekolt_dod_garand_drg.description"] = "Garagebyggelse från framtiden gjort f
 L["gekolt_dod_grip_air.printname"] = "Visa Skenan"
 L["gekolt_dod_grip_air.compactname"] = "SKENA"
 L["gekolt_dod_grip_air.description"] = "Visa skenan utan att utrusta några tillbehör.\nEndast <color=175,175,255>kosmetiskt</color>."
+
+///////////// gekolt_dod_mauser -- German names; Double-checked and fixed up by marig #darelooks
+L["gekolt_css_mauser_b1.printname"] = "Stealth-Lauf" -- Roughly "Stealth Barrel"
+L["gekolt_css_mauser_b1.compactname"] = "LJUDD."
+L["gekolt_css_mauser_b1.description"] = "En kort internt ljuddämpad pipa för skyttegravs rädande mitt i natten."
+
+L["gekolt_css_mauser_b2.printname"] = "Kurzer Lauf" -- "Short Barrel"
+L["gekolt_css_mauser_b2.compactname"] = "KORT"
+L["gekolt_css_mauser_b2.description"] = "Återvänd till en pistol längd pipa."
+
+-- L["gekolt_css_mauser_b3.printname"] = "Karabinerlauf" -- "Short Barrel"
+-- L["gekolt_css_mauser_b3.compactname"] = "KARBIN"
+-- L["gekolt_css_mauser_b3.description"] = "REPLACEME"
+
+L["gekolt_css_mauser_mag1.printname"] = "Weltraumsöldner-Gehäuse" -- Roughly "Space Mercenary Receiver"
+L["gekolt_css_mauser_mag1.compactname"] = "MANDA."
+L["gekolt_css_mauser_mag1.description"] = "Rensa vapnet tillbaka till dess pistol storlek för att sela på kraften av en viss legosoldat från rymden."
+
+L["gekolt_css_mauser_mag2.printname"] = "Schneckenmagazin" -- Roughly "Snail Magazine"
+L["gekolt_css_mauser_mag2.compactname"] = "SNIGEL"
+L["gekolt_css_mauser_mag2.description"] = "<color=100,255,100>46-patroners</color> snigelmagasin laddade med patroner med lågt tryck för pålitlig matning."
+
+L["gekolt_css_mauser_mag3.printname"] = "Trommelmagazin" -- Roughly "Special-Purpose Magazine"
+L["gekolt_css_mauser_mag3.compactname"] = "TRUMMARE"
+L["gekolt_css_mauser_mag3.description"] = "<color=100,255,100>82-patroners</color> dubbelsnigelmagasin laddade med patroner med lågt tryck för pålitlig matning"
+
+L["gekolt_css_mauser_mag4.printname"] = "Scharfschützen-Magazin" -- Roughly "Sharpshooter Magazine"
+L["gekolt_css_mauser_mag4.compactname"] = "KRYPSK."
+L["gekolt_css_mauser_mag4.description"] = "Litet <color=255,100,100>6-patronersmagasin</color> laddat med övertryckta patroner."
+
+L["gekolt_css_mauser_hg1.printname"] = "Kein Handschutz" -- Roughly "No Handguard"
+L["gekolt_css_mauser_hg1.compactname"] = "INGET"
+L["gekolt_css_mauser_hg1.description"] = "Återställ vapnet tillbaka till dess pistolform.\nTar också bort <color=255,100,100>automateld avtryckarhaken</color>."
+
+L["gekolt_css_mauser_hg2.printname"] = "Karabiner Handschutz" -- Roughly "Carbine Handguard"
+L["gekolt_css_mauser_hg2.compactname"] = "KARBIN"
+L["gekolt_css_mauser_hg2.description"] = "Ett försök att modernisera en rostig gammal pistol med högre <color=100,255,100>stabilitet</color> men <color=255,100,100>lägre eldhastighet</color> tillsammans med en lång toppmonterad skena till riktmedel."
+
+L["gekolt_css_mauser_hg3.printname"] = "Feuerstoß-Handschutz" -- Roughly "Burst-Fire Handguard"
+L["gekolt_css_mauser_hg3.compactname"] = "SALVO"
+L["gekolt_css_mauser_hg3.description"] = "Eftermarknads <color=255,255,100>3-skottsalvo</color>-system direkt från brasiliens favelor.\nGreppet är tillagt för känslomässigt stöd."
+
+L["gekolt_css_mauser_s1.printname"] = "Kein Schaft" -- Roughly "No Stock"
+L["gekolt_css_mauser_s1.compactname"] = "NONE"
+L["gekolt_css_mauser_s1.description"] = "Återställ vapnet tillbaka till dess pistolform."
+
+L["gekolt_css_mauser_s2.printname"] = "Drahtschaft" -- Roughly "Wire Stock"
+L["gekolt_css_mauser_s2.compactname"] = "WIRE"
+L["gekolt_css_mauser_s2.description"] = "Simpel provisorisk trådkolv för att hjälpa med <color=100,255,100>rörligheten</color> med kostnad på <color=255,100,100>rekyl</color>."
+
+///////////// gekolt_ef_sten
+L["gekolt_ef_sten_lmg.printname"] = "Walcaster-Ram"
+L["gekolt_ef_sten_lmg.compactname"] = "WCTR"
+L["gekolt_ef_sten_lmg.description"] = "Ohelig skit med bandmatat mekanism som tillåter matande från ett litet lådmagasin.\nBallistiken från en KPist. är inte allt för imponerande.\nKräver en <color=255,100,100>tyngre avtryckare</color> för att börja skjuta."
+
+L["gekolt_ef_sten_ster.printname"] = "Ezpieg-Ram"
+L["gekolt_ef_sten_ster.compactname"] = "STERLING"
+L["gekolt_ef_sten_ster.description"] = "Skrymmande ljuddämpad bygge med tillagt skräp utan anledning."
+
+L["gekolt_ef_sten_3008.printname"] = "Volkssturm-Gehäuse" -- Roughly "Volkssturm Frame"
+L["gekolt_ef_sten_3008.compactname"] = ".3008"
+L["gekolt_ef_sten_3008.description"] = "Erövrad milis-modifikation där siktet är fixat.\nVertikal design kräver <color=255,100,100>lägre cykelhastighet</color>.\nVia magi har vi tryckt in <color=100,255,100>2 skott till</color>."
+
+L["gekolt_ef_sten_mk4.printname"] = "Viper-Ram"
+L["gekolt_ef_sten_mk4.compactname"] = "Mark IV"
+L["gekolt_ef_sten_mk4.description"] = "Ett försök att förkorta vapnet ännu mer vilket gör att den passar bättre som sekundärt vapen.\n<color=255,255,100>Endast 3-skottsalvo</color>."
+
+L["gekolt_ef_sten_sg.printname"] = "Chockram"
+L["gekolt_ef_sten_sg.compactname"] = "CTR"
+L["gekolt_ef_sten_sg.description"] = "Utbredd pipa för en större kaliber.\nDen kalibern är 12."
+
+L["gekolt_ef_sten_owen.printname"] = "Stilla Havet Ram"
+L["gekolt_ef_sten_owen.compactname"] = "OWEN"
+L["gekolt_ef_sten_owen.description"] = "Toppmatning tillåter ökad pålitligt matande.\nÖkar drastiskt <color=100,255,100>eldhastigheten</color>."
+
+L["gekolt_ef_sten_s1.printname"] = "\"Pistol\" Kolv"
+L["gekolt_ef_sten_s1.compactname"] = "PISTOL"
+L["gekolt_ef_sten_s1.description"] = "Mer \"konventionellt\" ihåligt grepp."
+
+L["gekolt_ef_sten_s2.printname"] = "Mark II-Kolv"
+L["gekolt_ef_sten_s2.compactname"] = "Mark II"
+L["gekolt_ef_sten_s2.description"] = "Simpel och rak kolv med en liten platta."
+
+L["gekolt_ef_sten_s3.printname"] = "Träkolv"
+L["gekolt_ef_sten_s3.compactname"] = "TRÄ"
+L["gekolt_ef_sten_s3.description"] = "Kolv helt utav trä för bättre viloyta."
+
+L["gekolt_ef_sten_s4.printname"] = "Prototyp Kolv"
+L["gekolt_ef_sten_s4.compactname"] = "PROTO."
+L["gekolt_ef_sten_s4.description"] = "En kolv som blandar trä och stål för förbättrad spänning medans den behåller en liten storlek."
+
+L["gekolt_ef_sten_low1.printname"] = "Trähandskydd"
+L["gekolt_ef_sten_low1.compactname"] = "TRÄ"
+L["gekolt_ef_sten_low1.description"] = "Klumpigt termithem lägger till vikt på röret."
+
+L["gekolt_ef_sten_low2.printname"] = "Inget Handskydd"
+L["gekolt_ef_sten_low2.compactname"] = "INGET"
+L["gekolt_ef_sten_low2.description"] = "Tar bort alla platser att placera handen och möjligtvis delar av eldmekanismen."
+
+L["gekolt_ef_sten_low3.printname"] = "Walcaster-Handskydd"
+L["gekolt_ef_sten_low3.compactname"] = "PROTO."
+L["gekolt_ef_sten_low3.description"] = "Första testversionen. Ganska klumpig.\nTar bort förmågan att ladda om snabbt."
+
+L["gekolt_ef_sten_b1.printname"] = "Walcaster-Pipa"
+L["gekolt_ef_sten_b1.compactname"] = "PROTO."
+L["gekolt_ef_sten_b1.description"] = "Helt inskyddat handskydd med inbyggd flamdämpare."
+
+L["gekolt_ef_sten_b2.printname"] = "Inskyddad Pipa"
+L["gekolt_ef_sten_b2.compactname"] = "SKYDD"
+L["gekolt_ef_sten_b2.description"] = "Standard skydd med tillagd vikt för balansanledning."
+
+L["gekolt_ef_sten_b3.printname"] = "Ventilerad Pipa"
+L["gekolt_ef_sten_b3.compactname"] = "VENT."
+L["gekolt_ef_sten_b3.description"] = "Litet skydd med ventilationshål som hjälper med nedkylning."
+
+L["gekolt_ef_sten_b4.printname"] = "Delvist Skyddad Pipa"
+L["gekolt_ef_sten_b4.compactname"] = "D-SKYDD."
+L["gekolt_ef_sten_b4.description"] = "Mindre skydd mestadels för aestetisk anledning."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia

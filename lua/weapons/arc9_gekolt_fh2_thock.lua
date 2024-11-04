@@ -207,7 +207,7 @@ SWEP.CustomizeSnapshotFOV = 65
 
 SWEP.CustomizeNoRotate = false
 
-SWEP.CustomizeRotateAnchor = Vector(12, -3.25, -5.23)
+SWEP.CustomizeRotateAnchor = Vector(15, -3.25, -5.23)
 
 SWEP.StandardPresets = {
 }

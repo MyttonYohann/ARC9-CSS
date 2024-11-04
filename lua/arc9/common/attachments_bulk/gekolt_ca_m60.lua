@@ -143,6 +143,9 @@ end
 
 ATT.SortOrder = 40
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 3, 1.5) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_fh2_thock_mag1")
 
 
@@ -200,6 +203,9 @@ ATT.RecoilKickMult = 0.95
 ATT.AimDownSightsTimeMult = 0.9
 ATT.RecoilSideMult = 1.25
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_fh2_thock_stock2")
 
 
@@ -223,6 +229,9 @@ ATT.RecoilKickMult = 0.8
 ATT.RecoilAutoControlMult = 0.75
 ATT.SpreadMultMove = 0.675
 ATT.AimDownSightsTimeMult = 1.35
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, 5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fh2_thock_stock1")
 
@@ -283,6 +292,9 @@ ATT.SpeedMultShootingMult = 0.9
 ATT.AimDownSightsTimeMult = 0.9
 ATT.SprintToFireTimeMult = 0.9
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_fh2_thock_b1")
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -307,6 +319,9 @@ ATT.SpeedMultSightsMult = 0.75
 ATT.SpeedMultShootingMult = 0.9
 ATT.AimDownSightsTimeMult = 0.9
 ATT.SprintToFireTimeMult = 0.9
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_fh2_thock_b2")
 

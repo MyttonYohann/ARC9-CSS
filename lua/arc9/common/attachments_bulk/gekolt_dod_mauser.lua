@@ -29,6 +29,9 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 
 ATT.AimDownSightsTimeAdd = -0.1
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b1")
 
 ------------------------------------------------------------
@@ -51,6 +54,9 @@ ATT.ActivePosHook = function(wep, vec)
 end
 
 ATT.AimDownSightsTimeAdd = -0.15
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b2")
 
@@ -137,6 +143,8 @@ ATT.Hook_TranslateAnimation = function(wep, curanim) -- STRAIGHT UP JORKING IT
 	if	curanim == "fire_iron_empty"	then 	return "fire_empty_edge"	end		
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -8, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_mag1")
 
@@ -170,6 +178,9 @@ ATT.Hook_TranslateAnimation = function(wep, curanim) -- STRAIGHT UP JORKING IT
 	if	curanim == "reload_empty"		then	return "reload_empty_hdrum"		end
 	if	curanim == "reload"				then 	return "reload_hdrum"			end		
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 2, 2.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_mag2")
 
@@ -450,6 +461,9 @@ ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 2, 0)
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, -6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-6, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_s1")
 
 
@@ -467,6 +481,9 @@ ATT.Description = [[Simple makeshift wire stock to aid with mobility at the cost
 ATT.SortOrder = 1
 ATT.Category = "dod_mauser_stock"
 ATT.ActivateElements = {"s_brazil"}
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_s2")
 

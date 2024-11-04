@@ -68,13 +68,8 @@ end
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_mk5", "pre_stock", "no_maglow"}
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 2)
-end
-
-ATT.CustomizeAngHook = function(wep, ang)
-    return ang + Angle(0, -50, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2.5, 2, 2) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_lmg")
 
@@ -134,6 +129,9 @@ ATT.ActiveAngOverride = Angle(0, 0, 0)
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_sterling","pre_muzzed",  "pre_stock",  "pre_barrel",  "pre_hg"}
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2.5, 3, 1) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_ster")
 
 ----------------------------------------------------------------------------------
@@ -162,13 +160,8 @@ ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_3008"
 end
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 2)
-end
-
-ATT.CustomizeAngHook = function(wep, ang)
-    return ang + Angle(0, -50, 0)
-end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 0, 1.5) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_3008")
 
@@ -210,6 +203,8 @@ ATT.ModelAngleOffset = Angle(0, 0, 10)
 ATT.Model = "models/weapons/geckololt_css/c_sten_ik1.mdl"
 ATT.ModelBodygroups = "0000000"
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 5, 1.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_mk4")
 
@@ -262,14 +257,8 @@ end
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_sg", "pre_muzzed", "pre_barrel"}
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 2)
-end
-
-ATT.CustomizeAngHook = function(wep, ang)
-    return ang + Angle(0, -50, 0)
-end
-
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_sg")
 
@@ -321,14 +310,8 @@ end
 ATT.Category = "ef_sten_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"f_owen", "pre_stock", "pre_hg"}
 
-ATT.CustomizePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 1)
-end
-
-ATT.CustomizeAngHook = function(wep, ang)
-    return ang + Angle(0, -50, 0)
-end
-
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_owen")
 
@@ -367,6 +350,9 @@ ATT.SpreadMultHipFire = 1.1
 ATT.SpreadMultMove = 1.05
 ATT.AimDownSightsTimeMult = 0.9
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_s1")
 
 ----------------------------------------------------------------------------------
@@ -392,6 +378,8 @@ ATT.AimDownSightsTimeMult = 0.95
 ATT.Category = "ef_sten_stock" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"s_mk2"}
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_s2")
 
@@ -417,6 +405,9 @@ ATT.RecoilAutoControlMult = 0.7
 ATT.SpreadMultMove = 0.775
 ATT.AimDownSightsTimeMult = 1.3
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2.5, 1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_s3")
 
 ----------------------------------------------------------------------------------
@@ -439,6 +430,9 @@ ATT.RecoilMult = 0.9
 ATT.RecoilKickMult = 0.9
 ATT.AimDownSightsTimeMult = 1.1
 ATT.SpreadMultHipFire = 0.95
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1.5, 0.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_s4")
 
@@ -539,6 +533,9 @@ end
 
 ATT.Category = "ef_sten_hg" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"hg_mk1" ,"pre_maglow", "no_maglow" ,    "pre_frame"}  -- only works on the normal frame anyway
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 0, 1) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ef_sten_low3")
 

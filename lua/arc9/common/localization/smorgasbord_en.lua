@@ -414,35 +414,35 @@ L["gekolt_dods_nambu_1.compactname"] = "F.A."
 L["gekolt_dods_nambu_1.description"] = "There is no justification for this."
 
 ///////////// gekolt_css_ak_mag -- "Englishified Russian"
-L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"
+L["gekolt_css_ak_mag1.printname"] = "Atakovat-Rama" -- "Атаковат-Рама"; Roughly "Attack Frame"
 L["gekolt_css_ak_mag1.compactname"] = "CARBINE"
 L["gekolt_css_ak_mag1.description"] = "Intermediate solution for standard infantry.\nBetter at sustained fire, but suffers from slightly less stopping power."
 
-L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"
+L["gekolt_css_ak_mag2.printname"] = "Okhota-Rama" -- "Охота-Рама"; Roughly "Hunting Frame"
 L["gekolt_css_ak_mag2.compactname"] = "MARKSMAN"
 L["gekolt_css_ak_mag2.description"] = "Battle rifle caliber conversion. More accurate, more powerful, longer range.\nPunishing recoil makes firing more than one shot at a time difficult."
 
-L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish: Special Frame"
+L["gekolt_css_ak_mag3.printname"] = "Erikoiskehys" -- Finnish for "Special Frame"
 L["gekolt_css_ak_mag3.compactname"] = "ASSAULT"
 L["gekolt_css_ak_mag3.description"] = "Magwell adaptor to use a NATO calibre through Western Magic™.\nMediocre stopping power, but has very controllable recoil on a heavy gun like this."
 
-L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"
+L["gekolt_css_ak_mag4.printname"] = "Podvod-Rama" -- "Подвод-Рама"; Roughly "Submarine Frame"
 L["gekolt_css_ak_mag4.compactname"] = "DART"
 L["gekolt_css_ak_mag4.description"] = "Flechette dart underwater firing mechanism that also works on land.\nUnimpressive ballistics profile, but does <color=100,255,100>extra damage underwater</color>.\nLong steel projectile penetrates well and is very lethal on headshot."
 
-L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"
+L["gekolt_css_ak_mag5.printname"] = "Kavaleriya-Rama" -- "Кавалерия-Рама"; Roughly "Cavalry Frame"
 L["gekolt_css_ak_mag5.compactname"] = "LMG"
 L["gekolt_css_ak_mag5.description"] = "Mounted or on the move, embrace your Tachanka spirit and purge the royalist Whites.\nCompletely altered weapon requires a <color=255,100,100>heavier trigger</color>."
 
-L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"
+L["gekolt_css_ak_mag6.printname"] = "Dobavoch-Rama" -- "Добавоч-Рама"; Roughly "Add Frame"
 L["gekolt_css_ak_mag6.compactname"] = "AUX."
 L["gekolt_css_ak_mag6.description"] = "Sub-machine configuration.\nFor scenarios where you need to downgrade your rifle."
 
-L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"
+L["gekolt_css_ak_mag7.printname"] = "Gelikoidal-Rama" -- "Геликоидальный-Рама"; Roughly "Helical Frame"
 L["gekolt_css_ak_mag7.compactname"] = "HELICAL"
 L["gekolt_css_ak_mag7.description"] = "Helically stacked pistol cartridges.\nAn actual \"sub\"-machine."
 
-L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"
+L["gekolt_css_ak_mag8.printname"] = "Dvornik-Rama" -- "Дворник-Рама"; Roughly "Street Cleaner Frame"
 L["gekolt_css_ak_mag8.compactname"] = "16G"
 L["gekolt_css_ak_mag8.description"] = "Undersized drum magazine loaded with disproportionate 16[??] Gauge.\nSomehow still be able to fire from a small rifle barrel.\n\nBodged conversion yields mediocre ballistics comparing to true shotguns."
 
@@ -1021,6 +1021,124 @@ L["gekolt_dod_grip_air.description"] = "Show the rail without equipping any atta
 L["gekolt_dod_optic_air.printname"] = ARC9:GetPhrase("gekolt_dod_grip_air.printname") or "Display Rail"
 L["gekolt_dod_optic_air.compactname"] = ARC9:GetPhrase("gekolt_dod_grip_air.compactname") or "RAIL"
 L["gekolt_dod_optic_air.description"] = ARC9:GetPhrase("gekolt_dod_grip_air.description") or "Show the rail without equipping any attachments.\nPurely <color=175,175,255>cosmetic</color>."
+
+///////////// gekolt_dod_mauser -- German names; Double-checked and fixed up by marig #darelooks
+L["gekolt_css_mauser_b1.printname"] = "Stealth-Lauf" -- Roughly "Stealth Barrel"
+L["gekolt_css_mauser_b1.compactname"] = "SUPP."
+L["gekolt_css_mauser_b1.description"] = "A short integrally suppressed barrel for late night trench raiding."
+
+L["gekolt_css_mauser_b2.printname"] = "Kurzer Lauf" -- "Short Barrel"
+L["gekolt_css_mauser_b2.compactname"] = "SHORT"
+L["gekolt_css_mauser_b2.description"] = "Revert back to a pistol-length barrel."
+
+-- L["gekolt_css_mauser_b3.printname"] = "Karabinerlauf" -- "Short Barrel"
+-- L["gekolt_css_mauser_b3.compactname"] = "CARBINE"
+-- L["gekolt_css_mauser_b3.description"] = "REPLACEME"
+
+L["gekolt_css_mauser_mag1.printname"] = "Weltraumsöldner-Gehäuse" -- Roughly "Space Mercenary Receiver"
+L["gekolt_css_mauser_mag1.compactname"] = "MANDA."
+L["gekolt_css_mauser_mag1.description"] = "Strip the weapon down to pistol-size to harness the power of a certain space mercenary."
+
+L["gekolt_css_mauser_mag2.printname"] = "Schneckenmagazin" -- Roughly "Snail Magazine"
+L["gekolt_css_mauser_mag2.compactname"] = "SNAIL"
+L["gekolt_css_mauser_mag2.description"] = "<color=100,255,100>46-round</color> snail magazine fitted with low-pressure bullets for reliable feeding."
+
+L["gekolt_css_mauser_mag3.printname"] = "Trommelmagazin" -- Roughly "Special-Purpose Magazine"
+L["gekolt_css_mauser_mag3.compactname"] = "DRUMMER"
+L["gekolt_css_mauser_mag3.description"] = "<color=100,255,100>82-round</color> double snail magazine fitted with low-pressure bullets for reliable feeding."
+
+L["gekolt_css_mauser_mag4.printname"] = "Scharfschützen-Magazin" -- Roughly "Sharpshooter Magazine"
+L["gekolt_css_mauser_mag4.compactname"] = "SNIPER"
+L["gekolt_css_mauser_mag4.description"] = "Small <color=255,100,100>6-round</color> magazine loaded with overpressurized bullets."
+
+L["gekolt_css_mauser_hg1.printname"] = "Kein Handschutz" -- Roughly "No Handguard"
+L["gekolt_css_mauser_hg1.compactname"] = "NONE"
+L["gekolt_css_mauser_hg1.description"] = "Revert the weapon back to a pistol form.\nAlso removes the <color=255,100,100>auto sear</color>."
+
+L["gekolt_css_mauser_hg2.printname"] = "Karabiner Handschutz" -- Roughly "Carbine Handguard"
+L["gekolt_css_mauser_hg2.compactname"] = "CARBINE"
+L["gekolt_css_mauser_hg2.description"] = "An attempt to modernize a rusty old pistol with increased <color=100,255,100>stability</color> but <color=255,100,100>lower rate of fire</color> alongside a long top-mounted rail for optics."
+
+L["gekolt_css_mauser_hg3.printname"] = "Feuerstoß-Handschutz" -- Roughly "Burst-Fire Handguard"
+L["gekolt_css_mauser_hg3.compactname"] = "BURST"
+L["gekolt_css_mauser_hg3.description"] = "Aftermarket <color=255,255,100>3-round burst</color> system straight from Brazil's favelas.\nGrip is added for emotional support."
+
+L["gekolt_css_mauser_s1.printname"] = "Kein Schaft" -- Roughly "No Stock"
+L["gekolt_css_mauser_s1.compactname"] = "NONE"
+L["gekolt_css_mauser_s1.description"] = "Revert the weapon back to a pistol form."
+
+L["gekolt_css_mauser_s2.printname"] = "Drahtschaft" -- Roughly "Wire Stock"
+L["gekolt_css_mauser_s2.compactname"] = "WIRE"
+L["gekolt_css_mauser_s2.description"] = "Simple makeshift wire stock to aid with <color=100,255,100>mobility</color> at the cost of <color=255,100,100>recoil</color>."
+
+///////////// gekolt_ef_sten
+L["gekolt_ef_sten_lmg.printname"] = "Walcaster Frame"
+L["gekolt_ef_sten_lmg.compactname"] = "WCTR"
+L["gekolt_ef_sten_lmg.description"] = "Unholy belt-fed mechanism bollocks allowing feeding from a small box magazine.\nBallistics of an SMG ain't that impressive.\nRequires a <color=255,100,100>heavier trigger</color> to start shootin'."
+
+L["gekolt_ef_sten_ster.printname"] = "Ezpieg Frame"
+L["gekolt_ef_sten_ster.compactname"] = "STERLING"
+L["gekolt_ef_sten_ster.description"] = "A bulky suppressed build with added junk for no apparent reason."
+
+L["gekolt_ef_sten_3008.printname"] = "Volkssturm-Gehäuse" -- Roughly "Volkssturm Frame"
+L["gekolt_ef_sten_3008.compactname"] = ".3008"
+L["gekolt_ef_sten_3008.description"] = "A captured militian modification where the sight was fixed.\nVertical design requires a <color=255,100,100>slower cyclic rate</color>.\nMagically jammed in <color=100,255,100>2 more bullets</color>."
+
+L["gekolt_ef_sten_mk4.printname"] = "Viper Frame"
+L["gekolt_ef_sten_mk4.compactname"] = "Mark IV"
+L["gekolt_ef_sten_mk4.description"] = "An attempt to further shorten the weapon, making it more fitting as a secondary weapon.\n<color=255,255,100>3-round burst only</color>."
+
+L["gekolt_ef_sten_sg.printname"] = "Shock Frame"
+L["gekolt_ef_sten_sg.compactname"] = "CTR"
+L["gekolt_ef_sten_sg.description"] = "Widened up barrel for a larger calibre.\nSaid calibre is a 12-gauge."
+
+L["gekolt_ef_sten_owen.printname"] = "Pacific Frame"
+L["gekolt_ef_sten_owen.compactname"] = "OWEN"
+L["gekolt_ef_sten_owen.description"] = "Top-fed chambering allows for increased feeding reliability.\nDrastically <color=100,255,100>increases RPM</color>."
+
+L["gekolt_ef_sten_s1.printname"] = "\"Pistol\" Stock"
+L["gekolt_ef_sten_s1.compactname"] = "PISTOL"
+L["gekolt_ef_sten_s1.description"] = "More \"conventional\" hollow grip."
+
+L["gekolt_ef_sten_s2.printname"] = "Mark II Stock"
+L["gekolt_ef_sten_s2.compactname"] = "Mark II"
+L["gekolt_ef_sten_s2.description"] = "Simple straight stock with a small pad."
+
+L["gekolt_ef_sten_s3.printname"] = "Wooden Stock"
+L["gekolt_ef_sten_s3.compactname"] = "WOOD"
+L["gekolt_ef_sten_s3.description"] = "Entirely wooded hull for better resting surface."
+
+L["gekolt_ef_sten_s4.printname"] = "Prototype Stock"
+L["gekolt_ef_sten_s4.compactname"] = "PROTO."
+L["gekolt_ef_sten_s4.description"] = "Stock design mixes wood and steel for improved bracing while retaining a fairly small size."
+
+L["gekolt_ef_sten_low1.printname"] = "Wooden Handguard"
+L["gekolt_ef_sten_low1.compactname"] = "WOOD"
+L["gekolt_ef_sten_low1.description"] = "Clunky termite home adds weight for the tube."
+
+L["gekolt_ef_sten_low2.printname"] = "No Handguard"
+L["gekolt_ef_sten_low2.compactname"] = "NONE"
+L["gekolt_ef_sten_low2.description"] = "Removes any sort of hand placement and possibly part of the firing mechanism."
+
+L["gekolt_ef_sten_low3.printname"] = "Walcaster Handguard"
+L["gekolt_ef_sten_low3.compactname"] = "PROTO."
+L["gekolt_ef_sten_low3.description"] = "First tested iteration. Quite bulky.\nRemoves the ability to reload quickly."
+
+L["gekolt_ef_sten_b1.printname"] = "Walcaster Barrel"
+L["gekolt_ef_sten_b1.compactname"] = "PROTO."
+L["gekolt_ef_sten_b1.description"] = "Completely shrouded handguard with built-in flash hider."
+
+L["gekolt_ef_sten_b2.printname"] = "Shrouded Barrel"
+L["gekolt_ef_sten_b2.compactname"] = "SHROUD"
+L["gekolt_ef_sten_b2.description"] = "Standard shroud with added weight for balancing reasons."
+
+L["gekolt_ef_sten_b3.printname"] = "Vented Barrel"
+L["gekolt_ef_sten_b3.compactname"] = "VENTED"
+L["gekolt_ef_sten_b3.description"] = "Small shroud with ventilation holes that assists in cooling."
+
+L["gekolt_ef_sten_b4.printname"] = "Partially Shrouded Barrel"
+L["gekolt_ef_sten_b4.compactname"] = "P-SHROUD"
+L["gekolt_ef_sten_b4.description"] = "Smaller shroud mainly for aesthetic purposes."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia
