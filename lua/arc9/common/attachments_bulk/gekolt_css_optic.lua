@@ -1347,6 +1347,8 @@ ATT.RTScopeNoShadow = true
 ATT.RTScopeBlackBox = false
 ATT.RTScopeBlackBoxShadow = false
 
+ATT.RTCollimator = true -- Does not get affected by RT magnification zoom sensitivity scale
+
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
 ATT.RTScopeFLIRMonochrome = true

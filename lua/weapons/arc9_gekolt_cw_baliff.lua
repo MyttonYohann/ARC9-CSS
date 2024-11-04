@@ -179,8 +179,10 @@ SWEP.IronSights = {
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
     CrosshairInSights = true,
 }
-SWEP.PeekPos = Vector(-2, 3, -1)
-SWEP.PeekAng = Angle(0, 0, 0)
+
+SWEP.CantPeek = true
+SWEP.PeekPos = Vector(1.5, 3, -1)
+SWEP.PeekAng = Angle(0, 0, -5)
 
 SWEP.Crosshair = false
 
@@ -271,6 +273,7 @@ SWEP.AttachmentElements = {
     },
     ["has_optic"] = {
         Bodygroups = {{5, 1}},
+		CantPeek = false
     },
     ["rail_bottom"] = {
         Bodygroups = {{4, 1}},

@@ -1,0 +1,38 @@
+[b]A big update for Smorgasbord is now available[/b]
+[list]
+	[*] Added the Otvetdar-91, an ancient Soviet/Russian bolt-action rifle.
+	[*] Added support for localizations:
+	[list]
+		[*] Weapon and attachment names and descriptions alongside just about everything there is is now localized
+		[*] A few attachments and weapon descriptions have been altered or rewritten entirely, alongside a few attachment names
+		[*] The following languages are available right away:
+		[list]
+			[*] English (Base); Original by original team, rewritten by Moka
+			[*] Swedish by Moka
+			[*] UwU
+		[/list]
+	[/list]
+	[*] Updated the customization menu positioning on all weapons; they are now also affected by various attachments
+	[*] Added 'RefillProgress' values to all weapon reloads
+	[*] Updated the zoom levels on all weapons and optics
+	[*] Plenty of minor fixes and changes.
+[/list]
+
+--------------------------------------------------------------------
+
+[b]A big update for Smorgasbord Remix is now available[/b]
+[list]
+	[*] Added support for localizations:
+	[list]
+		[*] Weapon and attachment names and descriptions alongside just about everything there is is now localized
+		[*] The following languages are available right away:
+		[list]
+			[*] English (Base); Original by original team, rewritten by Moka
+			[*] Swedish by Moka
+			[*] UwU
+		[/list]
+	[/list]
+	[*] Updated the customization menu positioning on all weapons; they are now also affected by various attachments
+	[*] Added 'RefillProgress' values to all weapon reloads
+	[*] Updated the zoom levels on all weapons
+[/list]
