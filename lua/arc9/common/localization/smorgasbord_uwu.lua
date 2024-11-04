@@ -1241,6 +1241,30 @@ L["gekolt_css_muz_sd4.printname"] = "Sharpshooter Suppressor"
 L["gekolt_css_muz_sd4.compactname"] = "SUPP. IV"
 L["gekolt_css_muz_sd4.description"] = "Large suppressor for precision weapons, such as sniper rifles.\nYes, you can use this on any weapon."
 
+///////////// gekolt_smorg_ubw
+L["gekolt_ubgl_mass.printname"] = "Knockzy-26 Door & Personnel Deterrent"
+L["gekolt_ubgl_mass.compactname"] = "KNOCKER"
+L["gekolt_ubgl_mass.description"] = "5-round 12-gauge box magazine pumping shotgun for your handguard.\nMost polite way to open a door.\n\n[ <color=255,255,100>Requires a magazine to use!</color> ]"
+L["gekolt_ubgl_mass.togglename"] = "KNOCKZY-26"
+
+L["gekolt_ubgl_garand.printname"] = "Sawed-Off Toudranéant-30"
+L["gekolt_ubgl_garand.compactname"] = "GARAND"
+L["gekolt_ubgl_garand.description"] = "Throws grenades at people all too well!\nBanned and classified since 1949.\n\n[ <color=255,255,100>Requires a magazine to use!</color> ]"
+L["gekolt_ubgl_garand.togglename"] = "T-30"
+
+L["gekolt_ubgl_ump.printname"] = "Kleinevoller-45"
+L["gekolt_ubgl_ump.compactname"] = "UMP"
+L["gekolt_ubgl_ump.description"] = "Puts the \"U\" in \"Universal\".\n\n\n[ <color=255,255,100>Requires a magazine to use!</color> ]"
+L["gekolt_ubgl_ump.togglename"] = "KV-45"
+
+L["gekolt_ubgl_ump_9mm.printname"] = "Kleinevoller-45 - 9×19mm"
+L["gekolt_ubgl_ump_9mm.compactname"] = "9MM"
+L["gekolt_ubgl_ump_9mm.description"] = "An alternative calibre with a lighter load."
+
+L["gekolt_ubgl_ump_10mm.printname"] = "Kleinevoller-45 - 10mm"
+L["gekolt_ubgl_ump_10mm.compactname"] = "10MM"
+L["gekolt_ubgl_ump_10mm.description"] = "An alternative calibre with a not-so lighter load."
+
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia
 L["smorg_trivia_country_hl2"] = "Half-Life 2 Universe"

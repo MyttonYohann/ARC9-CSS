@@ -1232,6 +1232,31 @@ L["gekolt_css_muz_sd4.printname"] = "Krypskyttegevär Ljuddämpare"
 L["gekolt_css_muz_sd4.compactname"] = "LJUDD. IV"
 L["gekolt_css_muz_sd4.description"] = "Stor ljuddämpare till precisionsvapen, exempelvis krypskyttegevär.\nJa, du kan använda denna på vilket vapen som helst."
 
+///////////// gekolt_smorg_ubw
+L["gekolt_ubgl_mass.printname"] = "Knockzy-26 Dörr & Personal Avvisare"
+L["gekolt_ubgl_mass.compactname"] = "KNACKARE"
+L["gekolt_ubgl_mass.description"] = "5-patroners kaliber 12 lådmagasin pumprepeter hagelbössa till ditt handskydd.\nDet snällaste sättet att öppna en dörr.\n\n[ <color=255,255,100>Kräver ett magasin för att använda!</color> ]"
+L["gekolt_ubgl_mass.togglename"] = "KNOCKZY-26"
+
+L["gekolt_ubgl_garand.printname"] = "Avsågad Toudranéant-30"
+L["gekolt_ubgl_garand.compactname"] = "GARAND"
+L["gekolt_ubgl_garand.description"] = "Kastar granater mot folk allt för väl!\nBannlyst och hemliggjord sedan 1949.\n\n[ <color=255,255,100>Kräver ett magasin för att använda!</color> ]"
+L["gekolt_ubgl_garand.togglename"] = "T-30"
+
+L["gekolt_ubgl_ump.printname"] = "Kleinevoller-45"
+L["gekolt_ubgl_ump.compactname"] = "UMP"
+L["gekolt_ubgl_ump.description"] = "Puts the \"U\" un \"Universal\".\n\n\n[ <color=255,255,100>Kräver ett magasin för att använda!</color> ]"
+L["gekolt_ubgl_ump.description"] = "Sätter \"U\"et i \"Universal\".\n\n\n[ <color=255,255,100>Kräver ett magasin för att använda!</color> ]"
+L["gekolt_ubgl_ump.togglename"] = "KV-45"
+
+L["gekolt_ubgl_ump_9mm.printname"] = "Kleinevoller-45 - 9 × 19 mm"
+L["gekolt_ubgl_ump_9mm.compactname"] = "9 MM"
+L["gekolt_ubgl_ump_9mm.description"] = "En alternativ kaliber med en lättare laddning."
+
+L["gekolt_ubgl_ump_10mm.printname"] = "Kleinevoller-45 - 10 mm"
+L["gekolt_ubgl_ump_10mm.compactname"] = "10 MM"
+L["gekolt_ubgl_ump_10mm.description"] = "En alternativ kaliber med en inte så lättare laddning."
+
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia
 L["smorg_trivia_country_hl2"] = "Half-Life 2 Universum"

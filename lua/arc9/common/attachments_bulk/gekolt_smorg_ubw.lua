@@ -105,7 +105,7 @@ ATT.UBGL = true
 ATT.UBGLAmmo = "buckshot"
 ATT.UBGLClipSize = 5
 ATT.UBGLFiremode = 1
-ATT.UBGLFiremodeName = "Knockzy-26"
+ATT.UBGLFiremodeName = ARC9:GetPhrase("gekolt_ubgl_mass.togglename") or "KNOCKZY-26"
 ATT.UBGLChamberSize = 1
 ATT.ShootVolumeUBGL = 110
 ATT.RPMUBGL = 90
@@ -166,6 +166,9 @@ ATT.Sights = {
 }
 
 ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 2, 2.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ubgl_mass")
 
@@ -249,7 +252,7 @@ ATT.UBGL = true
 ATT.UBGLAmmo = "smg1_grenade"
 ATT.UBGLClipSize = 1
 ATT.UBGLFiremode = 1
-ATT.UBGLFiremodeName = "'GANDRIAL'"
+ATT.UBGLFiremodeName = ARC9:GetPhrase("gekolt_ubgl_garand.togglename") or "T-30"
 ATT.UBGLChamberSize = 0
 ATT.ShootVolumeUBGL = 110
 ATT.RPMUBGL = 600
@@ -349,7 +352,7 @@ ATT.UBGL = true
 ATT.UBGLAmmo = "pistol"
 ATT.UBGLClipSize = 15
 ATT.UBGLFiremode = -1
-ATT.UBGLFiremodeName = "UMP-45"
+ATT.UBGLFiremodeName = ARC9:GetPhrase("gekolt_ubgl_ump.togglename") or "KV-45"
 ATT.UBGLChamberSize = 1
 ATT.ShootVolumeUBGL = 110
 ATT.RPMUBGL = 700
@@ -420,7 +423,7 @@ end
 
 ATT.Sights = {
     {
-        Pos = Vector(3, 18, -3),
+        Pos = Vector(1.5, 18, -3),
         Ang = Angle(0, 0, 10),
         Magnification = 1.05,
         ViewModelFOV = 60,
@@ -430,6 +433,9 @@ ATT.Sights = {
 }
 
 ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 1, 1.75) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_ubgl_ump")
 
