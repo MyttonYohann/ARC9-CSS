@@ -283,6 +283,8 @@ SWEP.AttachmentElements = {
     ["rail_top"] 		= {Bodygroups = {{6, 1}},}, 
 	["frame_curved"] 	= {Bodygroups = {{2, 2}},},
     ["frame_auto"] 		= {Bodygroups = {{2, 3}},},
+    ["frame_berdan"]	= {Bodygroups = {{1, 3},{2, 4},{4, 1}},}, 
+	["frame_perdeson"]	= {Bodygroups = {{2, 5},{4, 2}},},
 }
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
@@ -591,5 +593,61 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 60 / 40},  
         },
         IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.85, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
+    },
+
+    -- Extra --
+
+    ["reload_berdan"] = {
+        Source = "reload_berdan",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        EventTable = {
+			{s =  "gekolt_mosin/Bolt1.ogg" ,	t = 5 / 40},	
+			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 30 / 40},
+			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 45 / 40}, 
+        },
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        },
+    },
+    ["wet_perdeson"] = {
+        Source = "wet_perdeson",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 54 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 60 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 65 / 40},
+        },
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        },
+    }, 
+	["dry_perdeson"] = {
+        Source = "dry_perdeson",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        EventTable = {
+            {s =  "gekolt_dod/c96_clipout.wav" ,   t = 12 / 40},
+            {s =  "gekolt_dod/c96_clipin1.wav" ,    t = 54 / 40},
+            {s =  "gekolt_dod/m1carbine_clipin1.wav" ,    t = 60 / 40},
+            {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 65 / 40},
+            {s =  "gekolt_dod/c96_boltback.wav" ,    t = 90 / 40},
+            {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 100 / 40},
+        },
+        MinProgress = 0.975,
+		RefillProgress = 0.825,
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        },
+    },
+	["fire_perdeson"] = {
+        Source = "fire_perdeson",
+        EjectAt = 1 / 40,
     },
 }
