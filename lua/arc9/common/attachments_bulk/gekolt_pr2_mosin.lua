@@ -90,6 +90,7 @@ ATT.SortOrder = 1
 
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"frame_berdan", "tall_optics"}
+ATT.ReloadInSights = true 
 
 ATT.SwayAdd = -0.5
 ATT.FreeAimRadiusAdd = -2
