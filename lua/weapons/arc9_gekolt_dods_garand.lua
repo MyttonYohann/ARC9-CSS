@@ -397,7 +397,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_r") or "Mount R.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_right") or "Mount R.",
         Category = {"mountl_css", "optic_css_free"},
         InstalledElements = {"rail_side"},
 

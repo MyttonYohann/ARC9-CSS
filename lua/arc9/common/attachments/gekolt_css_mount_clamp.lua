@@ -17,7 +17,7 @@ ATT.Scale = 1
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT Left",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.25,-1.25, 0),
         Ang = Angle(0, 0, -90),
@@ -26,7 +26,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Right",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_right") or "Mount R.",
         Category = "mountl_css",
         Pos = Vector(-1.25,1.25, 0),
         Ang = Angle(0, 0, 90),
@@ -35,7 +35,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Top",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up") or "Mount U.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(-1.25,0, -1.4),
         Ang = Angle(0, 0, 0),
@@ -43,7 +43,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Bottom",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
         Category = {"tac_css", "rail_bottom"},
         Pos = Vector(-1,0, 1.6),
         Ang = Angle(0, 0, 180),

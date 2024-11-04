@@ -8,7 +8,7 @@ ATT.SortOrder = 0.01
 ATT.Model = "models/weapons/geckololt_css/atts/m4_scope.mdl"
 
 ATT.Category = {"mount_css_m16"}
-ATT.Folder = "SCOPE"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 ATT.ActivateElements = {"m16_on"}
 ATT.RequireElements = {"keep_rs"}
 

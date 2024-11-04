@@ -345,7 +345,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_u") or "Mount U.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up") or "Mount U.",
         DefaultName = "None",
         InstalledElements = {"rail_tac"},
 

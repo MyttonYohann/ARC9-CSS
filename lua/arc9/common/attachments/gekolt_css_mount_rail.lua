@@ -7,7 +7,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/geckololt_css/atts/rail.mdl"
 
 ATT.Category = {"mount_css", "mount_add_css"}
-ATT.Folder = "MOUNT"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_mount") or "Mount"
 ATT.Max = 4
 ATT.InvAtt = "mount_45l"
 
@@ -26,3 +26,5 @@ ATT.Attachments = {
 		KeepBaseIrons = true,
     },
 }
+
+ATT.Ignore = true -- This causes errors?

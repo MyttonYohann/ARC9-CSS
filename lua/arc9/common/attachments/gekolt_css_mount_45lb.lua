@@ -17,7 +17,7 @@ ATT.Scale = 1.25
 
 ATT.Attachments = {
     {
-        PrintName = "Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         Category = {"grip_short_css"},
         Pos = Vector(-0.2, -0.8, 0.5),
         Ang = Angle(0, 0, 45),

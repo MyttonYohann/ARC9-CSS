@@ -303,7 +303,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
         Category = {"tac_css", "rail_bottom"},
         InstalledElements = {"rail_bottom"},
         Hidden = false,

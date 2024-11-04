@@ -348,7 +348,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
         Category = {"mountr_css", "optic_css_free"},
         InstalledElements = {"rail_side"},
 		ExcludeElements = {"awp_f_obrez"},
@@ -361,7 +361,7 @@ SWEP.Attachments = {
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_r") or "Mount R.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_right") or "Mount R.",
         Category = {"mountl_css", "optic_css_free"},
         InstalledElements = {"rail_side"},
 		ExcludeElements = {"awp_f_obrez"},
@@ -373,7 +373,7 @@ SWEP.Attachments = {
         Icon_Offset = Vector(-2, 0, 0)
     },
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_u") or "Mount U.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up") or "Mount U.",
         DefaultName = "None",
         InstalledElements = {"rail_top"},
 		ExcludeElements = {"awp_f_obrez", "notop"},

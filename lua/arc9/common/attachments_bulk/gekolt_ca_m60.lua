@@ -355,6 +355,9 @@ ATT.SpeedMultShootingMult = 1.05
 ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1.5, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_cw_baliff_b1")
 
 ----------------------------------------------------------------------------------
@@ -380,6 +383,9 @@ ATT.SpeedMultShootingMult = 1.2
 ATT.AimDownSightsTimeMult = 1.125
 ATT.SprintToFireTimeMult = 1.1
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_cw_baliff_b2")
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -404,6 +410,9 @@ ATT.SpeedMultSightsMult = 0.75
 ATT.SpeedMultShootingMult = 0.9
 ATT.AimDownSightsTimeMult = 0.9
 ATT.SprintToFireTimeMult = 0.9
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_cw_baliff_b3")
 

@@ -204,7 +204,7 @@ ATT.Silenced = true
 
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.5,-0.3, -18),
         Ang = Angle(90, 180, 0),
@@ -463,7 +463,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
         Category = "mountr_css",
         Pos = Vector(-1.25,-0.25, -16.75),
         Ang = Angle(90, 180, 0),
@@ -479,7 +479,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_d") or "Mount D.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
         Category = {"tac_css", "rail_bottom"},
         Pos = Vector(0,1, -17),
         Ang = Angle(90, 0, 90),

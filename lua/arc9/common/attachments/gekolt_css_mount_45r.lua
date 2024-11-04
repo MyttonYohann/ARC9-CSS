@@ -7,7 +7,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/geckololt_css/atts/mount_45r.mdl"
 
 ATT.Category = {"mount_css", "mountr_css"}
-ATT.Folder = "MOUNT"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_mount") or "Mount"
 ATT.Max = 6
 
 -- Allows a custom sight position to be defined
@@ -17,7 +17,7 @@ ATT.Scale = 1.25
 
 ATT.Attachments = {
     {
-        PrintName = "OPTIC",
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         Category = {"optic_css_s", "tac_css", "mountl_css"},
         Pos = Vector(0, 0.7, -0.55),
         Ang = Angle(0, 0, 45),

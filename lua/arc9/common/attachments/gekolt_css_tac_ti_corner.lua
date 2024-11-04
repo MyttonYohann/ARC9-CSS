@@ -8,7 +8,7 @@ ATT.Icon = Material("")
 ATT.SortOrder = 0
 ATT.Category = {"tac_css","mountr_css","mountl_css"}
 ATT.Model = "models/weapons/geckololt_css/atts/tac_ti_corner.mdl"
-ATT.Folder = "GADGET"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
 
 ATT.SprintToFireTimeMult = 1.2
 

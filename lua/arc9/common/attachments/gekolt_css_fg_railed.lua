@@ -26,7 +26,7 @@ ATT.RecoilMult = 0.875
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT Foregrip",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
         Category = {"tac_css"},
         Pos = Vector(-2.5,0, 4),
         Ang = Angle(0, 180, 0),

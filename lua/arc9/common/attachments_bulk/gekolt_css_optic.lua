@@ -935,14 +935,14 @@ ATT.SprintToFireTimeAdd = 0.05
 
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_b") or "Mount B.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_rear") or "Mount R.",
         Category = {"tac_css_flat", "mount_css", "optic_css_s"},
         Pos = Vector(0,0, -2.15),
         Ang = Angle(0, 0, 0),
     },
 
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_f") or "Mount F.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_front") or "Mount F.",
         Category = {"tac_css_flat", "mount_css"},
         Pos = Vector(-3.5,0, -2.15),
         Ang = Angle(0, 0, 0),
@@ -1007,7 +1007,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = ARC9:GetPhrase("smorg_category_mount_l") or "Mount L.",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
         Category = {"mountr_css", "tac_css", "css_scope_extra"},
         Pos = Vector(-1, -0.85, -1.375),
         Ang = Angle(0, 0, -90),

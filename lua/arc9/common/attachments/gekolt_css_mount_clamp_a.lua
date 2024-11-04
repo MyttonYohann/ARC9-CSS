@@ -17,7 +17,7 @@ ATT.Scale = 1
 
 ATT.Attachments = {
     {
-        PrintName = "MOUNT Upper Left",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up_left") or "Mount U.L.",
         Category = {"optic_css_s", "tac_css", "mountr_css"},
         Pos = Vector(-1.25, -0.9, -0.9),
         Ang = Angle(0, 0, -45),
@@ -27,7 +27,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Upper Right",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up_right") or "Mount U.R.",
         Category = {"optic_css_s", "tac_css", "mountl_css"},
         Pos = Vector(-1.25, 0.9, -0.9),
         Ang = Angle(0, 0, 45),
@@ -37,7 +37,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Lower Left",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_low_left") or "Mount L.L.",
         Category = {"tac_css"},
         Pos = Vector(-1.25, -0.9, 0.9),
         Ang = Angle(0, 0, -135),
@@ -45,7 +45,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "MOUNT Lower Right",
+        PrintName = ARC9:GetPhrase("smorg_category_mount_low_right") or "Mount L.R.",
         Category = {"tac_css"},
         Pos = Vector(-1.25, 0.9, 0.9),
         Ang = Angle(0, 0, 135),
