@@ -24,7 +24,7 @@ SWEP.Credits = {
 SWEP.Description = ARC9:GetPhrase("smorg_gekolt_ca_m60_desc") or [[Heavy duty machine gun with great suppressing capacity.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m60.mdl"
-SWEP.WorldModel = "models/weapons/w_rif_ak47.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_m60.mdl"
 
 SWEP.Slot = 2
 

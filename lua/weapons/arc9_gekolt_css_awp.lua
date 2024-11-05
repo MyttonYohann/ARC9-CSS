@@ -26,7 +26,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_awp_desc") or [[Imposing mag
 Its rarity and iconic status makes it all the more tempting to give it... unscrupulous tweaks.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_awp.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_awp.mdl"
 
 SWEP.Slot = 3
 

@@ -26,7 +26,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_dods_mauser_desc") or [[An old a
 Sold en masse to Chinese warlords in the 1930s, so you're a little late to the party.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_mauser.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_mauser.mdl"
 
 SWEP.Slot = 1
 
