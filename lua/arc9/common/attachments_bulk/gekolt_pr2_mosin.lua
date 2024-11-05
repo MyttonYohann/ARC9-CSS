@@ -187,6 +187,9 @@ ATT.SortOrder = 2
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_carbine"}
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-6, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-6, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_b1")
 
 
@@ -207,6 +210,9 @@ ATT.SortOrder = 1
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_civ"}
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_b2")
 
 
@@ -226,6 +232,9 @@ ATT.SortOrder = 1
 
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_obrez"}
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-10, -9, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-10, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_b3")
 

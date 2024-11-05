@@ -193,6 +193,10 @@ L["smorg_gekolt_pr2_m72"] = "Judwesa-72"
 L["smorg_gekolt_pr2_m72_real"] = "M72 OwO"
 L["smorg_gekolt_pr2_m72_desc"] = "W-Wewoading-disposabwe rocket package."
 
+L["smorg_gekolt_pr2_mosin"] = "Otvetdar-91"
+L["smorg_gekolt_pr2_mosin_real"] = "Mosin-Nagant"
+L["smorg_gekolt_pr2_mosin_desc"] = "Ancient rifle that will always be duty ready regardless of era."
+
 ////////////////////////////////////// Attachments
 /////////////////// Attachment Folders
 L["smorg_folder_magnifier"] = "Magnyifiew"
@@ -1192,10 +1196,34 @@ L["gekolt_pr2_m72_a1.printname"] = "0 Gauge"
 L["gekolt_pr2_m72_a1.compactname"] = "SG"
 L["gekolt_pr2_m72_a1.description"] = "The biggest of all buckshots.\nTHIS DON'T FUCKING WORK"
 
-///////////// gekolt_pr2_mosin -- "Englishified Russian" - Won't touch yet except first one.
--- L["gekolt_pr2_mosin_f1.printname"] = "Cyclone-Rama" -- "Циклон-Рама"; Roughly "Cyclone Frame"
--- L["gekolt_pr2_mosin_f1.compactname"] = "CYCLONE"
--- L["gekolt_pr2_mosin_f1.description"] = "External device redirects gas flow from firing to a makeshift self-rechambering bolt system."
+///////////// gekolt_pr2_mosin -- "Englishified Russian"
+L["gekolt_pr2_mosin_f1.printname"] = "Tsiklon Rama" -- "Циклон-Рама"; Roughly "Cyclone Frame"
+L["gekolt_pr2_mosin_f1.compactname"] = "CYCLONE"
+L["gekolt_pr2_mosin_f1.description"] = "External device redirects gas flow from firing to a makeshift self-rechambering bolt system."
+
+L["gekolt_pr2_mosin_f2.printname"] = "Mertvyy Glaz Rama" -- "Мертвый глаз рама"; Roughly "Deadeye Frame"
+L["gekolt_pr2_mosin_f2.compactname"] = "DEADEYE"
+L["gekolt_pr2_mosin_f2.description"] = "Curved bolt for use with a sniper scope.\nUses a super secret technique to quickly reload unhindered."
+
+L["gekolt_pr2_mosin_f3.printname"] = "Pogranichnaya Ramka" -- "Пограничная Рамка"; Roughly "Frontier Frame"
+L["gekolt_pr2_mosin_f3.compactname"] = "FRONTIER"
+L["gekolt_pr2_mosin_f3.description"] = "Angled bolt with a removed internal magazine to completely minimize interference when feeding."
+
+L["gekolt_pr2_mosin_f4.printname"] = "Provodnika Ramka" -- "Проводника Рамка"; Roughly "Conductor Frame"
+L["gekolt_pr2_mosin_f4.compactname"] = "CONDUCTOR"
+L["gekolt_pr2_mosin_f4.description"] = "Experimental side-mounted magazine attached onto an auto-cycling bolt device.\nUnimpressive ballistics."
+
+L["gekolt_pr2_mosin_b1.printname"] = "Stvol Karabina" -- "Ствол карабина"; Roughly "Carbine Barrel"
+L["gekolt_pr2_mosin_b1.compactname"] = "CARBINE"
+L["gekolt_pr2_mosin_b1.description"] = "Cut-down barrel.\nCavalry style but without the bayonet."
+
+L["gekolt_pr2_mosin_b2.printname"] = "Grazhdanskiy stvol" -- "Гражданский ствол"; Roughly "Civilian Barrel"
+L["gekolt_pr2_mosin_b2.compactname"] = "CIV."
+L["gekolt_pr2_mosin_b2.description"] = "California compliant."
+
+L["gekolt_pr2_mosin_b3.printname"] = "Obrez stvola" -- "Обрез ствола"; Roughly "Regulated Barrel"
+L["gekolt_pr2_mosin_b3.compactname"] = "OBREZ"
+L["gekolt_pr2_mosin_b3.description"] = "Sawed-off stock and barrel for that one-handed gangster shootin'."
 
 ///////////// gekolt_pr2_optic_magnifier
 L["gekolt_pr2_optic_m1.description"] = "A unique boxy holographic sight.\nComes with a <color=100,255,100>magnifier</color>."

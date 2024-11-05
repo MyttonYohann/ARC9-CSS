@@ -190,7 +190,7 @@ SWEP.IronSights = {
         Pos = Vector(0, 15, -4),
         Ang = Angle(-10, 0, -25),
     },
-    Magnification = 1,
+    Magnification = 1.15,
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
     CrosshairInSights = false,
 }
@@ -228,10 +228,13 @@ SWEP.CustomizeSnapshotFOV = 65
 
 SWEP.CustomizeNoRotate = false
 
-SWEP.CustomizeRotateAnchor = Vector(15, -2, -5.23)
+SWEP.CustomizeRotateAnchor = Vector(23, -2, -5.23)
 
 SWEP.StandardPresets = {
 }
+
+SWEP.PeekPosReloading = Vector(0.5, 2, -2)
+SWEP.PeekAngReloading = Angle(0, 0, -10)
 
 -------------------------- HoldTypes
 
@@ -520,7 +523,7 @@ SWEP.Animations = {
         Source = "reload5",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
-		RefillProgress = 0.725,
+		RefillProgress = 0.875,
         FireASAP = true,
         EventTable = {
 			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 10 / 40},	
@@ -534,7 +537,7 @@ SWEP.Animations = {
         Source = "reload_scope_full",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
-		RefillProgress = 0.725,
+		RefillProgress = 0.9,
         EventTable = {
             {s =  "gekolt_dod/garand_clipin1.wav" ,   t = 30 / 40},
             {s =  "gekolt_dod/garand_clipin2.wav" ,    t = 35 / 40},
@@ -545,7 +548,7 @@ SWEP.Animations = {
         Source = "reload_auto",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
-		RefillProgress = 0.725,
+		RefillProgress = 0.825,
         FireASAP = true,
 		EjectAt = 130/40,
         EventTable = {
@@ -566,7 +569,7 @@ SWEP.Animations = {
         Source = "reload_auto_wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         MinProgress = 0.975,
-		RefillProgress = 0.725,
+		RefillProgress = 0.8,
         FireASAP = true,
         EventTable = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
@@ -644,9 +647,10 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Mag1.ogg" ,		t = 30 / 40},
 			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 45 / 40}, 
         },
-        MinProgress = 0.85,
+        MinProgress = 0.9,
+		RefillProgress = 0.75,
+		PeekProgress = 0.725,
         FireASAP = true,
-		RefillProgress = 0.7,
     },
     ["wet_perdeson"] = {
         Source = "wet_perdeson",
@@ -658,7 +662,7 @@ SWEP.Animations = {
             {s =  "gekolt_dod/c96_clipin2.wav" ,    t = 65 / 40},
         },
         MinProgress = 0.975,
-		RefillProgress = 0.825,
+		RefillProgress = 0.725,
         FireASAP = true,
     }, 
 	["dry_perdeson"] = {
@@ -673,7 +677,7 @@ SWEP.Animations = {
             {s =  "gekolt_dod/c96_boltforward.wav" ,    t = 100 / 40},
         },
         MinProgress = 0.975,
-		RefillProgress = 0.825,
+		RefillProgress = 0.85,
         FireASAP = true,
     },
 	["fire_perdeson"] = {
