@@ -320,7 +320,7 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("smorg_category_offhand") or "Off-Hand",
         DefaultName = "None",
         InstalledElements = {"akimbo"},
-        Hidden = false,
+        Hidden = true,
 
         ExcludeElements = {"akantbo"},
         Category = {"css_akimbo"},
