@@ -303,7 +303,7 @@ SWEP.EjectDelay = 0
 
 SWEP.ShootSound = {"cturix_m79/fire_grenade1.wav", "cturix_m79/fire_grenade2.wav", "cturix_m79/fire_grenade3.wav", "cturix_m79/fire_grenade4.wav", "cturix_m79/fire_grenade5.wav", "cturix_m79/fire_grenade6.wav"}
 SWEP.ShootSoundSilenced = "gekolt_css/tmp-1.wav"
-SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
+SWEP.DryFireSound = "oneshotof_cs16/dryfire_rifle.wav"
 
 SWEP.FiremodeSound = "arc9/firemode.ogg"
 

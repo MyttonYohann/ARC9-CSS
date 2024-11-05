@@ -240,7 +240,7 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
 SWEP.ShootSound = "gekolt_dod/mp40_shoot-old1.ogg"
 SWEP.ShootSoundSilenced = "gekolt_css/9mm_sd.wav"
-SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
+SWEP.DryFireSound = "oneshotof_cs16/dryfire_pistol.wav"
 
 SWEP.EjectDelay = 0
 

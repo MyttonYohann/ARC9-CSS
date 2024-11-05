@@ -246,7 +246,7 @@ SWEP.NoShellEject = true
 
 SWEP.ShootSound = "rzen1th_smor/flare_fire.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/9mm_sd.wav"
-SWEP.DryFireSound = "weapons/clipempty_pistol.wav"
+SWEP.DryFireSound = "oneshotof_cs16/dryfire_pistol.wav"
 
 SWEP.EjectDelay = 0
 

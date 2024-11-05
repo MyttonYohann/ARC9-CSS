@@ -393,7 +393,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0.017, 7.1, -1.2),
+        Pos = Vector(0.017, 6.9, -1.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -443,7 +443,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(-0.001, 7.5, -1.695),
+        Pos = Vector(-0.001, 7, -1.695),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60

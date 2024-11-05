@@ -872,25 +872,25 @@ L["gekolt_css_scope_rangefider.description"] = "A wange finding gadget.\nJust as
 -- L["gekolt_css_scope_radar.compactname"] = "RADAR"
 -- L["gekolt_css_scope_radar.description"] = "A very slow radar unit."
 
-L["gekolt_css_optic_acog.printname"] = "\"Enhanced Optical Gunsight\" ver. 99"
+L["gekolt_css_optic_acog.printname"] = "\"Enhanced Opticaw Gunsight\" ver. 99"
 L["gekolt_css_optic_acog.compactname"] = "EOG 99"
-L["gekolt_css_optic_acog.description"] = "Mid-range scope with more dials and knobs than you remember.\nEffective up to 50 metres.\nSupports mounting <color=100,255,100>backup iron sights</color> and <color=100,255,100>optics</color>."
+L["gekolt_css_optic_acog.description"] = "Mid-wange scope with mowe diaws and knyobs than you wemembew.\nEffective up to 50 m-metwes.\nSuppowts mounting <color=100,255,100>backup iwon sights</color> and <color=100,255,100>owoptics</color>."
 
-L["gekolt_css_optic_acog_iron.printname"] = "Iron Sights"
-L["gekolt_css_optic_acog_iron.compactname"] = "IRONS"
-L["gekolt_css_optic_acog_iron.description"] = "Simple backup sights for your optic."
+L["gekolt_css_optic_acog_iron.printname"] = "Iwon Sights"
+L["gekolt_css_optic_acog_iron.compactname"] = "IWONS"
+L["gekolt_css_optic_acog_iron.description"] = "Simpwe backup sights fow youw owoptic."
 
-L["gekolt_css_optic_acog2.printname"] = "\"Enhanced Optical Gunsight\" ver. 2003"
+L["gekolt_css_optic_acog2.printname"] = "\"Enhanced Opticaw Gunsight\" ver. 2003"
 L["gekolt_css_optic_acog2.compactname"] = "EOG 2003"
-L["gekolt_css_optic_acog2.description"] = "Mid-range scope with more dials and knobs than you remember.\nEffective up to 54.68 yards.\nComes with <color=100,255,100>built-in backup sights</color>! To save money, you <color=255,100,100>cannot equip external optics</color> onto it.\n<color=0,255,0>$$$ Damn, feels good to be saving money $$$</color>"
+L["gekolt_css_optic_acog2.description"] = "Mid-wange scope with mowe diaws and knyobs than you wemembew.\nEffective up to 54.68 yards.\nComes wiwh <color=100,255,100>buiwt-in backup sights</color>! To save monyey, you <color=255,100,100>cannyot equip extewnyaw optics</color> onto it.\n<color=0,255,0>$$$ Damn, feews good to be saving monyey $$$</color>"
 
-L["gekolt_css_optic_bravo.printname"] = "Blanco 4C Optical Sight"
-L["gekolt_css_optic_bravo.compactname"] = "BLANCO"
-L["gekolt_css_optic_bravo.description"] = "Variable mid-range scope with a top-mounted rail.\nEffective between 40 and 100 metres.\nSupports mounting <color=100,255,100>backup optics</color>."
+L["gekolt_css_optic_bravo.printname"] = "Bwanco 4C Opticaw Sight"
+L["gekolt_css_optic_bravo.compactname"] = "BWANCO"
+L["gekolt_css_optic_bravo.description"] = "Vawiabwe mid-wange scope with a top-mounted waiw.\nEffective between 40 and 100 m-metwes.\nSuppowts mounting <color=100,255,100>backup opwotics</color>."
 
-L["gekolt_css_optic_fal.printname"] = "Trilux Scope"
-L["gekolt_css_optic_fal.compactname"] = "TRILUX"
-L["gekolt_css_optic_fal.description"] = "An old scope from the Cold War era. Comes with a simple sight picture and medium magnification.\nEffective up to 100 metres."
+L["gekolt_css_optic_fal.printname"] = "Twiwux Scope"
+L["gekolt_css_optic_fal.compactname"] = "TWIWUX"
+L["gekolt_css_optic_fal.description"] = "An owd scope fwom the Cowd Waw ewa. Comes with a simpwe sight pictuwe and medium magnyification.\nEffective up to 100 m-metwes."
 
 L["gekolt_css_optic_elcan.printname"] = "\"Elacco Optical Gun Sight\" Scope"
 L["gekolt_css_optic_elcan.compactname"] = "EOGS"

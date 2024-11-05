@@ -253,7 +253,7 @@ SWEP.MuzzleEffectQCAUBGL = 1
 
 SWEP.ShootSound = "rzen1th_smor/m18_fire.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/m4a1-1.wav"
-SWEP.DryFireSound = "weapons/clipempty_rifle.wav"
+SWEP.DryFireSound = "oneshotof_cs16/dryfire_rifle.wav"
 
 SWEP.FiremodeSound = "arc9/firemode.ogg"
 
