@@ -460,8 +460,8 @@ SWEP.Animations = {
 		RefillProgress = 0.825,
         FireASAP = true,
         IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        { t = 0, lhik = 1, rhik = 1, },        { t = 0.15, lhik = 1, rhik = 1, },
+        { t = 0.25, lhik = 0, rhik = 1, },{ t = 0.3, lhik = 0, rhik = 1, },{ t = 0.4, lhik = 1, rhik = 1, },
         },
     },
     ["reload_2"] = {
@@ -477,8 +477,8 @@ SWEP.Animations = {
 		RefillProgress = 0.825,
         FireASAP = true,
         IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        { t = 0, lhik = 1, rhik = 1, },        { t = 0.1, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.25, lhik = 0, rhik = 1, },{ t = 0.35, lhik = 1, rhik = 1, },
         },
     }, 
 	["reload_3"] = {
@@ -495,8 +495,8 @@ SWEP.Animations = {
 		RefillProgress = 0.825,
         FireASAP = true,
         IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        { t = 0, lhik = 1, rhik = 1, },        { t = 0.1, lhik = 1, rhik = 1, },
+        { t = 0.125, lhik = 0, rhik = 1, },{ t = 0.2, lhik = 0, rhik = 1, },{ t = 0.3, lhik = 1, rhik = 1, },
         },
     },	
 	["reload_4"] = {
@@ -512,8 +512,8 @@ SWEP.Animations = {
 		RefillProgress = 0.825,
         FireASAP = true,
         IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        { t = 0, lhik = 1, rhik = 1, },        { t = 0.1, lhik = 1, rhik = 1, },
+        { t = 0.175, lhik = 0, rhik = 1, },{ t = 0.65, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 1, rhik = 1, },
         },
     },
     ["reload_empty"] = {
@@ -557,6 +557,10 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 110 / 40},	
 			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 125 / 40}, 
         },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, }, 
+        { t = 0.175, lhik = 0, rhik = 1, },{ t = 0.65, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 1, rhik = 1, },
+        },
     },  
 	["reload_auto_wet"] = {
         Source = "reload_auto_wet",
@@ -578,6 +582,10 @@ SWEP.Animations = {
             {shelleject = {index = 1, upto = 3}, att = 3, t = 16 / 40},
             {shelleject = {index = 1, upto = 4}, att = 3, t = 16.5 / 40},
         },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, }, 
+        { t = 0.175, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.9, lhik = 1, rhik = 1, },
+        },
     },
 
     -- Scope --
@@ -591,7 +599,7 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 28 / 40},
 			{s =  "gekolt_mosin/Mag1.ogg" ,			t = 50 / 40},	
         },
-        IKTimeLine = {	{ t = 0, lhik = 1, rhik = 1, }, { t = 0.5, lhik = 0, rhik = 1, }, { t = 1, lhik = 0, rhik = 1, }	},
+        IKTimeLine = {	{ t = 0, lhik = 1, rhik = 1, }, { t = 0.2, lhik = 0, rhik = 1, }, { t = 1, lhik = 0, rhik = 1, }	},
     },
     ["reload_insert"] = {
         Source = "reload_scope_loop",
@@ -610,7 +618,7 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Scope_Out.ogg" ,	t = 11 / 40},
 			{s =  "gekolt_mosin/Foley2.ogg" ,		t = 59 / 40},	
         },
-        IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.85, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
+        IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.6, lhik = 0, rhik = 1, }, { t = 0.8, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
     },   
 	["reload_finish_empty"] = {
         Source = "reload_scope_close_dry",
@@ -623,7 +631,7 @@ SWEP.Animations = {
 			{s =  "gekolt_mosin/Bolt1.ogg" ,		t = 46 / 40},
 			{s =  "gekolt_mosin/Bolt2.ogg" ,		t = 60 / 40},  
         },
-        IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.85, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
+        IKTimeLine = {	{ t = 0, lhik = 0, rhik = 1, }, { t = 0.35, lhik = 0, rhik = 1, }, { t = 0.5, lhik = 1, rhik = 1, }, { t = 1, lhik = 1, rhik = 1, }	},
     },
 
     -- Extra --
@@ -639,10 +647,6 @@ SWEP.Animations = {
         MinProgress = 0.85,
         FireASAP = true,
 		RefillProgress = 0.7,
-        IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
-        },
     },
     ["wet_perdeson"] = {
         Source = "wet_perdeson",
@@ -656,10 +660,6 @@ SWEP.Animations = {
         MinProgress = 0.975,
 		RefillProgress = 0.825,
         FireASAP = true,
-        IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 1, rhik = 1, },{ t = 0.8, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
-        },
     }, 
 	["dry_perdeson"] = {
         Source = "dry_perdeson",
@@ -675,10 +675,6 @@ SWEP.Animations = {
         MinProgress = 0.975,
 		RefillProgress = 0.825,
         FireASAP = true,
-        IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 1, rhik = 1, },{ t = 0.8, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
-        },
     },
 	["fire_perdeson"] = {
         Source = "fire_perdeson",
