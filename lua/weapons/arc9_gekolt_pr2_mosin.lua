@@ -37,7 +37,7 @@ SWEP.WorldModelOffset = {
     TPIKAng = Angle(-5, 0, 180),
     Scale = 1
 }
-SWEP.MirrorVMWMHeldOnly = true
+SWEP.MirrorVMWMHeldOnly = false	-- ?? why was this turned off again?
 
 -------------------------- DAMAGE PROFILE
 
@@ -277,7 +277,7 @@ SWEP.HideBones = {
 
 SWEP.AttachmentElements = {
     ["tall_optics"] = {
-        AttPosMods = { [2] = { Pos = Vector(0, -3.875, 4), }, },
+        AttPosMods = { [3] = { Pos = Vector(0, -3.875, 4), }, },
     },
 
     ["rail_top"] 		= {Bodygroups = {{6, 1}},}, 
@@ -285,6 +285,21 @@ SWEP.AttachmentElements = {
     ["frame_auto"] 		= {Bodygroups = {{2, 3}},},
     ["frame_berdan"]	= {Bodygroups = {{1, 3},{2, 4},{4, 1}},}, 
 	["frame_perdeson"]	= {Bodygroups = {{2, 5},{4, 2}},},
+	
+	["rail_bot"]		= {Bodygroups = {{7, 1}},},
+
+	["barrel_civ"]	= {
+		Bodygroups = {{3, 1}},
+        AttPosMods = { [4] = { Pos = Vector(0, -1.35, 38.5), }, },
+	},
+	["barrel_carbine"]	= {
+		Bodygroups = {{3, 2}},
+        AttPosMods = { [4] = { Pos = Vector(0, -1.35, 35), }, },
+	},
+	["barrel_obrez"]	= {
+		Bodygroups = {{0, 1},{3, 3}},
+        AttPosMods = { [4] = { Pos = Vector(0, -1.35, 18.5), }, },
+	},
 }
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
@@ -299,7 +314,16 @@ SWEP.Attachments = {
 
         Category = "pr2_mosin_frame",
         Bone = "W_Main",
-        Pos = Vector(0, 0, 0),
+        Pos = Vector(0, -2, 2),
+        Ang = Angle(0, 0, 0),
+    }, 
+	{
+        PrintName = ARC9:GetPhrase("smorg_category_barrel") or "Barrel",
+        DefaultName = "Default Barrel",
+
+        Category = "pr2_mosin_barrel",
+        Bone = "W_Main",
+        Pos = Vector(0, -1, 15),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -319,7 +343,7 @@ SWEP.Attachments = {
         ExcludeElements = {"pre_muzzed"},
         Category = {"muzzle_css"},
         Bone = "W_Main",
-        Pos = Vector(0, 0, 28),
+        Pos = Vector(0, -1.35, 45.5),
         Ang = Angle(90, 0, -90),
     },
     {
@@ -328,9 +352,9 @@ SWEP.Attachments = {
         InstalledElements = {"rail_bot"},
 
         ExcludeElements = {"nogrip"},
-        Category = {"grip_css", "optic_css_free"},
+        Category = {"grip_css"},
         Bone = "W_Main",
-        Pos = Vector(0, 0.9, -3),
+        Pos = Vector(0, 1.9, 14),
         Ang = Angle(90, 0, -90),
         MergeSlots = {6}
     },
@@ -634,7 +658,7 @@ SWEP.Animations = {
         FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 1, rhik = 1, },{ t = 0.8, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
         },
     }, 
 	["dry_perdeson"] = {
@@ -653,7 +677,7 @@ SWEP.Animations = {
         FireASAP = true,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 1, rhik = 1, },{ t = 0.8, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
         },
     },
 	["fire_perdeson"] = {

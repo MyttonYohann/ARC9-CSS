@@ -39,7 +39,7 @@ SWEP.WorldModelOffset = {
     TPIKAng = Angle(-5, 0, 180),
     Scale = 1
 }
-SWEP.MirrorVMWMHeldOnly = true
+SWEP.MirrorVMWMHeldOnly = false	-- ?? why was this turned off again?
 
 -------------------------- DAMAGE PROFILE
 

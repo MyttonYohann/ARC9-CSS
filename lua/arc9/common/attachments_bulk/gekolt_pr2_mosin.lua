@@ -129,10 +129,10 @@ ATT.Cons = {}
 ATT.SortOrder = 10.5
 
 ATT.Category = "pr2_mosin_frame" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"frame_perdeson", "tall_optics"}
+ATT.ActivateElements = {"frame_perdeson"}
 
 ATT.Firemodes = { { Mode = -1, } }
-ATT.RPMMult = 500 / 200
+ATT.RPMMult = 550 / 200
 ATT.ClipSizeOverride = 20
 
 ATT.Penetration = 1
@@ -166,6 +166,68 @@ end
 
 
 ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_f4")
+
+
+----------------------------------------------------------------------------------
+--- Barrel ---
+----------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = "Carbine-Barrel"
+ATT.CompactName = "Carbine"
+ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Description = [[]]
+
+ATT.Pros = {}
+ATT.Cons = {}
+ATT.SortOrder = 2
+
+ATT.Category = "pr2_mosin_barrel"
+ATT.ActivateElements = {"barrel_carbine"}
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_b1")
+
+
+----------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = "Regulated-Barrel"
+ATT.CompactName = "Civ"
+ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Description = [[]]
+
+ATT.Pros = {}
+ATT.Cons = {}
+ATT.SortOrder = 1
+
+ATT.Category = "pr2_mosin_barrel"
+ATT.ActivateElements = {"barrel_civ"}
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_b2")
+
+
+----------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = "Obrez-Barrel"
+ATT.CompactName = "Obrez"
+ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Description = [[]]
+
+ATT.Pros = {}
+ATT.Cons = {}
+ATT.SortOrder = 1
+
+ATT.Category = "pr2_mosin_barrel"
+ATT.ActivateElements = {"barrel_obrez"}
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_mosin_b3")
 
 
 ----------------------------------------------------------------------------------
