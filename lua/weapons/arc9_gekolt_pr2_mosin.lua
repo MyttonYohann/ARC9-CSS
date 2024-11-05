@@ -559,7 +559,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, }, 
-        { t = 0.175, lhik = 0, rhik = 1, },{ t = 0.65, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 1, rhik = 1, },
+        { t = 0.15, lhik = 0, rhik = 1, },{ t = 0.65, lhik = 0, rhik = 1, },{ t = 0.75, lhik = 1, rhik = 1, },
         },
     },  
 	["reload_auto_wet"] = {
