@@ -48,10 +48,10 @@ SWEP.RecoilAutoControlMultHipFire = 0.5
 SWEP.DamageMax = 78
 SWEP.DamageMin = 42
 
-SWEP.RangeMin = 500
-SWEP.RangeMax = 3000
+SWEP.RangeMin = 1000
+SWEP.RangeMax = 2000
 
-SWEP.Penetration = 2 -- Units of wood that can be penetrated by this gun.
+SWEP.Penetration = 16 -- Units of wood that can be penetrated by this gun.
 
 SWEP.BodyDamageMults = {
     [HITGROUP_HEAD] = 1.75,
@@ -239,7 +239,7 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 -------------------------- SOUNDS
 
 SWEP.ShootSound = "gekolt_automag/deagle-2.wav"
-SWEP.ShootSoundSilenced = "gekolt_css/9mm_sd.wav"
+SWEP.ShootSoundSilenced = "gekolt_css/usp1.wav"
 SWEP.DryFireSound = "oneshotof_cs16/dryfire_pistol.wav"
 
 SWEP.EjectDelay = 0
@@ -260,11 +260,6 @@ SWEP.AttachmentElements = {
     ["b_sd"] = 		{ Bodygroups = {{1, 1}}, },
     ["b_no"] = 		{ Bodygroups = {{1, 4}}, },
 	["b_hunt"] = 	{ Bodygroups = {{1, 3},{2, 1},{3, 1}}, },
-
-    ["akimbose"] = {
-        SprintPosOverride = Vector(0, 2, -3),
-        SprintAngOverride = Angle(0, 18, 0),
-    },
 }
 
 SWEP.Attachments = {
