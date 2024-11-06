@@ -1185,7 +1185,8 @@ L["gekolt_fnv_flare_2.description"] = "Dubbelt så många pipor för dubbelt så
 
 L["gekolt_fnv_flare_3.printname"] = "Der Gehäuse des Teufels" -- Roughly "The Devils' Frame"
 L["gekolt_fnv_flare_3.compactname"] = ".50"
-L["gekolt_fnv_flare_3.description"] = "När du behöver stoppa en elefant men allt du har är en enkelskott signalpistol."
+L["gekolt_fnv_flare_3.description"] = "Tjosan. Visste du att när det gäller att trycka in udda kalibrar i en pipa, .50 BMG är den mest kompatibla kalibern till kaliber 12? .50 BMG är genomsnitt 138 mm och 360 gr. Detta betyder att dem är stora nog att kunna hantera dem flesta hagelbössorna, och med deras imponerande ballistik och pansarbrytning så kan du vara tuff med en. Tack vare dess avancerade pulverbaserad konstruktion så finns det absolut inget vivel att en baserad .50 BMG skulle varit otroligt ballistisk koefficient, så effektiv att du kunde lägg kört skottet genom luften i flertal timmar utan problem. Dem kan också ändras till Pansarbrytande, Spårskott och Brandskott, inklusive flertal färgkodade toppar, så det blir otroligt lätt för en att hjälpa dig i vilken situation som helst. Med dess nästan perfekta bågstorlek så kan lätt sättas in i vilken hagelbössa som helst med tillräcklig motivering. Ingen annan kaliber kommer så nära till denna nivån av kompatibilitet. Och, en rolig fakta, om du trycker till tillräckligt nog, så kan du få in din .50 BMG in i även den minsta kalibern. .50 BMG är praktiskt taget byggt för pipor på hagelbössor. Ogudaktig penetrationskraft + pansarvärnsmöjlighet betyder att den kan laddas in i hagelbössor hela dagen lång, alla former och storlekar och mer därtill."
+-- L["gekolt_fnv_flare_3.description"] = "När du behöver stoppa en elefant men allt du har är en enkelskott signalpistol." -- translator note: use this if you want a shorter description
 
 ///////////// gekolt_moah_m18
 L["gekolt_moah_m18_sweden.printname"] = "Hjälpare Ram" -- "Helper Frame"
