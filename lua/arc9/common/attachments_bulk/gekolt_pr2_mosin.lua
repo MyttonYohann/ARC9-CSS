@@ -7,7 +7,7 @@ ATT = {}
 
 ATT.PrintName = "Cyclone-Rama"
 ATT.CompactName = "Cyclone"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_f_auto.png", "mips smooth")
 ATT.Description = [[External device redirecting gas flow from firing to a makeshift self rechambering bolt system.]]
 
 ATT.Pros = {}
@@ -51,7 +51,7 @@ ATT = {}
 
 ATT.PrintName = "Deadeye-Rama"
 ATT.CompactName = "Deadeye"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_f_de.png", "mips smooth")
 ATT.Description = [[Curved Bolt for use with a sniper scope, using a secret technique to reload unhindered faster.]]
 
 ATT.Pros = {}
@@ -81,7 +81,7 @@ ATT = {}
 
 ATT.PrintName = "Cossack-Rama"	-- or Granitsa / Frontier
 ATT.CompactName = "Cossack"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_f_berd.png", "mips smooth")
 ATT.Description = [[Angled Bolt with removed internal magazine to completely minise interference with feeding.]]
 
 ATT.Pros = {}
@@ -120,7 +120,7 @@ ATT = {}
 
 ATT.PrintName = "Dirizher-Rama"
 ATT.CompactName = "DRZ"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_f_perd.png", "mips smooth")
 ATT.Description = [[Special auto cylcing bolt device that accepts pistol magazine.
 Unimpressive ballistics.]]
 
@@ -177,7 +177,7 @@ ATT = {}
 
 ATT.PrintName = "Carbine-Barrel"
 ATT.CompactName = "Carbine"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_b_carbine.png", "mips smooth")
 ATT.Description = [[]]
 
 ATT.Pros = {}
@@ -200,7 +200,7 @@ ATT = {}
 
 ATT.PrintName = "Regulated-Barrel"
 ATT.CompactName = "Civ"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_b_civ.png", "mips smooth")
 ATT.Description = [[]]
 
 ATT.Pros = {}
@@ -223,7 +223,7 @@ ATT = {}
 
 ATT.PrintName = "Obrez-Barrel"
 ATT.CompactName = "Obrez"
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_b_obrez.png", "mips smooth")
 ATT.Description = [[]]
 
 ATT.Pros = {}
