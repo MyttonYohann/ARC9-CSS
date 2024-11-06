@@ -1192,214 +1192,218 @@ L["gekolt_fnv_flare_2.printname"] = "Doppelläufiges Gehäuse" -- Roughly "Doubl
 L["gekolt_fnv_flare_2.compactname"] = "DOPPEL"
 L["gekolt_fnv_flare_2.description"] = "Twice the barrel for twice the fun."
 
-L["gekolt_fnv_flare_3.printname"] = "Der Gehäuse des Teufels" -- Roughly "The Devils' Frame"
+L["gekolt_fnv_flare_3.printname"] = "Dew Gehäuse des Teufews" -- Roughly "The Devils' Frame"
 L["gekolt_fnv_flare_3.compactname"] = ".50"
-L["gekolt_fnv_flare_3.description"] = "For when you want to stop an elephant, but all you got is a single-shot flare gun." -- Massively shortened and different description.
+L["gekolt_fnv_flare_3.description"] = 
+[[Hey guys, did you knyow that in tewms of fitting weiwd cawibwe in a bawwew, 50. BMG is the most compatibwe cawtwidge fow 12 Gauge!!11 50.BMG awe an avewage of 138 mm and 360 gw. This means they'we wawge enyough to be abwe to handwe shotguns, and with theiw impwessive bawwistics fow awmouw penyetwation, you can be wough with onye. Due to theiw advance powdew based contwuct, thewe's nyo doubt in my mind that a pwimmed 50. BMG wouwd have incwedibwe bawwistic coefficient, so efficient that you couwd easiwy dwive the buwwet thwough aiw fow houws with ease. They can awso adapt Awmouw Piewcing, Twacing, and Incendiawy awong with specific cowouw coded tips, so it'd be incwedibwy easy fow onye to hewp you in any situation. With theiw nyeaw pewfect Wim Size, they can easiwy be fitted in any shotgun with enyough dedication. Nyo othew cawibwe comes cwose with this wevew of compatibiwity. Awso, fun fact, if you push in enyough, you can fit youw 50. BMG in even the smawwest chambew. 50. BMG is witewawwy buiwt fow shotgun bawwew. Ungodwy penyetwative powew + anti-matewiew capabiwity means it can be woaded fwom a shotgun aww day, aww shapes and sizes and stiww come fow mowe.
+]]
+-- Massively shortened and different description. 
+-- bitch get that fucking vaporeon compasta back
 
 ///////////// gekolt_moah_m18
-L["gekolt_moah_m18_sweden.printname"] = "Hjälpare Ram" -- "Helper Frame"
+L["gekolt_moah_m18_sweden.printname"] = "Hjäwpawe Ram" -- "Helper Frame"
 L["gekolt_moah_m18_sweden.compactname"] = "XM70"
-L["gekolt_moah_m18_sweden.description"] = "You've heard of underbarrel anti-tank weaponry. Now get ready for\nA not at all G3 underbarrel weapon for your anti-tank rifle."
+L["gekolt_moah_m18_sweden.description"] = "You've heawd of undewbawwew anti-tank weaponwy. Nyow get weady fow\nA nyot at aww G3 undewbawwew weapon fow youw anti-tank wifwe."
 
-L["gekolt_moah_m18_rpg.printname"] = "Landskapsjägare Ram" -- "Landscape Hunter Frame"
-L["gekolt_moah_m18_rpg.compactname"] = "RPG"
-L["gekolt_moah_m18_rpg.description"] = "Ditch your anti-armour mindset and fully embrace madness.\nThey really tried to sneak an RPG in."
+L["gekolt_moah_m18_rpg.printname"] = "Wandskapsjägawe Ram" -- "Landscape Hunter Frame"
+L["gekolt_moah_m18_rpg.compactname"] = "WPG"
+L["gekolt_moah_m18_rpg.description"] = "Ditch youw anti-awmouw mindset and fuwwy embwace madnyess.\nThey weawwy twied to snyeak an WPG in."
 
-L["gekolt_moah_m18_rpg2.printname"] = "Pansarvärnsram" -- "Anti-Armour Frame"
+L["gekolt_moah_m18_rpg2.printname"] = "Pansawväwnswam" -- "Anti-Armour Frame"
 L["gekolt_moah_m18_rpg2.compactname"] = "TANDUM"
-L["gekolt_moah_m18_rpg2.description"] = "Concentrated explosive to retain the normal anti-armour mindset.\nStill madness."
+L["gekolt_moah_m18_rpg2.description"] = "Concentwated expwosive to wetain t-t-the n-nyowmaw anti-awmouw mindset.\nStiww madnyess."
 
 L["gekolt_pr2_m72_a1.printname"] = "0 Gauge"
 L["gekolt_pr2_m72_a1.compactname"] = "SG"
-L["gekolt_pr2_m72_a1.description"] = "The biggest of all buckshots.\nTHIS DON'T FUCKING WORK"
+L["gekolt_pr2_m72_a1.description"] = "The biggest of aww buckshots.\nTHIS DON'T BWOODY WOWK"
 
 ///////////// gekolt_pr2_mosin -- "Englishified Russian"
-L["gekolt_pr2_mosin_f1.printname"] = "Tsiklon Rama" -- "Циклон-Рама"; Roughly "Cyclone Frame"
-L["gekolt_pr2_mosin_f1.compactname"] = "CYCLONE"
-L["gekolt_pr2_mosin_f1.description"] = "External device redirects gas flow from firing to a makeshift self-rechambering bolt system."
+L["gekolt_pr2_mosin_f1.printname"] = "Tsikwon Wama" -- "Циклон-Рама"; Roughly "Cyclone Frame"
+L["gekolt_pr2_mosin_f1.compactname"] = "CYCWONYE"
+L["gekolt_pr2_mosin_f1.description"] = "Extewnyaw device wediwects gas fwow fwom fiwing to a makeshift sewf-wechambewing bowt system."
 
-L["gekolt_pr2_mosin_f2.printname"] = "Mertvyy Glaz Rama" -- "Мертвый глаз рама"; Roughly "Deadeye Frame"
+L["gekolt_pr2_mosin_f2.printname"] = "Mewtvyy Gwaz Wama" -- "Мертвый глаз рама"; Roughly "Deadeye Frame"
 L["gekolt_pr2_mosin_f2.compactname"] = "DEADEYE"
-L["gekolt_pr2_mosin_f2.description"] = "Curved bolt for use with a sniper scope.\nUses a super secret technique to quickly reload unhindered."
+L["gekolt_pr2_mosin_f2.description"] = "Cuwved bowt fow use with a snyipew scope.\nUses a supew secwet technyique to quickwy wewoad unhindewed."
 
-L["gekolt_pr2_mosin_f3.printname"] = "Pogranichnaya Ramka" -- "Пограничная Рамка"; Roughly "Frontier Frame"
-L["gekolt_pr2_mosin_f3.compactname"] = "FRONTIER"
-L["gekolt_pr2_mosin_f3.description"] = "Angled bolt with a removed internal magazine to completely minimize interference when feeding."
+L["gekolt_pr2_mosin_f3.printname"] = "Pogwanyichnaya Wamka" -- "Пограничная Рамка"; Roughly "Frontier Frame"
+L["gekolt_pr2_mosin_f3.compactname"] = "FWONTIEW"
+L["gekolt_pr2_mosin_f3.description"] = "Angwed bowt with a wemuvd intewnyaw magazinye to compwetewy minyimize i-i-intewfewence w-w-when feeding."
 
-L["gekolt_pr2_mosin_f4.printname"] = "Provodnika Ramka" -- "Проводника Рамка"; Roughly "Conductor Frame"
-L["gekolt_pr2_mosin_f4.compactname"] = "CONDUCTOR"
-L["gekolt_pr2_mosin_f4.description"] = "Experimental side-mounted magazine attached onto an auto-cycling bolt device.\nUnimpressive ballistics."
+L["gekolt_pr2_mosin_f4.printname"] = "Pwovodnyika Wamka" -- "Проводника Рамка"; Roughly "Conductor Frame"
+L["gekolt_pr2_mosin_f4.compactname"] = "CONDUCTOW"
+L["gekolt_pr2_mosin_f4.description"] = "Expewimentaw side-mounted magazinye attached onto an autowo-cycwing bowt device.\nUnyimpwessive bawwistics."
 
-L["gekolt_pr2_mosin_b1.printname"] = "Stvol Karabina" -- "Ствол карабина"; Roughly "Carbine Barrel"
-L["gekolt_pr2_mosin_b1.compactname"] = "CARBINE"
-L["gekolt_pr2_mosin_b1.description"] = "Cut-down barrel.\nCavalry style but without the bayonet."
+L["gekolt_pr2_mosin_b1.printname"] = "Stwol Kawabinya" -- "Ствол карабина"; Roughly "Carbine Barrel"
+L["gekolt_pr2_mosin_b1.compactname"] = "CAWBINYE"
+L["gekolt_pr2_mosin_b1.description"] = "Cut-down bawwew.\nCavawwy stywe but without the bayonyet."
 
-L["gekolt_pr2_mosin_b2.printname"] = "Grazhdanskiy stvol" -- "Гражданский ствол"; Roughly "Civilian Barrel"
+L["gekolt_pr2_mosin_b2.printname"] = "Grazhdanskiy stwol" -- "Гражданский ствол"; Roughly "Civilian Barrel"
 L["gekolt_pr2_mosin_b2.compactname"] = "CIV."
-L["gekolt_pr2_mosin_b2.description"] = "California compliant."
+L["gekolt_pr2_mosin_b2.description"] = "Cawifownyia compwiant."
 
-L["gekolt_pr2_mosin_b3.printname"] = "Obrez stvola" -- "Обрез ствола"; Roughly "Regulated Barrel"
-L["gekolt_pr2_mosin_b3.compactname"] = "OBREZ"
-L["gekolt_pr2_mosin_b3.description"] = "Sawed-off stock and barrel for that one-handed gangster shootin'."
+L["gekolt_pr2_mosin_b3.printname"] = "Obwez Stwowa" -- "Обрез ствола"; Roughly "Regulated Barrel"
+L["gekolt_pr2_mosin_b3.compactname"] = "OBWEZ"
+L["gekolt_pr2_mosin_b3.description"] = "Sawed-off stock and bawwew fow that onye-handed g-gangstew shootin'."
 
 ///////////// gekolt_pr2_optic_magnifier
-L["gekolt_pr2_optic_m1.description"] = "A unique boxy holographic sight.\nComes with a <color=100,255,100>magnifier</color>."
+L["gekolt_pr2_optic_m1.description"] = "A unyique boxy howogwaphic sight.\nComes with a <color=100,255,100>magnifier</color>."
 
-L["gekolt_pr2_optic_m2.description"] = "A unique boxy holographic sight.\nThis unit is smaller and a precise carrot pointing upwards.\nComes with a <color=100,255,100>magnifier</color>."
+L["gekolt_pr2_optic_m2.description"] = "A unyique boxy howogwaphic sight.\nThis unyit is s-smawwew and a pwecise c-cawwot pointing upwawds.\nComes with a <color=100,255,100>magnyifiew</color>."
 
-L["gekolt_pr2_optic_m3.description"] = "A reflex sight with a chevron reticle that looks like an old fellow with one of those long straight-down beards.\nComes with a <color=100,255,100>magnifier</color>."
+L["gekolt_pr2_optic_m3.description"] = "A wefwex sight with a chevwon weticwe that wooks wike an owd fewwow with onye of those wong stwaight-down beawds.\nComes with a <color=100,255,100>magnyifiew</color>."
 
-L["gekolt_pr2_optic_m4.description"] = "The most basic reflex sight, cloned all over the world.\n\nThis one only cost ¥62!\nComes with a <color=100,255,100>magnifier</color>."
+L["gekolt_pr2_optic_m4.description"] = "The most basic wefwex sight, cwonyed aww uvw t-t-the wowwd.\n\nThis onye onwy cost ¥62!\nComes with a <color=100,255,100>magnyifiew</color>."
 
 ///////////// gekolt_smorg_muzzle
-L["gekolt_css_muz_breach.printname"] = "Breacher"
+L["gekolt_css_muz_breach.printname"] = "Bweachew"
 L["gekolt_css_muz_breach.compactname"] = "BEAT"
-L["gekolt_css_muz_breach.description"] = "Muzzle with spikes for bashing people or doors."
+L["gekolt_css_muz_breach.description"] = "Muzzwe with spikes fow bashing peopwe ow doows."
 
-L["gekolt_css_muz_neg.printname"] = "Negator"
-L["gekolt_css_muz_neg.compactname"] = "NALA"
-L["gekolt_css_muz_neg.description"] = "Heavy device improves <color=100,255,100>recoil control</color>."
+L["gekolt_css_muz_neg.printname"] = "Nyegatow"
+L["gekolt_css_muz_neg.compactname"] = "NAWA"
+L["gekolt_css_muz_neg.description"] = "Heavy device impwuvs <color=100,255,100>wecoiw contwow</color>."
 
-L["gekolt_css_muz_long.printname"] = "Slanted"
-L["gekolt_css_muz_long.compactname"] = "SLANTED"
-L["gekolt_css_muz_long.description"] = "Compensator, like the one on that one really famous rifle.\nMakes the <color=100,255,100>recoil</color> go down."
+L["gekolt_css_muz_long.printname"] = "Swanted"
+L["gekolt_css_muz_long.compactname"] = "SWANTED"
+L["gekolt_css_muz_long.description"] = "Compensatow, wike the onye on that onye weawwy famous wifwe.\nMakes the <color=100,255,100>wecoiw</color> go down."
 
-L["gekolt_css_muz_heavy.printname"] = "Heavy Muzzle Brake"
-L["gekolt_css_muz_heavy.compactname"] = "HEAVY"
-L["gekolt_css_muz_heavy.description"] = "Muzzle device designed to compensate heavy weapon recoil.\n<color=100,255,100>Reduces recoil</color>, but also <color=255,100,100>increases recoil</color> during auto-fire."
+L["gekolt_css_muz_heavy.printname"] = "Heawy Muzzwe Bwake"
+L["gekolt_css_muz_heavy.compactname"] = "HEAWY"
+L["gekolt_css_muz_heavy.description"] = "Muzzwe device designyed to compensate heavy weapon wecoiw.\n<color=100,255,100>Weduces wecoiw</color>, but also <color=255,100,100>incweases wecoiw</color> duwing autowo-fire."
 
-L["gekolt_css_muz_flash.printname"] = "Flash Hider"
-L["gekolt_css_muz_flash.compactname"] = "FLASH"
-L["gekolt_css_muz_flash.description"] = "Hides the muzzle flash and converts most vertical kick into horizontal.\nUnstable report."
+L["gekolt_css_muz_flash.printname"] = "Fwash Hidew"
+L["gekolt_css_muz_flash.compactname"] = "FWASH"
+L["gekolt_css_muz_flash.description"] = "Hides the muzzwe fwash and convewts most vewticaw kick into howizontaw.\nUnstabwe wepowt."
 
-L["gekolt_css_muz_comp.printname"] = "Compensator"
+L["gekolt_css_muz_comp.printname"] = "Compensatow"
 L["gekolt_css_muz_comp.compactname"] = "COMP."
-L["gekolt_css_muz_comp.description"] = "Muzzle device that improves <color=100,255,100>recoil and sway</color>."
+L["gekolt_css_muz_comp.description"] = "Muzzwe device that impwuvs <color=100,255,100>wecoiw and sway</color>."
 
-L["gekolt_css_muz_cage.printname"] = "Bird Cage"
+L["gekolt_css_muz_cage.printname"] = "Biwd Cage"
 L["gekolt_css_muz_cage.compactname"] = "CAGE"
-L["gekolt_css_muz_cage.description"] = "Improves <color=100,255,100>stability</color> during auto-fire."
+L["gekolt_css_muz_cage.description"] = "Impwuvs <color=100,255,100>stabiwity</color> duwing autowo-fire."
 
 -- Suppressors
-L["gekolt_css_muz_sd.printname"] = "Standard Suppressor"
+L["gekolt_css_muz_sd.printname"] = "Standard Suppwessow"
 L["gekolt_css_muz_sd.compactname"] = "SUPP."
-L["gekolt_css_muz_sd.description"] = "Traditional weapon suppressor."
+L["gekolt_css_muz_sd.description"] = "Twaditionyaw weapon suppwessow."
 
-L["gekolt_css_muz_sd2.printname"] = "Mk.IV Suppressor"
+L["gekolt_css_muz_sd2.printname"] = "Mk.IV Suppwessow"
 L["gekolt_css_muz_sd2.compactname"] = "SUPP. II"
-L["gekolt_css_muz_sd2.description"] = "More modern tactical suppressor for more modern tactical operations."
+L["gekolt_css_muz_sd2.description"] = "Mowe modewn tacticaw Suppwessow fow mowe modewn tacticaw opewations."
 
-L["gekolt_css_muz_sd3.printname"] = "Multi-Shot Suppressor"
+L["gekolt_css_muz_sd3.printname"] = "Multi-Shot Suppwessow"
 L["gekolt_css_muz_sd3.compactname"] = "SUPP. III"
-L["gekolt_css_muz_sd3.description"] = "Large suppressor intended for use on shotguns, but can also be used on any weapon because yes."
+L["gekolt_css_muz_sd3.description"] = "Wawge suppwessow intended fow use on shotguns, but can awso be used on any weapon because yes."
 
-L["gekolt_css_muz_sd4.printname"] = "Sharpshooter Suppressor"
+L["gekolt_css_muz_sd4.printname"] = "Shawpshootew Suppwessow"
 L["gekolt_css_muz_sd4.compactname"] = "SUPP. IV"
-L["gekolt_css_muz_sd4.description"] = "Large suppressor for precision weapons, such as sniper rifles.\nYes, you can use this on any weapon."
+L["gekolt_css_muz_sd4.description"] = "Lawge suppwessow fow pwecision weapons, such as snyipew wifwes.\nYes, you can use this on any weapon ^w^."
 
 ///////////// gekolt_smorg_ubw
-L["gekolt_ubgl_mass.printname"] = "Knockzy-26 Door & Personnel Deterrent"
-L["gekolt_ubgl_mass.compactname"] = "KNOCKER"
-L["gekolt_ubgl_mass.description"] = "5-round 12-gauge box magazine pumping shotgun for your handguard.\nMost polite way to open a door.\n\n[ <color=255,255,100>Requires a magazine to use!</color> ]"
-L["gekolt_ubgl_mass.togglename"] = "KNOCKZY-26"
+L["gekolt_ubgl_mass.printname"] = "Knyockzy-26 Doow & Pewsonnyew Detewwent"
+L["gekolt_ubgl_mass.compactname"] = "KNYOCKEW"
+L["gekolt_ubgl_mass.description"] = "5-wound 12-gauge box magazinye pumping shotgun fow youw handguawd.\nMost powite way to open a doow.\n\n[ <color=255,255,100>Wequiwes a magazinye to use!</color> ]"
+L["gekolt_ubgl_mass.togglename"] = "KNYOCKZY-26"
 
-L["gekolt_ubgl_garand.printname"] = "Sawed-Off Toudranéant-30"
-L["gekolt_ubgl_garand.compactname"] = "GARAND"
-L["gekolt_ubgl_garand.description"] = "Throws grenades at people all too well!\nBanned and classified since 1949.\n\n[ <color=255,255,100>Requires a magazine to use!</color> ]"
+L["gekolt_ubgl_garand.printname"] = "Sawed-Off Toudwanéant-30"
+L["gekolt_ubgl_garand.compactname"] = "GAWAND"
+L["gekolt_ubgl_garand.description"] = "Thwows gwenyades at peopwe aww too weww!\nBanned and classified since 1949.\n\n[ <color=255,255,100>Wequiwes a magazinye to use!</color> ]"
 L["gekolt_ubgl_garand.togglename"] = "T-30"
 
-L["gekolt_ubgl_ump.printname"] = "Kleinevoller-45"
+L["gekolt_ubgl_ump.printname"] = "Kweinyevowwew-45"
 L["gekolt_ubgl_ump.compactname"] = "UMP"
-L["gekolt_ubgl_ump.description"] = "Puts the \"U\" in \"Universal\".\n\n\n[ <color=255,255,100>Requires a magazine to use!</color> ]"
+L["gekolt_ubgl_ump.description"] = "Puts the \"UwU\" in \"UwUnyivewsaw\".\n\n\n[ <color=255,255,100>Wequiwes a magazinye to use!</color> ]"
 L["gekolt_ubgl_ump.togglename"] = "KV-45"
 
-L["gekolt_ubgl_ump_9mm.printname"] = "Kleinevoller-45 - 9×19mm"
+L["gekolt_ubgl_ump_9mm.printname"] = "Kweinyevowwew-45 - 9×19mm"
 L["gekolt_ubgl_ump_9mm.compactname"] = "9MM"
-L["gekolt_ubgl_ump_9mm.description"] = "An alternative calibre with a lighter load."
+L["gekolt_ubgl_ump_9mm.description"] = "An awtewnyative cawibwe with a wightew woad."
 
-L["gekolt_ubgl_ump_10mm.printname"] = "Kleinevoller-45 - 10mm"
+L["gekolt_ubgl_ump_10mm.printname"] = "Kweinyevowwew-45 - 10mm"
 L["gekolt_ubgl_ump_10mm.compactname"] = "10MM"
-L["gekolt_ubgl_ump_10mm.description"] = "An alternative calibre with a not-so lighter load."
+L["gekolt_ubgl_ump_10mm.description"] = "An awtewnyative cawibwe with a nyot-so wightew woad."
 
 ////////////////////////////////////// Smorgasbord Remix
 /////////////////// Remix Trivia
-L["smorg_trivia_country_hl2"] = "Half-Life 2 Universe"
+L["smorg_trivia_country_hl2"] = "Hawf-Wife 2 Unyivewse"
 
-L["smorg_trivia_caliber_rebar"] = "Hot Rebar"
-L["smorg_trivia_caliber_473x33"] = "4.73×33mm Caseless"
-L["smorg_trivia_caliber_50ae"] = ".50 Action Express"
-L["smorg_trivia_caliber_polymer"] = "Polymer & Steel"
+L["smorg_trivia_caliber_rebar"] = "Hot Webaw"
+L["smorg_trivia_caliber_473x33"] = "4.73×33mm Casewess"
+L["smorg_trivia_caliber_50ae"] = ".50 Action Expwess"
+L["smorg_trivia_caliber_polymer"] = "Powymew & Steew"
 
-L["smorg_class_weapon_sho"] = "Shotgun"
-L["smorg_class_weapon_riot"] = "Riot Control Gear"
+L["smorg_class_weapon_sho"] = "Showotgun"
+L["smorg_class_weapon_riot"] = "Wiot Contwow Geaw"
 
-L["smorg_category_config"] = "Config"
-L["smorg_category_tactical"] = "Tactical"
+L["smorg_category_config"] = "Cowonfig"
+L["smorg_category_tactical"] = "Tactiwal"
 
 /////////////////// Remix Weapons
-L["smorg_gekolt_remix_aksg"] = "Nidrovich-12"
+L["smorg_gekolt_remix_aksg"] = "Nidwovich-12"
 L["smorg_gekolt_remix_aksg_real"] = "AKSG-12"
-L["smorg_gekolt_remix_aksg_desc"] = "First, last and undocumented interation of a failed line of alteration.\nInfamy breeds infamy.\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_aksg_desc"] = "Fiwst, wast and undocumented intewation of a faiwed winye of awtewation.\nInfamy bweeds infamy.\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_apc9"] = "Milizersch Libero"
+L["smorg_gekolt_remix_apc9"] = "Milizewsch Libewo"
 L["smorg_gekolt_remix_apc9_real"] = "APC9"
-L["smorg_gekolt_remix_apc9_desc"] = "Carbine-length variant with a ligher load.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_apc9_desc"] = "Cawbinye-wength vawiant with a wighew woad.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_aug_b"] = "Valteyrka-B"
+L["smorg_gekolt_remix_aug_b"] = "Walteywka-B"
 L["smorg_gekolt_remix_aug_b_real"] = "Unbullpup AUG"
-L["smorg_gekolt_remix_aug_b_desc"] = "Ergonomics be damned! Conventional is always universal.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_aug_b_desc"] = "Ewgonomics be damned UwU! Conventionyaw is awways unyivewsaw.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
 L["smorg_gekolt_remix_bowhl2"] = "Bow"
-L["smorg_gekolt_remix_bowhl2_desc"] = "Crossbows are too expensive to make.\nSignificantly higher firing rate while aiming.\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_bowhl2_desc"] = "Cwossbows awe too expensive to make.\nSignyificantwy highew fiwing wate whiwe aiming.\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
 L["smorg_gekolt_remix_deuxb"] = "Emisavoie"
 L["smorg_gekolt_remix_deuxb_real"] = "Coach Gun"
-L["smorg_gekolt_remix_deuxb_desc"] = "Old and reliable. Nothing could go wrong with a classic.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_deuxb_desc"] = "Owd and wewiabwe. Nyothing couwd go wwong with a cwassic.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
 L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
 L["smorg_gekolt_remix_g3_b_real"] = "Bullpup G3"
-L["smorg_gekolt_remix_g3_b_desc"] = "Ergonomics be praised! Unconventional is the way forward.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_g3_b_desc"] = "Ewgonomics be praised -w-! Unconventionyaw is the way fowwawd.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_g11"] = "Husellisch-11"
+L["smorg_gekolt_remix_g11"] = "Huselwisch-11"
 L["smorg_gekolt_remix_g11_real"] = "G11"
-L["smorg_gekolt_remix_g11_desc"] = "Impractical from the start, a design too ambitious for its time.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_g11_desc"] = "Impwactical fwom the stawt, a design too amwbitious for its time.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_gepard"] = "Ryszachti-9"
-L["smorg_gekolt_remix_gepard_real"] = "Gepard PP"
-L["smorg_gekolt_remix_gepard_desc"] = "A response to a desire for an even more compact design.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_gepard"] = "Wyszachti-9"
+L["smorg_gekolt_remix_gepard_real"] = "Geward PP"
+L["smorg_gekolt_remix_gepard_desc"] = "A wesponse to a desiwe fow an ewen mowe compact design.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
 L["smorg_gekolt_remix_jackham"] = "Pancolhver-12"
 L["smorg_gekolt_remix_jackham_real"] = "Jackhammer"
-L["smorg_gekolt_remix_jackham_desc"] = "Overly complex design that fails at everything.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_jackham_desc"] = "Owerly compwlex design that fwails at ewerything.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_minid"] = "Ohlderogl Wricht"
-L["smorg_gekolt_remix_minid_real"] = "Baby Desert Eagle"
-L["smorg_gekolt_remix_minid_desc"] = "Compact version of a hunting pistol.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_minid"] = "Ohldewogl Wwicht"
+L["smorg_gekolt_remix_minid_real"] = "Baby Desewt Eagwle"
+L["smorg_gekolt_remix_minid_desc"] = "Compact wersion of a hunwing piswol.\n\n\n[ <color=255,255,100>Pawt of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_sg552"] = "Orkaneer-52"
+L["smorg_gekolt_remix_sg552"] = "Owkaneew-52"
 L["smorg_gekolt_remix_sg552_real"] = "SG552"
-L["smorg_gekolt_remix_sg552_desc"] = "Barely customizable modular weapon.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_sg552_desc"] = "Bawely customiwable moduwaw weapon.\n\n\n[ <color=255,255,100>Pawt of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_shieldtonfa"] = "Riot Shield & Tonfa"
-L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-riot gear, allowing for quick guarding with the shield and skulls to be cracked with the tonfa.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_shieldtonfa"] = "Wiot Shield & Tonfa"
+L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-wiot gear, alwowing fow quick guawding wiwh the shwield and skwuwws to be cwacked wiwh the tonfa.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
-L["smorg_gekolt_remix_uzi"] = "Yvelzy-9"
-L["smorg_gekolt_remix_uzi_real"] = "UZI"
-L["smorg_gekolt_remix_uzi_desc"] = "A staple of rapid manufacturing.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
+L["smorg_gekolt_remix_uzi"] = "Ywelwy-9"
+L["smorg_gekolt_remix_uzi_real"] = "UWI" -- UE, OMELANDA DONE KILLED ME WIFE  DONT WANNA LIFE NAUR MOAR
+L["smorg_gekolt_remix_uzi_desc"] = "A stapwle of wapid manufactuwing.\n\n\n[ <color=255,255,100>Part of Smowgasbowd Wemix</color> ]"
 
 /////////////////////////// Remix Attachments
-L["gekolt_fof_coach_b2.printname"] = "Nitro Load"
-L["gekolt_fof_coach_b2.compactname"] = "NITRO"
-L["gekolt_fof_coach_b2.description"] = "A bigger game requires a bigger load."
+L["gekolt_fof_coach_b2.printname"] = "Nitwo Woad"
+L["gekolt_fof_coach_b2.compactname"] = "NITWO"
+L["gekolt_fof_coach_b2.description"] = "A biwwew game requiwes a biwwew woad."
 
-L["gekolt_fof_coach_b1.printname"] = "Sawed-Off Barrel"
+L["gekolt_fof_coach_b1.printname"] = "Sawed-OwOff Bawwew"
 L["gekolt_fof_coach_b1.compactname"] = "SAWED"
-L["gekolt_fof_coach_b1.description"] = "Harms your gun but it does look good tho."
+L["gekolt_fof_coach_b1.description"] = "Hawms your gun buw it does look good tho -w-."
 
-L["gekolt_ca_uzi_1.printname"] = "One-Handed"
-L["gekolt_ca_uzi_1.compactname"] = "GANGSTA"
-L["gekolt_ca_uzi_1.description"] = "Fold that stock in and walk like you own the place."
+L["gekolt_ca_uzi_1.printname"] = "OwOne-Handed"
+L["gekolt_ca_uzi_1.compactname"] = "GANGSTA >w<"
+L["gekolt_ca_uzi_1.description"] = "Fowd that swock in and wawk wike you own the place."
 
-L["gekolt_ca_uzi_1.printname"] = "Micro-C"
-L["gekolt_ca_uzi_1.compactname"] = "MICRO"
-L["gekolt_ca_uzi_1.description"] = "It very short."
+L["gekolt_ca_uzi_1.printname"] = "Micwo-C"
+L["gekolt_ca_uzi_1.compactname"] = "MICWO"
+L["gekolt_ca_uzi_1.description"] = "It wery short uwu."
