@@ -76,7 +76,7 @@ SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 650
+SWEP.RPM = 630
 
 -- Works different to ArcCW
 
@@ -235,7 +235,7 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
 -------------------------- SOUNDS
 
-SWEP.ShootSound = "gekolt_pr2/m60_fire.ogg"
+SWEP.ShootSound = "gekolt_pr2/m60_fire2.ogg"
 SWEP.ShootSoundSilenced = "gekolt_css/m4a1-1.wav"
 SWEP.DryFireSound = "oneshotof_cs16/dryfire_rifle.wav"
 
