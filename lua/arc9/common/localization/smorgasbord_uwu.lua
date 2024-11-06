@@ -135,6 +135,10 @@ L["smorg_gekolt_css_ak47"] = "Awtoma-7"
 L["smorg_gekolt_css_ak47_real"] = "AK-47"
 L["smorg_gekolt_css_ak47_desc"] = "Wugged wifle with a simwle design that can fuwction undew harsh conwitions.\nA timeless design with a vawiant fow evewy conceivabwe use case, and many inconceivabwe onyes t-too."
 
+L["smorg_gekolt_css_automag"] = "Hargern AMP"
+L["smorg_gekolt_css_automag_real"] = "Auto Mag 44"
+L["smorg_gekolt_css_automag_desc"] = "An ultra expensive, curious relic for those who really want a revolver but hate revolvers with a burning passion."
+
 L["smorg_gekolt_css_awp"] = "Awdwic-38" -- this is just an average Welsh word lmao
 L["smorg_gekolt_css_awp_real"] = "AWP"
 L["smorg_gekolt_css_awp_desc"] = "Imposing magnyum snyipew wifle used by the powice. Ovewpenyetwates up cwose, so step back.\nIts wawity and iconyic status makes it all t-t-the mowe tempting to give it... unscwupuwous tweaks."
@@ -590,6 +594,19 @@ L["gekolt_ammo_sg_flame.description"] = "A highwy unyethicaw fwame wound woaded 
 L["gekolt_ammo_sg_flare.printname"] = "Signyaw Fware"
 L["gekolt_ammo_sg_flare.compactname"] = "FWARE"
 L["gekolt_ammo_sg_flare.description"] = "W-Wow p-pwessuwe sheww containying an iwwuminyating fwawe buwnying at a high tempewatuwe.\nUsuawwy used fow signyawwing, but can wight things up in a p-pinch."
+
+///////////// gekolt_css_automag
+-- L["gekolt_css_automag_b1.printname"] = "REPLACEME"
+-- L["gekolt_css_automag_b1.compactname"] = "REPLACEME"
+-- L["gekolt_css_automag_b1.description"] = "REPLACEME"
+
+-- L["gekolt_css_automag_b2.printname"] = "REPLACEME"
+-- L["gekolt_css_automag_b2.compactname"] = "REPLACEME"
+-- L["gekolt_css_automag_b2.description"] = "REPLACEME"
+
+-- L["gekolt_css_automag_b3.printname"] = "REPLACEME"
+-- L["gekolt_css_automag_b3.compactname"] = "REPLACEME"
+-- L["gekolt_css_automag_b3.description"] = "REPLACEME"
 
 ///////////// gekolt_css_awp
 L["gekolt_css_awp_s_no.description"] = "Compwetewy wemuvs any OwO sense of bwacing fwom a high-cawibwe wifwe."
@@ -1322,53 +1339,53 @@ L["smorg_category_tactical"] = "Tactical"
 /////////////////// Remix Weapons
 L["smorg_gekolt_remix_aksg"] = "Nidrovich-12"
 L["smorg_gekolt_remix_aksg_real"] = "AKSG-12"
-L["smorg_gekolt_remix_aksg_desc"] = "First, last and undocumented interation of a failed line of alteration.\nInfamy breeds infamy."
+L["smorg_gekolt_remix_aksg_desc"] = "First, last and undocumented interation of a failed line of alteration.\nInfamy breeds infamy.\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_apc9"] = "Milizersch Libero"
 L["smorg_gekolt_remix_apc9_real"] = "APC9"
-L["smorg_gekolt_remix_apc9_desc"] = "Carbine-length variant with a ligher load."
+L["smorg_gekolt_remix_apc9_desc"] = "Carbine-length variant with a ligher load.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_aug_b"] = "Valteyrka-B"
 L["smorg_gekolt_remix_aug_b_real"] = "Unbullpup AUG"
-L["smorg_gekolt_remix_aug_b_desc"] = "Ergonomics be damned! Conventional is always universal."
+L["smorg_gekolt_remix_aug_b_desc"] = "Ergonomics be damned! Conventional is always universal.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_bowhl2"] = "Bow"
-L["smorg_gekolt_remix_bowhl2_desc"] = "Crossbows are too expensive to make.\nSignificantly higher firing rate while aiming."
+L["smorg_gekolt_remix_bowhl2_desc"] = "Crossbows are too expensive to make.\nSignificantly higher firing rate while aiming.\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_deuxb"] = "Emisavoie"
 L["smorg_gekolt_remix_deuxb_real"] = "Coach Gun"
-L["smorg_gekolt_remix_deuxb_desc"] = "Old and reliable. Nothing could go wrong with a classic."
+L["smorg_gekolt_remix_deuxb_desc"] = "Old and reliable. Nothing could go wrong with a classic.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
 L["smorg_gekolt_remix_g3_b_real"] = "Bullpup G3"
-L["smorg_gekolt_remix_g3_b_desc"] = "Ergonomics be praised! Unconventional is the way forward."
+L["smorg_gekolt_remix_g3_b_desc"] = "Ergonomics be praised! Unconventional is the way forward.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_g11"] = "Husellisch-11"
 L["smorg_gekolt_remix_g11_real"] = "G11"
-L["smorg_gekolt_remix_g11_desc"] = "Impractical from the start, a design too ambitious for its time."
+L["smorg_gekolt_remix_g11_desc"] = "Impractical from the start, a design too ambitious for its time.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_gepard"] = "Ryszachti-9"
 L["smorg_gekolt_remix_gepard_real"] = "Gepard PP"
-L["smorg_gekolt_remix_gepard_desc"] = "A response to a desire for an even more compact design."
+L["smorg_gekolt_remix_gepard_desc"] = "A response to a desire for an even more compact design.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_jackham"] = "Pancolhver-12"
 L["smorg_gekolt_remix_jackham_real"] = "Jackhammer"
-L["smorg_gekolt_remix_jackham_desc"] = "Overly complex design that fails at everything."
+L["smorg_gekolt_remix_jackham_desc"] = "Overly complex design that fails at everything.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_minid"] = "Ohlderogl Wricht"
 L["smorg_gekolt_remix_minid_real"] = "Baby Desert Eagle"
-L["smorg_gekolt_remix_minid_desc"] = "Compact version of a hunting pistol."
+L["smorg_gekolt_remix_minid_desc"] = "Compact version of a hunting pistol.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_sg552"] = "Orkaneer-52"
 L["smorg_gekolt_remix_sg552_real"] = "SG552"
-L["smorg_gekolt_remix_sg552_desc"] = "Barely customizable modular weapon."
+L["smorg_gekolt_remix_sg552_desc"] = "Barely customizable modular weapon.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_shieldtonfa"] = "Riot Shield & Tonfa"
-L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-riot gear, allowing for quick guarding with the shield and skulls to be cracked with the tonfa."
+L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-riot gear, allowing for quick guarding with the shield and skulls to be cracked with the tonfa.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_uzi"] = "Yvelzy-9"
 L["smorg_gekolt_remix_uzi_real"] = "UZI"
-L["smorg_gekolt_remix_uzi_desc"] = "A staple of rapid manufacturing."
+L["smorg_gekolt_remix_uzi_desc"] = "A staple of rapid manufacturing.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 /////////////////////////// Remix Attachments
 L["gekolt_fof_coach_b2.printname"] = "Nitro Load"

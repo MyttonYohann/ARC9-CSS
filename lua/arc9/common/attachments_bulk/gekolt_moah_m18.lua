@@ -45,6 +45,11 @@ ATT.ShootSoundUBGL = "rzen1th_smor/m18_fire.wav"
 ATT.ShootSoundSilenced = "gekolt_css/ar10_sd.wav"
 ATT.DistantShootSoundSilenced = "cturix_ar15/fire_blackout_dist.wav"
 
+ATT.Firemodes = {
+    { Mode = -1 },
+    { Mode = 1 },
+}
+
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_xm"
 end

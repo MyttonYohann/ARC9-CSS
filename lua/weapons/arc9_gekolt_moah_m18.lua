@@ -82,15 +82,7 @@ SWEP.RPM = 600
 -- 2: Two-round burst.
 -- 3: Three-round burst.
 -- n: n-round burst.
-SWEP.Firemodes = {
-    {
-        Mode = -1,
-        -- add other attachment modifiers
-    },
-    {
-        Mode = 1
-    }
-}
+SWEP.Firemodes = { { Mode = 1 } }
 -------------------------- RECOIL
 
 -- General recoil multiplier

@@ -132,6 +132,10 @@ L["smorg_gekolt_css_ak47"] = "Avtoma-7"
 L["smorg_gekolt_css_ak47_real"] = "AK-47"
 L["smorg_gekolt_css_ak47_desc"] = "Tufft gevär med enkel design som fungerar under tuffa miljöer.\nEn tidslös design med en variant för varje möjlig användning, och många omöjliga också."
 
+L["smorg_gekolt_css_automag"] = "Hargern AMP"
+L["smorg_gekolt_css_automag_real"] = "Auto Mag 44"
+L["smorg_gekolt_css_automag_desc"] = "An extremt dyr och nyfiken relik för dem som verkligen vill ha en revolver men hatar revolvrar som in uta helvete."
+
 L["smorg_gekolt_css_awp"] = "Aldric-38"
 L["smorg_gekolt_css_awp_real"] = "AWP"
 L["smorg_gekolt_css_awp_desc"] = "Imponerande magnum-krypskyttegevär som används av polisen. Överpenetrerar på nära håll, så ta ett steg tillbaka.\nDess sällsynthet och ikoniska status gör det mer frestande att ge den... samvetslösa förändringar."
@@ -584,6 +588,19 @@ L["gekolt_ammo_sg_flame.description"] = "En väldigt oetisk flammpatron laddad m
 L["gekolt_ammo_sg_flare.printname"] = "Signalskott"
 L["gekolt_ammo_sg_flare.compactname"] = "SIGNAL"
 L["gekolt_ammo_sg_flare.description"] = "Patron med lågt tryck innehåller en upplysande signal som brinner vid väldigt hög temperatur.\nAnvänds oftast för att signalera, men kan tända fyr på grejer om det krävs."
+
+///////////// gekolt_css_automag
+-- L["gekolt_css_automag_b1.printname"] = "REPLACEME"
+-- L["gekolt_css_automag_b1.compactname"] = "REPLACEME"
+-- L["gekolt_css_automag_b1.description"] = "REPLACEME"
+
+-- L["gekolt_css_automag_b2.printname"] = "REPLACEME"
+-- L["gekolt_css_automag_b2.compactname"] = "REPLACEME"
+-- L["gekolt_css_automag_b2.description"] = "REPLACEME"
+
+-- L["gekolt_css_automag_b3.printname"] = "REPLACEME"
+-- L["gekolt_css_automag_b3.compactname"] = "REPLACEME"
+-- L["gekolt_css_automag_b3.description"] = "REPLACEME"
 
 ///////////// gekolt_css_awp
 L["gekolt_css_awp_s_no.description"] = "Tar helt bort all möjlighet att stödja dig från detta högkaliber gevär."
@@ -1314,53 +1331,53 @@ L["smorg_category_tactical"] = "Taktisk"
 /////////////////// Remix Weapons
 L["smorg_gekolt_remix_aksg"] = "Nidrovich-12"
 L["smorg_gekolt_remix_aksg_real"] = "AKSG-12"
-L["smorg_gekolt_remix_aksg_desc"] = "Första, sista och odokumenterad integrering i en misslyckad linje av ändringar.\nVanära föder vanära."
+L["smorg_gekolt_remix_aksg_desc"] = "Första, sista och odokumenterad integrering i en misslyckad linje av ändringar.\nVanära föder vanära.\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_apc9"] = "Milizersch Libero"
 L["smorg_gekolt_remix_apc9_real"] = "APC9"
-L["smorg_gekolt_remix_apc9_desc"] = "Karbinlängd variant med en lättare laddning."
+L["smorg_gekolt_remix_apc9_desc"] = "Karbinlängd variant med en lättare laddning.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_aug_b"] = "Valteyrka-B"
 L["smorg_gekolt_remix_aug_b_real"] = "Unbullpup AUG"
-L["smorg_gekolt_remix_aug_b_desc"] = "Fördöm ergonomin! Konventionellt är alltid universalt."
+L["smorg_gekolt_remix_aug_b_desc"] = "Fördöm ergonomin! Konventionellt är alltid universalt.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_bowhl2"] = "Båge"
-L["smorg_gekolt_remix_bowhl2_desc"] = "Armborstar är för dyra att göra.\nKraftigt högre eldhastighet i siktet."
+L["smorg_gekolt_remix_bowhl2_desc"] = "Armborstar är för dyra att göra.\nKraftigt högre eldhastighet i siktet.\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_deuxb"] = "Emisavoie"
 L["smorg_gekolt_remix_deuxb_real"] = "\"Coach Gun\""
-L["smorg_gekolt_remix_deuxb_desc"] = "Gammal och pålitlig. Inget kan gå fel med en klassiker."
+L["smorg_gekolt_remix_deuxb_desc"] = "Gammal och pålitlig. Inget kan gå fel med en klassiker.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
 L["smorg_gekolt_remix_g3_b_real"] = "Bullpup AK4"
-L["smorg_gekolt_remix_g3_b_desc"] = "Beröm ergonomin! Okonventionellt är vägen framåt."
+L["smorg_gekolt_remix_g3_b_desc"] = "Beröm ergonomin! Okonventionellt är vägen framåt.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_g11"] = "Husellisch-11"
 L["smorg_gekolt_remix_g11_real"] = "G11"
-L["smorg_gekolt_remix_g11_desc"] = "Opraktisk från början, en design för ambitiös för dess tid."
+L["smorg_gekolt_remix_g11_desc"] = "Opraktisk från början, en design för ambitiös för dess tid.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_gepard"] = "Ryszachti-9"
 L["smorg_gekolt_remix_gepard_real"] = "Gepard PP"
-L["smorg_gekolt_remix_gepard_desc"] = "Ett svar till en önskan för en ännu mer kompakt design."
+L["smorg_gekolt_remix_gepard_desc"] = "Ett svar till en önskan för en ännu mer kompakt design.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_jackham"] = "Pancolhver-12"
 L["smorg_gekolt_remix_jackham_real"] = "Jackhammer"
-L["smorg_gekolt_remix_jackham_desc"] = "Alltför komplicerad design som misslyckas med allt."
+L["smorg_gekolt_remix_jackham_desc"] = "Alltför komplicerad design som misslyckas med allt.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_minid"] = "Ohlderogl Wricht"
 L["smorg_gekolt_remix_minid_real"] = "Baby Desert Eagle"
-L["smorg_gekolt_remix_minid_desc"] = "Kompakt version av en jaktpistol."
+L["smorg_gekolt_remix_minid_desc"] = "Kompakt version av en jaktpistol.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_sg552"] = "Orkaneer-52"
 L["smorg_gekolt_remix_sg552_real"] = "SG552"
-L["smorg_gekolt_remix_sg552_desc"] = "Knappt anpassningsbart modulärt vapen."
+L["smorg_gekolt_remix_sg552_desc"] = "Knappt anpassningsbart modulärt vapen.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_shieldtonfa"] = "Kravallsköld och Tonfa"
-L["smorg_gekolt_remix_shieldtonfa_desc"] = "Samling kravallutrustning som tillåter för snabbt skydd med skölden och skallar att öppnas upp med tonfan."
+L["smorg_gekolt_remix_shieldtonfa_desc"] = "Samling kravallutrustning som tillåter för snabbt skydd med skölden och skallar att öppnas upp med tonfan.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 L["smorg_gekolt_remix_uzi"] = "Yvelzy-9"
 L["smorg_gekolt_remix_uzi_real"] = "UZI"
-L["smorg_gekolt_remix_uzi_desc"] = "Stapelvara i snabb tillverkning."
+L["smorg_gekolt_remix_uzi_desc"] = "Stapelvara i snabb tillverkning.\n\n\n[ <color=255,255,100>Del av Smörgåsbord Remix</color> ]"
 
 /////////////////////////// Remix Attachments
 L["gekolt_fof_coach_b2.printname"] = "Nitro-Laddning"
