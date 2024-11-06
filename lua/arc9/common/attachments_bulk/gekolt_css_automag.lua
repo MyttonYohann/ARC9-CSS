@@ -75,7 +75,9 @@ ATT.ActivateElements = {"b_hunt"}
 
 ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "fire"			then	return "fire_iron"	end	
-	if	curanim == "fire_empty"		then	return "fire_iron_empty"	end	
+	if	curanim == "fire_empty"		then	return "fire_iron_empty"	end		
+	if	curanim == "reload"			then	return "reload_hunt"	end	
+	if	curanim == "reload_empty"	then	return "reload_empty_hunt"	end	
 end
 
 ATT.LHIK = true

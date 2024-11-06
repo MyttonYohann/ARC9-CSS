@@ -384,4 +384,40 @@ SWEP.Animations = {
         { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.85, lhik = 0, rhik = 1, },{ t = 0.975, lhik = 1, rhik = 1, },
         },
     },
+    ["reload_hunt"] = {
+        Source = "wet_hunt",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.95,
+		RefillProgress = 0.8,
+        EventTable = {
+            {s =  "gekolt_css/p228_clipout.wav" ,  t = 10 / 40},
+            {s =  "gekolt_automag/de_clipout.wav" ,    	t = 30 / 40}, 
+			{s =  "gekolt_automag/de_clipin.wav" ,    	t = 63 / 40},
+            {s =  "gekolt_css/de_clipin2.wav" ,   t = 68 / 40},
+        },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
+        },
+    },
+    ["reload_empty_hunt"] = {
+        Source = "dry_hunt",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        FireASAP = true,
+        MinProgress = 0.95,
+		RefillProgress = 0.825,
+        EventTable = {
+            {s =  "gekolt_css/p228_clipout.wav" ,  		t = 10 / 40},
+            {s =  "gekolt_automag/de_clipout.wav" ,    	t = 33 / 40}, 
+			{s =  "gekolt_automag/de_clipin.wav" ,    	t = 58 / 40},
+            {s =  "gekolt_css/de_clipin2.wav" ,   t = 63 / 40},
+            {s =  "gekolt_css/de_slideback1.wav" ,  	t = 95 / 40}, 
+			{s =  "gekolt_css/de_slideback2.wav" ,   	t = 105 / 40},
+            },
+        IKTimeLine = {
+        { t = 0, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.85, lhik = 0, rhik = 1, },{ t = 0.975, lhik = 1, rhik = 1, },
+        },
+    },
 }
