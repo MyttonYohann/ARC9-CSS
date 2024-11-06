@@ -24,6 +24,8 @@ ATT.RPMMult = 950 / 800
 ATT.RecoilMult = 1.25
 ATT.RecoilSideMult = 4
 ATT.RecoilRandomSideMult = 0.75 / 0.3
+ATT.ShootSound = {"cturix_beretta/fire_auto.wav"}
+ATT.FirstShootSound = {"cturix_beretta/fire1.wav","cturix_beretta/fire2.wav","cturix_beretta/fire3.wav","cturix_beretta/fire4.wav"}
 
 ATT.Attachments = {
     {
@@ -57,6 +59,8 @@ Despite using the exact same magazine as the Auto-Frame, only holds 20 for reaso
 ATT.SortOrder = 2
 ATT.Category = "css_m9_frame"
 ATT.ActivateElements = {"f_burst"}
+ATT.ShootSound = {"cturix_beretta/fire_burst1.wav","cturix_beretta/fire_burst2.wav","cturix_beretta/fire_burst3.wav"}
+ATT.FirstShootSound = {"cturix_beretta/fire1.wav","cturix_beretta/fire2.wav","cturix_beretta/fire3.wav","cturix_beretta/fire4.wav"}
 
 ATT.Firemodes = { { Mode = 3, }	}
 ATT.RunawayBurst = true
@@ -142,6 +146,9 @@ ATT.SpeedMultSightsMult = 0.75
 ATT.SpeedMultShootingMult = 0.85
 ATT.AimDownSightsTimeMult = 0.85
 ATT.SprintToFireTimeMult = 0.85
+
+ATT.ShootSound = {"cturix_beretta/fire_auto.wav"}
+ATT.FirstShootSound = {"cturix_beretta/fire1.wav","cturix_beretta/fire2.wav","cturix_beretta/fire3.wav","cturix_beretta/fire4.wav"}
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 0

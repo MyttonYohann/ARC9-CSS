@@ -130,7 +130,8 @@ SWEP.SpreadMultHipFire = 1.5
 
 -------------------------- HANDLING
 
-SWEP.FreeAimRadius = 4 -- In degrees, how much this gun can free aim in hip fire.
+SWEP.FreeAimRadius = 5 -- In degrees, how much this gun can free aim in hip fire.
+SWEP.FreeAimRadiusMultSights = 0.5
 SWEP.Sway = 1.25
 
 SWEP.SwayMultMidAir = 2
@@ -232,7 +233,7 @@ SWEP.MuzzleEffectQCA = 1
 
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellCorrectAng = Angle(0, 180, 0)
-SWEP.ShellScale = 1
+SWEP.ShellScale = 1.5
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
 -------------------------- SOUNDS
