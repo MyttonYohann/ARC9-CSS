@@ -356,7 +356,7 @@ SWEP.Animations = {
             {s =  "gekolt_css/p228_clipout.wav" ,  t = 10 / 40},
             {s =  "gekolt_automag/de_clipout.wav" ,    	t = 30 / 40}, 
 			{s =  "gekolt_automag/de_clipin.wav" ,    	t = 63 / 40},
-            {s =  "gekolt_css/fiveseven_clipin.wav" ,   t = 68 / 40},
+            {s =  "gekolt_css/de_clipin2.wav" ,   t = 68 / 40},
         },
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
@@ -373,7 +373,7 @@ SWEP.Animations = {
             {s =  "gekolt_css/p228_clipout.wav" ,  		t = 10 / 40},
             {s =  "gekolt_automag/de_clipout.wav" ,    	t = 33 / 40}, 
 			{s =  "gekolt_automag/de_clipin.wav" ,    	t = 58 / 40},
-            {s =  "gekolt_css/fiveseven_clipin.wav" ,   t = 63 / 40},
+            {s =  "gekolt_css/de_clipin2.wav" ,   t = 63 / 40},
             {s =  "gekolt_css/de_slideback1.wav" ,  	t = 95 / 40}, 
 			{s =  "gekolt_css/de_slideback2.wav" ,   	t = 105 / 40},
             },
