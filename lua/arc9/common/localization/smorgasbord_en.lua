@@ -803,7 +803,7 @@ L["gekolt_css_m4_h_11.description"] = "Sharpshooter extention with pre-packed ac
 ///////////// gekolt_css_m4_upper
 L["gekolt_css_m4_u_10.printname"] = "Prototype Receiver"
 L["gekolt_css_m4_u_10.compactname"] = "PROTO"
-L["gekolt_css_m4_u_10.description"] = "An older design allowing the rifle to utilize larger bullets.\nPowerful bullets overpenetrate at close range."
+L["gekolt_css_m4_u_10.description"] = "An older design allowing the rifle to utilise larger bullets.\nPowerful bullets overpenetrate at close range."
 
 L["gekolt_css_m4_u_a1.printname"] = "Logistic Receiver"
 L["gekolt_css_m4_u_a1.compactname"] = "LOGI."
@@ -1026,25 +1026,25 @@ L["gekolt_dod_garand_vanguard.printname"] = "Récepteur Vanguard" -- Roughly "Va
 L["gekolt_dod_garand_vanguard.compactname"] = "VANGUARD"
 L["gekolt_dod_garand_vanguard.description"] = "Extra short experimental paratrooper model with an extra funky non-foldable stock.\nModified magazine allows quick ejection of non-empty clips in a spectacular, but wasteful fashion."
 
-L["gekolt_dod_garand_m14.printname"] = "Récepteur de chasse" -- Roughly "Hunting Receiver"
+L["gekolt_dod_garand_m14.printname"] = "Récepteur de Chasse" -- Roughly "Hunting Receiver"
 L["gekolt_dod_garand_m14.compactname"] = "YSL"
 L["gekolt_dod_garand_m14.description"] = "Select-fire prototype that accepts box magazines.\nThis model has a curiously short barrel that makes it resemble a later US military rifle.\n\nIntegrity of your shoulder is not guaranteed if you dare touch that fire selector."
 
-L["gekolt_dod_garand_min.printname"] = "Récepteur sportif" -- Roughly "Sport Receiver"
+L["gekolt_dod_garand_min.printname"] = "Récepteur Sportif" -- Roughly "Sport Receiver"
 L["gekolt_dod_garand_min.compactname"] = "SCF"
 L["gekolt_dod_garand_min.description"] = "\"Modernised\" carbine model firing intermediate cartridges from STANAG magazines. Its short barrel and pistol grip <color=100,255,100>improve handling</color>.\nA travesty of a conversion, but at least it comes with an auto sear that won't dislocate your shoulder."
 
-L["gekolt_dod_garand_slam.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_slam.printname"] = "Récepteur Trancher" -- why is this duplicated
 L["gekolt_dod_garand_slam.compactname"] = "SLAM"
 L["gekolt_dod_garand_slam.description"] = "An unholy creation for all you trench sweeping needs.\nStill goes \"PING\" despite not using clips anymore. This is because-- *dies of cringe*\n\nSomewhere in the afterlife, John Garand is weeping for your sins (yes, that is his real name)."
 
-L["gekolt_dod_garand_strip.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_strip.printname"] = "Récepteur Charognarde" -- Roughly "Scavenger Receiver"
 L["gekolt_dod_garand_strip.compactname"] = "SCAV."
 L["gekolt_dod_garand_strip.description"] = "Lever-action conversion that could only have come from the hands of some Eastern European crackhead.\nA wooden \"dong\" grip is somehow carved into the frame for \"stability\".\nFires high-calibre rounds that overpenetrates up close, and can only be loaded manually or via stripper clips."
 
-L["gekolt_dod_garand_drg.printname"] = "Récepteur de pierre rocheuse" -- Roughly "Rocky Stone Receiver"
+L["gekolt_dod_garand_drg.printname"] = "Récepteur de Pierre Rocheuse" -- Roughly "Rocky Stone Receiver"
 L["gekolt_dod_garand_drg.compactname"] = "M1000"
-L["gekolt_dod_garand_drg.description"] = "Futuristic garage kit made for space mining operations.\nModified trigger and gas system allows shooting <color=100,255,100>2 shots</color> after a short charge period.\nSpecialized low-pressure rounds reduce <color=255,100,100>damage and recoil</color>."
+L["gekolt_dod_garand_drg.description"] = "Futuristic garage kit made for space mining operations.\nModified trigger and gas system allows shooting <color=100,255,100>2 shots</color> after a short charge period.\nSpecialised low-pressure rounds reduce <color=255,100,100>damage and recoil</color>."
 
 L["gekolt_dod_grip_air.printname"] = "Display Rail"
 L["gekolt_dod_grip_air.compactname"] = "RAIL"
@@ -1081,7 +1081,7 @@ L["gekolt_css_mauser_mag3.description"] = "<color=100,255,100>82-round</color> d
 
 L["gekolt_css_mauser_mag4.printname"] = "Scharfschützen-Magazin" -- Roughly "Sharpshooter Magazine"
 L["gekolt_css_mauser_mag4.compactname"] = "SNIPER"
-L["gekolt_css_mauser_mag4.description"] = "Small <color=255,100,100>6-round</color> magazine loaded with overpressurized bullets."
+L["gekolt_css_mauser_mag4.description"] = "Small <color=255,100,100>6-round</color> magazine loaded with overpressurised bullets."
 
 L["gekolt_css_mauser_hg1.printname"] = "Kein Handschutz" -- Roughly "No Handguard"
 L["gekolt_css_mauser_hg1.compactname"] = "NONE"
@@ -1089,7 +1089,7 @@ L["gekolt_css_mauser_hg1.description"] = "Revert the weapon back to a pistol for
 
 L["gekolt_css_mauser_hg2.printname"] = "Karabiner Handschutz" -- Roughly "Carbine Handguard"
 L["gekolt_css_mauser_hg2.compactname"] = "CARBINE"
-L["gekolt_css_mauser_hg2.description"] = "An attempt to modernize a rusty old pistol with increased <color=100,255,100>stability</color> but <color=255,100,100>lower rate of fire</color> alongside a long top-mounted rail for optics."
+L["gekolt_css_mauser_hg2.description"] = "An attempt to modernise a rusty old pistol with increased <color=100,255,100>stability</color> but <color=255,100,100>lower rate of fire</color> alongside a long top-mounted rail for optics."
 
 L["gekolt_css_mauser_hg3.printname"] = "Feuerstoß-Handschutz" -- Roughly "Burst-Fire Handguard"
 L["gekolt_css_mauser_hg3.compactname"] = "BURST"
@@ -1240,7 +1240,7 @@ L["gekolt_pr2_mosin_f2.description"] = "Curved bolt for use with a sniper scope.
 
 L["gekolt_pr2_mosin_f3.printname"] = "Pogranichnaya Ramka" -- "Пограничная Рамка"; Roughly "Frontier Frame"
 L["gekolt_pr2_mosin_f3.compactname"] = "FRONTIER"
-L["gekolt_pr2_mosin_f3.description"] = "Angled bolt with a removed internal magazine to completely minimize interference when feeding."
+L["gekolt_pr2_mosin_f3.description"] = "Angled bolt with a removed internal magazine to completely minimise interference when feeding."
 
 L["gekolt_pr2_mosin_f4.printname"] = "Provodnika Ramka" -- "Проводника Рамка"; Roughly "Conductor Frame"
 L["gekolt_pr2_mosin_f4.compactname"] = "CONDUCTOR"
