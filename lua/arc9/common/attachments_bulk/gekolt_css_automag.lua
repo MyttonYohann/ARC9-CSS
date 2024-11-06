@@ -24,6 +24,11 @@ ATT.IronSights = {
     CrosshairInSights = false,
 }
 
+ATT.Silencer = true
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+
 -- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
 -- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 

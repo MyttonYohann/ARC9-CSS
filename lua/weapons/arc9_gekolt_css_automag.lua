@@ -45,8 +45,8 @@ SWEP.RecoilAutoControlMultHipFire = 0.5
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 35
-SWEP.DamageMin = 16
+SWEP.DamageMax = 78
+SWEP.DamageMin = 42
 
 SWEP.RangeMin = 500
 SWEP.RangeMax = 3000
@@ -68,7 +68,7 @@ SWEP.PhysBulletMuzzleVelocity = 1280 * 12
 
 -------------------------- MAGAZINE
 
-SWEP.Ammo = ".357" -- What ammo type this gun uses.
+SWEP.Ammo = "357" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 1 -- The amount of rounds this gun can chamber.
 SWEP.ClipSize = 7 -- Self-explanatory.
