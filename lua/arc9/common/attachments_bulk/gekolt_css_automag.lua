@@ -12,15 +12,62 @@ ATT.SortOrder = 1
 ATT.Category = "css_amt_frame"
 ATT.ActivateElements = {"b_sd"}
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_ex"
-end
-
-ATT.RecoilMult = 1.25
-ATT.RecoilSideMult = 4
-ATT.RecoilRandomSideMult = 0.75 / 0.3
-
 -- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
 -- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_automag_b1")
+
+-----------------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = [[Nuh uh]]
+ATT.CompactName = [[H]]
+ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Description = [[dont need it
+]]
+
+ATT.SortOrder = 1
+ATT.Category = "css_amt_frame"
+ATT.ActivateElements = {"b_no"}
+
+-- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "gekolt_css_automag_b2")
+
+
+-----------------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = [[Hunt]]
+ATT.CompactName = [[Hunt]]
+ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Description = [[real
+]]
+
+ATT.SortOrder = 1
+ATT.Category = "css_amt_frame"
+ATT.ActivateElements = {"b_hunt"}
+
+-- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
+-- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "fire"			then	return "fire_iron"	end	
+	if	curanim == "fire_empty"		then	return "fire_iron_empty"	end	
+end
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 0
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-12, -1.9, 1.5)
+ATT.ModelAngleOffset = Angle(90, -90, 0)
+ATT.Model = "models/weapons/geckololt_css/c_garand.mdl"
+ATT.ModelBodygroups = "15000"
+
+ARC9.LoadAttachment(ATT, "gekolt_css_automag_b3")

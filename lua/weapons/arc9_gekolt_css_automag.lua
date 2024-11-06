@@ -256,8 +256,9 @@ SWEP.AttachmentElements = {
         Bodygroups = {{3, 4},{1, 2}},
     },
 
-    ["g_1"] = { Bodygroups = {{6, 1}}, },
-    ["s_1"] = { Bodygroups = {{5, 1}}, },
+    ["b_sd"] = 		{ Bodygroups = {{1, 1}}, },
+    ["b_no"] = 		{ Bodygroups = {{1, 4}}, },
+	["b_hunt"] = 	{ Bodygroups = {{1, 3},{2, 1},{3, 1}}, },
 
     ["akimbose"] = {
         SprintPosOverride = Vector(0, 2, -3),
@@ -270,9 +271,9 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("smorg_category_frame") or "Frame",
         DefaultName = "Standard Frame",
 
-        Category = "css_m9_frame",
+        Category = "css_amt_frame",
         Bone = "W_Main",
-        Pos = Vector(0, 3, -0.5),
+        Pos = Vector(0, -2.5, -2),
         Ang = Angle(0, 0, 0),
     },
     {
