@@ -12,6 +12,18 @@ ATT.SortOrder = 1
 ATT.Category = "css_amt_frame"
 ATT.ActivateElements = {"b_sd"}
 
+ATT.IronSights = {
+    Pos = Vector(-3.35, 0, 0.55),
+    Ang = Angle(0, 0, 0),
+    Midpoint = { -- Where the gun should be at the middle of it's irons
+        Pos = Vector(0, 15, -4),
+        Ang = Angle(-10, 60, -25),
+    },
+    Magnification = 1.1,
+    AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
+    CrosshairInSights = false,
+}
+
 -- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
 -- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
