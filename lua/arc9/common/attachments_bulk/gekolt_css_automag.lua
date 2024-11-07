@@ -44,8 +44,8 @@ ATT.RPMMult = 300 / 400
 
 ATT.PhysBulletMuzzleVelocityAdd = 400 * -12
 
--- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
--- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_automag_b1")
 
@@ -66,8 +66,8 @@ ATT.ActivateElements = {"b_no"}
 
 ATT.PhysBulletMuzzleVelocityAdd = 800 * -12
 
--- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
--- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 0, 0.5) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_automag_b2")
 
@@ -109,8 +109,9 @@ ATT.Model = "models/weapons/geckololt_css/c_garand.mdl"
 ATT.ModelBodygroups = "15000"
 
 ATT.ActivePosHook = function(wep, vec) return vec + Vector(0, -2, 0) end
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 10, 1) end
--- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 20, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 
 ARC9.LoadAttachment(ATT, "gekolt_css_automag_b3")
@@ -182,7 +183,7 @@ ATT.Attachments = {
     },
 }
 
--- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
--- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_automag_b5")

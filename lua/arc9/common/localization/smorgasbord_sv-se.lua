@@ -590,17 +590,25 @@ L["gekolt_ammo_sg_flare.compactname"] = "SIGNAL"
 L["gekolt_ammo_sg_flare.description"] = "Patron med lågt tryck innehåller en upplysande signal som brinner vid väldigt hög temperatur.\nAnvänds oftast för att signalera, men kan tända fyr på grejer om det krävs."
 
 ///////////// gekolt_css_automag
--- L["gekolt_css_automag_b1.printname"] = "REPLACEME"
--- L["gekolt_css_automag_b1.compactname"] = "REPLACEME"
--- L["gekolt_css_automag_b1.description"] = "REPLACEME"
+L["gekolt_css_automag_b1.printname"] = "Viskare Pipa"
+L["gekolt_css_automag_b1.compactname"] = "LJUDD."
+L["gekolt_css_automag_b1.description"] = "Absolut inte en överdimensionerad .22Lr-pipa som skjuter en extremt kraftfull patron utan hane."
 
--- L["gekolt_css_automag_b2.printname"] = "REPLACEME"
--- L["gekolt_css_automag_b2.compactname"] = "REPLACEME"
--- L["gekolt_css_automag_b2.description"] = "REPLACEME"
+L["gekolt_css_automag_b2.printname"] = "Chockeld Pipa"
+L["gekolt_css_automag_b2.compactname"] = "CHOCK"
+L["gekolt_css_automag_b2.description"] = "Godkänd för dolt chockgranat bärande."
 
--- L["gekolt_css_automag_b3.printname"] = "REPLACEME"
--- L["gekolt_css_automag_b3.compactname"] = "REPLACEME"
--- L["gekolt_css_automag_b3.description"] = "REPLACEME"
+L["gekolt_css_automag_b3.printname"] = "Karbinkit"
+L["gekolt_css_automag_b3.compactname"] = "KARBIN"
+L["gekolt_css_automag_b3.description"] = "Kolv och karbinlängd pipa kombination för den äkta krypskytte upplevelsen."
+
+L["gekolt_css_automag_b4.printname"] = "Flux-Pipa"
+L["gekolt_css_automag_b4.compactname"] = "FLUX"
+L["gekolt_css_automag_b4.description"] = "\"Auto Mag\" står för \"Automatic™ Magazine™\"."
+
+L["gekolt_css_automag_b5.printname"] = "Ormskott Pipa"
+L["gekolt_css_automag_b5.compactname"] = "HG."
+L["gekolt_css_automag_b5.description"] = "Överdimensionerad pipa bjuder naturligtvis in... kalibrar med mer lämplig storlek."
 
 ///////////// gekolt_css_awp
 L["gekolt_css_awp_s_no.description"] = "Tar helt bort all möjlighet att stödja dig från detta högkaliber gevär."

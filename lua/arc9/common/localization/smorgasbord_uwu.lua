@@ -596,17 +596,25 @@ L["gekolt_ammo_sg_flare.compactname"] = "FWARE"
 L["gekolt_ammo_sg_flare.description"] = "W-Wow p-pwessuwe sheww containying an iwwuminyating fwawe buwnying at a high tempewatuwe.\nUsuawwy used fow signyawwing, but can wight things up in a p-pinch."
 
 ///////////// gekolt_css_automag
--- L["gekolt_css_automag_b1.printname"] = "REPLACEME"
--- L["gekolt_css_automag_b1.compactname"] = "REPLACEME"
--- L["gekolt_css_automag_b1.description"] = "REPLACEME"
+L["gekolt_css_automag_b1.printname"] = "Whisper Barrel"
+L["gekolt_css_automag_b1.compactname"] = "SD"
+L["gekolt_css_automag_b1.description"] = "Totally not an oversized .22Lr barrel firing an extremely powerful cartridge without a hammer."
 
--- L["gekolt_css_automag_b2.printname"] = "REPLACEME"
--- L["gekolt_css_automag_b2.compactname"] = "REPLACEME"
--- L["gekolt_css_automag_b2.description"] = "REPLACEME"
+L["gekolt_css_automag_b2.printname"] = "Flash-Fire Barrel"
+L["gekolt_css_automag_b2.compactname"] = "FLASH"
+L["gekolt_css_automag_b2.description"] = "Approved for concealed pocket flashbang carry."
 
--- L["gekolt_css_automag_b3.printname"] = "REPLACEME"
--- L["gekolt_css_automag_b3.compactname"] = "REPLACEME"
--- L["gekolt_css_automag_b3.description"] = "REPLACEME"
+L["gekolt_css_automag_b3.printname"] = "Carabiner Kit"
+L["gekolt_css_automag_b3.compactname"] = "CARBINE"
+L["gekolt_css_automag_b3.description"] = "Stock and carbine length barrel combo for the authentic sniping experience."
+
+L["gekolt_css_automag_b4.printname"] = "Flux Barrel"
+L["gekolt_css_automag_b4.compactname"] = "FLUX"
+L["gekolt_css_automag_b4.description"] = "Auto Mag stands for \"Automatic™ Magazine™\"."
+
+L["gekolt_css_automag_b5.printname"] = "Snakeshot Barrel"
+L["gekolt_css_automag_b5.compactname"] = "SG"
+L["gekolt_css_automag_b5.description"] = "Oversized bore naturally invites... more size fitting calibre."
 
 ///////////// gekolt_css_awp
 L["gekolt_css_awp_s_no.description"] = "Compwetewy wemuvs any OwO sense of bwacing fwom a high-cawibwe wifwe."
