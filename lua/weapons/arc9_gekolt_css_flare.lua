@@ -26,7 +26,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_flare_desc") or [[Single sho
 Of course, it conveniently fits 12 gauge shotshells, so that's what we're doing with it.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_flare.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_flare.mdl"
 
 SWEP.Slot = 1
 

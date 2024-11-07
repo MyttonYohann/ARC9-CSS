@@ -24,7 +24,7 @@ SWEP.Credits = {
 SWEP.Description = ARC9:GetPhrase("smorg_gekolt_cw_baliff_desc") or [[Unfamiliar housing in unfamiliar tradition.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_baliff.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_baliff.mdl"
 
 SWEP.Slot = 1
 
@@ -37,7 +37,7 @@ SWEP.WorldModelOffset = {
     TPIKAng = Angle(-5, 0, 180),
     Scale = 1
 }
-SWEP.MirrorVMWMHeldOnly = true
+SWEP.MirrorVMWMHeldOnly = false
 SWEP.ShotgunReload = false
 
 -------------------------- DAMAGE PROFILE

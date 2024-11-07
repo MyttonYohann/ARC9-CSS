@@ -25,7 +25,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_moah_m18_desc") or [[The King's 
 Personnel or Mechanised.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m18.mdl"
-SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_m18.mdl"
 
 SWEP.Slot = 3
 

@@ -26,7 +26,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_fas2_m79_desc") or [[Single shot
 Miniature barage if you can get enough shot.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m79.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_m79.mdl"
 
 SWEP.Slot = 4
 

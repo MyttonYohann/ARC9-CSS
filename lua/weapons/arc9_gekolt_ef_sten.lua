@@ -25,7 +25,7 @@ SWEP.Description = ARC9:GetPhrase("smorg_gekolt_ef_sten_desc") or [[Humble piece
 Absurdly simple design lends itself to both pragmatic and unorthodox modifications.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_sten.mdl"
-SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_sten.mdl"
 
 SWEP.Slot = 1
 

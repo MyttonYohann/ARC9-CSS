@@ -24,7 +24,7 @@ SWEP.Credits = {
 SWEP.Description = ARC9:GetPhrase("smorg_gekolt_pr2_m72_desc") or [[Reloading-disposable rocket package.]]
 
 SWEP.ViewModel = "models/weapons/geckololt_css/c_m72.mdl"
-SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_m72.mdl"
 
 SWEP.Slot = 3
 
