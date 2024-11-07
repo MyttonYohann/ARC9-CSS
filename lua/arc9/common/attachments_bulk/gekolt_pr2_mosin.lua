@@ -177,7 +177,7 @@ ATT = {}
 
 ATT.PrintName = "Carbine-Barrel"
 ATT.CompactName = "Carbine"
-ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_b_carbine.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_gekolt_pr2_mosin_b_car.png", "mips smooth")
 ATT.Description = [[]]
 
 ATT.Pros = {}
@@ -228,7 +228,7 @@ ATT.Description = [[]]
 
 ATT.Pros = {}
 ATT.Cons = {}
-ATT.SortOrder = 1
+ATT.SortOrder = 3
 
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_obrez"}
