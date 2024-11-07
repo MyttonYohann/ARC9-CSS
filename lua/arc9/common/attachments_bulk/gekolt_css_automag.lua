@@ -33,8 +33,8 @@ ATT.RecoilRandomMult = 0.4
 ATT.ShootPitchMult = 1.2
 ATT.ShootVolumeMult = 0.5
 
-ATT.RangeMaxMult = 0.5
-ATT.RangeMinMult = 1.5
+ATT.RangeMaxMult = 0.75
+ATT.RangeMinMult = 1.25
 
 ATT.AimDownSightsTimeMult = 0.8
 ATT.SprintToFireTimeMult = 0.8
