@@ -1179,7 +1179,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -1.05),
+        Pos = Vector(0, 8, -1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 60,
@@ -1200,7 +1200,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/uwu.png", "mips smooth")
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 550
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1229,7 +1229,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -1.05),
+        Pos = Vector(0, 8, -1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 60
@@ -1242,7 +1242,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/acog_top.png", "mips smooth")
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 550
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1473,7 +1473,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
-ATT.HoloSightSize = 950
+ATT.HoloSightSize = 1000
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1519,7 +1519,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs3.png", "mips smooth")
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 700
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1565,7 +1565,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs2.png", "mips smooth")
-ATT.HoloSightSize = 825
+ATT.HoloSightSize = 1200
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1594,7 +1594,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.5, -0.8),
+        Pos = Vector(0, 8, -0.8),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 60
@@ -1607,7 +1607,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/rmr.png", "mips smooth")
-ATT.HoloSightSize = 400
+ATT.HoloSightSize = 512
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1678,7 +1678,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.5, -0.65),
+        Pos = Vector(0, 7, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 60
@@ -1763,7 +1763,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -0.8),
+        Pos = Vector(0, 7.5, -0.8),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 60
@@ -1776,7 +1776,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/romeo.png", "mips smooth")
-ATT.HoloSightSize = 400
+ATT.HoloSightSize = 550
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.05)
