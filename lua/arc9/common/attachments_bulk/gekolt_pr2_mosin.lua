@@ -262,6 +262,9 @@ ATT.SpreadAdd = 0.025
 ATT.AimDownSightsTimeAdd = -0.2
 ATT.SprintToFireTimeAdd = -0.3
 
+ATT.RecoilMult = 2
+ATT.RecoilPatternDriftMult = 2.5
+
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-10, -9, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-10, 0, 0) end
 
