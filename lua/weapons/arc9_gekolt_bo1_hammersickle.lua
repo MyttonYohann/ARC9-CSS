@@ -95,6 +95,12 @@ SWEP.BashRange = 72
 SWEP.PreBashTime = 0.3
 SWEP.PostBashTime = 0.2
 
+SWEP.Bash2Damage = 120
+SWEP.Bash2LungeRange = 0
+SWEP.Bash2Range = 72
+SWEP.PreBash2Time = 0.3
+SWEP.PostBash2Time = 0.2
+
 SWEP.ShootWhileSprint = true
 SWEP.BashWhileSprint = true
 
@@ -177,7 +183,7 @@ SWEP.Animations = {
     ["bash"] = {
         Source = {"slash1", "slash2", "slash3", "bash1", "bash2", "bash3"}
     },  
-	["bash_sights"] = {
+	["bash2"] = {
         Source = {"slash1_block", "slash2_block", "slash3_block", "bash1_block", "bash2_block", "bash3_block"}
     },
 
@@ -259,7 +265,7 @@ SWEP.Hook_Think = function(wep)
         end
 
         -- Explosive finish!
-        if wep.MusicFullDurationStart and CurTime() - wep.MusicFullDurationStart >= 77.9 then
+        if wep.MusicFullDurationStart and CurTime() - wep.MusicFullDurationStart >= 78 then
             local effectdata = EffectData()
             wep:EmitSound("^ambient/explosions/explode_5.wav", 125, 100, 1, CHAN_AUTO)
             local src = wep:GetOwner():GetPos() + Vector(0, 0, 64)
