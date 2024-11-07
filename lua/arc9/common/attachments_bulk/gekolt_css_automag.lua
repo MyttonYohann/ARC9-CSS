@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = [[Whisper Barrel]]
 ATT.CompactName = [[SD]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_amt_sd.png", "mips smooth")
 ATT.Description = [[Not an oversized .22Lr barrel firing an extremely powerful cartridge without a hammer.
 ]]
 
@@ -56,7 +56,7 @@ ATT = {}
 
 ATT.PrintName = [[Flash-Fire Barrel]]
 ATT.CompactName = [[Flash]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_amt_flash.png", "mips smooth")
 ATT.Description = [[Approved for concealed pocket flashbang carry.
 ]]
 
@@ -79,7 +79,7 @@ ATT = {}
 
 ATT.PrintName = [[Carabiner Kit]]
 ATT.CompactName = [[Carbine]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_amt_hunt.png", "mips smooth")
 ATT.Description = [[Stock and carbine length barrel combo for the authentic snipping experience.
 ]]
 
@@ -124,7 +124,7 @@ ATT = {}
 
 ATT.PrintName = [[Flux Barrel]]
 ATT.CompactName = [[Flux]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_amt_auto.png", "mips smooth")
 ATT.Description = [[Automag stands for Automatic™ Magazine™.
 ]]
 
@@ -149,7 +149,7 @@ ATT = {}
 
 ATT.PrintName = [[Snakeshot Barrel]]
 ATT.CompactName = [[SG]]
-ATT.Icon = Material("entities/gekolt_css_blank.png", "mips smooth")
+ATT.Icon = Material("entities/gekolt_css_amt_sg.png", "mips smooth")
 ATT.Description = [[Oversized bore naturally invites... more size fitting calibre.
 ]]
 
