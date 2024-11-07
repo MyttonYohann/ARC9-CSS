@@ -135,9 +135,9 @@ L["smorg_gekolt_css_ak47"] = "Awtoma-7"
 L["smorg_gekolt_css_ak47_real"] = "AK-47"
 L["smorg_gekolt_css_ak47_desc"] = "Wugged wifle with a simwle design that can fuwction undew harsh conwitions.\nA timeless design with a vawiant fow evewy conceivabwe use case, and many inconceivabwe onyes t-too."
 
-L["smorg_gekolt_css_automag"] = "Hargern AMP"
-L["smorg_gekolt_css_automag_real"] = "Auto Mag 44"
-L["smorg_gekolt_css_automag_desc"] = "An ultra expensive, curious relic for those who really want a revolver but hate revolvers with a burning passion."
+L["smorg_gekolt_css_automag"] = "Hawgewn AMP"
+L["smorg_gekolt_css_automag_real"] = "Autowo Mag 44"
+L["smorg_gekolt_css_automag_desc"] = "An uwtwa expensive, cuwious wewic fow those who weawwy want a wevowvew but hate wevowvews with a buwnying passion."
 
 L["smorg_gekolt_css_awp"] = "Awdwic-38" -- this is just an average Welsh word lmao
 L["smorg_gekolt_css_awp_real"] = "AWP"
@@ -596,25 +596,25 @@ L["gekolt_ammo_sg_flare.compactname"] = "FWARE"
 L["gekolt_ammo_sg_flare.description"] = "W-Wow p-pwessuwe sheww containying an iwwuminyating fwawe buwnying at a high tempewatuwe.\nUsuawwy used fow signyawwing, but can wight things up in a p-pinch."
 
 ///////////// gekolt_css_automag
-L["gekolt_css_automag_b1.printname"] = "Whisper Barrel"
+L["gekolt_css_automag_b1.printname"] = "Whispew Bawwew"
 L["gekolt_css_automag_b1.compactname"] = "SD"
-L["gekolt_css_automag_b1.description"] = "Totally not an oversized .22Lr barrel firing an extremely powerful cartridge without a hammer."
+L["gekolt_css_automag_b1.description"] = "Totawwy nyot an uvwsized .22Ww bawwew fiwing an extwemewy powewfuw cawtwidge without a hammew."
 
-L["gekolt_css_automag_b2.printname"] = "Flash-Fire Barrel"
-L["gekolt_css_automag_b2.compactname"] = "FLASH"
-L["gekolt_css_automag_b2.description"] = "Approved for concealed pocket flashbang carry."
+L["gekolt_css_automag_b2.printname"] = "Fwash-Fiwe Bawwew"
+L["gekolt_css_automag_b2.compactname"] = "FWASH"
+L["gekolt_css_automag_b2.description"] = "Appwuvd fow conceawed pocket fwashbang cawwy."
 
-L["gekolt_css_automag_b3.printname"] = "Carabiner Kit"
-L["gekolt_css_automag_b3.compactname"] = "CARBINE"
-L["gekolt_css_automag_b3.description"] = "Stock and carbine length barrel combo for the authentic sniping experience."
+L["gekolt_css_automag_b3.printname"] = "Cawabinyew Kiw"
+L["gekolt_css_automag_b3.compactname"] = "CAWBINYE"
+L["gekolt_css_automag_b3.description"] = "Stock and cawbinye wength bawwew combo fow the authentic snyiping expewience."
 
-L["gekolt_css_automag_b4.printname"] = "Flux Barrel"
+L["gekolt_css_automag_b4.printname"] = "Flux Bawwew"
 L["gekolt_css_automag_b4.compactname"] = "FLUX"
-L["gekolt_css_automag_b4.description"] = "Auto Mag stands for \"Automatic™ Magazine™\"."
+L["gekolt_css_automag_b4.description"] = "Autowo Mag stands fow \"Autowomatic™ Magazine™\"."
 
-L["gekolt_css_automag_b5.printname"] = "Snakeshot Barrel"
+L["gekolt_css_automag_b5.printname"] = "Snyakeshot Bawwew"
 L["gekolt_css_automag_b5.compactname"] = "SG"
-L["gekolt_css_automag_b5.description"] = "Oversized bore naturally invites... more size fitting calibre."
+L["gekolt_css_automag_b5.description"] = "Ovewsized bowe nyatuwawwy invites... mowe size fitting cawibwe."
 
 ///////////// gekolt_css_awp
 L["gekolt_css_awp_s_no.description"] = "Compwetewy wemuvs any OwO sense of bwacing fwom a high-cawibwe wifwe."
