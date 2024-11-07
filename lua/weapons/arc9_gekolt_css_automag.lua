@@ -182,7 +182,7 @@ SWEP.IronSights = {
 SWEP.Crosshair = false
 
 SWEP.SprintAng = Angle(10, -15, -10)
-SWEP.SprintPos = Vector(0, 2, 0)
+SWEP.SprintPos = Vector(0, 0, -1)
 
 SWEP.SprintMidPoint = {
     Pos = Vector(0, -5, -3),
@@ -200,7 +200,7 @@ SWEP.ActivePos = Vector(0, 3, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CustomizeAng = Angle(90, -5, 0)
-SWEP.CustomizePos = Vector(14.5, 30, 4.75)
+SWEP.CustomizePos = Vector(14.5, 34, 4.75)
 
 SWEP.CustomizeSnapshotPos = Vector(0, 20, 0)
 SWEP.CustomizeSnapshotFOV = 65
@@ -228,7 +228,7 @@ SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
 
-SWEP.MuzzleParticle = "muzzleflash_pistol"
+SWEP.MuzzleParticle = "muzzleflash_pistol_deagle"
 SWEP.MuzzleEffectQCA = 1
 
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"

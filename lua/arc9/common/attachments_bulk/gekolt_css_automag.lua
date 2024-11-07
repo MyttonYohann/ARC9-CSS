@@ -96,7 +96,7 @@ ATT.Model = "models/weapons/geckololt_css/c_garand.mdl"
 ATT.ModelBodygroups = "15000"
 
 ATT.ActivePosHook = function(wep, vec) return vec + Vector(0, -2, 0) end
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 14, 1) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 10, 1) end
 -- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
 
 
