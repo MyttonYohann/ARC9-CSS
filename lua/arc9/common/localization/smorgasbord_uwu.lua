@@ -1032,7 +1032,7 @@ L["gekolt_dod_garand_min.printname"] = "Wécepteuw Spowtif" -- Roughly "Sport Re
 L["gekolt_dod_garand_min.compactname"] = "SCF"
 L["gekolt_dod_garand_min.description"] = "\"Modewnyised\" cawbinye modew fiwing intewmediate cawtwidges fwom STANYAG magazinyes. Its showt bawwew and pistow gwip <color=100,255,100>impwuv handwing</color>.\nA twavesty of a convewsion, but at weast it comes with an auto seaw that won't diswocate youw shouwdew."
 
-L["gekolt_dod_garand_slam.printname"] = "Wécepteuw de Tranchée" -- Roughly "Trench Receiver"
+L["gekolt_dod_garand_slam.printname"] = "Wécepteuw de Twanchée" -- Roughly "Trench Receiver"
 L["gekolt_dod_garand_slam.compactname"] = "SLAM"
 L["gekolt_dod_garand_slam.description"] = "An unhowy cweation fow aww you twench sweeping nyeeds.\nStiww goes \"PING\" despite nyot using cwips anymowe. This is because-- *dies of cwinge*\n\nSomewhewe in the aftewwife, John Gawand is weeping fow youw sins (yes, that is his weaw nyame)."
 

@@ -66,6 +66,17 @@ ATT.ActivateElements = {"b_no"}
 
 ATT.PhysBulletMuzzleVelocityAdd = 800 * -12
 
+ATT.ShootPitchMult = 0.9
+ATT.ShootVolumeMult = 1.5
+
+ATT.RangeMaxMult = 0.5
+ATT.RangeMinMult = 0.75
+
+ATT.AimDownSightsTimeMult = 0.8
+ATT.SprintToFireTimeMult = 0.8
+ATT.SwayMult = 1.2
+ATT.RecoilUpMult = 1.3
+
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, 0, 0.5) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
@@ -89,8 +100,13 @@ ATT.ActivateElements = {"b_hunt"}
 
 ATT.PhysBulletMuzzleVelocityAdd = 2000 * 12
 
--- ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 5, 1) end
--- ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+ATT.RangeMaxMult = 2
+ATT.RangeMinMult = 2
+
+ATT.AimDownSightsTimeMult = 1.2
+ATT.SprintToFireTimeMult = 1.2
+ATT.SwayMult = 1.2
+ATT.RecoilUpMult = 0.7
 
 ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "fire"			then	return "fire_iron"	end	
