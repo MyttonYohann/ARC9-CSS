@@ -54,17 +54,17 @@ SWEP.RangeMax = 2000
 SWEP.Penetration = 16 -- Units of wood that can be penetrated by this gun.
 
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 1.75,
+    [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_LEFTARM] = 0.9,
-    [HITGROUP_RIGHTARM] = 0.9,
-    [HITGROUP_LEFTLEG] = 0.75,
-    [HITGROUP_RIGHTLEG] = 0.75,
+    [HITGROUP_LEFTARM] = 0.8,
+    [HITGROUP_RIGHTARM] = 0.8,
+    [HITGROUP_LEFTLEG] = 0.675,
+    [HITGROUP_RIGHTLEG] = 0.675,
 }
 
 -------------------------- PHYS BULLET BALLISTICS
 
-SWEP.PhysBulletMuzzleVelocity = 1280 * 12
+SWEP.PhysBulletMuzzleVelocity = 2480 * 12
 
 -------------------------- MAGAZINE
 
@@ -249,16 +249,13 @@ SWEP.FiremodeSound = "arc9/firemode.ogg"
 SWEP.DefaultBodygroups = "00000000"
 
 SWEP.AttachmentElements = {
-    ["f_auto"] = {
-        Bodygroups = {{3, 1},{2, 3}},
-        AttPosMods = { [3] = { Pos = Vector(0, 0, 7.65), } }
-    },
-    ["f_sd"] = {
-        Bodygroups = {{3, 4},{1, 2}},
-    },
-
-    ["b_sd"] = 		{ Bodygroups = {{1, 1}}, },
-    ["b_no"] = 		{ Bodygroups = {{1, 4}}, },
+    ["b_sd"] = 		{ 
+		Bodygroups = {{1, 1}}, 
+        AttPosMods = { [2] = { Pos = Vector(0, -3.2, -0.5), } }
+	},
+    ["b_no"] = 		{ Bodygroups = {{1, 4},{4, 1}}, }, 
+	["b_sg"] = 		{ Bodygroups = {{1, 6}}, },
+	["b_auto"] =	{ Bodygroups = {{1, 5}}, },
 	["b_hunt"] = 	{ Bodygroups = {{1, 3},{2, 1},{3, 1}}, },
 }
 
@@ -278,9 +275,9 @@ SWEP.Attachments = {
         InstalledElements = {"has_optic"},
 
         ExcludeElements = {"pre_optic"},
-        Category = {"optic_css_s"},
+        Category = {"optic_css"},
         Bone = "W_Main",
-        Pos = Vector(0, -1.1, 2),
+        Pos = Vector(0, -3.55, -0.5),
         Ang = Angle(90, 0, -90),
     },
     {
@@ -297,8 +294,8 @@ SWEP.Attachments = {
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
     local model = data.model
-    if wep:HasElement("has_optic") then model:SetBodygroup(4,1) end
-    if wep:HasElement("has_optic") and wep:HasElement("f_carbine") then model:SetBodygroup(4,3) end
+    if wep:HasElement("has_optic") then model:SetBodygroup(4,2) end
+    if wep:HasElement("has_optic") and wep:HasElement("b_sd") then model:SetBodygroup(4,3) end
 end
 
 SWEP.Animations = {
@@ -393,7 +390,7 @@ SWEP.Animations = {
         },
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 1, rhik = 1, },
+        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.775, lhik = 0, rhik = 1, },{ t = 0.975, lhik = 1, rhik = 1, },
         },
     },
     ["reload_empty_hunt"] = {
@@ -412,7 +409,7 @@ SWEP.Animations = {
             },
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.2, lhik = 0, rhik = 1, },{ t = 0.85, lhik = 0, rhik = 1, },{ t = 0.975, lhik = 1, rhik = 1, },
+        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.8, lhik = 0, rhik = 1, },{ t = 0.975, lhik = 1, rhik = 1, },
         },
     },
 }
