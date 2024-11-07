@@ -376,10 +376,10 @@ end
 
 SWEP.ExtraShellModels = {
     [1] = {
-        model = "models/weapons/geckololt_css/shell_garand_raw.mdl",
+        model = "models/weapons/geckololt_css/bullet_mosin.mdl",
         smoke = false,
         velocity = {0.75, 1.5},
-		scale = 1.5,
+		scale = 1,
     },
 }
 
