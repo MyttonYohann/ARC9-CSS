@@ -55,8 +55,8 @@ end
 
 ATT.AimDownSightsTimeAdd = -0.15
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -2, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b2")
 
@@ -461,8 +461,8 @@ ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 2, 0)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, -6, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_s1")
 
