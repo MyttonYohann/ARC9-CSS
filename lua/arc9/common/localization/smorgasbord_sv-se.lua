@@ -1023,7 +1023,7 @@ L["gekolt_dod_garand_min.printname"] = "Récepteur sportif" -- Roughly "Sport Re
 L["gekolt_dod_garand_min.compactname"] = "SCF"
 L["gekolt_dod_garand_min.description"] = "\"Moderniserad\" karbinmodell som skjuter mellanliggande patroner från STANAG-magasin. Dess korta pipa och pistolgrepp <color=100,255,100>förbättrar hanteringen</color>.\nGalenskap av en konvertering, men den kommer i alla fall med en automateld avtryckarhake som inte tar din axel ur led."
 
-L["gekolt_dod_garand_slam.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_slam.printname"] = "Récepteur de Tranchée" -- Roughly "Trench Receiver"
 L["gekolt_dod_garand_slam.compactname"] = "SLAM"
 L["gekolt_dod_garand_slam.description"] = "En ohelig skapelse för alla era skyttegrav rensande behov.\n\"PING\"-ar fortfarande trots att den inte använder laddramar längre. Detta tack vare-- *dör av skam*\n\nNågonstans, i sitt efterliv, John Garand gråter för dina synder (ja, han heter verkligen det)."
 

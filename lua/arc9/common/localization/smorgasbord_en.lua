@@ -1042,7 +1042,7 @@ L["gekolt_dod_garand_min.printname"] = "Récepteur Sportif" -- Roughly "Sport Re
 L["gekolt_dod_garand_min.compactname"] = "SCF"
 L["gekolt_dod_garand_min.description"] = "\"Modernised\" carbine model firing intermediate cartridges from STANAG magazines. Its short barrel and pistol grip <color=100,255,100>improve handling</color>.\nA travesty of a conversion, but at least it comes with an auto sear that won't dislocate your shoulder."
 
-L["gekolt_dod_garand_slam.printname"] = "Récepteur Trancher" -- why is this duplicated
+L["gekolt_dod_garand_slam.printname"] = "Récepteur de Tranchée" -- Roughly "Trench Receiver"
 L["gekolt_dod_garand_slam.compactname"] = "SLAM"
 L["gekolt_dod_garand_slam.description"] = "An unholy creation for all you trench sweeping needs.\nStill goes \"PING\" despite not using clips anymore. This is because-- *dies of cringe*\n\nSomewhere in the afterlife, John Garand is weeping for your sins (yes, that is his real name)."
 

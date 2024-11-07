@@ -1,4 +1,4 @@
-L = {} -- English, originally by Mytton, edited and adjusted by Moka
+L = {} -- Brazilian Portuguese by Filipao5036
 
 //////////////////////////////////////////////////////////////////////
 //////////////////////////////// Notes
@@ -131,6 +131,10 @@ L["smorg_gekolt_ca_m60_desc"] = "Metralhadora de uso pesado com grande capacidad
 L["smorg_gekolt_css_ak47"] = "Avtoma-7"
 L["smorg_gekolt_css_ak47_real"] = "AK-47"
 L["smorg_gekolt_css_ak47_desc"] = "Rifle robusto com um design simples que pode funcionar sob condições rigorosas.\nUm design classico com uma variante para cada caso de uso imaginável, e muitos casos inimagináveis também."
+
+L["smorg_gekolt_css_automag"] = "Hargern AMP" -- NEW
+L["smorg_gekolt_css_automag_real"] = "Auto Mag 44" -- NEW
+L["smorg_gekolt_css_automag_desc"] = "An ultra expensive, curious relic for those who really want a revolver but hate revolvers with a burning passion." -- NEW
 
 L["smorg_gekolt_css_awp"] = "Aldric-38"
 L["smorg_gekolt_css_awp_real"] = "AWP"
@@ -301,7 +305,6 @@ L["gekolt_css_mount_45lb.description"] = "Canted rail for foregrip attachments a
 
 L["gekolt_css_mount_45r.printname"] = "45° Canted Mount (Right)"
 L["gekolt_css_mount_45r.compactname"] = "45° R"
-L["gekolt_css_mount_45r.description"] = ARC9:GetPhrase("gekolt_css_mount_45l.description") or "Extra rail for extra attachments."
 
 L["gekolt_css_mount_clamp.printname"] = "Clamped Rail"
 L["gekolt_css_mount_clamp.compactname"] = "RAIL"
@@ -309,10 +312,7 @@ L["gekolt_css_mount_clamp.description"] = "Extend your handguard even more."
 
 L["gekolt_css_mount_clamp_a.printname"] = "Clamped Rail (Angled)"
 L["gekolt_css_mount_clamp_a.compactname"] = "RAIL (A)"
-L["gekolt_css_mount_clamp_a.description"] = ARC9:GetPhrase("gekolt_css_mount_clamp.description") or "Extend your handguard even more."
 
-L["gekolt_css_mount_clamp_f.printname"] = ARC9:GetPhrase("gekolt_css_mount_clamp.printname") or "Clamped Rail"
-L["gekolt_css_mount_clamp_f.compactname"] = ARC9:GetPhrase("gekolt_css_mount_clamp.compactname") or "RAIL"
 L["gekolt_css_mount_clamp_f.description"] = "Extend your handguard even more. This time with a foregrip option!"
 
 L["gekolt_css_mount_rail.printname"] = "Rail Extension"
@@ -345,11 +345,9 @@ L["gekolt_css_tac_las1.description"] = "Tactical laser/light module that provide
 
 L["gekolt_css_tac_ti_flash.printname"] = "Flashlight II"
 L["gekolt_css_tac_ti_flash.compactname"] = "FLASH II"
-L["gekolt_css_tac_ti_flash.description"] = ARC9:GetPhrase("gekolt_css_tac_flash.description") or "Light module that <color=100,255,100>lights up the areas in front of you</color>. <color=100,255,100>Can blind enemies</color>, but will definitely <color=255,100,100>reveal the location of the user</color>."
 
 L["gekolt_css_tac_ti_las.printname"] = "Tac-Light II"
 L["gekolt_css_tac_ti_las.compactname"] = "TAC II"
-L["gekolt_css_tac_ti_las.description"] = ARC9:GetPhrase("gekolt_css_tac_2.description") or "Compact laser that provides an <color=100,255,100>aiming point while hip-firing</color>. Lasers helps with aiming, and <color=100,255,100>can blind enemies</color>, but will <color=255,100,100>reveal the location of the user</color>."
 
 -- L["gekolt_css_tac_ti_radar.printname"] = "Radar"
 -- L["gekolt_css_tac_ti_radar.compactname"] = "RADAR"
@@ -600,9 +598,28 @@ L["gekolt_ammo_sg_flare.printname"] = "Signal Flare"
 L["gekolt_ammo_sg_flare.compactname"] = "FLARE"
 L["gekolt_ammo_sg_flare.description"] = "Low pressure shell containing an illuminating flare burning at a high temperature.\nUsually used for signalling, but can light things up in a pinch."
 
+///////////// gekolt_css_automag
+L["gekolt_css_automag_b1.printname"] = "Whisper Barrel"
+L["gekolt_css_automag_b1.compactname"] = "SD"
+L["gekolt_css_automag_b1.description"] = "Totally not an oversized .22Lr barrel firing an extremely powerful cartridge without a hammer."
+
+L["gekolt_css_automag_b2.printname"] = "Flash-Fire Barrel"
+L["gekolt_css_automag_b2.compactname"] = "FLASH"
+L["gekolt_css_automag_b2.description"] = "Approved for concealed pocket flashbang carry."
+
+L["gekolt_css_automag_b3.printname"] = "Carabiner Kit"
+L["gekolt_css_automag_b3.compactname"] = "CARBINE"
+L["gekolt_css_automag_b3.description"] = "Stock and carbine length barrel combo for the authentic sniping experience."
+
+L["gekolt_css_automag_b4.printname"] = "Flux Barrel"
+L["gekolt_css_automag_b4.compactname"] = "FLUX"
+L["gekolt_css_automag_b4.description"] = "Auto Mag stands for \"Automatic™ Magazine™\"."
+
+L["gekolt_css_automag_b5.printname"] = "Snakeshot Barrel"
+L["gekolt_css_automag_b5.compactname"] = "SG"
+L["gekolt_css_automag_b5.description"] = "Oversized bore naturally invites... more size fitting calibre."
+
 ///////////// gekolt_css_awp
-L["gekolt_css_awp_s_no.printname"] = ARC9:GetPhrase("gekolt_css_ak_stock0.printname") or "No Stock"
-L["gekolt_css_awp_s_no.compactname"] = ARC9:GetPhrase("gekolt_css_ak_stock0.compactname") or "NONE"
 L["gekolt_css_awp_s_no.description"] = "Completely removes any sense of bracing from a high-calibre rifle."
 
 L["gekolt_css_awp_f_howell.printname"] = "Howell Full-Auto Frame"
@@ -634,12 +651,8 @@ L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW Foregrip"
 L["gekolt_css_m4_fg_saw.compactname"] = "SAW"
 L["gekolt_css_m4_fg_saw.description"] = "Obvious questions include \"why\", \"how\" and \"what\".\nA horizontal grip dramatically increases <color=100,255,100>hip-fire potential</color>.\nCannot be used with <color=255,100,100>optics</color>."
 
-L["gekolt_css_m4_g_wood.printname"] = ARC9:GetPhrase("gekolt_fh2_thock_grip.printname") or "Wooden Grip"
-L["gekolt_css_m4_g_wood.compactname"] = ARC9:GetPhrase("gekolt_fh2_thock_grip.compactname") or "WOOD"
 L["gekolt_css_m4_g_wood.description"] = "Don't let the thermites get you."
 
-L["gekolt_css_m4_g_ske.printname"] = ARC9:GetPhrase("gekolt_css_ak_grip1.printname") or "Skeleton Grip"
-L["gekolt_css_m4_g_ske.compactname"] = ARC9:GetPhrase("gekolt_css_ak_grip1.compactname") or "SKEL."
 L["gekolt_css_m4_g_ske.description"] = "Because that amount of weight saved is really the defactor of life and death.\nWhat do you think would happen if your grip weighed nothing?"
 
 L["gekolt_css_m4_g_tw.printname"] = "Curved Grip"
@@ -670,8 +683,6 @@ L["gekolt_css_m4_s_608.printname"] = "Telescopic Stock"
 L["gekolt_css_m4_s_608.compactname"] = "TELE."
 L["gekolt_css_m4_s_608.description"] = "Non-sliding sliding stock."
 
-L["gekolt_css_m4_s_a1.printname"] = ARC9:GetPhrase("gekolt_css_ak_stock5.printname") or "Heavy Stock"
-L["gekolt_css_m4_s_a1.compactname"] = ARC9:GetPhrase("gekolt_css_ak_stock5.compactname") or "HEAVY"
 L["gekolt_css_m4_s_a1.description"] = "Classic, albeit a bit more rectangular, lengthy stock."
 
 L["gekolt_css_m4_s_bolt.printname"] = "Precision Stock"
@@ -690,8 +701,6 @@ L["gekolt_css_m4_s_slide.printname"] = "Sliding Stock"
 L["gekolt_css_m4_s_slide.compactname"] = "SLIDE"
 L["gekolt_css_m4_s_slide.description"] = "In, out, in, out, slide it all about."
 
-L["gekolt_css_m4_s_swire.printname"] = ARC9:GetPhrase("gekolt_css_ak_stock4.printname") or "Sliding Wire Stock"
-L["gekolt_css_m4_s_swire.compactname"] = ARC9:GetPhrase("gekolt_css_ak_stock4.compactname") or "WIRE"
 L["gekolt_css_m4_s_swire.description"] = "A wired but sliding stock, but without the sliding."
 
 L["gekolt_css_m4_s_t91.printname"] = "Heavy Stock II"
@@ -706,8 +715,6 @@ L["gekolt_css_m4_s_tube.printname"] = "Buffer Tube"
 L["gekolt_css_m4_s_tube.compactname"] = "BUFFER"
 L["gekolt_css_m4_s_tube.description"] = "You do know that it comes free with a stock for a reason, right?"
 
-L["gekolt_css_m4_s_wire.printname"] = ARC9:GetPhrase("gekolt_fh2_thock_stock2.printname") or "Wired Stock"
-L["gekolt_css_m4_s_wire.compactname"] = ARC9:GetPhrase("gekolt_fh2_thock_stock2.compactname") or "WIRED"
 L["gekolt_css_m4_s_wire.description"] = "V-ish shape wire stock. Thicker than usual, nothing to do with failed modelling."
 
 L["gekolt_css_m4_s_x79.printname"] = "Sliding Stock II"
@@ -792,7 +799,7 @@ L["gekolt_css_m4_h_11.description"] = "Sharpshooter extention with pre-packed ac
 ///////////// gekolt_css_m4_upper
 L["gekolt_css_m4_u_10.printname"] = "Prototype Receiver"
 L["gekolt_css_m4_u_10.compactname"] = "PROTO"
-L["gekolt_css_m4_u_10.description"] = "An older design allowing the rifle to utilize larger bullets.\nPowerful bullets overpenetrate at close range."
+L["gekolt_css_m4_u_10.description"] = "An older design allowing the rifle to utilise larger bullets.\nPowerful bullets overpenetrate at close range."
 
 L["gekolt_css_m4_u_a1.printname"] = "Logistic Receiver"
 L["gekolt_css_m4_u_a1.compactname"] = "LOGI."
@@ -1015,33 +1022,29 @@ L["gekolt_dod_garand_vanguard.printname"] = "Récepteur Vanguard" -- Roughly "Va
 L["gekolt_dod_garand_vanguard.compactname"] = "VANGUARD"
 L["gekolt_dod_garand_vanguard.description"] = "Extra short experimental paratrooper model with an extra funky non-foldable stock.\nModified magazine allows quick ejection of non-empty clips in a spectacular, but wasteful fashion."
 
-L["gekolt_dod_garand_m14.printname"] = "Récepteur de chasse" -- Roughly "Hunting Receiver"
+L["gekolt_dod_garand_m14.printname"] = "Récepteur de Chasse" -- Roughly "Hunting Receiver"
 L["gekolt_dod_garand_m14.compactname"] = "YSL"
 L["gekolt_dod_garand_m14.description"] = "Select-fire prototype that accepts box magazines.\nThis model has a curiously short barrel that makes it resemble a later US military rifle.\n\nIntegrity of your shoulder is not guaranteed if you dare touch that fire selector."
 
-L["gekolt_dod_garand_min.printname"] = "Récepteur sportif" -- Roughly "Sport Receiver"
+L["gekolt_dod_garand_min.printname"] = "Récepteur Sportif" -- Roughly "Sport Receiver"
 L["gekolt_dod_garand_min.compactname"] = "SCF"
 L["gekolt_dod_garand_min.description"] = "\"Modernised\" carbine model firing intermediate cartridges from STANAG magazines. Its short barrel and pistol grip <color=100,255,100>improve handling</color>.\nA travesty of a conversion, but at least it comes with an auto sear that won't dislocate your shoulder."
 
-L["gekolt_dod_garand_slam.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_slam.printname"] = "Récepteur de Tranchée" -- Roughly "Trench Receiver"
 L["gekolt_dod_garand_slam.compactname"] = "SLAM"
 L["gekolt_dod_garand_slam.description"] = "An unholy creation for all you trench sweeping needs.\nStill goes \"PING\" despite not using clips anymore. This is because-- *dies of cringe*\n\nSomewhere in the afterlife, John Garand is weeping for your sins (yes, that is his real name)."
 
-L["gekolt_dod_garand_strip.printname"] = "Récepteur charognarde" -- Roughly "Scavenger Receiver"
+L["gekolt_dod_garand_strip.printname"] = "Récepteur Charognarde" -- Roughly "Scavenger Receiver"
 L["gekolt_dod_garand_strip.compactname"] = "SCAV."
 L["gekolt_dod_garand_strip.description"] = "Lever-action conversion that could only have come from the hands of some Eastern European crackhead.\nA wooden \"dong\" grip is somehow carved into the frame for \"stability\".\nFires high-calibre rounds that overpenetrates up close, and can only be loaded manually or via stripper clips."
 
-L["gekolt_dod_garand_drg.printname"] = "Récepteur de pierre rocheuse" -- Roughly "Rocky Stone Receiver"
+L["gekolt_dod_garand_drg.printname"] = "Récepteur de Pierre Rocheuse" -- Roughly "Rocky Stone Receiver"
 L["gekolt_dod_garand_drg.compactname"] = "M1000"
-L["gekolt_dod_garand_drg.description"] = "Futuristic garage kit made for space mining operations.\nModified trigger and gas system allows shooting <color=100,255,100>2 shots</color> after a short charge period.\nSpecialized low-pressure rounds reduce <color=255,100,100>damage and recoil</color>."
+L["gekolt_dod_garand_drg.description"] = "Futuristic garage kit made for space mining operations.\nModified trigger and gas system allows shooting <color=100,255,100>2 shots</color> after a short charge period.\nSpecialised low-pressure rounds reduce <color=255,100,100>damage and recoil</color>."
 
 L["gekolt_dod_grip_air.printname"] = "Display Rail"
 L["gekolt_dod_grip_air.compactname"] = "RAIL"
 L["gekolt_dod_grip_air.description"] = "Show the rail without equipping any attachments.\nPurely <color=175,175,255>cosmetic</color>."
-
-L["gekolt_dod_optic_air.printname"] = ARC9:GetPhrase("gekolt_dod_grip_air.printname") or "Display Rail"
-L["gekolt_dod_optic_air.compactname"] = ARC9:GetPhrase("gekolt_dod_grip_air.compactname") or "RAIL"
-L["gekolt_dod_optic_air.description"] = ARC9:GetPhrase("gekolt_dod_grip_air.description") or "Show the rail without equipping any attachments.\nPurely <color=175,175,255>cosmetic</color>."
 
 ///////////// gekolt_dod_mauser -- German names; Double-checked and fixed up by marig #darelooks
 L["gekolt_css_mauser_b1.printname"] = "Stealth-Lauf" -- Roughly "Stealth Barrel"
@@ -1070,7 +1073,7 @@ L["gekolt_css_mauser_mag3.description"] = "<color=100,255,100>82-round</color> d
 
 L["gekolt_css_mauser_mag4.printname"] = "Scharfschützen-Magazin" -- Roughly "Sharpshooter Magazine"
 L["gekolt_css_mauser_mag4.compactname"] = "SNIPER"
-L["gekolt_css_mauser_mag4.description"] = "Small <color=255,100,100>6-round</color> magazine loaded with overpressurized bullets."
+L["gekolt_css_mauser_mag4.description"] = "Small <color=255,100,100>6-round</color> magazine loaded with overpressurised bullets."
 
 L["gekolt_css_mauser_hg1.printname"] = "Kein Handschutz" -- Roughly "No Handguard"
 L["gekolt_css_mauser_hg1.compactname"] = "NONE"
@@ -1078,7 +1081,7 @@ L["gekolt_css_mauser_hg1.description"] = "Revert the weapon back to a pistol for
 
 L["gekolt_css_mauser_hg2.printname"] = "Karabiner Handschutz" -- Roughly "Carbine Handguard"
 L["gekolt_css_mauser_hg2.compactname"] = "CARBINE"
-L["gekolt_css_mauser_hg2.description"] = "An attempt to modernize a rusty old pistol with increased <color=100,255,100>stability</color> but <color=255,100,100>lower rate of fire</color> alongside a long top-mounted rail for optics."
+L["gekolt_css_mauser_hg2.description"] = "An attempt to modernise a rusty old pistol with increased <color=100,255,100>stability</color> but <color=255,100,100>lower rate of fire</color> alongside a long top-mounted rail for optics."
 
 L["gekolt_css_mauser_hg3.printname"] = "Feuerstoß-Handschutz" -- Roughly "Burst-Fire Handguard"
 L["gekolt_css_mauser_hg3.compactname"] = "BURST"
@@ -1197,7 +1200,8 @@ L["gekolt_fnv_flare_2.description"] = "Twice the barrel for twice the fun."
 
 L["gekolt_fnv_flare_3.printname"] = "Der Gehäuse des Teufels" -- Roughly "The Devils' Frame"
 L["gekolt_fnv_flare_3.compactname"] = ".50"
-L["gekolt_fnv_flare_3.description"] = "For when you want to stop an elephant, but all you got is a single-shot flare gun." -- Massively shortened and different description.
+L["gekolt_fnv_flare_3.description"] = "Hey guys, did you know that in terms of fitting weird calibre in a barrel, .50 BMG is the most compatible cartridge for 12 Gauge? .50 BMG are an average of 138 mm and 360 gr. This means they're large enough to be able to handle shotguns, and with their impressive ballistics for armour penetration, you can be rough with one. Due to their advance powder based construct, there's no doubt in my mind that a primmed .50 BMG would have incredible ballistic coefficient, so efficient that you could easily drive the bullet through air for hours with ease. They can also adapt Armour Piercing, Tracing, and Incendiary along with specific colour coded tips, so it'd be incredibly easy for one to help you in any situation. With their near perfect Rim Size, they can easily be fitted in any shotgun with enough dedication. No other calibre comes close with this level of compatibility. Also, fun fact, if you push in enough, you can fit your .50 BMG in even the smallest chamber. .50 BMG is literally built for shotgun barrel. Ungodly penetrative power + anti-materiel capability means it can be loaded from a shotgun all day, all shapes and sizes and still come for more."
+--L["gekolt_fnv_flare_3.description"] = "For when you want to stop an elephant, but all you got is a single-shot flare gun." -- translator note: use this if you want a shorter description
 
 ///////////// gekolt_moah_m18
 L["gekolt_moah_m18_sweden.printname"] = "Hjälpare Ram" -- "Helper Frame"
@@ -1227,7 +1231,7 @@ L["gekolt_pr2_mosin_f2.description"] = "Curved bolt for use with a sniper scope.
 
 L["gekolt_pr2_mosin_f3.printname"] = "Pogranichnaya Ramka" -- "Пограничная Рамка"; Roughly "Frontier Frame"
 L["gekolt_pr2_mosin_f3.compactname"] = "FRONTIER"
-L["gekolt_pr2_mosin_f3.description"] = "Angled bolt with a removed internal magazine to completely minimize interference when feeding."
+L["gekolt_pr2_mosin_f3.description"] = "Angled bolt with a removed internal magazine to completely minimise interference when feeding."
 
 L["gekolt_pr2_mosin_f4.printname"] = "Provodnika Ramka" -- "Проводника Рамка"; Roughly "Conductor Frame"
 L["gekolt_pr2_mosin_f4.compactname"] = "CONDUCTOR"
@@ -1246,20 +1250,12 @@ L["gekolt_pr2_mosin_b3.compactname"] = "OBREZ"
 L["gekolt_pr2_mosin_b3.description"] = "Sawed-off stock and barrel for that one-handed gangster shootin'."
 
 ///////////// gekolt_pr2_optic_magnifier
-L["gekolt_pr2_optic_m1.printname"] = ARC9:GetPhrase("gekolt_css_optic_holo.printname") or "Fritotech Holographic"
-L["gekolt_pr2_optic_m1.compactname"] = ARC9:GetPhrase("gekolt_css_optic_holo.compactname") or "FRITO."
 L["gekolt_pr2_optic_m1.description"] = "A unique boxy holographic sight.\nComes with a <color=100,255,100>magnifier</color>."
 
-L["gekolt_pr2_optic_m2.printname"] = ARC9:GetPhrase("gekolt_css_optic_holo3.printname") or "Fritotech \"Pequeño holográfico\""
-L["gekolt_pr2_optic_m2.compactname"] = ARC9:GetPhrase("gekolt_css_optic_holo3.compactname") or "PEQUEÑO"
 L["gekolt_pr2_optic_m2.description"] = "A unique boxy holographic sight.\nThis unit is smaller and a precise carrot pointing upwards.\nComes with a <color=100,255,100>magnifier</color>."
 
-L["gekolt_pr2_optic_m3.printname"] = ARC9:GetPhrase("gekolt_css_optic_okp.printname") or "Stopwatch Reflex Sight"
-L["gekolt_pr2_optic_m3.compactname"] = ARC9:GetPhrase("gekolt_css_optic_okp.compactname") or "STOPWATCH"
 L["gekolt_pr2_optic_m3.description"] = "A reflex sight with a chevron reticle that looks like an old fellow with one of those long straight-down beards.\nComes with a <color=100,255,100>magnifier</color>."
 
-L["gekolt_pr2_optic_m4.printname"] = ARC9:GetPhrase("gekolt_css_optic_mrs.printname") or "Aniracco Usual"
-L["gekolt_pr2_optic_m4.compactname"] = ARC9:GetPhrase("gekolt_css_optic_mrs.compactname") or "USUAL"
 L["gekolt_pr2_optic_m4.description"] = "The most basic reflex sight, cloned all over the world.\n\nThis one only cost ¥62!\nComes with a <color=100,255,100>magnifier</color>."
 
 ///////////// gekolt_smorg_muzzle
@@ -1350,53 +1346,53 @@ L["smorg_category_tactical"] = "Tactical"
 /////////////////// Remix Weapons
 L["smorg_gekolt_remix_aksg"] = "Nidrovich-12"
 L["smorg_gekolt_remix_aksg_real"] = "AKSG-12"
-L["smorg_gekolt_remix_aksg_desc"] = "First, last and undocumented interation of a failed line of alteration.\nInfamy breeds infamy."
+L["smorg_gekolt_remix_aksg_desc"] = "First, last and undocumented interation of a failed line of alteration.\nInfamy breeds infamy.\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_apc9"] = "Milizersch Libero"
 L["smorg_gekolt_remix_apc9_real"] = "APC9"
-L["smorg_gekolt_remix_apc9_desc"] = "Carbine-length variant with a ligher load."
+L["smorg_gekolt_remix_apc9_desc"] = "Carbine-length variant with a ligher load.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_aug_b"] = "Valteyrka-B"
 L["smorg_gekolt_remix_aug_b_real"] = "Unbullpup AUG"
-L["smorg_gekolt_remix_aug_b_desc"] = "Ergonomics be damned! Conventional is always universal."
+L["smorg_gekolt_remix_aug_b_desc"] = "Ergonomics be damned! Conventional is always universal.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_bowhl2"] = "Bow"
-L["smorg_gekolt_remix_bowhl2_desc"] = "Crossbows are too expensive to make.\nSignificantly higher firing rate while aiming."
+L["smorg_gekolt_remix_bowhl2_desc"] = "Crossbows are too expensive to make.\nSignificantly higher firing rate while aiming.\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_deuxb"] = "Emisavoie"
 L["smorg_gekolt_remix_deuxb_real"] = "Coach Gun"
-L["smorg_gekolt_remix_deuxb_desc"] = "Old and reliable. Nothing could go wrong with a classic."
+L["smorg_gekolt_remix_deuxb_desc"] = "Old and reliable. Nothing could go wrong with a classic.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_g3_b"] = "Gevehrat-3B"
 L["smorg_gekolt_remix_g3_b_real"] = "Bullpup G3"
-L["smorg_gekolt_remix_g3_b_desc"] = "Ergonomics be praised! Unconventional is the way forward."
+L["smorg_gekolt_remix_g3_b_desc"] = "Ergonomics be praised! Unconventional is the way forward.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_g11"] = "Husellisch-11"
 L["smorg_gekolt_remix_g11_real"] = "G11"
-L["smorg_gekolt_remix_g11_desc"] = "Impractical from the start, a design too ambitious for its time."
+L["smorg_gekolt_remix_g11_desc"] = "Impractical from the start, a design too ambitious for its time.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_gepard"] = "Ryszachti-9"
 L["smorg_gekolt_remix_gepard_real"] = "Gepard PP"
-L["smorg_gekolt_remix_gepard_desc"] = "A response to a desire for an even more compact design."
+L["smorg_gekolt_remix_gepard_desc"] = "A response to a desire for an even more compact design.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_jackham"] = "Pancolhver-12"
 L["smorg_gekolt_remix_jackham_real"] = "Jackhammer"
-L["smorg_gekolt_remix_jackham_desc"] = "Overly complex design that fails at everything."
+L["smorg_gekolt_remix_jackham_desc"] = "Overly complex design that fails at everything.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_minid"] = "Ohlderogl Wricht"
 L["smorg_gekolt_remix_minid_real"] = "Baby Desert Eagle"
-L["smorg_gekolt_remix_minid_desc"] = "Compact version of a hunting pistol."
+L["smorg_gekolt_remix_minid_desc"] = "Compact version of a hunting pistol.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_sg552"] = "Orkaneer-52"
 L["smorg_gekolt_remix_sg552_real"] = "SG552"
-L["smorg_gekolt_remix_sg552_desc"] = "Barely customizable modular weapon."
+L["smorg_gekolt_remix_sg552_desc"] = "Barely customizable modular weapon.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_shieldtonfa"] = "Riot Shield & Tonfa"
-L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-riot gear, allowing for quick guarding with the shield and skulls to be cracked with the tonfa."
+L["smorg_gekolt_remix_shieldtonfa_desc"] = "A set of anti-riot gear, allowing for quick guarding with the shield and skulls to be cracked with the tonfa.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 L["smorg_gekolt_remix_uzi"] = "Yvelzy-9"
 L["smorg_gekolt_remix_uzi_real"] = "UZI"
-L["smorg_gekolt_remix_uzi_desc"] = "A staple of rapid manufacturing."
+L["smorg_gekolt_remix_uzi_desc"] = "A staple of rapid manufacturing.\n\n\n[ <color=255,255,100>Part of Smorgasbord Remix</color> ]"
 
 /////////////////////////// Remix Attachments
 L["gekolt_fof_coach_b2.printname"] = "Nitro Load"
