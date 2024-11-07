@@ -153,6 +153,8 @@ ATT.ShootSoundSilenced = "magmacow_smor/mp5k-sup.wav"
 
 ATT.ManualAction = false
 ATT.ManualActionNoLastCycle = false
+ATT.SpreadMultRecoilMult = 0.5
+ATT.RecoilModifierCapAdd = -4
 
 ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload"			then	return "wet_perdeson"	end	
@@ -187,6 +189,15 @@ ATT.SortOrder = 2
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_carbine"}
 
+ATT.FreeAimRadiusAdd = 1
+ATT.SwayAdd = 0.05
+
+ATT.RangeMaxMult = 0.8
+ATT.SpreadAdd = 0.00025
+
+ATT.AimDownSightsTimeAdd = -0.01
+ATT.SprintToFireTimeAdd = -0.02
+
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-6, -1, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-6, 0, 0) end
 
@@ -210,6 +221,15 @@ ATT.SortOrder = 1
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_civ"}
 
+ATT.FreeAimRadiusAdd = 2
+ATT.SwayAdd = -0.03
+
+ATT.RangeMaxMult = 0.9
+ATT.SpreadAdd = 0.0005
+
+ATT.AimDownSightsTimeAdd = -0.02
+ATT.SprintToFireTimeAdd = -0.04
+
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
@@ -232,6 +252,15 @@ ATT.SortOrder = 3
 
 ATT.Category = "pr2_mosin_barrel"
 ATT.ActivateElements = {"barrel_obrez"}
+
+ATT.FreeAimRadiusAdd = 4
+ATT.SwayAdd = 0.2
+
+ATT.RangeMaxMult = 0.4
+ATT.SpreadAdd = 0.025
+
+ATT.AimDownSightsTimeAdd = -0.2
+ATT.SprintToFireTimeAdd = -0.3
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-10, -9, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-10, 0, 0) end
