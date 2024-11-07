@@ -1,6 +1,7 @@
 [b]A big update for Smorgasbord is now available[/b]
 [list]
 	[*] Added the Otvetdar-91, an ancient Soviet/Russian bolt-action rifle.
+	[*] Added the Hargern AMP, a classic 80s magnum pistol.
 	[*] Added support for localizations:
 	[list]
 		[*] Weapon and attachment names and descriptions alongside just about everything there is is now localized

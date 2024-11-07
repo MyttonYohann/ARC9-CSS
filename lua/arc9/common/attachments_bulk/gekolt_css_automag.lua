@@ -66,8 +66,8 @@ ATT.ActivateElements = {"b_no"}
 
 ATT.PhysBulletMuzzleVelocityAdd = 800 * -12
 
-ATT.ShootPitchMult = 0.9
-ATT.ShootVolumeMult = 1.5
+ATT.ShootPitchMult = 0.925
+ATT.ShootVolumeMult = 1.05
 
 ATT.RangeMaxMult = 0.5
 ATT.RangeMinMult = 0.75
