@@ -15,7 +15,7 @@ ATT.SprintToFireTimeMult = 1.03
 ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "Light",
+        PrintName = ARC9:GetPhrase("smorg_stat_light") or "Light",
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/flashlight001",
@@ -31,7 +31,7 @@ ATT.ToggleStats = {
         FlareAttachment = 1
     },
     {
-        PrintName = "None",
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
     }
 }
 

@@ -132,9 +132,9 @@ L["smorg_gekolt_css_ak47"] = "Avtoma-7"
 L["smorg_gekolt_css_ak47_real"] = "AK-47"
 L["smorg_gekolt_css_ak47_desc"] = "Rifle robusto com um design simples que pode funcionar sob condições rigorosas.\nUm design classico com uma variante para cada caso de uso imaginável, e muitos casos inimagináveis também."
 
-L["smorg_gekolt_css_automag"] = "Hargern AMP" -- NEW
-L["smorg_gekolt_css_automag_real"] = "Auto Mag 44" -- NEW
-L["smorg_gekolt_css_automag_desc"] = "An ultra expensive, curious relic for those who really want a revolver but hate revolvers with a burning passion." -- NEW
+L["smorg_gekolt_css_automag"] = "Hargern AMP"
+L["smorg_gekolt_css_automag_real"] = "Auto Mag 44"
+L["smorg_gekolt_css_automag_desc"] = "Ultra caro, uma reliquia curiosa para aqueles que realmente querem um revolver mas odeia revolveres com uma paixão dos infernos."
 
 L["smorg_gekolt_css_awp"] = "Aldric-38"
 L["smorg_gekolt_css_awp_real"] = "AWP"
@@ -206,73 +206,73 @@ L["smorg_gekolt_pr2_mosin_desc"] = "Um velhote de rifle que sempre estará pront
 
 ////////////////////////////////////// Attachments
 /////////////////// Attachment Folders
-L["smorg_folder_magnifier"] = "Magnifier"
-L["smorg_folder_scopes"] = "Scopes"
-L["smorg_folder_reflex"] = "Reflex"
-L["smorg_folder_gadget"] = "Gadget"
-L["smorg_folder_mount"] = "Mount"
+L["smorg_folder_magnifier"] = "Ampliador"
+L["smorg_folder_scopes"] = "Luneta"
+L["smorg_folder_reflex"] = "Reflexiva" -- //tag
+L["smorg_folder_gadget"] = "Acessório"
+L["smorg_folder_mount"] = "Trilho" -- //tag
 
 /////////////////// Attachment Categories
-L["smorg_category_receiver"] = "Receiver"
-L["smorg_category_handguard"] = "Handguard"
-L["smorg_category_foregrip"] = "Foregrip"
-L["smorg_category_optic"] = "Optic"
-L["smorg_category_muzzle"] = "Muzzle"
+L["smorg_category_receiver"] = "Mecanismo" -- Receptáculo, Mecanismo //tag
+L["smorg_category_handguard"] = "Guarda-Mão" --
+L["smorg_category_foregrip"] = "Empunhadura"
+L["smorg_category_optic"] = "Mira" --
+L["smorg_category_muzzle"] = "Bico" -- Focinho, Bico,  
 L["smorg_category_clamp"] = "Clamp"
-L["smorg_category_stock"] = "Stock"
-L["smorg_category_grip"] = "Grip"
-L["smorg_category_frame"] = "Frame"
-L["smorg_category_mount"] = "Mount"
-L["smorg_category_mount_left"] = "Mount L." -- "Left"
-L["smorg_category_mount_right"] = "Mount R." -- "Right"
-L["smorg_category_mount_up"] = "Mount U." -- "Up"
-L["smorg_category_mount_down"] = "Mount D." -- "Down"
-L["smorg_category_mount_front"] = "Mount F." -- "Front"
-L["smorg_category_mount_rear"] = "Mount R." -- "Rear"
-L["smorg_category_mount_up_left"] = "Mount U.L." -- "Upper Left"
-L["smorg_category_mount_up_right"] = "Mount U.R." -- "Upper Right"
-L["smorg_category_mount_low_left"] = "Mount L.L." -- "Lower Left"
-L["smorg_category_mount_low_right"] = "Mount L.R." -- "Lower Right"
-L["smorg_category_ammo"] = "Ammo"
-L["smorg_category_offhand"] = "Off-Hand"
-L["smorg_category_barrel"] = "Barrel"
-L["smorg_category_magazine"] = "Magazine"
-L["smorg_category_kit"] = "Kit"
-L["smorg_category_payload"] = "Payload"
-L["smorg_category_optic_angle"] = "Angled Optic"
+L["smorg_category_stock"] = "Coronha"
+L["smorg_category_grip"] = "Cabo"
+L["smorg_category_frame"] = "Armação"
+L["smorg_category_mount"] = "Trilho"
+L["smorg_category_mount_left"] = "Trilho E." -- "Esquerdo"
+L["smorg_category_mount_right"] = "Trilho D." -- "Direito"
+L["smorg_category_mount_up"] = "Trilho S." -- "Superior"
+L["smorg_category_mount_down"] = "Trilho I." -- "Inferior"
+L["smorg_category_mount_front"] = "Trilho F." -- "Frontal"
+L["smorg_category_mount_rear"] = "Trilho P." -- "Posterior"
+L["smorg_category_mount_up_left"] = "Trilho S.E." -- "Superior Esquerdo"
+L["smorg_category_mount_up_right"] = "Trilho S.D." -- "Superior Direito"
+L["smorg_category_mount_low_left"] = "Trilho I.E." -- "Inferior Esquerdo"
+L["smorg_category_mount_low_right"] = "Trilho I.D." -- "Inferior Direito"
+L["smorg_category_ammo"] = "Munição"
+L["smorg_category_offhand"] = "Off-Hand" --
+L["smorg_category_barrel"] = "Cano"
+L["smorg_category_magazine"] = "Carregador"
+L["smorg_category_kit"] = "Kit" -- Kit
+L["smorg_category_payload"] = "Payload" -- Nothing uses it
+L["smorg_category_optic_angle"] = "Mira Angulada"
 
-L["smorg_category_ammo_ubgl"] = "Ammo (UB)"
+L["smorg_category_ammo_ubgl"] = "Munição (UB)" -- 
 
 /////////////////// Attachment Toggle Stats
 L["smorg_stat_on"] = "ON"
 L["smorg_stat_off"] = "OFF"
 
-L["smorg_stat_laser_light"] = "Laser & Light"
+L["smorg_stat_laser_light"] = "Laser e Luz" -- Laser e Luz
 
-L["smorg_stat_laser"] = "Laser"
-L["smorg_stat_light"] = "Light"
+L["smorg_stat_laser"] = "Laser" -- Laser
+L["smorg_stat_light"] = "Luz" -- Luz
 
-L["smorg_stat_global"] = "Globally"
-L["smorg_stat_curlife"] = "Current Life"
+L["smorg_stat_global"] = "Globalmente"
+L["smorg_stat_curlife"] = "Vida Atual"
 
 /////////////////// Optic Stats
-L["smorg_zoomlevel"] = "Zoom Level"
+L["smorg_zoomlevel"] = "Nivel de Ampliação" -- Nivel de Ampliação
 L["smorg_zoomlevel_val"] = "%s.%sx" -- "2.2x" for example
 L["smorg_zoomlevel_val_val"] = "%s.%sx - %s.%sx" -- "2.2x - 2.2x" for example
 L["smorg_ifstat"] = "%s - %s"
 
 ////////////////////////////////////// Attachments
 /////////////////////////// Non-Bulk
-L["gekolt_css_ao2_rifshield.printname"] = "Shield"
-L["gekolt_css_ao2_rifshield.compactname"] = "Shield"
-L["gekolt_css_ao2_rifshield.description"] = "Heavy shield that barely blocks anything."
+L["gekolt_css_ao2_rifshield.printname"] = "Escudo"
+L["gekolt_css_ao2_rifshield.compactname"] = "Escudo"
+L["gekolt_css_ao2_rifshield.description"] = "Um Escudo Pesado que mal bloqueia qualquer coisa."
 
-L["gekolt_css_bipod.printname"] = "Bipod"
-L["gekolt_css_bipod.compactname"] = "BIPOD"
-L["gekolt_css_bipod.description"] = "'Pod' means legs, 'bi' means two.\nMassively improves <color=100,255,100>recoil control</color> and reduces <color=100,255,100>cumulative spread</color> while deployed."
+L["gekolt_css_bipod.printname"] = "Bipé"
+L["gekolt_css_bipod.compactname"] = "BIPÉ"
+L["gekolt_css_bipod.description"] = "'Pé' significa pé..., 'bi' significa 2. \nMelhora massivamente o <color=100,255,100>controle do recoil</color> e reduz o <color=100,255,100>espalhe acumulativo</color> enquanto montado."
 
-L["gekolt_css_fg.printname"] = "Vertical Foregrip"
-L["gekolt_css_fg.compactname"] = "TROY"
+L["gekolt_css_fg.printname"] = "Empunhadura Vertical"
+L["gekolt_css_fg.compactname"] = "TROY" --Tróia, TROY
 L["gekolt_css_fg.description"] = "Rail-mounted vertical foregrip. Provides a stable, vertical surface to grip onto, improving <color=100,255,100>recoil control</color> and reducing <color=100,255,100>recoil drift</color>."
 
 L["gekolt_css_fg_angled.printname"] = "Angled Foregrip"
