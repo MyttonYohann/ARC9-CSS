@@ -258,9 +258,9 @@ L["gekolt_css_ao2_rifshield.printname"] = "Sköld"
 L["gekolt_css_ao2_rifshield.compactname"] = "Sköld"
 L["gekolt_css_ao2_rifshield.description"] = "Tung sköld som knappt blockerar något."
 
-L["gekolt_css_bipod.printname"] = "Skjudstöd"
+L["gekolt_css_bipod.printname"] = "Benstöd"
 L["gekolt_css_bipod.compactname"] = "STÖD"
-L["gekolt_css_bipod.description"] = "Stöd som hjälper dig att skjuta.\nÖkar massivt <color=100,255,100>rekylkontrollen</color> och sänker <color=100,255,100>kumulativ spridning</color> när den är aktiv."
+L["gekolt_css_bipod.description"] = "Två ben som ger dig stöd. Därav \"benstöd\".\nÖkar massivt <color=100,255,100>rekylkontrollen</color> och sänker <color=100,255,100>kumulativ spridning</color> när den är aktiv."
 
 L["gekolt_css_fg.printname"] = "Vertikalt Framgrepp"
 L["gekolt_css_fg.compactname"] = "TROY"
@@ -367,7 +367,7 @@ L["gekolt_ca_m60_mag3.description"] = "Definitivt inte ett kurvat AK4-magasin me
 
 L["gekolt_ca_60_h1.printname"] = "Fallskärmsjägare Handskydd"
 L["gekolt_ca_60_h1.compactname"] = "FALL"
-L["gekolt_ca_60_h1.description"] = "Krävs ej.\nTar bort förmågan för <color=255,100,100>dubbla skjutstöd</color>."
+L["gekolt_ca_60_h1.description"] = "Krävs ej.\nTar bort förmågan för <color=255,100,100>dubbla benstöd</color>."
 
 L["gekolt_fh2_thock_mag1.printname"] = "40-Patronersmagasin"
 L["gekolt_fh2_thock_mag1.compactname"] = "40P"
@@ -542,7 +542,7 @@ L["gekolt_css_ak_hg8.description"] = "Ser ut som att botten är ihålig.\nSer li
 
 L["gekolt_css_ak_hg9.printname"] = "Tungt Handskydd"
 L["gekolt_css_ak_hg9.compactname"] = "TUNG"
-L["gekolt_css_ak_hg9.description"] = "Hallå, dem gjorde den längre.\nRundat främre kornsikte för... högre... träffsäkerhet?\nSatte på ett inbyggt skjutstöd också bara för att."
+L["gekolt_css_ak_hg9.description"] = "Hallå, dem gjorde den längre.\nRundat främre kornsikte för... högre... träffsäkerhet?\nSatte på ett inbyggt benstöd också bara för att."
 
 L["gekolt_css_ak_hg10.printname"] = "Moderniserat Handskydd"
 L["gekolt_css_ak_hg10.compactname"] = "MODERN"
