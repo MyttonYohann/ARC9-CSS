@@ -29,7 +29,7 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 
 ATT.AimDownSightsTimeAdd = -0.1
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -1, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -2, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b1")
@@ -55,8 +55,8 @@ end
 
 ATT.AimDownSightsTimeAdd = -0.15
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, -2, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_b2")
 
@@ -401,6 +401,9 @@ ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "fire_iron_empty"	then 	return "fire_iron_empty_roni"		end		
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.75, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.75, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_hg2")
 
 
@@ -461,8 +464,8 @@ ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 2, 0)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -6, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, -7.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_mauser_s1")
 
