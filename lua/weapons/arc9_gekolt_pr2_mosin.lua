@@ -571,6 +571,7 @@ SWEP.Animations = {
         MinProgress = 0.975,
 		RefillProgress = 0.8,
         FireASAP = true,
+		DumpAmmo = true,
         EventTable = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
 			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 20 / 40},	

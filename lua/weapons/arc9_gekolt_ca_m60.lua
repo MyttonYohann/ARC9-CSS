@@ -390,6 +390,7 @@ SWEP.Animations = {
 
 	["reload_para"] = {
         Source = "wet_42",
+		Mult = 0.9,
         MagSwapTime = 70 / 40,		
         FireASAP = true,
         MinProgress = 0.95,
@@ -406,14 +407,15 @@ SWEP.Animations = {
     },
     ["reload_empty_para"] = {
         Source = "dry_42",
+		Mult = 0.9,
         MagSwapTime = 60 / 40,	
         FireASAP = true,
         MinProgress = 0.95,
 		RefillProgress = 0.825,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
-        { t = 0.85, lhik = 0, rhik = 1, },{ t = 0.925, lhik = 1, rhik = 1, },
+        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.6, lhik = 0, rhik = 1, },
+        { t = 0.7, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
         },
         EventTable = {
             {s =  "gekolt_css/ak47_clipout.wav" ,   t = 12 / 40},
@@ -426,7 +428,6 @@ SWEP.Animations = {
 
 	["reload_parax"] = {
         Source = "wet_42x",
-		Mult = 1.1,
         MagSwapTime = 70 / 40,		
         FireASAP = true,
         MinProgress = 0.95,
@@ -443,15 +444,14 @@ SWEP.Animations = {
     },
     ["reload_empty_parax"] = {
         Source = "dry_42x",
-		Mult = 1.1,
         MagSwapTime = 60 / 40,	
         FireASAP = true,
         MinProgress = 0.95,
 		RefillProgress = 0.8,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
-        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.5, lhik = 0, rhik = 1, },
-        { t = 0.85, lhik = 0, rhik = 1, },{ t = 0.925, lhik = 1, rhik = 1, },
+        { t = 0.1, lhik = 0, rhik = 1, },{ t = 0.6, lhik = 0, rhik = 1, },
+        { t = 0.7, lhik = 1, rhik = 1, },{ t = 1, lhik = 1, rhik = 1, },
         },
         EventTable = {
             {s =  "gekolt_css/ak47_clipout.wav" ,   t = 12 / 40},

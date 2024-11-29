@@ -122,7 +122,7 @@ ATT.CrouchPosOverride = Vector(-0.5, -0.5, -1)
 ATT.CrouchAngOverride = Angle(0, 0, -10)
 
 ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 5, 0)
+    return vec + Vector(0, 3, 0)
 end
 
 ATT.ReloadNoSprintPos = true
