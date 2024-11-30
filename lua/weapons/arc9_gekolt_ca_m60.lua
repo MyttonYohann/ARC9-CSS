@@ -390,7 +390,7 @@ SWEP.Animations = {
 
 	["reload_para"] = {
         Source = "wet_42",
-		Mult = 0.9,
+		Mult = 0.85,
         MagSwapTime = 70 / 40,		
         FireASAP = true,
         MinProgress = 0.95,
@@ -407,7 +407,7 @@ SWEP.Animations = {
     },
     ["reload_empty_para"] = {
         Source = "dry_42",
-		Mult = 0.9,
+		Mult = 0.85,
         MagSwapTime = 60 / 40,	
         FireASAP = true,
         MinProgress = 0.95,
@@ -421,8 +421,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/ak47_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_css/ak47_clipin1.wav" ,    t = 54 / 40},
             {s =  "gekolt_css/ak47_clipin2.wav" ,    t = 68 / 40},
-            {s =  "gekolt_css/ak47_boltpull1.wav" ,    t = 97 / 40},
-            {s =  "gekolt_css/ak47_boltpull2.wav" ,    t = 106 / 40},
+            {s =  "gekolt_css/ak47_boltpull1.wav" ,    t = 102 / 40},
+            {s =  "gekolt_css/ak47_boltpull2.wav" ,    t = 108 / 40},
         },
     },
 
@@ -457,8 +457,8 @@ SWEP.Animations = {
             {s =  "gekolt_css/ak47_clipout.wav" ,   t = 12 / 40},
             {s =  "gekolt_css/ak47_clipin1.wav" ,    t = 54 / 40},
             {s =  "gekolt_css/ak47_clipin2.wav" ,    t = 68 / 40},
-            {s =  "gekolt_css/ak47_boltpull1.wav" ,    t = 97 / 40},
-            {s =  "gekolt_css/ak47_boltpull2.wav" ,    t = 106 / 40},
+            {s =  "gekolt_css/ak47_boltpull1.wav" ,    t = 102 / 40},
+            {s =  "gekolt_css/ak47_boltpull2.wav" ,    t = 108 / 40},
         },
     },
 

@@ -78,14 +78,25 @@ ATT = {}
 ATT.PrintName = "Wooden Grip"
 ATT.CompactName = "Wooden"
 ATT.Icon = Material("entities/gekolt_css_m4_g_wood.png", "mips smooth")
-ATT.Description = [[Don't let the termites get you]]
+ATT.Description = [[Latest fashion of the 60s.]]
 
 ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+-- this is like AttachmentElements but worse, oh well, bypass bodygroup limit at least
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,3)
+end
+
+
 ATT.Category = "css_m4_g" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"g_wood"}
+ATT.ActivateElements = {"g_wood", "blank_grip"}
 
 ATT.RecoilMult = 0.85
 ATT.AimDownSightsTimeMult = 1.05
@@ -102,15 +113,23 @@ ATT = {}
 ATT.PrintName = "Skeleton Grip"
 ATT.CompactName = "Skeleton"
 ATT.Icon = Material("entities/gekolt_css_m4_g_ske.png", "mips smooth")
-ATT.Description = [[Because that amount of weight saved is really the defactor of life and death
-What do you think would happen if your grip weights nothing?]]
+ATT.Description = [[Tactical ninja is content with excessive recoil]]
 
 ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,1)
+end
+
 ATT.Category = "css_m4_g" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"g_ske"}
+ATT.ActivateElements = {"g_ske", "blank_grip"}
 
 ATT.RecoilMult = 1.5
 ATT.AimDownSightsTimeMult = 0.9
@@ -127,14 +146,23 @@ ATT = {}
 ATT.PrintName = "Curved Grip"
 ATT.CompactName = "Curved"
 ATT.Icon = Material("entities/gekolt_css_m4_g_tw.png", "mips smooth")
-ATT.Description = [[Revolver stype grip instead of the usual pistol one.]]
+ATT.Description = [[Revolver stype grip is fashionable.]]
 
 ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,4)
+end
+
 ATT.Category = "css_m4_g" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"g_tw"}
+ATT.ActivateElements = {"g_tw", "blank_grip"}
 
 ATT.RecoilMult = 0.85
 ATT.AimDownSightsTimeMult = 1.05
@@ -158,8 +186,17 @@ ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = -0.2
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,2)
+end
+
 ATT.Category = "css_m4_g" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"g_short"}
+ATT.ActivateElements = {"g_short", "blank_grip"}
 
 ATT.RecoilMult = 1.25
 ATT.AimDownSightsTimeMult = 0.925
@@ -248,8 +285,17 @@ ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,5)
+end
+
 ATT.Category = "css_m4_g" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"g_adar", "nostock"}
+ATT.ActivateElements = {"g_adar", "blank_grip", "blank_stock"}
 
 ATT.SwayMultSights = 0.75
 ATT.RecoilMult = 0.875
@@ -274,9 +320,18 @@ ATT.Description = [[For those with long shoulder.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_607.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,9)
+end
+
 ATT.SortOrder = 4
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_607"}
+ATT.ActivateElements = {"s_607", "blank_stock"}
 
 ATT.RecoilMult = 1.1
 ATT.RecoilKickMult = 1.1
@@ -295,13 +350,22 @@ ATT = {}
 
 ATT.PrintName = "Telescopic Stock"
 ATT.CompactName = "Telescopic"
-ATT.Description = [[Non-slidable slidling fullstock]]
+ATT.Description = [[Non-slidable slidling fullstock.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_608.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,8)
+end
+
 ATT.SortOrder = 4
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_608"}
+ATT.ActivateElements = {"s_608", "blank_stock"}
 
 ATT.RecoilMult = 1.05
 ATT.RecoilKickMult = 1.02
@@ -327,9 +391,18 @@ ATT.Description = [[Classic, albeit a bit more rectangular, lengthy stock.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_a1.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,1)
+end
+
 ATT.SortOrder = 5
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_a1"}
+ATT.ActivateElements = {"s_a1", "blank_stock"}
 
 ATT.RecoilMult = 0.9
 ATT.AimDownSightsTimeMult = 1.15
@@ -353,9 +426,18 @@ Your cheek and shoulder would love you.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_bolt.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,5)
+end
+
 ATT.SortOrder = 3
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_bolt"}
+ATT.ActivateElements = {"s_bolt", "blank_stock"}
 
 ATT.SwayMult = 0.25
 ATT.RecoilMult = 1.5
@@ -372,13 +454,22 @@ ATT = {}
 
 ATT.PrintName = "Light Stock"
 ATT.CompactName = "Light"
-ATT.Description = [[Does the job of looking cool and not much else]]
+ATT.Description = [[Does the job of looking cool and not much else.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_light.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,6)
+end
+
 ATT.SortOrder = 1
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_light"}
+ATT.ActivateElements = {"s_light", "blank_stock"}
 
 ATT.AimDownSightsTimeMult = 0.85
 ATT.RecoilSideMult = 1.3
@@ -398,9 +489,18 @@ Hence the extremely misleading name.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_pdw.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,4)
+end
+
 ATT.SortOrder = 4
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_pdw"}
+ATT.ActivateElements = {"s_pdw", "blank_stock"}
 
 ATT.RecoilMult = 1.15
 ATT.RPMMult = 1.1
@@ -422,9 +522,18 @@ ATT.Description = [[In, out, in, out, slide it all about.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_slide.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,2) -- hb?
+end
+
 ATT.SortOrder = 2
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_slide"}
+ATT.ActivateElements = {"s_slide", "blank_stock"}
 
 ATT.SprintToFireTimeMult = 0.85
 ATT.RecoilUpMult = 1.15
@@ -443,9 +552,18 @@ ATT.Description = [[It's a wired stock but it's a sliding one. Sliding not inclu
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_swire.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,7)
+end
+
 ATT.SortOrder = 2.75
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_swire"}
+ATT.ActivateElements = {"s_swire", "blank_stock"}
 
 ATT.RecoilMult = 1.15
 ATT.RecoilKickMult = 1.1
@@ -468,9 +586,18 @@ ATT.Description = [[Why wasn't the original one hugging the frame?]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_t91.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,11)
+end
+
 ATT.SortOrder = 5.1
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_t91"}
+ATT.ActivateElements = {"s_t91", "blank_stock"}
 
 ATT.RecoilMult = 0.9
 ATT.RecoilKickMult = 0.9
@@ -494,9 +621,18 @@ Excessive visual pain.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_thomp.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,10)
+end
+
 ATT.SortOrder = 8
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_thomp"}
+ATT.ActivateElements = {"s_thomp", "blank_stock"}
 
 ATT.RecoilMult = 0.675
 ATT.RecoilKickMult = 0.8
@@ -518,6 +654,10 @@ ATT = {}
 ATT.PrintName = "Buffer Tube"
 ATT.CompactName = "None"
 ATT.Description = [[You know it comes free with a stock for a reason, right?]]
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,5)
+end
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_tube.png", "mips smooth")
 
@@ -543,9 +683,18 @@ ATT.Description = [[V-ish shape wire stock. It's thicker than the usual, nothing
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_wire.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,3)
+end
+
 ATT.SortOrder = 1
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_wire"}
+ATT.ActivateElements = {"s_wire", "blank_stock"}
 
 ATT.AimDownSightsTimeMult = 0.9
 ATT.RecoilSideMult = 1.25
@@ -564,9 +713,18 @@ ATT.Description = [[Reverese telescopic stock.]]
 
 ATT.Icon = Material("entities/gekolt_css_m4_s_x79.png", "mips smooth")
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(1,12)
+end
+
 ATT.SortOrder = 1
 ATT.Category = "css_m4_stock"
-ATT.ActivateElements = {"s_x79"}
+ATT.ActivateElements = {"s_x79", "blank_stock"}
 
 ATT.RecoilMult = 1.15
 ATT.RecoilKickMult = 1.1

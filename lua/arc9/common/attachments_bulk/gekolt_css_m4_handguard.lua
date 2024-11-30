@@ -11,7 +11,27 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_t86.png", "mips smooth")
 
 ATT.SortOrder = 15
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_t86"}
+ATT.ActivateElements = {"guard_t86", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,15)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,4)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,11)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
+
 
 ATT.FreeAimRadiusAdd = 1
 ATT.SwayAdd = -0.02
@@ -92,7 +112,21 @@ ATT.SprintToFireTimeAdd = -0.03
 
 ATT.SortOrder = 1
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_spr"}
+ATT.ActivateElements = {"guard_spr", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,6)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,7)
+    end
+end
 
 ATT.Attachments = {
     {
@@ -140,7 +174,21 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_ris.png", "mips smooth")
 
 ATT.SortOrder = 0.5
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_ris"}
+ATT.ActivateElements = {"guard_ris", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,8)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,9)
+    end
+end
 
 ATT.RecoilMult = 0.95
 ATT.SwayAdd = 0.05
@@ -239,7 +287,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_lr300.png", "mips smooth")
 
 ATT.SortOrder = 2
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_lr300", "short_clamp"}
+ATT.ActivateElements = {"guard_lr300", "short_clamp", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,7)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,8)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,6)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.RecoilDissipationRateMult = 1.25
 ATT.RecoilRandomSideAdd = 0.25
@@ -296,7 +363,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_lmg.png", "mips smooth")
 
 ATT.SortOrder = 18
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_lmg"}
+ATT.ActivateElements = {"guard_lmg", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,5)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,5)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,5)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 
 ATT.RPMMult = 0.9
@@ -347,7 +433,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_dragoon.png", "mips smooth")
 
 ATT.SortOrder = 1.2
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_drg"}
+ATT.ActivateElements = {"guard_drg", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,11)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,10)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,8)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.SpreadAdd = 0.0005
 ATT.SpreadAddHipFire = 0.0015
@@ -374,7 +479,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_doe.png", "mips smooth")
 
 ATT.SortOrder = 0.05
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_doe", "short_clamp"}
+ATT.ActivateElements = {"guard_doe", "short_clamp", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,12)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,12)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,9)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.RangeMaxMult = 0.75
 ATT.RecoilMult = 3
@@ -409,7 +533,21 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_bn63.png", "mips smooth")
 
 ATT.SortOrder = 20
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_bn63"}
+ATT.ActivateElements = {"guard_bn63", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,14)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,3)
+    end
+end
 
 ATT.RPMMult = 650 / 750
 
@@ -476,7 +614,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_adar.png", "mips smooth")
 
 ATT.SortOrder = 19
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_adar"}
+ATT.ActivateElements = {"guard_adar", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,4)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,1)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,4)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.RPMMult = 700 / 750
 
@@ -511,7 +668,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_acr.png", "mips smooth")
 
 ATT.SortOrder = 18
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_acr"}
+ATT.ActivateElements = {"guard_acr", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,9)
+	--[[if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,1)
+    end]]
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,7)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 
 ATT.RPMMult = 600 / 750
@@ -561,7 +737,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_a2.png", "mips smooth")
 
 ATT.SortOrder = 20
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_a2"}
+ATT.ActivateElements = {"guard_a2", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,3)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,1)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,3)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.RPMMult = 700 / 750
 
@@ -611,7 +806,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_a1.png", "mips smooth")
 
 ATT.SortOrder = 16
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_a1"}
+ATT.ActivateElements = {"guard_a1", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,2)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,1)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,2)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.RPMMult = 800 / 750
 
@@ -648,7 +862,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_608.png", "mips smooth")
 
 ATT.SortOrder = 0.15
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_608", "pre_muzzed", "short_clamp"}
+ATT.ActivateElements = {"guard_608", "pre_muzzed", "short_clamp", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,13)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,2)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,10)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 ATT.SwayMultShootingMult = 2
 
@@ -729,7 +962,26 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_10.png", "mips smooth")
 
 ATT.SortOrder = 21
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_10"}
+ATT.ActivateElements = {"guard_10", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(4,1)
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,1)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,1)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 
 ATT.RPMMult = 550 / 750
@@ -767,7 +1019,30 @@ ATT.Icon = Material("entities/gekolt_css_m4_h_athena.png", "mips smooth")
 
 ATT.SortOrder = 21
 ATT.Category = "css_m4_handguard"
-ATT.ActivateElements = {"guard_11"}
+ATT.ActivateElements = {"guard_11", "blank_hg", "blank_fs"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	if swep:GetElements()["up_ak"]then
+        model:SetBodygroup(4,17)
+	else
+		model:SetBodygroup(4,16)
+	end
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+        model:SetBodygroup(6,0)
+	else
+        model:SetBodygroup(6,3)
+    end
+	if swep:GetElements()["bot_grip"] then
+        model:SetBodygroup(7,12)
+	else
+        model:SetBodygroup(7,0)
+    end
+end
 
 
 ATT.RPMMult = 400 / 750

@@ -11,15 +11,25 @@ ATT.Icon = Material("entities/gekolt_css_m4_u_10.png", "mips smooth")
 
 ATT.SortOrder = 1.5
 ATT.Category = "css_m4_up"
-ATT.ActivateElements = {"up_proto", "keep_rs"}
+ATT.ActivateElements = {"up_proto", "keep_rs", "blank_mag", "blank_rs", "blank_upper"}
 ATT.ShootSound = {"cturix_ar15/fire_proto-1.wav","cturix_ar15/fire_proto-2.wav","cturix_ar15/fire_proto-3.wav"}
 ATT.ShootSoundSilenced = "gekolt_css/ar10_sd.wav"
 ATT.DistantShootSoundSilenced = "cturix_ar15/fire_blackout_dist.wav"
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
 
-    return anim .. "_proto"
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(0,1)
+	model:SetBodygroup(2,2)
+end
 
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload_empty"		then 	return "reload_empty_proto"	end	
+	if	curanim == "fire"				then 	return "fire_proto"	end	
+	if	curanim == "fire_iron"			then 	return "fire_iron_proto"	end	
 end
 
 ATT.ClipSizeOverride = 20
@@ -53,7 +63,17 @@ ATT.Icon = Material("entities/gekolt_css_m4_u_a1.png", "mips smooth")
 
 ATT.SortOrder = 0.5
 ATT.Category = "css_m4_up"
-ATT.ActivateElements = {"up_a1", "keep_rs"}
+ATT.ActivateElements = {"up_a1", "keep_rs", "blank_mag", "blank_rs", "blank_upper"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(0,6)
+	model:SetBodygroup(2,3)
+end
 
 ATT.Firemodes = {
     {
@@ -64,8 +84,8 @@ ATT.Firemodes = {
 ATT.RunawayBurst = true
 ATT.PostBurstDelay = 0.2
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_a1"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload_empty"		then 	return "reload_empty_a1"	end	
 end
 
 ATT.ClipSizeOverride = 20
@@ -88,10 +108,20 @@ ATT.Icon = Material("entities/gekolt_css_m4_u_acr.png", "mips smooth")
 
 ATT.SortOrder = 0.75
 ATT.Category = "css_m4_up"
-ATT.ActivateElements = {"up_acr", "keep_rs"}
+ATT.ActivateElements = {"up_acr", "keep_rs", "blank_mag", "blank_rs", "blank_upper"}
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_acr"
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(0,6)
+	model:SetBodygroup(2,4)
+end
+
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload_empty"		then 	return "reload_empty_acr"	end	
 end
 
 ATT.ClipSizeOverride = 40
@@ -115,9 +145,22 @@ ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 3
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	if swep:GetElements()["has_optic"] then
+        model:SetBodygroup(3,0)
+	else
+        model:SetBodygroup(3,1)
+    end
+end
+
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
 ATT.MuzzleParticle = "muzzleflash_ak47"
-ATT.ActivateElements = {"up_ak"}
+ATT.ActivateElements = {"up_ak", "blank_mag", "blank_rs"}
 ATT.ShootSound = {"cturix_ar15/fire_ak-1.wav","cturix_ar15/fire_ak-2.wav","cturix_ar15/fire_ak-3.wav"}
 ATT.ShootSoundSilenced = {"cturix_ar15/fire_ak_sup.wav"}
 ATT.DistantShootSound = {"cturix_ar15/fire_ak_dist-1.wav", "cturix_ar15/fire_ak_dist-2.wav"}
@@ -132,10 +175,11 @@ ATT.DamageMaxMult = 1.25
 ATT.PhysBulletMuzzleVelocityMult = 1.25
 ATT.RPMMult = 600 / 750
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_ak"
-
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload"				then 	return "reload_ak"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_ak"	end	
 end
+
 
 ATT.Ammo = "ar2"
 
@@ -158,20 +202,38 @@ ATT.Cons = {}
 ATT.SortOrder = 6
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_bolt", "noguard", "pre_muzzed", "short_clamp"}
+ATT.ActivateElements = {"up_bolt", "noguard", "pre_muzzed", "short_clamp",	"blank_mag", "blank_upper", "blank_magwell", "blank_rs", "blank_hg", "blank_fs", "no_top_rail"}
+
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(0,4)
+	if swep:GetElements()["has_optic"] then
+        model:SetBodygroup(3,0)
+	else
+        model:SetBodygroup(3,3)
+    end
+end
+
 ATT.ShootSound = "gekolt_css/cs5_sup-1.wav"
 
 ATT.ClipSizeOverride = 5
 
 ATT.RPMMult = 60 / 750
-ATT.RPMEmpty = 600
+ATT.Hook_Think = function(wep)	-- reset RPM so last shot doesnt delay like a whole second before being able to reload, manually check for ugbl otherwise the mass12 has no delay lel
+	if wep:GetUBGL(true) then 	return
+	elseif wep:Clip1() == 0 then wep:SetNextPrimaryFire(1)
+	end
+end
 
 ATT.Sights = {
     {
         Pos = Vector(3.8, 0, 5),
         Ang = Angle(90, 0, -90),
-        Reticle = nil, -- Same as ATT.RTScopeReticle or HoloSightReticle but this sight only. Better cache material somewhere outside this structure: local Reticle1 = Material("reticle1.png", "mips smooth") and here you type only Reticle1). If not defined, will use ATT.RTScopeReticle/HoloSightReticle
-
+        Reticle = nil, 
 
         Magnification = 1.15,
         IsIronSight = true,
@@ -186,8 +248,11 @@ ATT.Firemodes = {
     }
 }
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_bolt"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload"				then 	return "reload_bolt"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_bolt"		end	
+	if	curanim == "fire"				then 	return "fire_bolt"				end	
+	if	curanim == "fire_iron"			then 	return "fire_bolt"				end	
 end
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -250,7 +315,7 @@ ATT.Cons = {}
 ATT.SortOrder = 7
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_bow", "noguard", "nogrip", "pre_muzzed", "short_clamp", "akantbo"}
+ATT.ActivateElements = {"up_bow", "noguard", "nogrip", "pre_muzzed", "short_clamp", "akantbo", "blank_mag", "blank_hg", "blank_fs"}
 ATT.ShootSound = {"gekolt_css/cross_fire.wav"}
 
 ATT.Sights = {
@@ -299,7 +364,7 @@ ATT.ChamberSizeOverride = 0
 
 ATT.Ammo = "XBowBolt"
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
+ATT.Hook_TranslateAnimation = function(wep, anim)	-- too lazy, this is going to break one day
     return anim .. "_bow"
 end
 
@@ -330,7 +395,7 @@ ATT.Cons = {}
 ATT.SortOrder = 7
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_gih", "pre_muzzed", "noguard", "short_clamp"}
+ATT.ActivateElements = {"up_gih", "pre_muzzed", "noguard", "short_clamp", "blank_magwell", "blank_mag", "blank_hg", "blank_fs", "no_top_rail"}
 
 ATT.ClipSizeOverride = 60
 ATT.ChamberSize = 2
@@ -404,7 +469,7 @@ ATT.Cons = {}
 ATT.SortOrder = 2
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_pdw", "noguard", "nogrip", "short_clamp", "akantbo", "alt_optic"}
+ATT.ActivateElements = {"up_pdw", "noguard", "nogrip", "short_clamp", "akantbo", "alt_optic", "blank_mag", "blank_hg", "blank_fs", "no_top_rail"}
 ATT.ShootSound = "gekolt_css/p90-1.wav"
 ATT.ShootSoundSilenced = "cturix_ar15/fire_57_suppressed-1.wav"
 ATT.DistantShootSound ="cturix_ar15/fire_57_dist-1.wav"
@@ -441,7 +506,7 @@ ATT.ModelOffset = Vector(-7, -2.7, 3.5)
 ATT.ModelAngleOffset = Angle(90, -5, -90)
 ATT.Model = "models/weapons/geckololt_css/c_m4a1_ik_nor.mdl"
 
-ATT.RecoilMult = 0.75
+ATT.RecoilMult = 0.8
 ATT.DamageMaxMult = 0.9
 ATT.DamageMinMult = 0.75
 ATT.RangeMinMult = 0.5
@@ -453,7 +518,7 @@ ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         Category = "mountr_css",
-        InstalledElements = {"no_irons", "no_optic", "optic_main"},
+        InstalledElements = {"no_irons", "no_optic", "optic_main", "has_optic"},
         DefaultIcon = Material("arc9/def_att_icons/optic.png"),
         ExcludeElements = {"fg_saw"},
         Category = {"optic_css_s", "optic_css_m" },
@@ -492,7 +557,7 @@ ATT.Attachments = {
         DefaultIcon = Material("arc9/def_att_icons/grip.png"),
 
         Category = "grip_css",
-        Pos = Vector(0, 0.45, -10),
+        Pos = Vector(0, 0.65, -11.5),
         Ang = Angle(90, 0, -90),
     },
 }
@@ -533,15 +598,17 @@ ATT.RecoilPatternDriftMult = 3
 ATT.ActivePosOverride = Vector(-0.5, 2, -0.5)
 ATT.ActiveAngOverride = Angle(0, 0, 0)
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_lmg"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload"				then 	return "reload_lmg"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_lmg"	end	
 end
+
 
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         Category = "mountr_css",
-        InstalledElements = {"no_irons", "no_optic", "optic_main"},
+        InstalledElements = {"no_irons", "no_optic", "optic_main", "has_optic"},
         DefaultIcon = Material("arc9/def_att_icons/optic.png"),
         ExcludeElements = {"fg_saw"},
         Category = {"optic_css_s", "optic_css_m" },
@@ -570,7 +637,7 @@ ATT.Cons = {}
 ATT.SortOrder = 7
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_perosa", "pre_muzzed", "noguard", "nogrip", "short_clamp"}
+ATT.ActivateElements = {"up_perosa", "pre_muzzed", "noguard", "nogrip", "short_clamp", "blank_magwell", "blank_mag", "blank_hg", "blank_fs", "no_top_rail"}
 ATT.ShootSound = "gekolt_css/mp5-1.wav"
 ATT.ShootSoundSilenced = "gekolt_css/tmp-1.wav"
 ATT.MuzzleParticle = "muzzleflash_smg"
@@ -586,6 +653,8 @@ ATT.RangeMaxMult = 0.65
 ATT.RecoilMult = 0.5
 
 ATT.Ammo = "pistol"
+ATT.ShellModel = "models/weapons/shell.mdl"
+ATT.ShellScale = 0.5
 ATT.ModelBodygroups = "0"
 
 ATT.Firemodes = {
@@ -648,13 +717,18 @@ ATT.Cons = {}
 ATT.SortOrder = 5
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_pump", "noguard", "nogrip", "akantbo", "pre_muzzed"}
+ATT.ActivateElements = {"up_pump", "noguard", "nogrip", "akantbo", "pre_muzzed",	"blank_hg", "blank_magwell", "blank_mag", "blank_fs"}
 ATT.MuzzleParticle = "muzzleflash_shotgun"
 ATT.ShootSound = "gekolt_css/xm1014-1.wav"
 
 ATT.ClipSizeOverride = 5
 
 ATT.RPMMult = 90 / 750
+ATT.Hook_Think = function(wep)	-- reset RPM so last shot doesnt delay like a whole second before being able to reload, manually check for ugbl otherwise the mass12 has no delay lel
+	if wep:GetUBGL(true) then 	return
+	elseif wep:Clip1() == 0 then wep:SetNextPrimaryFire(1)
+	end
+end
 
 ATT.Sights = {
     {
@@ -686,8 +760,11 @@ ATT.Attachments = {
     },
 }
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_pump"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload"				then 	return "reload_pump"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_pump"		end	
+	if	curanim == "fire"				then 	return "fire_pump"				end	
+	if	curanim == "fire_iron"			then 	return "fire_pump"				end	
 end
 
 ATT.NumOverride = 10
@@ -727,8 +804,17 @@ ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 5
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(0,3)
+end
+
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_sg", "noguard", "keep_rs", "akantbo", "pre_muzzed"}
+ATT.ActivateElements = {"up_sg", "noguard", "keep_rs", "akantbo", "pre_muzzed",		"blank_rs", "blank_magwell", "blank_mag", "blank_hg", "blank_fs", "blank_upper"}
 ATT.MuzzleParticle = "muzzleflash_shotgun"
 ATT.ShootSound = "gekolt_css/xm1014-1.wav"
 
@@ -749,9 +835,13 @@ ATT.Sights = {
     }
 }
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_sg"
+ATT.Hook_TranslateAnimation = function(wep, curanim)
+	if	curanim == "reload"				then 	return "reload_sg"			end	
+	if	curanim == "reload_empty"		then 	return "reload_empty_sg"	end	
+	if	curanim == "fire"				then 	return "fire_proto"	end	
+	if	curanim == "fire_iron"			then 	return "fire_iron_proto"	end	
 end
+
 
 ATT.Attachments = {
     {
@@ -794,8 +884,22 @@ ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm)
+	model:SetBodygroup(0,2)
+	if swep:GetElements()["has_optic"] then
+		model:SetBodygroup(3,0)
+	else
+		model:SetBodygroup(3,2)
+    end
+end
+
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_sd", "noguard", "pre_muzzed"}
+ATT.ActivateElements = {"up_sd", "noguard", "pre_muzzed", "blank_upper","blank_hg","blank_rs","blank_fs", "no_top_rail"}
 ATT.ShootSound = {"cturix_ar15/fire_blackout1.wav", "cturix_ar15/fire_blackout2.wav", "cturix_ar15/fire_blackout3.wav"}
 ATT.DistantShootSound = {"cturix_ar15/fire_blackout_dist.wav"}
 ATT.FirstShootSound = {"cturix_ar15/fire_blackout_first-1.wav"}
@@ -846,8 +950,22 @@ ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 1
 
+ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.DrawFunc = function(swep, model, wm)
+	model:SetBodygroup(2,1)
+	if swep:GetElements()["has_optic"] then
+		model:SetBodygroup(3,0)
+	else
+		model:SetBodygroup(3,4)
+    end
+end
+
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_9mm"}
+ATT.ActivateElements = {"up_9mm", "blank_mag", "blank_rs"}
 ATT.ShootSound = "gekolt_css/mp5-1.wav"
 ATT.ShootSoundSilenced = "gekolt_css/tmp-1.wav"
 ATT.MuzzleParticle = "muzzleflash_smg"
@@ -857,8 +975,8 @@ ATT.ClipSizeOverride = 32
 ATT.RPMMult = 900 / 750
 
 ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_smg"
-
+    if anim == "reload_empty" 	then return "reload_empty_smg" end 
+	if anim == "reload" 		then return "reload_smg" end
 end
 
 ATT.DamageMaxMult = 0.75
@@ -869,5 +987,7 @@ ATT.RangeMaxMult = 0.65
 ATT.RecoilMult = 0.65
 
 ATT.Ammo = "pistol"
+ATT.ShellModel = "models/weapons/shell.mdl"
+ATT.ShellScale = 0.5
 
 ARC9.LoadAttachment(ATT, "gekolt_css_m4_u_smg")
