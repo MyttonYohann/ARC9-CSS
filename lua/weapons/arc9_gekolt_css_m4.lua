@@ -397,7 +397,7 @@ SWEP.Animations = {
         Source = {"fire"},
     },
     ["fire_iron_empty"] = {
-        Source = {"fire"},
+        Source = {"fire_iron"},
         FireASAP = true,
         MinProgress = 0,
     },
