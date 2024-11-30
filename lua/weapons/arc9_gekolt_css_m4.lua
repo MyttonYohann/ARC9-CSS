@@ -25,13 +25,13 @@ SWEP.Credits = {
 SWEP.Description = ARC9:GetPhrase("smorg_gekolt_css_m4_desc") or [[Standard infantry carbine that is also absurdly popular in civilian markets.
 Has countless models and variations, some less stupid than others.]]
 
-SWEP.ViewModel = "models/weapons/geckololt_css/c_m4a1.mdl"
-SWEP.WorldModel = "models/weapons/geckololt_css/c_m4a1.mdl"
+SWEP.ViewModel = "models/weapons/geckololt_css/c_m4a2.mdl"
+SWEP.WorldModel = "models/weapons/geckololt_css/c_m4a2.mdl"
 
 SWEP.Slot = 2
 
 SWEP.MirrorVMWM = true
-SWEP.WorldModelMirror = "models/weapons/geckololt_css/c_m4a1.mdl"
+SWEP.WorldModelMirror = "models/weapons/geckololt_css/c_m4a2.mdl"
 SWEP.WorldModelOffset = {
     Pos = Vector(-4, 3.5, -7),
     Ang = Angle(-5, 0, 180),
@@ -39,7 +39,7 @@ SWEP.WorldModelOffset = {
     TPIKAng = Angle(-5, 0, 180),
     Scale = 1
 }
-SWEP.MirrorVMWMHeldOnly = true
+SWEP.MirrorVMWMHeldOnly = false
 
 -------------------------- DAMAGE PROFILE
 
@@ -284,7 +284,7 @@ SWEP.Hook_TranslateAnimation = function(wep, data, anim)
             if anim == "fire_iron_empty" then  return "fire_ubgl" end
     end
 
-    if wep.Attachments[10].Installed then	-- this isnt used 
+    --[[if wep.Attachments[10].Installed then	-- this isnt used 
             if anim == "reload" then  return "reload_akimbo" end
             if anim == "reload_empty" then  return "reload_empty_akimbo" end
             if anim == "reload_acr" then  return "reload_akimbo" end
@@ -302,7 +302,7 @@ SWEP.Hook_TranslateAnimation = function(wep, data, anim)
             if anim == "reload_empty_perosa" then  return "reload_empty_akimbo" end
             if anim == "reload_gih" then  return "reload_akimbo" end
             if anim == "reload_empty_gih" then  return "reload_empty_akimbo" end
-    end
+    end]]
 end
 
 SWEP.Animations = {
@@ -396,35 +396,12 @@ SWEP.Animations = {
     ["fire_empty"] = {
         Source = {"fire"},
     },
-    ["fire_empty_bolt"] = {
-        Source = {"fire"},
-        FireASAP = true,
-        MinProgress = 0,
-    },
     ["fire_iron_empty"] = {
         Source = {"fire"},
         FireASAP = true,
         MinProgress = 0,
     },
-    ["fire_iron_empty_bolt"] = {
-        Source = {"fire"},
-        FireASAP = true,
-        MinProgress = 0,
-    },
     ["fire_bolt"] = {
-        Mult = 0.8,
-        Source = {"fire_bolt"},
-        EventTable = {
-            {s =  "gekolt_css/awp_boltup.wav" ,   t = 26 / 40},
-            {s =  "gekolt_css/awp_boltpull.wav" ,   t = 30 / 40},
-            {s =  "gekolt_css/awp_boltdown.wav" ,    t = 40 / 40},
-        },
-        IKTimeLine = {
-        { t = 0, lhik = 1, rhik = 1, },{ t = 0.2, lhik = 1, rhik = 1, },
-        { t = 0.5, lhik = 1, rhik = 0, }, { t = 0.7, lhik = 1, rhik = 0, }, { t = 0.9, lhik = 1, rhik = 1, },
-        },
-    },
-    ["fire_iron_bolt"] = {
         Mult = 0.8,
         Source = {"fire_bolt"},
         EventTable = {
@@ -676,10 +653,6 @@ SWEP.Animations = {
         MinProgress = 0.95,
 		RefillProgress = 0.7,
     },
-    ["fire_sg"] = { Source = {"fire_proto"},
-    },
-    ["fire_iron_sg"] = { Source = {"fire_iron_proto"},
-    },
 
     ["reload_empty_ak"] = {
         Source = {"dry_ak","dry_ak2"},
@@ -878,206 +851,81 @@ SWEP.Animations = {
 -------------------------- ATTACHMENTS
 
 SWEP.AttachmentElements = {
-    ["up_bolt"] = {
-        Bodygroups = { {0, 6},{1, 2},{4, 5},{5, 4},{6, 7},{10,7}, },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.2, 14), }, [7] = { Pos = Vector(0, -2.4, 4.5), }, [11] = { Pos = Vector(0, 1, 10), } }
-    },
-    ["up_bow"] = {
-        Bodygroups = { {0, 7},{4, 5},{5, 7},{6, 7},{10,7}, },
+    ["blank_upper"] = {		Bodygroups = { {0, 1} }, },  
+	["blank_magwell"] = {	Bodygroups = { {1, 2} }, },	
+	["blank_stock"] = {		Bodygroups = { {2, 1} }, },
+	["blank_mag"] = {		Bodygroups = { {4, 1} }, },
+	["blank_rs"] = {		Bodygroups = { {5, 1} }, },	
+	["blank_hg"] = {		Bodygroups = { {6, 1} }, },
+	["blank_grip"] = {		Bodygroups = { {7, 3} }, },
+	["blank_fs"] = {		Bodygroups = { {10, 1} }, },
+
+    ["up_bolt"] = {		AttPosMods = { [5] = { Pos = Vector(0, 1.2, 14), }, [7] = { Pos = Vector(0, -2.4, 4.5), }, [11] = { Pos = Vector(0, 1, 10), } } },
+    ["up_proto"] = {	AttPosMods = { [7] = { Pos = Vector(0, -3.9, 4.25), } } },
+    ["up_a1"] = {		AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), } } },
+	["up_sg"] = {		AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), }, [8] = { Pos = Vector(0, -0.25, 25), } , [9] = { Pos = Vector(0, -0.25, 18.5), },[11] = { Pos = Vector(0, 1, 10), } }},
+    ["up_sd"] = { 		AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5), }, [9] = { Pos = Vector(0, -0.25, 15.75), }, } },
+    ["up_acr"] = { 		AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), } } },
+	["up_bow"] = {
+        Bodygroups = { {0, 3},{5, 5}, },
         AttPosMods = { [7] = { Pos = Vector(0, -3.25, 3), } }
     },
     ["up_lmg"] = {
-        Bodygroups = { {0, 4},{4, 4},{5, 9} },
+        Bodygroups = { {0, 7},{4, 2},{5, 7} },
         AttPosMods = { [7] = { Pos = Vector(0, -2.677, 0.15), }, [11] = { Pos = Vector(0, 1, 9.5), } }
     },
-    ["up_proto"] = {
-        Bodygroups = { {0, 1},{4, 2},{5, 8} },
-        AttPosMods = { [7] = { Pos = Vector(0, -3.9, 4.25), } }
-    },
-    ["up_a1"] = {
-        Bodygroups = { {0, 11},{4, 3},{5, 8} },
-        AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), } }
-    },
-    ["up_acr"] = {
-        Bodygroups = { {0, 12},{4, 6},{5, 8} },
-        AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), } }
-    },
     ["up_ak"] = {
-        Bodygroups = { {1, 1},{3, 1},{4, 5},{5, 1} },
+        Bodygroups = { {1, 1},{3, 1}},
         AttPosMods = { [11] = { Pos = Vector(0, 1, 9), } }
     },
-    ["up_9mm"] = {
-        Bodygroups = { {4, 1},{5, 11} },
-    },
-    ["up_sd"] = {
-        Bodygroups = {
-            {0, 2},{5, 3},{6, 7},{10,7}
-        },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5), }, [9] = { Pos = Vector(0, -0.25, 15.75), }, }
-    },
     ["up_gih"] = {
-        Bodygroups = {
-            {0, 8},{1, 2},{4, 5},{5, 6},{6, 7},{10,7}
-        },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5),}, [7] = { Pos = Vector(0, -2.1, 4.5), }, [11] = { Pos = Vector(0, 1, 9.5), }  }
+		Bodygroups = { {0, 4},{5, 4} },
+		AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5),}, [7] = { Pos = Vector(0, -2.1, 4.5), }, [11] = { Pos = Vector(0, 1, 9.5), }  }
     },
     ["up_perosa"] = {
-        Bodygroups = {
-            {0, 13},{1, 2},{4, 5},{5, 10},{6, 7},{10,7}
-        },
+		Bodygroups = { {0, 6},{5, 6} },
         AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5),}, [7] = { Pos = Vector(0, -2.1, 4.5), }  }
     },
-    ["up_pdw"] = {
-        Bodygroups = {
-            {0, 3},{4, 5},{5, 2},{6, 7},{10,7}
-        },
+	["up_pdw"] = {
+        Bodygroups = { {0, 2},{5, 2},{10,7} },
         AttPosMods = { [7] = { Pos = Vector(0, -2.5, 1), }, [8] = { Pos = Vector(0, -0.375, 19.75), } }
     },
-    ["up_sg"] = {
-        Bodygroups = {
-            {0, 5},{1, 2},{4, 5},{5, 8},{6, 7},{10,7}
-        },
-        AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), }, [8] = { Pos = Vector(0, -0.25, 25), } , [9] = { Pos = Vector(0, -0.25, 18.5), },[11] = { Pos = Vector(0, 1, 10), } }
-    },
     ["up_pump"] = {
-        Bodygroups = {
-            {0, 9},{1, 2},{4, 5},{5, 5},{6, 7},{10,7}
-        },
+        Bodygroups = { {0, 5},{5, 3},  },
         AttPosMods = { [7] = { Pos = Vector(0, -1.5, 4.25), }, [9] = { Pos = Vector(0, -0.25, 12), }, }
     },
 
-    ["guard_lmg"] = {
-        Bodygroups = { {6, 5}, {10, 5} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.85, 11.9),}, [8] = { Pos = Vector(0, -0.25, 30), }, [9] = { Pos = Vector(0, -0.25, 23.5), }, }
-    },
-    ["guard_a1"] = {
-        Bodygroups = { {6, 2}, {10, 1} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.7, 12.2),}, [8] = { Pos = Vector(0, -0.25, 28.75), }, [9] = { Pos = Vector(0, -0.25, 24.75), }, }
-    },
-    ["guard_drg"] = {
-        Bodygroups = { {6, 13}, {10, 11} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.25, 11.9),}, [8] = { Pos = Vector(0, -0.25, 22), }, [9] = { Pos = Vector(0, -0.25, 19.55), }, }
-    },
-    ["guard_doe"] = {
-        Bodygroups = { {6, 15}, {10, 13} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5),}, [8] = { Pos = Vector(0, -0.25, 15), } }
-    },
-    ["guard_608"] = {
-        Bodygroups = { {6, 16}, {10, 2} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.75),}, [8] = { Pos = Vector(0, -0.25, 22), } }
-    },
-    ["guard_acr"] = {
-        Bodygroups = { {6, 11}, {10, 7} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.95, 12.2),}, [8] = { Pos = Vector(0, -0.25, 28.75), }, [9] = { Pos = Vector(0, -0.25, 23.75), }, }
-    },
-    ["guard_a2"] = {
-        Bodygroups = { {6, 3}, {10, 1} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.75, 12.7),},[8] = { Pos = Vector(0, -0.25, 32), }, [9] = { Pos = Vector(0, -0.25, 24.75), }, }
-    },
-    ["guard_bn63"] = {
-        Bodygroups = { {6, 17}, {10, 3} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.5, 12.7),},[8] = { Pos = Vector(0, -0.25, 32), }, [9] = { Pos = Vector(0, -0.25, 23.75), }, }
-    },
-    ["guard_10"] = {
-        Bodygroups = { {6, 1}, {10, 1} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.4, 14.5),}, [8] = { Pos = Vector(0, -0.25, 31.25), }, [9] = { Pos = Vector(0, -0.25, 24.1), }, }
-    },
-    ["guard_148"] = {
-        Bodygroups = { {6, 12} },
-    },
-    ["guard_adar"] = {
-        Bodygroups = { {6, 4}, {10, 1} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.4, 14.5),}, [8] = { Pos = Vector(0, -0.25, 31.25), }, [9] = { Pos = Vector(0, -0.25, 24.1), }, }
-    },
-    ["guard_no"] = {
-        Bodygroups = { {6, 6}, {10, 6} },
-        AttPosMods = { [8] = { Pos = Vector(0, -0.25, 12.75), } }
-    },
-    ["guard_sten"] = {
-        Bodygroups = { {6, 14}, {10, 12} },
-        AttPosMods = { [8] = { Pos = Vector(0, -0.25, 19), } }
-    },
-    ["guard_lr300"] = {
-        Bodygroups = { {6, 9}, {10, 9} },
-        AttPosMods = { [8] = { Pos = Vector(0, -0.25, 23), } }
-    },
-    ["guard_ris"] = {
-        Bodygroups = { {6, 10}, {10, 10} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.3, 12), },[8] = { Pos = Vector(0, -0.25, 21.2), }, [9] = { Pos = Vector(0, -0.25, 18.75), }, }
-    },
-    ["guard_spr"] = {
-        Bodygroups = { {6, 8}, {10, 8} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.1, 13), },[8] = { Pos = Vector(0, -0.25, 22.5), }, [9] = { Pos = Vector(0, -0.25, 18.25), }, }
-    },
-    ["guard_t86"] = {
-        Bodygroups = { {6, 18}, {10, 4} },
-        AttPosMods = { [5] = { Pos = Vector(0, 1.25, 13.15), },[8] = { Pos = Vector(0, -0.25, 25.5), }, [9] = { Pos = Vector(0, -0.25, 19.5), }, }
-    },
-    ["guard_11"] = {
-        Bodygroups = { {6, 19}, {10, 3} },
-        AttPosMods = { [5] = { Pos = Vector(0, 2.4, 10.75),},[8] = { Pos = Vector(0, -0.25, 32), }, [9] = { Pos = Vector(0, -0.25, 29), }, }
-    },
-    ["s_a1"] = {
-        Bodygroups = { {2, 1} },
-    },
-    ["s_bolt"] = {
-        Bodygroups = { {2, 6} },
-    },
-    ["s_wire"] = {
-        Bodygroups = { {2, 3} },
-    },
-    ["s_slide"] = {
-        Bodygroups = { {2, 2} },
-    },
-    ["s_pdw"] = {
-        Bodygroups = { {2, 4} },
-    },
-    ["s_no"] = {
-        Bodygroups = { {2, 5} },
-    },
-    ["s_light"] = {
-        Bodygroups = { {2, 8} },
-    },
-    ["s_swire"] = {
-        Bodygroups = { {2, 9} },
-    },
-    ["s_608"] = {
-        Bodygroups = { {2, 10} },
-    },
-    ["s_thomp"] = {
-        Bodygroups = { {2, 12} },
-    },
-    ["s_607"] = {
-        Bodygroups = { {2, 11} },
-    },
-    ["s_x79"] = {
-        Bodygroups = { {2, 14} },
-    },
-    ["s_t91"] = {
-        Bodygroups = { {2, 13} },
-    },
 
-    ["g_ske"] = {
-        Bodygroups = { {7, 3} },
-    },
-    ["g_wood"] = {
-        Bodygroups = { {7, 6} },
-    },
-    ["g_short"] = {
-        Bodygroups = { {7, 5} },
-    },
-    ["g_tw"] = {
-        Bodygroups = { {7, 7} },
-    },
-    ["g_hunt"] = {
-        Bodygroups = { {7, 1},{2, 5} },
-    },
-    ["g_adar"] = {
-        Bodygroups = { {7, 8},{2, 5} },
-    },
-    ["g_saw"] = {
-        Bodygroups = { {7, 2},{2, 7} },
-    },
+	["guard_lmg"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.85, 11.9),}, [8] = { Pos = Vector(0, -0.25, 28.5), }, [9] = { Pos = Vector(0, -0.25, 23.5), }, } },
+	["guard_a1"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.65, 13),}, [8] = { Pos = Vector(0, -0.25, 28), }, [9] = { Pos = Vector(0, -0.25, 24.75), }, } },
+	["guard_drg"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.25, 11.9),}, [8] = { Pos = Vector(0, -0.25, 21.1), }, [9] = { Pos = Vector(0, -0.25, 19.55), }, } },
+	["guard_doe"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5),}, [8] = { Pos = Vector(0, -0.25, 15), } } },
+	["guard_608"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.75),}, [8] = { Pos = Vector(0, -0.25, 22), } } },
+	["guard_acr"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.85, 12.2),}, [8] = { Pos = Vector(0, -0.25, 27.8), }, [9] = { Pos = Vector(0, -0.25, 23.75), }, } },
+	["guard_a2"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.65, 13),}, [8] = { Pos = Vector(0, -0.25, 31), }, [9] = { Pos = Vector(0, -0.25, 24.75), }, } },
+	["guard_bn63"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.5, 13),},[8] = { Pos = Vector(0, -0.25, 31), }, [9] = { Pos = Vector(0, -0.25, 23.75), }, } },
+    ["guard_10"] = { 	AttPosMods = { [5] = { Pos = Vector(0, 1.05, 13.5),}, [8] = { Pos = Vector(0, -0.25, 30.5), }, [9] = { Pos = Vector(0, -0.25, 24.1), }, } },
+    ["guard_adar"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.35, 16),}, [8] = { Pos = Vector(0, -0.25, 30.5), }, [9] = { Pos = Vector(0, -0.25, 24.1), }, } },
+	["guard_lr300"] = { AttPosMods = { [5] = { Pos = Vector(0, 1.6, 12), },[8] = { Pos = Vector(0, -0.25, 21.4), } } },
+    ["guard_ris"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.3, 12), },[8] = { Pos = Vector(0, -0.25, 20.7), }, [9] = { Pos = Vector(0, -0.25, 18.75), }, } },
+    ["guard_spr"] = {	AttPosMods = { [5] = { Pos = Vector(0, 1.1, 13), },[8] = { Pos = Vector(0, -0.25, 22.5), }, [9] = { Pos = Vector(0, -0.25, 18.25), }, } },
+    ["guard_t86"] = { 	AttPosMods = { [5] = { Pos = Vector(0, 1.25, 13.15), },[8] = { Pos = Vector(0, -0.25, 25.5), }, [9] = { Pos = Vector(0, -0.25, 19.5), }, } },
+    ["guard_11"] = {	AttPosMods = { [5] = { Pos = Vector(0, 2.3, 13.5),},[8] = { Pos = Vector(0, -0.25, 31.1), }, [9] = { Pos = Vector(0, -0.25, 29), }, } },
+	["guard_148"] = {	Bodygroups = { {6, 4} }, },
+	["guard_no"] = {
+		Bodygroups = { {6, 2}, {10, 2} },
+		AttPosMods = { [8] = { Pos = Vector(0, -0.25, 12.75), } }
+	},
+	["guard_sten"] = {
+		Bodygroups = { {6, 3}, {10, 3} },
+		AttPosMods = { [8] = { Pos = Vector(0, -0.25, 19), } }
+	},
+
+	["g_hunt"] = {		Bodygroups = { {7, 1}, {2, 2} },}, 
+	["g_saw"] = { 		Bodygroups = { {7, 2}, {2, 1} },},
+	["s_no"] = {		Bodygroups = { {2, 2} },},
+	["bot_grip"] = {	Bodygroups = { {11, 1} },}, 
+	["has_optic"] = {	Bodygroups = { {10, 1},{3, 1} },},
 
     ["fg_saw"] = {
         Bodygroups = { {8, 1} },
@@ -1087,6 +935,44 @@ SWEP.AttachmentElements = {
     },
 }
 
+SWEP.Hook_ModifyBodygroups = function(wep, data)
+    local model = data.model	
+	if wep:HasElement("has_optic") then
+		model:SetBodygroup(5, 1)
+	end	
+	if wep:HasElement("has_optic") and wep:HasElement("up_lmg") then
+		model:SetBodygroup(3, 4)
+	end
+
+    if wep:HasElement("keep_rs") then
+		model:SetBodygroup(10, 0)
+	    if wep:HasElement("has_optic") and !wep:HasElement("m16_on") and !wep:HasElement("up_proto") then
+			model:SetBodygroup(3, 2)
+	    elseif wep:HasElement("has_optic") and !wep:HasElement("m16_on") and wep:HasElement("up_proto") then
+			model:SetBodygroup(3, 3)
+		else
+			model:SetBodygroup(3, 0)
+		end
+	end
+	if wep:HasElement("no_top_rail") then
+		model:SetBodygroup(3, 0)
+	end 
+
+ 	if wep.Attachments[2].Installed and wep:HasElement("bot_grip") then
+		model:SetBodygroup(11, 0)
+	end 
+  	if wep.Attachments[2].Installed and wep:HasElement("keep_rs") then
+		model:SetBodygroup(10, 1)
+	else
+	end 
+
+	if wep:HasElement("up_sg") then
+		model:SetBodygroup(10, 1)
+	end
+end
+
+--- who the fuck wrote this, i forgor
+--[[
 local lookup = {
     ["default"] = 1,
     ["gekolt_css_m4_u_lmg"] = 4,
@@ -1098,7 +984,6 @@ local lookup = {
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
     local model = data.model
-
     if wep:HasElement("optic_main") then
         model:SetBodygroup(5, 8)
         if not wep:HasElement("keep_rs") then
@@ -1118,7 +1003,7 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
 			model:SetBodygroup(6, 19)
         end
     end
-end
+end]]
 
 SWEP.Attachments = {
     {	--1
@@ -1168,12 +1053,13 @@ SWEP.Attachments = {
     {	--5
         PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
+		InstalledElements = {"bot_grip"}, 
 
         DefaultIcon = Material("arc9/def_att_icons/grip.png"),
         ExcludeElements = {"nogrip"},
         Category = {"grip_css", "css_m4_fg"},
         Bone = "W_Main",
-        Pos = Vector(0, 1.6, 12),
+        Pos = Vector(0, 1.8, 12),
         Ang = Angle(90, 0, -90),
         MergeSlots = {6, 11},
     },
@@ -1193,7 +1079,7 @@ SWEP.Attachments = {
     {	--7
         PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
         DefaultName = "None",
-        InstalledElements = {"no_irons", "no_optic", "optic_main"},  -- i forgot why i did this
+        InstalledElements = {"no_irons", "no_optic", "optic_main", "has_optic"},  -- i forgot why i did this
 
         DefaultIcon = Material("arc9/def_att_icons/optic.png"),
         ExcludeElements = {"fg_saw", "alt_optic"},
