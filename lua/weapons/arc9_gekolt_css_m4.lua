@@ -961,7 +961,7 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
  	if wep.Attachments[2].Installed and wep:HasElement("bot_grip") then
 		model:SetBodygroup(11, 0)
 	end 
-  	if wep.Attachments[2].Installed and wep:HasElement("keep_rs") then
+  	if wep.Attachments[2].Installed and wep:HasElement("keep_rs") and !wep:HasElement("guard_148") then
 		model:SetBodygroup(10, 1)
 	else
 	end 
