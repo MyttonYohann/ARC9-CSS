@@ -256,7 +256,7 @@ SWEP.ShootSound = "gekolt_css/m4a1_unsil-1.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/m4a1-1.wav"
 SWEP.DryFireSound = "oneshotof_cs16/dryfire_rifle.wav"
 
-SWEP.FiremodeSound = nil
+SWEP.FiremodeSound = ""
 
 SWEP.DefaultBodygroups = "00000000000000000000"
 
