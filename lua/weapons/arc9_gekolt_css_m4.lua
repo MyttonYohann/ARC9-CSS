@@ -256,7 +256,7 @@ SWEP.ShootSound = "gekolt_css/m4a1_unsil-1.wav"
 SWEP.ShootSoundSilenced = "gekolt_css/m4a1-1.wav"
 SWEP.DryFireSound = "oneshotof_cs16/dryfire_rifle.wav"
 
-SWEP.FiremodeSound = "arc9/firemode.ogg"
+SWEP.FiremodeSound = nil
 
 SWEP.DefaultBodygroups = "00000000000000000000"
 
@@ -308,6 +308,7 @@ end
 SWEP.Animations = {
     ["firemode"] = {
         Source = "firemode",
+        EventTable = { {s =  "arc9/firemode.ogg" ,   t = 5 / 40},},
     },
     ["enter_ubgl"] = {
         Source = "r2n",
