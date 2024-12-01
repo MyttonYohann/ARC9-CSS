@@ -863,8 +863,8 @@ SWEP.AttachmentElements = {
     ["up_bolt"] = {		AttPosMods = { [5] = { Pos = Vector(0, 1.2, 14), }, [7] = { Pos = Vector(0, -2.4, 4.5), }, [11] = { Pos = Vector(0, 1, 10), } } },
     ["up_proto"] = {	AttPosMods = { [7] = { Pos = Vector(0, -3.9, 4.25), } } },
     ["up_a1"] = {		AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), } } },
-	["up_sg"] = {		AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), }, [8] = { Pos = Vector(0, -0.25, 25), } , [9] = { Pos = Vector(0, -0.25, 18.5), },[11] = { Pos = Vector(0, 1, 10), } }},
-    ["up_sd"] = { 		AttPosMods = { [5] = { Pos = Vector(0, 1.2, 11.5), }, [9] = { Pos = Vector(0, -0.25, 15.75), }, } },
+	["up_sg"] = {		AttPosMods = { [5] = { Pos = Vector(0, 1.5, 11.5), }, [7] = { Pos = Vector(0, -3.75, 4.25), }, [8] = { Pos = Vector(0, -0.25, 25), } , [9] = { Pos = Vector(0, -0.25, 18.5), },[11] = { Pos = Vector(0, 1, 10), } }},
+    ["up_sd"] = { 		AttPosMods = { [5] = { Pos = Vector(0, 1.25, 11.5), }, [9] = { Pos = Vector(0, -0.25, 15.75), }, } },
     ["up_acr"] = { 		AttPosMods = { [7] = { Pos = Vector(0, -3.75, 4.25), } } },
 	["up_bow"] = {
         Bodygroups = { {0, 3},{5, 5}, },
@@ -969,7 +969,7 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
 	if wep:HasElement("up_sg") then
 		model:SetBodygroup(10, 1)
 	end	
-	if wep:HasElement("fg_saw") then
+	if wep:HasElement("fg_saw") or wep:HasElement("blank_bot_rail")  then
 		model:SetBodygroup(11, 0)
 	end
 end

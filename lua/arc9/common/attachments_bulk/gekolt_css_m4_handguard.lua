@@ -677,11 +677,11 @@ ATT.BoneMerge = true
 
 ATT.DrawFunc = function(swep, model, wm) 
 	model:SetBodygroup(4,9)
-	--[[if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
+	if swep:GetElements()["has_optic"] and !swep:GetElements()["keep_rs"] then
         model:SetBodygroup(6,0)
 	else
-        model:SetBodygroup(6,1)
-    end]]
+        model:SetBodygroup(6,13)
+    end
 	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,7)
 	else

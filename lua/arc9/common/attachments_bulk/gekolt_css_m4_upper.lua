@@ -202,7 +202,7 @@ ATT.Cons = {}
 ATT.SortOrder = 6
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_bolt", "noguard", "pre_muzzed", "short_clamp",	"blank_mag", "blank_upper", "blank_magwell", "blank_rs", "blank_hg", "blank_fs", "no_top_rail"}
+ATT.ActivateElements = {"up_bolt", "noguard", "pre_muzzed", "short_clamp",	"blank_mag", "blank_upper", "blank_magwell", "blank_rs", "blank_hg", "blank_fs", "no_top_rail", "blank_bot_rail"}
 
 ATT.Model = "models/weapons/geckololt_css/c_m4a1_att.mdl"
 ATT.ModelOffset = Vector(0,0,0)
@@ -811,10 +811,15 @@ ATT.BoneMerge = true
 
 ATT.DrawFunc = function(swep, model, wm) 
 	model:SetBodygroup(0,3)
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
+        model:SetBodygroup(7,14)
+	else
+        model:SetBodygroup(7,0)
+    end
 end
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_sg", "noguard", "keep_rs", "akantbo", "pre_muzzed",		"blank_rs", "blank_magwell", "blank_mag", "blank_hg", "blank_fs", "blank_upper"}
+ATT.ActivateElements = {"up_sg", "noguard", "keep_rs", "akantbo", "pre_muzzed",		"blank_rs", "blank_magwell", "blank_mag", "blank_hg", "blank_fs", "blank_upper", "blank_bot_rail"}
 ATT.MuzzleParticle = "muzzleflash_shotgun"
 ATT.ShootSound = "gekolt_css/xm1014-1.wav"
 
@@ -896,10 +901,15 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
 		model:SetBodygroup(3,2)
     end
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
+        model:SetBodygroup(7,15)
+	else
+        model:SetBodygroup(7,0)
+    end
 end
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_sd", "noguard", "pre_muzzed", "blank_upper","blank_hg","blank_rs","blank_fs", "no_top_rail"}
+ATT.ActivateElements = {"up_sd", "noguard", "pre_muzzed", "blank_upper","blank_hg","blank_rs","blank_fs", "no_top_rail", "blank_bot_rail"}
 ATT.ShootSound = {"cturix_ar15/fire_blackout1.wav", "cturix_ar15/fire_blackout2.wav", "cturix_ar15/fire_blackout3.wav"}
 ATT.DistantShootSound = {"cturix_ar15/fire_blackout_dist.wav"}
 ATT.FirstShootSound = {"cturix_ar15/fire_blackout_first-1.wav"}
