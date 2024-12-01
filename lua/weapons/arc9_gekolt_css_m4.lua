@@ -576,7 +576,7 @@ SWEP.Animations = {
     },
 
     ["reload_empty_proto"] = {
-        Source = "dry_proto",
+        Source = {"dry_proto"},
         EventTable = {
             {s =  "gekolt_css/g3sg1_clipout.wav" ,   t = 5 / 40},
             {s =  "gekolt_css/galil_clipin.wav" ,    t = 55 / 40},

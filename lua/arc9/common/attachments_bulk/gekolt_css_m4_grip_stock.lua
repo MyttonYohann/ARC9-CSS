@@ -295,7 +295,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ATT.Category = "css_m4_g" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"g_adar", "blank_grip", "blank_stock"}
+ATT.ActivateElements = {"g_adar", "blank_grip", "blank_stock", "nostock"}
 
 ATT.SwayMultSights = 0.75
 ATT.RecoilMult = 0.875
