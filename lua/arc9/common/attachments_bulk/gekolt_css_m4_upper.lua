@@ -71,7 +71,7 @@ ATT.ModelAngleOffset = Angle(0,0,0)
 ATT.BoneMerge = true
 
 ATT.DrawFunc = function(swep, model, wm) 
-	model:SetBodygroup(0,6)
+	model:SetBodygroup(0,5)
 	model:SetBodygroup(2,3)
 end
 
@@ -717,7 +717,7 @@ ATT.Cons = {}
 ATT.SortOrder = 5
 
 ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
-ATT.ActivateElements = {"up_pump", "noguard", "nogrip", "akantbo", "pre_muzzed",	"blank_hg", "blank_magwell", "blank_mag", "blank_fs"}
+ATT.ActivateElements = {"up_pump", "noguard", "nogrip", "akantbo", "pre_muzzed",	"blank_hg", "blank_magwell", "blank_mag", "blank_fs", "no_top_rail"}
 ATT.MuzzleParticle = "muzzleflash_shotgun"
 ATT.ShootSound = "gekolt_css/xm1014-1.wav"
 
