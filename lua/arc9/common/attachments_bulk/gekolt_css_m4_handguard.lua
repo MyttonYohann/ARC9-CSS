@@ -25,7 +25,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,4)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,11)
 	else
         model:SetBodygroup(7,0)
@@ -301,7 +301,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,8)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,6)
 	else
         model:SetBodygroup(7,0)
@@ -377,7 +377,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,5)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,5)
 	else
         model:SetBodygroup(7,0)
@@ -447,7 +447,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,10)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,8)
 	else
         model:SetBodygroup(7,0)
@@ -493,7 +493,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,12)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,9)
 	else
         model:SetBodygroup(7,0)
@@ -628,7 +628,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,1)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,4)
 	else
         model:SetBodygroup(7,0)
@@ -682,7 +682,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,1)
     end]]
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,7)
 	else
         model:SetBodygroup(7,0)
@@ -751,7 +751,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,1)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,3)
 	else
         model:SetBodygroup(7,0)
@@ -820,7 +820,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,1)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,2)
 	else
         model:SetBodygroup(7,0)
@@ -876,7 +876,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,2)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,10)
 	else
         model:SetBodygroup(7,0)
@@ -976,7 +976,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,1)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,1)
 	else
         model:SetBodygroup(7,0)
@@ -1037,7 +1037,7 @@ ATT.DrawFunc = function(swep, model, wm)
 	else
         model:SetBodygroup(6,3)
     end
-	if swep:GetElements()["bot_grip"] then
+	if swep:GetElements()["bot_grip"] and !swep:GetElements()["fg_saw"] then
         model:SetBodygroup(7,12)
 	else
         model:SetBodygroup(7,0)

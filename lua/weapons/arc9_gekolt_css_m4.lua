@@ -968,6 +968,9 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
 
 	if wep:HasElement("up_sg") then
 		model:SetBodygroup(10, 1)
+	end	
+	if wep:HasElement("fg_saw") then
+		model:SetBodygroup(11, 0)
 	end
 end
 
