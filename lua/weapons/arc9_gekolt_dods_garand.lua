@@ -257,7 +257,7 @@ SWEP.MuzzleEffectQCA = 1
 
 SWEP.ShellModel = "models/shells/shell_338mag.mdl"
 SWEP.ShellCorrectPos = Vector(0, 0, 0)
-SWEP.ShellCorrectAng = Angle(0, 0, 90)
+SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 0.75
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 

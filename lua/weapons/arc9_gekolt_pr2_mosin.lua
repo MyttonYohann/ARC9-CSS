@@ -257,7 +257,7 @@ SWEP.MuzzleEffectQCA = 1
 
 SWEP.ShellModel = "models/shells/shell_338mag.mdl"
 SWEP.ShellCorrectPos = Vector(0, 0, 0)
-SWEP.ShellCorrectAng = Angle(0, 0, 90)
+SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 0.75
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
@@ -402,7 +402,7 @@ SWEP.Animations = {
     }, 
 	["fire_auto"] = {
         Source = "fire_auto",
-        EjectAt = 4 / 40,
+        EjectAt = 2 / 40,
         EventTable = {
 			{s =  "gekolt_mosin/Bolt2.ogg" ,	t = 0 / 40},  
         },
@@ -550,7 +550,7 @@ SWEP.Animations = {
         MinProgress = 0.975,
 		RefillProgress = 0.825,
         FireASAP = true,
-		EjectAt = 130/40,
+		--EjectAt = 130/40,
         EventTable = {
 			{s =  "gekolt_mosin/Scope_In.ogg" ,		t = 8 / 40},
 			{s =  "gekolt_mosin/Foley1.ogg" ,		t = 20 / 40},	

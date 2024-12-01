@@ -261,7 +261,7 @@ SWEP.MuzzleEffectQCA = 1
 SWEP.CaseEffectQCA = nil
 
 SWEP.ShellModel = "models/shells/shell_556.mdl"
-SWEP.ShellCorrectAng = Angle(0, 180, 0)
+SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
