@@ -720,7 +720,7 @@ ATT.Category = "css_m4_up" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"up_pump", "noguard", "nogrip", "akantbo", "pre_muzzed",	"blank_hg", "blank_magwell", "blank_mag", "blank_fs", "no_top_rail"}
 ATT.MuzzleParticle = "muzzleflash_shotgun"
 ATT.ShootSound = "gekolt_css/xm1014-1.wav"
-
+ATT.NoShellEject = true
 ATT.ClipSizeOverride = 5
 
 ATT.RPMMult = 90 / 750
@@ -763,8 +763,10 @@ ATT.Attachments = {
 ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload"				then 	return "reload_pump"			end	
 	if	curanim == "reload_empty"		then 	return "reload_empty_pump"		end	
-	if	curanim == "fire"				then 	return "fire_pump"				end	
-	if	curanim == "fire_iron"			then 	return "fire_pump"				end	
+	if	curanim == "fire"				then 	return "fire_pump"				end
+	if	curanim == "fire_iron"			then 	return "fire_pump"				end
+	if	curanim == "fire_empty"			then 	return "fire_empty_pump"		end	
+	if	curanim == "fire_iron_empty"	then 	return "fire_iron_empty_pump"	end	
 end
 
 ATT.NumOverride = 10
@@ -776,6 +778,8 @@ ATT.RecoilMult = 3
 ATT.RecoilPatternDriftMult = 5
 
 ATT.Ammo = "buckshot"
+ATT.ShellModel = "models/weapons/shotgun_shell.mdl"
+ATT.ShellScale = 0.5
 
 ATT.Model = "models/weapons/geckololt_css/c_m4a1_ik_pump.mdl"
 ATT.ModelOffset = Vector(-6, -2.8, 3)
@@ -867,6 +871,8 @@ ATT.RecoilMult = 4
 ATT.RecoilPatternDriftMult = 5
 
 ATT.Ammo = "buckshot"
+ATT.ShellModel = "models/weapons/shotgun_shell.mdl"
+ATT.ShellScale = 0.5
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3.25, 2, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3.25, 0, 0) end

@@ -481,6 +481,7 @@ SWEP.Animations = {
     },
     ["fire_pump"] = {
         Source = {"fire_pump"},
+        EjectAt = 16 / 40,
         EventTable = {
             {s =  "gekolt_css/xm_boltpull1.ogg" ,   t = 11 / 40},
             {s =  "gekolt_css/xm_boltpull2.ogg" ,    t = 18 / 40},
@@ -517,6 +518,7 @@ SWEP.Animations = {
     },
     ["reload_empty_pump"] = {
         Source = "dry_pump",
+        EjectAt = 3 / 40,
         IKTimeLine = {
         { t = 0, lhik = 1, rhik = 1, },
         { t = 0.01, lhik = 0, rhik = 1, },{ t = 0.95, lhik = 0, rhik = 1, },{ t = 0.99, lhik = 1, rhik = 1, },
