@@ -28,7 +28,6 @@ Text in Line 2 ]]
 
 -- https://uwuifier.com is used for the uwu-ification.
 
-
 ////////////////////////////////////// Spawnmenu Category
 L["smorg_category"] = "ARC9 - Smowgasbowd"
 -- Moka, is there a lore reason why you dont use [[]]
@@ -653,13 +652,13 @@ L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW Fowegwip"
 L["gekolt_css_m4_fg_saw.compactname"] = "SAW"
 L["gekolt_css_m4_fg_saw.description"] = "Obvious questions incwude \"why\", \"how\" and \"what\".\nA howizontaw g-gwip dwamaticawwy incweases <color=100,255,100>hip-fiwe potentiaw</color>.\nCannyot be used with <color=255,100,100>opwics</color>."
 
-L["gekolt_css_m4_g_wood.description"] = "Don't wet the thewmites get you."
+L["gekolt_css_m4_g_wood.description"] = "Latest fashion from the 60's."
 
-L["gekolt_css_m4_g_ske.description"] = "Because that amount of weight saved is weawwy the defactow of wife and death.\nWhat do you think wouwd h-happen if youw g-gwip weighed n-nyothing?"
+L["gekolt_css_m4_g_ske.description"] = "Tactical ninja is content with the excessive recoil."
 
 L["gekolt_css_m4_g_tw.printname"] = "Cuwved Gwip"
 L["gekolt_css_m4_g_tw.compactname"] = "CURVE"
-L["gekolt_css_m4_g_tw.description"] = "Wewowwew-stywe gwip instead of the wypicaw piswol onye."
+L["gekolt_css_m4_g_tw.description"] = "The revolver-style grip is more fashionable."
 
 L["gekolt_css_m4_g_short.printname"] = "Short Gwip"
 L["gekolt_css_m4_g_short.compactname"] = "SHORT"

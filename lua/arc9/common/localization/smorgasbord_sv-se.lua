@@ -642,13 +642,13 @@ L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW-Framgrepp"
 L["gekolt_css_m4_fg_saw.compactname"] = "SAW"
 L["gekolt_css_m4_fg_saw.description"] = "Normala frågorna är \"varför\", \"hur\" och \"vad\".\nEtt horisontalt grepp som dramatiskt ökar <color=100,255,100>potentialen från höft-skytte</color>.\nKan inte utrustas tillsammans med <color=255,100,100>sikten</color>."
 
-L["gekolt_css_m4_g_wood.description"] = "Låt inte termiterna få tag på dig."
+L["gekolt_css_m4_g_wood.description"] = "Senaste modet från 60-talet."
 
-L["gekolt_css_m4_g_ske.description"] = "Ja, den vikten du sparade är defaktorn för liv och död.\nVad tror du kommer hända ifall ditt grepp inte vägde något?"
+L["gekolt_css_m4_g_ske.description"] = "Den taktiska ninjan är nöjd med den överdrivna rekylen."
 
 L["gekolt_css_m4_g_tw.printname"] = "Kurvat Grepp"
 L["gekolt_css_m4_g_tw.compactname"] = "KURVA"
-L["gekolt_css_m4_g_tw.description"] = "Grepp i revolverstilen istället för den normala pistolstilen."
+L["gekolt_css_m4_g_tw.description"] = "Grepp i revolverstilen är mer modernt."
 
 L["gekolt_css_m4_g_short.printname"] = "Kort Grepp"
 L["gekolt_css_m4_g_short.compactname"] = "KORT"

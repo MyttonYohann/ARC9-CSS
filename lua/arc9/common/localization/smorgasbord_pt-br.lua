@@ -651,13 +651,13 @@ L["gekolt_css_m4_fg_saw.printname"] = "ChainSAW Foregrip"
 L["gekolt_css_m4_fg_saw.compactname"] = "SAW"
 L["gekolt_css_m4_fg_saw.description"] = "Obvious questions include \"why\", \"how\" and \"what\".\nA horizontal grip dramatically increases <color=100,255,100>hip-fire potential</color>.\nCannot be used with <color=255,100,100>optics</color>."
 
-L["gekolt_css_m4_g_wood.description"] = "Don't let the thermites get you."
+L["gekolt_css_m4_g_wood.description"] = "Latest fashion from the 60's."
 
-L["gekolt_css_m4_g_ske.description"] = "Because that amount of weight saved is really the defactor of life and death.\nWhat do you think would happen if your grip weighed nothing?"
+L["gekolt_css_m4_g_ske.description"] = "Tactical ninja is content with the excessive recoil."
 
 L["gekolt_css_m4_g_tw.printname"] = "Curved Grip"
 L["gekolt_css_m4_g_tw.compactname"] = "CURVE"
-L["gekolt_css_m4_g_tw.description"] = "Revolver-style grip instead of the typical pistol one."
+L["gekolt_css_m4_g_tw.description"] = "The revolver-style grip is more fashionable."
 
 L["gekolt_css_m4_g_short.printname"] = "Short Grip"
 L["gekolt_css_m4_g_short.compactname"] = "SHORT"

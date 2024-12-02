@@ -655,15 +655,15 @@ L["gekolt_css_m4_fg_saw.description"] = "Obvious questions include \"why\", \"ho
 
 L["gekolt_css_m4_g_wood.printname"] = ARC9:GetPhrase("gekolt_fh2_thock_grip.printname") or "Wooden Grip"
 L["gekolt_css_m4_g_wood.compactname"] = ARC9:GetPhrase("gekolt_fh2_thock_grip.compactname") or "WOOD"
-L["gekolt_css_m4_g_wood.description"] = "Don't let the thermites get you."
+L["gekolt_css_m4_g_wood.description"] = "Latest fashion from the 60's."
 
 L["gekolt_css_m4_g_ske.printname"] = ARC9:GetPhrase("gekolt_css_ak_grip1.printname") or "Skeleton Grip"
 L["gekolt_css_m4_g_ske.compactname"] = ARC9:GetPhrase("gekolt_css_ak_grip1.compactname") or "SKEL."
-L["gekolt_css_m4_g_ske.description"] = "Because that amount of weight saved is really the defactor of life and death.\nWhat do you think would happen if your grip weighed nothing?"
+L["gekolt_css_m4_g_ske.description"] = "Tactical ninja is content with the excessive recoil."
 
 L["gekolt_css_m4_g_tw.printname"] = "Curved Grip"
 L["gekolt_css_m4_g_tw.compactname"] = "CURVE"
-L["gekolt_css_m4_g_tw.description"] = "Revolver-style grip instead of the typical pistol one."
+L["gekolt_css_m4_g_tw.description"] = "The revolver-style grip is more fashionable."
 
 L["gekolt_css_m4_g_short.printname"] = "Short Grip"
 L["gekolt_css_m4_g_short.compactname"] = "SHORT"
