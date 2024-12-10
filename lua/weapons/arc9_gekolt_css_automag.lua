@@ -280,6 +280,7 @@ SWEP.Attachments = {
         DefaultName = "None",
         InstalledElements = {"has_optic"},
 
+		ExtraSightDistance = 2,
         ExcludeElements = {"pre_optic"},
         Category = {"optic_css"},
         Bone = "W_Main",
