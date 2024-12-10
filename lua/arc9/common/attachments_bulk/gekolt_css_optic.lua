@@ -1200,7 +1200,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/uwu.png", "mips smooth")
-ATT.HoloSightSize = 550
+ATT.HoloSightSize = 700
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1242,7 +1242,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/acog_top.png", "mips smooth")
-ATT.HoloSightSize = 550
+ATT.HoloSightSize = 700
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1415,7 +1415,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -1.25),
+        Pos = Vector(0, 8, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 60
@@ -1519,7 +1519,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs3.png", "mips smooth")
-ATT.HoloSightSize = 700
+ATT.HoloSightSize = 800
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1607,7 +1607,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/rmr.png", "mips smooth")
-ATT.HoloSightSize = 512
+ATT.HoloSightSize = 700
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1636,7 +1636,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_reflex") or "Reflex"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -0.9),
+        Pos = Vector(0, 8, -0.9),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         ViewModelFOV = 60
@@ -1776,7 +1776,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/romeo.png", "mips smooth")
-ATT.HoloSightSize = 550
+ATT.HoloSightSize = 700
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.05)
@@ -1875,3 +1875,333 @@ if CLIENT then
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_optic_kemperxl")
+
+----------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Mounted Scope"
+ATT.CompactName = "Mounted"
+ATT.Icon = Material("entities/gekolt_css_optic/colt.png", "mips smooth")
+ATT.Description = [[Unique scope mounted on the carry handle
+Only available to some model]]
+ATT.SortOrder = 0.01
+
+ATT.Model = "models/weapons/geckololt_css/atts/m4_scope.mdl"
+
+ATT.Category = {"mount_css_m16"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
+ATT.ActivateElements = {"m16_on"}
+ATT.RequireElements = {"keep_rs"}
+
+-- Allows a custom sight position to be defined
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.51),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.5,
+        ViewModelFOV = 40,
+    },
+}
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 4,0),
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 500/1080
+ATT.RTScopeReticle = Material("arc9_css/scope_border.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.9
+ATT.RTScopeColorable = true
+ATT.RTScopeShadowIntensity = 7
+
+ATT.Scale = 1.25
+ATT.ModelOffset = Vector(0, 0, -0.75)
+
+ATT.SwayAdd = 0.05
+ATT.FreeAimRadiusMultSights = 0.1
+ATT.AimDownSightsTimeAdd = 0.12
+ATT.SprintToFireTimeAdd = 0.05
+
+ARC9.LoadAttachment(ATT, "gekolt_css_optic_m4")
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+-- Magnifier --
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Fritotech Holographic"
+ATT.CompactName = "Fritotech"
+ATT.Icon = Material("entities/gekolt_css_optic/eo.png", "mips smooth")
+ATT.Description = [[Boxy unique iconic holographic sight]]
+ATT.SortOrder = 1
+
+ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
+ATT.ActivateElements = {"long_optics"}
+
+ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-2, 0, -0.1)
+ATT.ModelBodygroups = "000"
+
+ATT.DrawFunc = function(swep, model, wm)
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
+end
+
+ATT.Sights = {
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 60,
+        IgnoreExtra = false,
+        -- ActivateElements = {"pozkas_off"},
+        Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("arc9_css/holo.png", "mips smooth")
+ATT.HoloSightSize = 800
+ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
+ATT.RTScopeReticle = Material("arc9_css/mag_holo.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeColorable = true
+ATT.RTScopeNoPP = false
+
+ATT.SwayAdd = 0.015
+ATT.FreeAimRadiusMultSights = 0.25
+ATT.SprintToFireTimeAdd = 0.022
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_optic_m1")
+
+----------------------------------------------------------------------------------
+
+
+ATT = {}
+
+ATT.PrintName = "Fritotech Holographic Petito"
+ATT.CompactName = "Frito-pequegno"
+ATT.Icon = Material("entities/gekolt_css_optic/eo_s.png", "mips smooth")
+ATT.Description = [[
+Boxy unique iconic holographic sight
+This unit is smaller and has a precise carrot pointing upwards]]
+ATT.SortOrder = 2
+
+ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
+ATT.ActivateElements = {"long_optics"}
+
+ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-2, 0, -0.1)
+ATT.ModelBodygroups = "001"
+
+ATT.DrawFunc = function(swep, model, wm)
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
+end
+
+ATT.Sights = {
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 60,
+        IgnoreExtra = false,
+        -- ActivateElements = {"pozkas_off"},
+        Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("arc9_css/holo3.png", "mips smooth")
+ATT.HoloSightSize = 800
+ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
+ATT.RTScopeReticle = Material("arc9_css/mag_holo2.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeColorable = true
+ATT.RTScopeNoPP = false
+
+ATT.SwayAdd = 0.015
+ATT.FreeAimRadiusMultSights = 0.25
+ATT.SprintToFireTimeAdd = 0.022
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_optic_m2")
+
+----------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Stopwatch Reflex Sight"
+ATT.CompactName = "Stopwatch"
+ATT.Icon = Material("entities/gekolt_css_optic/okp.png", "mips smooth")
+ATT.Description = [[Reflex sight with chevron reticle that looks like old fellow with one of those long straight down beards]]
+ATT.SortOrder = 1
+ATT.SortOrder = 3
+
+ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
+ATT.ActivateElements = {"long_optics"}
+
+ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-2, 0, -0.1)
+ATT.ModelBodygroups = "002"
+
+ATT.DrawFunc = function(swep, model, wm)
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
+end
+
+ATT.Sights = {
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 60,
+        IgnoreExtra = false,
+        -- ActivateElements = {"pozkas_off"},
+        Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("arc9_css/okp.png", "mips smooth")
+ATT.HoloSightSize = 800
+ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
+ATT.RTScopeReticle = Material("arc9_css/mag_okp.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeColorable = true
+ATT.RTScopeNoPP = false
+
+ATT.SwayAdd = 0.015
+ATT.FreeAimRadiusMultSights = 0.25
+ATT.SprintToFireTimeAdd = 0.022
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_optic_m3")
+
+----------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Aniracco Usual"
+ATT.CompactName = "ANC Usual"
+ATT.Icon = Material("entities/gekolt_css_optic/mrs.png", "mips smooth")
+ATT.Description = [[
+The most basic reflex sight
+Cloned all around the world
+This one was 62 yuan!]]
+ATT.SortOrder = 4
+
+ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_magnifier") or "Magnifier"
+ATT.ActivateElements = {"long_optics"}
+
+ATT.Model = "models/weapons/geckololt_css/atts/magnifier_holo.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-2, 0, -0.1)
+ATT.ModelBodygroups = "003"
+
+ATT.DrawFunc = function(swep, model, wm)
+	if !wm then model:SetBodygroup( 1, 2-swep:GetMultiSight() ) end
+end
+
+ATT.Sights = {
+    { -- No Mag.
+        Pos = Vector(0, 5.5, -1.375),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 60,
+        IgnoreExtra = false,
+        -- ActivateElements = {"pozkas_off"},
+        Disassociate = true,
+    },
+    { -- Mag.
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.2,
+        ViewModelFOV = 40,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
+ATT.HoloSightSize = 750
+ATT.HoloSightColorable = true
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val_val"), 1,2, 2,0),
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeMagnification = 2
+ATT.ScopeScreenRatio = 375/1080
+ATT.RTScopeReticle = Material("arc9_css/mag_mrs.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.8
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeColorable = true
+ATT.RTScopeNoPP = false
+
+ATT.SwayAdd = 0.015
+ATT.FreeAimRadiusMultSights = 0.25
+ATT.SprintToFireTimeAdd = 0.022
+
+ARC9.LoadAttachment(ATT, "gekolt_pr2_optic_m4")

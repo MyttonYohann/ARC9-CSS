@@ -365,3 +365,249 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(7, 6, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(7, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_muz_sd4")
+
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+-- Grip --
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Vertical Foregrip"
+ATT.CompactName = "TROY"
+ATT.Description = [[Rail-mounted vertical foregrip. Provides a stable, vertical surface to grip onto, improving recoil control and reducing recoil drift.]]
+
+ATT.Icon = Material("entities/gekolt_css_fore_troy.png", "mips smooth")
+
+ATT.Model = "models/weapons/geckololt_css/atts/fg.mdl"
+
+ATT.SortOrder = 1
+ATT.Category = {"grip_css", "grip_short_css"}
+
+ATT.RecoilPatternDriftMult = 0.75
+ATT.RecoilAutoControlMult = 1.15
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, -0.25)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.SwayAdd = 0.1
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.075
+ATT.SpeedMult = 0.97
+ATT.RecoilMult = 0.9
+
+ARC9.LoadAttachment(ATT, "gekolt_css_fg")
+
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Angled Foregrip"
+ATT.CompactName = "ANDER"
+ATT.Description = [[Foregrip allowing faster aim acquisition
+Slightly suffer from recoil and stability]]
+ATT.Icon = Material("entities/gekolt_css_fore_angled.png", "mips smooth")
+
+ATT.Model = "models/weapons/geckololt_css/atts/afg.mdl"
+
+ATT.SortOrder = 10
+ATT.Category = {"grip_css"}
+ATT.ActivateElements = {"bottom_long"}
+ATT.RecoilPatternDriftMult = 1.15
+ATT.RecoilAutoControlMult = 0.8
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, -0.25)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.SwayAdd = 0.4
+ATT.AimDownSightsTimeMult = 0.75
+ATT.SprintToFireTimeMult = 0.975
+ATT.SpeedMult = 0.985	
+ATT.RecoilMult = 1.05
+
+ARC9.LoadAttachment(ATT, "gekolt_css_fg_angled")
+
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Short Foregrip"
+ATT.CompactName = "KENRY"
+ATT.Description = [[Shorten Foregrip made to look like a certain K model.]]
+
+ATT.Icon = Material("entities/gekolt_css_fore_k.png", "mips smooth")
+
+ATT.Model = "models/weapons/geckololt_css/grip_k.mdl"
+
+ATT.SortOrder = 2
+ATT.Category = {"grip_css"}
+
+ATT.RecoilPatternDriftMult = 0.75
+ATT.RecoilAutoControlMult = 1.15
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0.2, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.SwayAdd = 0.1
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.075
+ATT.SpeedMult = 0.97
+
+ARC9.LoadAttachment(ATT, "gekolt_css_fg_k")
+
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Spaceage Foregrip"
+ATT.CompactName = "HERA"
+ATT.Description = [[Heavy foregrip ripped straight from a P90.]]
+
+ATT.Icon = Material("entities/gekolt_css_fore_p90.png", "mips smooth")
+
+ATT.Model = "models/weapons/geckololt_css/grip_p90.mdl"
+
+ATT.SortOrder = 3
+ATT.Category = {"grip_css"}
+
+ATT.RecoilPatternDriftMult = 0.5
+ATT.RecoilAutoControlMult = 1.15
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0.2, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.SwayAdd = -0.25
+ATT.AimDownSightsTimeMult = 1.25
+ATT.SprintToFireTimeMult = 1.25
+ATT.SpeedMult = 0.9
+ATT.RecoilMult = 0.75
+
+ARC9.LoadAttachment(ATT, "gekolt_css_fg_p90")
+
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Wooden Foregrip"
+ATT.CompactName = "TOMMY"
+ATT.Description = [[Straight from the antique shop, botched with a rail adaptor]]
+
+ATT.Icon = Material("entities/gekolt_css_fore_thomp.png", "mips smooth")
+
+ATT.Model = "models/weapons/geckololt_css/grip_thomp.mdl"
+
+ATT.SortOrder = 2
+ATT.Category = {"grip_css"}
+
+ATT.RecoilPatternDriftMult = 0.75
+ATT.RecoilAutoControlMult = 1.15
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0.2, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.SwayAdd = -0.2
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.075
+ATT.SpeedMult = 0.97
+
+ARC9.LoadAttachment(ATT, "gekolt_css_fg_thomp")
+
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Heavy Foregrip"
+ATT.CompactName = "HEAVY"
+ATT.Description = [[Simple foregrip with an additional rail for more gadgets.]]
+
+ATT.Icon = Material("entities/gekolt_css_fore_rail.png", "mips smooth")
+
+ATT.Model = "models/weapons/geckololt_css/atts/fg_railed.mdl"
+
+ATT.SortOrder = 1
+ATT.Category = {"grip_css"}
+
+ATT.RecoilPatternDriftMult = 0.65
+ATT.RecoilAutoControlMult = 1.2
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, -0.5)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.SwayAdd = 0.2
+ATT.AimDownSightsTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.1
+ATT.SpeedMult = 0.95
+ATT.RecoilMult = 0.875
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
+        Category = {"tac_css"},
+        Pos = Vector(-2.5,0, 4),
+        Ang = Angle(0, 180, 0),
+        ExcludeElements = {"bottom_long"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_fg_railed")
+
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Bipod"
+ATT.CompactName = "BIPO"
+ATT.Description = [[pod means legs, bi means two.
+Massively improves recoil control and reduces cumulative spread while deployed.]]
+
+ATT.Icon = Material("entities/gekolt_css_bipod.png", "mips smooth")
+
+ATT.SortOrder = 20
+ATT.Category = {"grip_css"}
+ATT.ActivateElements = {"pre_bipod"}
+
+ATT.Model = "models/weapons/geckololt_css/atts/bipod_sg550.mdl"
+ATT.ModelBodygroups = "3"
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(1.5, 0, 0.25)
+
+ATT.Bipod = true
+ATT.RecoilDissipationRateMultBipod = 2
+
+ATT.DrawFunc = function(self, model, wm)
+	if self:GetBipod() then
+		model:SetBodygroup(0,1)
+	else
+		model:SetBodygroup(0,3)
+	end
+end
+
+ARC9.LoadAttachment(ATT, "gekolt_css_bipod")
