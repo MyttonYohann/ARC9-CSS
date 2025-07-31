@@ -1,11 +1,10 @@
 VertexLitGeneric
 {
 	"$basetexture" "models\gekolt_css_vmt\thompson\m1928a1_c"
-	//"$bumpmap"		"models\gekolt_css_vmt\thompson\m1928a1_n"	
 	"$envmap" "env_cubemap"
 	"$envmaptint" "[.1 .1 .1]"
 	"$envmapcontrast" "0.9"	
-	"$color2"						"[0.9 0.9 0.9]"
+	"$color2"						"[1.2 1.2 1.2]"
 
 	"$nocull" 1
 
