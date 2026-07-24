@@ -611,3 +611,669 @@ ATT.DrawFunc = function(self, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "gekolt_css_bipod")
+
+
+---------------------------------------------------------------------------------------------------
+-- MOUNT --
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "45 Degree Canted Mount (Right)"
+ATT.CompactName = "45L"
+ATT.Icon = Material("entities/gekolt_css_mount_side.png", "mips smooth")
+ATT.Description = [[Extra rail for extra attachments.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/mount_45l.mdl"
+
+ATT.Category = {"mount_css", "mountl_css"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_mount") or "Mount"
+ATT.Max = 6
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(0, 0, -0)
+ATT.Scale = 1.25
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
+        Category = {"optic_css_s", "tac_css", "mountr_css"},
+        Pos = Vector(0, -0.7, -0.55),
+        Ang = Angle(0, 0, -45),
+		KeepBaseIrons = true,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_45l")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "45 Degree Canted Mount"
+ATT.CompactName = "CAMRY"
+ATT.Icon = Material("entities/gekolt_css_mount_side.png", "mips smooth")
+ATT.Description = [[Canted rail for foregrip attachments at an angle.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/mount_45l.mdl"
+
+ATT.Category = {"grip_css"}
+ATT.Max = 4
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(-0.25, 0, -0.1)
+ATT.ModelAngleOffset = Angle(180, 180, 0)
+ATT.Scale = 1.25
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
+        Category = {"grip_short_css"},
+        Pos = Vector(-0.2, -0.8, 0.5),
+        Ang = Angle(0, 0, 45),
+		Installed = "gekolt_css_fg",
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_45lb")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "45 Degree Canted Mount (Right)"
+ATT.CompactName = "45R"
+ATT.Icon = Material("entities/gekolt_css_mount_side.png", "mips smooth")
+ATT.Description = [[Extra rail for extra attachments.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/mount_45r.mdl"
+
+ATT.Category = {"mount_css", "mountr_css"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_mount") or "Mount"
+ATT.Max = 6
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(0, 0, -0)
+ATT.Scale = 1.25
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
+        Category = {"optic_css_s", "tac_css", "mountl_css"},
+        Pos = Vector(0, 0.7, -0.55),
+        Ang = Angle(0, 0, 45),
+		KeepBaseIrons = true,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_45r")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Clamped Rail"
+ATT.CompactName = "Rail"
+ATT.Icon = Material("entities/gekolt_css_mount_clamp.png", "mips smooth")
+ATT.Description = [[Extend your handguard even more.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/clamp_long.mdl"
+
+ATT.Category = {"clamp_css"}
+ATT.Max = 4
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 1
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
+        Category = "mountr_css",
+        Pos = Vector(-1.25,-1.25, 0),
+        Ang = Angle(0, 0, -90),
+        ExtraSightDistance = 10,
+        Icon_Offset = Vector(1, 0, 0)
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_right") or "Mount R.",
+        Category = "mountl_css",
+        Pos = Vector(-1.25,1.25, 0),
+        Ang = Angle(0, 0, 90),
+        ExtraSightDistance = 10,
+        Icon_Offset = Vector(-2, 0, 0)
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up") or "Mount U.",
+        Category = {"tac_css_flat", "mount_css"},
+        Pos = Vector(-1.25,0, -1.4),
+        Ang = Angle(0, 0, 0),
+		ExtraSightDistance = 7
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
+        Category = {"tac_css", "rail_bottom"},
+        Pos = Vector(-1,0, 1.6),
+        Ang = Angle(0, 0, 180),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_clamp")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Clamped Rail (Angled)"
+ATT.CompactName = "Rail"
+ATT.Icon = Material("entities/gekolt_css_mount_clampb.png", "mips smooth")
+ATT.Description = [[Extend your handguard even more.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/clamp_angled.mdl"
+
+ATT.Category = {"clamp_css", "clamp_s_css"}
+ATT.Max = 4
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 1
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up_left") or "Mount U.L.",
+        Category = {"optic_css_s", "tac_css", "mountr_css"},
+        Pos = Vector(-1.25, -0.9, -0.9),
+        Ang = Angle(0, 0, -45),
+        ExtraSightDistance = 10,
+        Icon_Offset = Vector(1, 0, 0),
+		KeepBaseIrons = true,
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up_right") or "Mount U.R.",
+        Category = {"optic_css_s", "tac_css", "mountl_css"},
+        Pos = Vector(-1.25, 0.9, -0.9),
+        Ang = Angle(0, 0, 45),
+        ExtraSightDistance = 10,
+        Icon_Offset = Vector(-2, 0, 0),
+		KeepBaseIrons = true,
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_low_left") or "Mount L.L.",
+        Category = {"tac_css"},
+        Pos = Vector(-1.25, -0.9, 0.9),
+        Ang = Angle(0, 0, -135),
+        Icon_Offset = Vector(1, 0, 0)
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_low_right") or "Mount L.R.",
+        Category = {"tac_css"},
+        Pos = Vector(-1.25, 0.9, 0.9),
+        Ang = Angle(0, 0, 135),
+        Icon_Offset = Vector(-2, 0, 0)
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_clamp_a")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Clamped Rail"
+ATT.CompactName = "Rail"
+ATT.Icon = Material("entities/gekolt_css_mount_clampb.png", "mips smooth")
+ATT.Description = [[Extend your handguard even more. This time with Foregrip Option]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/clamp_short.mdl"
+
+ATT.Category = {"clamp_s_css"}
+ATT.Max = 4
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 1
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_left") or "Mount L.",
+        Category = "mountr_css",
+        Pos = Vector(-1.25,-1.25, 0),
+        Ang = Angle(0, 0, -90),
+        ExtraSightDistance = 5,
+        Icon_Offset = Vector(1, 0, 0)
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_right") or "Mount R.",
+        Category = "mountl_css",
+        Pos = Vector(-1.25,1.25, 0),
+        Ang = Angle(0, 0, 90),
+        ExtraSightDistance = 5,
+        Icon_Offset = Vector(-2, 0, 0)
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_up") or "Mount U.",
+        Category = {"tac_css_flat", "mount_css"},
+        Pos = Vector(-1.25,0, -1.4),
+        Ang = Angle(0, 0, 0),
+		ExtraSightDistance = 7
+    },
+
+    {
+        PrintName = ARC9:GetPhrase("smorg_category_mount_down") or "Mount D.",
+        Category = "grip_css",
+        Pos = Vector(-2,0, 1.5),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_clamp_f")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Rail Extension"
+ATT.CompactName = "Ext"
+ATT.Icon = Material("entities/gekolt_css_mount_long.png", "mips smooth")
+ATT.Description = [[More space for your cursed weapon built.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/geckololt_css/atts/rail.mdl"
+
+ATT.Category = {"mount_css", "mount_add_css"}
+ATT.Folder = ARC9:GetPhrase("smorg_folder_mount") or "Mount"
+ATT.Max = 4
+ATT.InvAtt = "mount_45l"
+
+-- Allows a custom sight position to be defined
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 1
+
+ATT.Attachments = {
+    {
+        PrintName = "OPTIC",
+        Category = {"optic_css", "tac_css"},
+        Pos = Vector(-0.5, 0, -0.4),
+        Ang = Angle(0, 0, 0),
+		KeepBaseIrons = true,
+    },
+}
+
+ATT.Ignore = true -- This causes errors?
+
+ARC9.LoadAttachment(ATT, "gekolt_css_mount_rail")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Telescopic Ironsight"
+ATT.CompactName = "Telescopic"
+ATT.Icon = Material("entities/gekolt_css_optic_thomp.png", "mips smooth")
+ATT.Description = [[Old ironsight system designed for variable ranges.
+No you can't switch between them.]]
+ATT.SortOrder = 0.01
+
+ATT.Model = "models/weapons/geckololt_css/atts/rail_iron.mdl"
+
+ATT.Category = {"optic_css","optic_css_scope"}
+
+-- Allows a custom sight position to be defined
+ATT.Sights = {
+    {
+        Pos = Vector(0, 8, -2.1),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+    },
+}
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("smorg_zoomlevel") or "Zoom Level" ] = string.format( ARC9:GetPhrase("smorg_zoomlevel_val"), 1,15),
+}
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_optic_m4_thomp")
+
+---------------------------------------------------------------------------------------------------
+-- Laser --
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Tac-Light"
+ATT.CompactName = "TAC"
+ATT.Description = [[]]
+
+ATT.Icon = Material("entities/gekolt_css_tac_las1.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"tac_css","mountr_css","mountl_css"}
+ATT.Model = "models/weapons/geckololt_css/atts/tac_laser.mdl"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
+
+ATT.AimDownSightsTimeMult = 1.03
+ATT.SprintToFireTimeMult = 1.03
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_laser") or "Laser",
+        Laser = true,
+        LaserStrength = 1,
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 2,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(0, 255, 0),
+        FlareSize = 50,
+        FlareAttachment = 2,
+        FlareFocus = true
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
+    }
+}
+
+
+ATT.Scale = 1.35
+
+ATT.ModelOffset = Vector(0, 0, -0.05)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_tac_2")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Flashlight"
+ATT.CompactName = "FLASH"
+ATT.Description = [[]]
+
+ATT.Icon = Material("entities/gekolt_css_tac_flash.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"tac_css","mountr_css","mountl_css"}
+ATT.Model = "models/weapons/geckololt_css/atts/flashlight.mdl"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
+
+ATT.AimDownSightsTimeMult = 1.03
+ATT.SprintToFireTimeMult = 1.03
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_light") or "Light",
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/flashlight001",
+        FlashlightDistance = 1024,
+		FlashlightBrightness = 1,				
+        FlashlightFOV = 70,
+        FlashlightAttachment = 1,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 125,
+        FlareAttachment = 1
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
+    }
+}
+
+ATT.Scale = 1.3
+
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.25)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_tac_flash")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "AN/PEQ-15"
+ATT.CompactName = "PEQ15"
+ATT.Description = [[Tactical laser/light module that provides an aiming point while hip firing. Lasers help with aiming, and can blind enemies, but will reveal the location of the user.]]
+
+ATT.Icon = Material("entities/gekolt_css_tac_las4.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"mount_css", "tac_css","mountr_css","mountl_css", "tac_css_flat"}
+ATT.Model = "models/weapons/geckololt_css/atts/anpeq15.mdl"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
+
+ATT.AimDownSightsTimeMult = 1.03
+ATT.SprintToFireTimeMult = 1.03
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_laser_light") or "Laser & Light",
+        Laser = true,
+        LaserStrength = 1,
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 2,
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/flashlight001",
+		FlashlightBrightness = 0.5,			
+        FlashlightDistance = 1024,
+        FlashlightFOV = 70,
+        FlashlightAttachment = 1,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(150, 255, 150),
+        FlareSize = 150,
+        FlareAttachment = 1
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_light") or "Light",
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/flashlight001",
+		FlashlightBrightness = 0.5,		
+        FlashlightDistance = 1024,
+        FlashlightFOV = 70,
+        FlashlightAttachment = 1,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 125,
+        FlareAttachment = 1
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_laser") or "Laser",
+        Laser = true,
+        LaserStrength = 1,
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 2,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(0, 255, 0),
+        FlareSize = 50,
+        FlareAttachment = 2,
+        FlareFocus = true
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
+    }
+}
+
+ATT.Scale = 1.25
+
+ATT.ModelOffset = Vector(0, 0, -0.25)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_tac_las1")
+
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Flashlight B"
+ATT.CompactName = "FLASH B"
+ATT.Description = [[]]
+
+ATT.Icon = Material("entities/gekolt_css_tac_flash2.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"tac_css","mountr_css","mountl_css"}
+ATT.Model = "models/weapons/geckololt_css/atts/tac_ti_flash.mdl"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
+
+ATT.AimDownSightsTimeMult = 1.03
+ATT.SprintToFireTimeMult = 1.03
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_light") or "Light",
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/flashlight001",
+        FlashlightDistance = 1024,
+		FlashlightBrightness = 1,				
+        FlashlightFOV = 70,
+        FlashlightAttachment = 1,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 125,
+        FlareAttachment = 1
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
+    }
+}
+
+ATT.Scale = 1.3
+
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.25)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_tac_ti_flash")
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Tac-Light B"
+ATT.CompactName = "TAC B"
+ATT.Description = [[]]
+
+ATT.Icon = Material("entities/gekolt_css_tac_las2.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"tac_css","mountr_css","mountl_css"}
+ATT.Model = "models/weapons/geckololt_css/atts/tac_ti_laser.mdl"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
+
+ATT.AimDownSightsTimeMult = 1.03
+ATT.SprintToFireTimeMult = 1.03
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_laser") or "Laser",
+        Laser = true,
+        LaserStrength = 1,
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 2,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(0, 255, 0),
+        FlareSize = 50,
+        FlareAttachment = 2,
+        FlareFocus = true
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
+    }
+}
+
+
+ATT.Scale = 1.35
+
+ATT.ModelOffset = Vector(0, 0, -0.05)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_tac_ti_las")
+---------------------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.PrintName = "Tri-Beam"
+ATT.CompactName = "TROIS"
+ATT.Description = [[]]
+
+ATT.Icon = Material("entities/gekolt_css_tac_las3.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"tac_css","mountr_css","mountl_css"}
+ATT.Model = "models/weapons/geckololt_css/atts/tribeam.mdl"
+ATT.Folder = ARC9:GetPhrase("smorg_folder_gadget") or "Gadget"
+
+ATT.AimDownSightsTimeMult = 1.03
+ATT.SprintToFireTimeMult = 1.03
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_laser") or "Laser",
+        Laser = true,
+        LaserStrength = 1,
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 2,
+        SwayMult = 1.02,
+        FreeAimRadiusMultHipFire = 0.75,
+        Flare = true,
+        FlareColor = Color(0, 255, 0),
+        FlareSize = 50,
+        FlareAttachment = 2,
+        FlareFocus = true,
+	
+    },
+    {
+        PrintName = ARC9:GetPhrase("smorg_stat_off") or "OFF",
+    }
+}
+
+ATT.Scale = 1.3
+
+ATT.ModelOffset = Vector(0, 0, -0.225)
+
+ARC9.LoadAttachment(ATT, "gekolt_css_tac_tri")
+---------------------------------------------------------------------------------------------------
+	
