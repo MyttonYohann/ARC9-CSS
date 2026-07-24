@@ -286,9 +286,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 3
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope4_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 0.5
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
 
@@ -343,11 +343,15 @@ ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeMagnification = 2
 ATT.RTScopeMagnificationMin = 2
 ATT.RTScopeMagnificationMax = 3.25
-ATT.ScopeScreenRatio = 500/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope5_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.95
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeNoShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
+ATT.RTScopeNew_FrontShadow = false
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.175)
@@ -393,7 +397,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0.017, 6.9, -1.2),
+        Pos = Vector(0.017, 6.5, -1.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -407,9 +411,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 3
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope_fal.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.04
+ATT.RTScopeReticleScale = 0.45
 ATT.RTScopeColorable = true
 
 ATT.Scale = 1
@@ -443,7 +447,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(-0.001, 7, -1.695),
+        Pos = Vector(0, 6.75, -1.695),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -457,9 +461,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 3
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope7_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.03
+ATT.RTScopeReticleScale = 0.5
 ATT.RTScopeColorable = true
 
 ATT.Scale = 1
@@ -493,7 +497,7 @@ ATT.Folder = ARC9:GetPhrase("smorg_folder_scopes") or "Scopes"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -1.63),
+        Pos = Vector(0, 6.5, -1.63),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -521,7 +525,7 @@ ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 3
 ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("arc9_css/scope3_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.95
+ATT.RTScopeReticleScale = 0.85
 ATT.RTScopeColorable = true
 
 ATT.Scale = 1
@@ -561,7 +565,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0.005, 12, -1.87),
+        Pos = Vector(0, 13, -1.87),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 40
@@ -581,11 +585,15 @@ ATT.RTScopeMagnificationMin = 6
 ATT.RTScopeMagnificationMax = 12
 ATT.RTScopeAdjustmentLevels = 1
 
-ATT.ScopeScreenRatio = 750/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope9_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.01
+ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 7
+ATT.RTScopeShadowIntensity = 0
+ATT.RTScopeNoShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
+ATT.RTScopeNew_FrontShadow = false
 
 ATT.Scale = 1.25
 ATT.ModelOffset = Vector(0, 0, -0.25)
@@ -620,7 +628,7 @@ ATT.ActivateElements = {"long_optics"}
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0.063, 8.25, -1.95),
+        Pos = Vector(0.063, 8.5, -1.95),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -656,10 +664,14 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 8
-ATT.ScopeScreenRatio = 750/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope10_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 0.7
 ATT.RTScopeColorable = true
+ATT.RTScopeNoShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
+ATT.RTScopeNew_FrontShadow = false
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -734,9 +746,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeMagnification = 5.5
-ATT.ScopeScreenRatio = 400/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope11_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeColorable = true
 
 ATT.Scale = 1
@@ -787,9 +799,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 4
-ATT.ScopeScreenRatio = 575/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.9
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
 
@@ -863,11 +875,15 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 3
-ATT.ScopeScreenRatio = 475/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/thermal_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 0.5
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 6
+ATT.RTScopeNoShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
+ATT.RTScopeNew_FrontShadow = false
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -950,9 +966,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeMagnification = 4
-ATT.ScopeScreenRatio = 450/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope6_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
 
@@ -1018,9 +1034,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 2
-ATT.ScopeScreenRatio = 500/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope8_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.02
+ATT.RTScopeReticleScale = 0.75
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
 
@@ -1095,11 +1111,14 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 1.75
-ATT.ScopeScreenRatio = 450/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/nv_border.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 0.4
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 7
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
+ATT.RTScopeNew_FrontShadow = false
 
 ATT.Scale = 1.05
 ATT.ModelOffset = Vector(0, 0, -0.2)
@@ -1284,7 +1303,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/holo.png", "mips smooth")
-ATT.HoloSightSize = 800
+ATT.HoloSightSize = 1200
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1338,14 +1357,15 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeMagnification = 1.2
-ATT.ScopeScreenRatio = 350/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/holo2.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.95
+ATT.RTScopeReticleScale = 0.4
 ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoShadow = true
 ATT.RTScopeBlackBox = false
 ATT.RTScopeBlackBoxShadow = false
+ATT.RTScopeNew_FrontShadow = false
 
 ATT.RTCollimator = true -- Does not get affected by RT magnification zoom sensitivity scale
 
@@ -1368,7 +1388,7 @@ ATT.RTScopeFLIRCCCold = {
     ["$pp_colour_addr"] = 0,
     ["$pp_colour_addg"] = 0,
     ["$pp_colour_addb"] = 0,
-    ["$pp_colour_brightness"] = 3,
+    ["$pp_colour_brightness"] = 1.5,
     ["$pp_colour_contrast"] = 0.2,
     ["$pp_colour_colour"] = 1,
     ["$pp_colour_mulr"] = 0,
@@ -1428,7 +1448,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/holo3.png", "mips smooth")
-ATT.HoloSightSize = 800
+ATT.HoloSightSize = 1200
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0.5, 0, -0.1)
@@ -1473,7 +1493,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
-ATT.HoloSightSize = 1000
+ATT.HoloSightSize = 1400
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1519,7 +1539,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs3.png", "mips smooth")
-ATT.HoloSightSize = 800
+ATT.HoloSightSize = 1200
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1649,7 +1669,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/okp.png", "mips smooth")
-ATT.HoloSightSize = 800
+ATT.HoloSightSize = 1000
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1691,7 +1711,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/t1.png", "mips smooth")
-ATT.HoloSightSize = 600
+ATT.HoloSightSize = 1000
 ATT.HoloSightColorable = true
 
 ATT.Scale = 1.1
@@ -1734,7 +1754,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/reddot.png", "mips smooth")
-ATT.HoloSightSize = 850
+ATT.HoloSightSize = 1600
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1818,7 +1838,7 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/ragnok.png", "mips smooth")
-ATT.HoloSightSize = 1600
+ATT.HoloSightSize = 2200
 ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.1)
@@ -1911,7 +1931,7 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeMagnification = 4
-ATT.ScopeScreenRatio = 500/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/scope_border.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = true
@@ -1985,9 +2005,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 2
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_holo.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
@@ -2055,9 +2075,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 2
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_holo2.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
@@ -2113,7 +2133,7 @@ ATT.Sights = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/okp.png", "mips smooth")
-ATT.HoloSightSize = 800
+ATT.HoloSightSize = 1000
 ATT.HoloSightColorable = true
 
 ATT.CustomPros = {
@@ -2123,9 +2143,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 2
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_okp.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.85
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeShadowIntensity = 2
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
@@ -2183,7 +2203,7 @@ ATT.Sights = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("arc9_css/mrs.png", "mips smooth")
-ATT.HoloSightSize = 750
+ATT.HoloSightSize = 1600
 ATT.HoloSightColorable = true
 
 ATT.CustomPros = {
@@ -2193,9 +2213,9 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 2
-ATT.ScopeScreenRatio = 375/1080
+ATT.ScopeScreenRatio = 512/1080
 ATT.RTScopeReticle = Material("arc9_css/mag_mrs.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.8
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeColorable = true
 ATT.RTScopeNoPP = false
