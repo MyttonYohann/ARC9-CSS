@@ -37,8 +37,16 @@ ATT.RPM = 360
 ATT.RangeMin = 750
 ATT.RangeMax = 6000
 
+
+
 ATT.Hook_TranslateAnimation = function(wep, anim)
     return anim .. "_vanguard"
+end
+
+ATT.Hook_PostReload = function(wep)
+    if SERVER and wep:Clip1() > 0 then
+        wep:SetClip1(0)
+    end
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -3, 0) end
