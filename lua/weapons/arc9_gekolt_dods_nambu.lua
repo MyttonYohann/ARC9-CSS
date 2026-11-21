@@ -148,7 +148,7 @@ SWEP.AimDownSightsTime = 0.2
 SWEP.SprintToFireTime = 0.17
 
 SWEP.SpeedMult = 1
-SWEP.SpeedMultSights = 1
+SWEP.SpeedMultSights = 0.7
 SWEP.SpeedMultShooting = 0.85
 SWEP.SpeedMultMelee = 0.9
 SWEP.SpeedMultCrouch = 0.75
