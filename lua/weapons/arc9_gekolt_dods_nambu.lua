@@ -131,6 +131,7 @@ SWEP.RecoilModifierCap = 7
 
 SWEP.SpreadAddHipFire = 0.0012
 SWEP.SpreadMultHipFire = 1.3
+SWEP.SpreadMultSights = 0.2
 
 -------------------------- HANDLING
 
@@ -155,8 +156,27 @@ SWEP.SpeedMultCrouch = 0.75
 -------------------------- MELEE
 
 SWEP.CanLean = false
-SWEP.Bash = true
-SWEP.PrimaryBash = false
+SWEP.Bash = false
+SWEP.PrimaryBash = true
+
+-- WHY THE FUCK NO ONE TOLD ME ABOUT THIS
+SWEP.DynamicConditions = {
+    ["Recoil"] = true,
+    ["PrimaryBash"] = true,
+    ["Bash"] = true,
+}
+
+SWEP.PrimaryBashHook = function(wep)
+	if !wep:GetInSights() then
+		return true
+	else
+		return false
+	end
+end
+
+--[[function SWEP:SecondaryAttack()
+    return self:MeleeAttack()
+end]]
 
 SWEP.BashDamage = 80
 SWEP.BashLungeRange = 0
@@ -177,8 +197,8 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-3.25, 0, 1.6),
-    Ang = Angle(0, 0, 5),
+    Pos = Vector(-2.58, 0, 2.3),
+    Ang = Angle(0, 0, 0),
     Midpoint = { -- Where the gun should be at the middle of it's irons
         Pos = Vector(0, 15, -4),
         Ang = Angle(-10, 60, -25),
@@ -188,7 +208,7 @@ SWEP.IronSights = {
     CrosshairInSights = false,
 }
 
-SWEP.HasSights = false
+SWEP.HasSights = true
 
 SWEP.Crosshair = true
 
@@ -283,10 +303,6 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
     },
 }
-
-function SWEP:SecondaryAttack()
-    return self:MeleeAttack()
-end
 
 SWEP.Animations = {
     ["idle"] = {

@@ -18,7 +18,7 @@ ATT.ActivateElements = {"b_sd", "pre_muzzed"}
 ATT.ExcludeElements = {"g_carbine"}
 
 ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 0)
+	return vec + Vector(0, 0, 0)
 end
 
 ATT.Silencer = true
@@ -50,7 +50,7 @@ ATT.Category = "dod_mauser_barrel"
 ATT.ActivateElements = {"b_pistol"}
 
 ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 0)
+	return vec + Vector(0, 0, 0)
 end
 
 ATT.AimDownSightsTimeAdd = -0.15
@@ -122,7 +122,7 @@ ATT.CrouchPosOverride = Vector(-0.5, -0.5, -1)
 ATT.CrouchAngOverride = Angle(0, 0, -10)
 
 ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 3, 0)
+	return vec + Vector(0, 3, 0)
 end
 
 ATT.ReloadNoSprintPos = true
@@ -162,7 +162,7 @@ ATT.Description = [[Snail mag fitted with lower pressure bullet for reliable fee
 
 ATT.SortOrder = 1
 ATT.Category = "dod_mauser_frame"
-ATT.ActivateElements = {"f_halfdrum", "akantbo"}
+ATT.ActivateElements = {"f_halfdrum", "akantbo", "no_ubgl"}
 
 --ATT.Firemodes = { { Mode = -1, },{ Mode = 1, } }
 
@@ -198,7 +198,7 @@ ATT.Description = [[Double snail mag fitted with lower pressure bullet for relia
 
 ATT.SortOrder = 2
 ATT.Category = "dod_mauser_frame"
-ATT.ActivateElements = {"f_drum", "akantbo"}
+ATT.ActivateElements = {"f_drum", "akantbo", "no_ubgl"}
 
 --ATT.Firemodes = { { Mode = -1, },{ Mode = 1, } }
 
@@ -240,7 +240,7 @@ ATT.Description = [[Small mag loaded with over-pressurised bullet.
 
 ATT.SortOrder = 0.5
 ATT.Category = "dod_mauser_frame"
-ATT.ActivateElements = {"f_smoll", "akantbo"}
+ATT.ActivateElements = {"f_smoll", "akantbo", "no_ubgl"}
 
 ATT.Firemodes = { { Mode = 1, } }
 
@@ -291,7 +291,7 @@ ATT.CrouchPosOverride = Vector(-0.5, -0.5, -1)
 ATT.CrouchAngOverride = Angle(0, 0, -10)
 
 ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 2, 0)
+	return vec + Vector(0, 2, 0)
 end
 
 ATT.Scale = 1
@@ -360,36 +360,36 @@ ATT.SprintPosOverride = Vector(1.25, 3, -1.5)
 ATT.SprintAngOverride = Angle(40, -15, -10)
 
 ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
-        DefaultName = "None",
+	{
+		PrintName = ARC9:GetPhrase("smorg_category_optic") or "Optic",
+		DefaultName = "None",
 		InstalledElements = {"has_optic"},
 
-        Category = {"optic_css"},
-        Pos = Vector(0, -2.25, 3),
-        Ang = Angle(90, 0, -90),
-    },
+		Category = {"optic_css"},
+		Pos = Vector(0, -2.25, 3),
+		Ang = Angle(90, 0, -90),
+	},
 
-    {
-        PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
-        Category = "mountl_css",
-        Pos = Vector(1.25, -2.15, -7.25),
-        Ang = Angle(90, 0, 0),
-        ExtraSightDistance = 5
-    },
+	{
+		PrintName = ARC9:GetPhrase("smorg_category_r") or "Mount R.",
+		Category = "mountl_css",
+		Pos = Vector(1.25, -2.15, -7.25),
+		Ang = Angle(90, 0, 0),
+		ExtraSightDistance = 5
+	},
 }
 
 
 ATT.Sights = {
-    {
-        Pos = Vector(-3.55, 4, -0.5),
-        Ang = Angle(0, 0, 0),
-        Reticle = nil, 
+	{
+		Pos = Vector(-3.55, 4, -0.5),
+		Ang = Angle(0, 0, 0),
+		Reticle = nil, 
 
-        Magnification = 1.1,
-        IsIronSight = true,
-        KeepBaseIrons = false
-    }
+		Magnification = 1.1,
+		IsIronSight = true,
+		KeepBaseIrons = false
+	}
 }
 ATT.Hook_TranslateAnimation = function(wep, curanim)
 	if	curanim == "reload_empty_drum"	then	return "reload_empty_roni"			end
@@ -461,7 +461,7 @@ ATT.Category = "dod_mauser_stock"
 ATT.ActivateElements = {"s_no"}
 
 ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 2, 0)
+	return vec + Vector(0, 2, 0)
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, -7.5, 0) end

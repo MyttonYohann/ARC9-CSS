@@ -273,7 +273,10 @@ SWEP.AttachmentElements = {
 
     ["g_carbine"] = {
         Bodygroups = {{5, 3},{4, 3},{2, 2}},
-        AttPosMods = { [7] = { Pos = Vector(0, 2.8, 6.5), } }
+        AttPosMods = {
+		[7] = { Pos = Vector(0, 2.8, 6.5), },
+		[9] = { Pos = Vector(0, 2.2, 4.5), }
+		}
     },
     ["g_brazil"] = { Bodygroups = {{2, 1}}, },
     ["g_no"] = { Bodygroups = {{2, 3}}, }, 
@@ -348,12 +351,13 @@ SWEP.Attachments = {
         PrintName = ARC9:GetPhrase("smorg_category_foregrip") or "Foregrip",
         DefaultName = "None",
         InstalledElements = {"has_fg"},
-		ExcludeElements = {"f_edge", "f_drum"},
+		ExcludeElements = {"f_edge", "g_brazil", "g_no"},
 
         Category = {"grip_css"},
         Bone = "W_Main",
         Pos = Vector(0, 1.5, 5.5),
         Ang = Angle(90, 0, -90),
+		MergeSlots = {9},
     },
 
     {
@@ -368,6 +372,19 @@ SWEP.Attachments = {
         Pos = Vector(0, 0, 0),
         Ang = Angle(90, 0, -90),
     },
+
+
+	{   --9 permanent ubgl, affected separately from the changes of the above attachment
+		PrintName = "",
+		DefaultName = "",
+		Hidden = true,
+		ExcludeElements = {"f_edge", "g_brazil", "no_ubgl"},
+        InstalledElements = {"has_fg"},
+		Category = {"css_ubgl"},
+		Bone = "W_Main",
+		Pos = Vector(0, 1.2, 4.5),
+		Ang = Angle(90, 0, -90),
+	},
 }
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
